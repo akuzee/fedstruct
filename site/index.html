@@ -62,31 +62,32 @@
   #wires path.pp { stroke-dasharray: 3 4; opacity: .7; }
 
   .card {
-    position: absolute; width: 250px; height: 64px; overflow: hidden;
+    position: absolute; width: 220px; height: 88px; overflow: hidden;
     background: var(--panel);
     border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow);
-    padding: 8px 10px; cursor: pointer; user-select: none;
+    padding: 9px 11px 26px; cursor: pointer; user-select: none;
   }
   .card:hover { border-color: var(--accent); }
   .card.sel { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow); }
   .card.dim { opacity: .35; }
   .card .nm { font-weight: 600; font-size: 13.5px; line-height: 1.25;
-    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3;
+    -webkit-box-orient: vertical; overflow: hidden; }
   .card .meta { color: var(--muted); font-size: 11.5px; margin-top: 3px;
     display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
   .b { font: 9.5px/1.6 var(--mono); padding: 0 4px; border-radius: 3px;
     border: 1px solid var(--line); color: var(--muted); }
   .b.n1 { color: var(--inferred); border-color: var(--inferred); }
   .grow {
-    position: absolute; right: -13px; top: 50%; transform: translateY(-50%);
-    min-width: 26px; height: 26px; padding: 0 5px; border-radius: 13px;
+    position: absolute; left: 50%; bottom: 2px; transform: translateX(-50%);
+    min-width: 26px; height: 22px; padding: 0 6px; border-radius: 11px;
     background: var(--accent); color: #fff; border: 2px solid var(--panel);
-    font: 600 11px/22px var(--mono); text-align: center; cursor: pointer;
+    font: 600 11px/18px var(--mono); text-align: center; cursor: pointer;
   }
   .grow.openN { background: var(--muted); }
 
   .pcard {
-    position: absolute; width: 230px; height: 48px; overflow: hidden;
+    position: absolute; width: 200px; height: 48px; overflow: hidden;
     background: var(--bg);
     border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px;
     cursor: pointer; user-select: none;
@@ -224,13 +225,13 @@ async function loadPositions(id) {
   layoutAndRender();
 }
 
-// ── layout: left-to-right tidy tree ──────────────────────────────────────
-// Layout slots are slightly taller than the fixed CSS card heights (64/48px),
-// so cards can never overlap however their text wraps.
-const UW = 250, UH = 70, PW = 230, PH = 52, GX = 110, GY = 12, PGX = 70;
+// ── layout: top-down tidy tree ───────────────────────────────────────────
+// Horizontal slots are wider than the CSS card widths and heights are fixed,
+// so cards can never overlap however their names wrap.
+const UW = 220, UCH = 96, PW = 200, PCH = 52, SIB = 18, LVL = 60, PGAP = 8;
 
 // Children are paginated: a department with 100 sub-units shows the first 15
-// and a "+85 more" card, so one expand never produces a mile-high column.
+// and a "+85 more" card, so one expand never floods the canvas.
 const PAGE = 15;
 const limits = new Map();
 
@@ -246,45 +247,57 @@ function visibleLeaves(id) {
   if (u.positions > 0) {
     const rows = posCache.get(id);
     if (rows === undefined) loadPositions(id);
-    else if (rows) rows.forEach((p, i) => out.push({ kind: 'pos', id: `p${id}.${i}`, p, unit: id }));
+    // Officials render as ONE vertical stack occupying a single horizontal
+    // slot — a top-down chart spreads sideways, and people are leaves, not
+    // branches.
+    else if (rows && rows.length)
+      out.push({ kind: 'stack', id: `st${id}`, unit: id, items: rows });
   }
   return out;
 }
 
 let placed = [], wires = [];
 function measure(node, seen) {
-  if (node.kind === 'pos' || node.kind === 'morekids') return PH + GY;
-  if (seen.has(node.id)) return UH + GY;
+  // Returns the subtree's horizontal span.
+  if (node.kind === 'stack' || node.kind === 'morekids') return PW + SIB;
+  if (seen.has(node.id)) return UW + SIB;
   seen.add(node.id);
   const ch = visibleLeaves(node.id);
-  if (!ch.length) return UH + GY;
-  let h = 0;
-  for (const c of ch) h += measure(c, seen);
-  return Math.max(UH + GY, h);
+  if (!ch.length) return UW + SIB;
+  let w = 0;
+  for (const c of ch) w += measure(c, seen);
+  return Math.max(UW + SIB, w);
 }
 function place(node, x, y, seen) {
-  if (node.kind === 'pos' || node.kind === 'morekids') {
-    placed.push({ ...node, x, y: y + 2, w: PW, h: PH });
-    return PH + GY;
+  if (node.kind === 'morekids') {
+    placed.push({ ...node, x: x + SIB / 2, y, w: PW, h: PCH });
+    return PW + SIB;
   }
-  if (seen.has(node.id)) return UH + GY;
+  if (node.kind === 'stack') {
+    node.items.forEach((p, i) => placed.push({
+      kind: 'pos', id: `${node.id}.${i}`, p, unit: node.unit,
+      x: x + SIB / 2, y: y + i * (PCH + PGAP), w: PW, h: PCH,
+    }));
+    return PW + SIB;
+  }
+  if (seen.has(node.id)) return UW + SIB;
   // Span BEFORE marking self visited — measure() short-circuits on anything
   // already in `seen`, and a node must not short-circuit on itself or every
-  // subtree collapses to one card-height and siblings overlap.
+  // subtree collapses to one card-width and siblings overlap.
   const span = measure(node, new Set(seen));
   seen.add(node.id);
   const ch = visibleLeaves(node.id);
-  const my = y + span / 2 - UH / 2;
-  placed.push({ kind: 'unit', id: node.id, x, y: my, w: UW, h: UH });
-  let cy = y;
+  placed.push({ kind: 'unit', id: node.id,
+                x: x + span / 2 - UW / 2, y, w: UW, h: UCH });
+  let ax = x;
+  const cy = y + UCH + LVL;
   for (const c of ch) {
+    const cw = place(c, ax, cy, seen);
     const small = c.kind !== 'unit';
-    const cx = x + UW + (small ? PGX : GX);
-    const csp = place(c, cx, cy, seen);
-    wires.push({ x1: x + UW, y1: my + UH / 2, x2: cx,
-                 y2: small ? cy + 2 + PH / 2 : cy + csp / 2,
+    wires.push({ x1: x + span / 2, y1: y + UCH - 10,
+                 x2: ax + (small ? SIB / 2 + PW / 2 : cw / 2), y2: cy,
                  pp: small });
-    cy += csp;
+    ax += cw;
   }
   return span;
 }
@@ -292,11 +305,11 @@ function place(node, x, y, seen) {
 function layout() {
   placed = []; wires = [];
   const roots = showAllRoots ? frRoots : frRoots.slice(0, TOP_N);
-  let y = 0;
+  let x = 0;
   const seen = new Set();
-  for (const r of roots) y += place({ kind: 'unit', id: r }, 0, y, seen);
+  for (const r of roots) x += place({ kind: 'unit', id: r }, x, 0, seen);
   if (!showAllRoots && frRoots.length > TOP_N)
-    placed.push({ kind: 'more', id: 'more', x: 0, y: y + 6, w: UW, h: UH,
+    placed.push({ kind: 'more', id: 'more', x: x + 6, y: 0, w: UW, h: UCH,
                   n: frRoots.length - TOP_N });
 }
 
@@ -343,8 +356,8 @@ function render() {
   const svg = $('#wires');
   svg.setAttribute('width', W); svg.setAttribute('height', H);
   svg.innerHTML = wires.map(w => {
-    const mx = (w.x1 + w.x2) / 2;
-    return `<path class="${w.pp ? 'pp' : ''}" d="M${w.x1},${w.y1} C${mx},${w.y1} ${mx},${w.y2} ${w.x2},${w.y2}"/>`;
+    const my = (w.y1 + w.y2) / 2;   // vertical S-curve: parent bottom → child top
+    return `<path class="${w.pp ? 'pp' : ''}" d="M${w.x1},${w.y1} C${w.x1},${my} ${w.x2},${my} ${w.x2},${w.y2}"/>`;
   }).join('');
   applyView();
 }
@@ -357,7 +370,11 @@ function applyView() {
 const cv = $('#canvas');
 let drag = null;
 cv.addEventListener('pointerdown', e => {
-  drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y, moved: false };
+  // Remember what was pressed: setPointerCapture retargets the matching
+  // pointerup to #canvas itself, so by release time e.target no longer points
+  // at the card — clicks silently did nothing until this was stored.
+  drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y,
+           moved: false, target: e.target };
   cv.setPointerCapture(e.pointerId);
 });
 cv.addEventListener('pointermove', e => {
@@ -370,23 +387,25 @@ cv.addEventListener('pointermove', e => {
     applyView();
   }
 });
-cv.addEventListener('pointerup', e => {
+cv.addEventListener('pointerup', () => {
   cv.classList.remove('panning');
-  const wasDrag = drag?.moved; drag = null;
-  if (wasDrag) return;
-  const grow = e.target.closest('[data-grow]');
+  const wasDrag = drag?.moved;
+  const t = drag?.target;
+  drag = null;
+  if (wasDrag || !t) return;
+  const grow = t.closest('[data-grow]');
   if (grow) { toggle(+grow.dataset.grow); return; }
-  const more = e.target.closest('[data-more]');
+  const more = t.closest('[data-more]');
   if (more) { showAllRoots = true; layoutAndRender(); return; }
-  const mk = e.target.closest('[data-morekids]');
+  const mk = t.closest('[data-morekids]');
   if (mk) {
     const id = +mk.dataset.morekids;
     limits.set(id, (limits.get(id) || PAGE) + 30);
     layoutAndRender(); return;
   }
-  const pc = e.target.closest('.pcard');
+  const pc = t.closest('.pcard');
   if (pc) { openPopup(+pc.dataset.unit); return; }
-  const card = e.target.closest('.card[data-id]');
+  const card = t.closest('.card[data-id]');
   if (card) {
     selected = +card.dataset.id;
     history.replaceState(null, '', '#' + byId.get(selected).slug);
@@ -446,8 +465,10 @@ function reveal(id) {
   const me = placed.find(p => p.kind === 'unit' && p.id === id);
   if (me) {
     view.s = 0.95;
-    view.x = cv.clientWidth * 0.28 - (me.x + me.w / 2) * view.s;
-    view.y = cv.clientHeight * 0.5 - (me.y + me.h / 2) * view.s;
+    // Top-down: center the node horizontally, sit it a third from the top so
+    // its just-expanded children are what fills the screen below it.
+    view.x = cv.clientWidth * 0.5 - (me.x + me.w / 2) * view.s;
+    view.y = cv.clientHeight * 0.3 - (me.y + me.h / 2) * view.s;
     applyView();
   }
   history.replaceState(null, '', '#' + byId.get(id).slug);
@@ -558,7 +579,15 @@ expanded.add(frRoots[0]);
 layoutAndRender();
 const target = decodeURIComponent(location.hash.slice(1));
 if (target && bySlug.has(target)) reveal(bySlug.get(target).id);
-else { view.s = 0.85; view.x = 60; view.y = 30; applyView(); }
+else {
+  // Camera on the expanded root, not on the layout origin: its children row
+  // is thousands of pixels wide and the parent card sits centered above it.
+  const me = placed.find(p => p.kind === 'unit' && p.id === frRoots[0]);
+  view.s = 0.8;
+  view.x = cv.clientWidth * 0.5 - (me.x + me.w / 2) * view.s;
+  view.y = 50 - me.y * view.s;
+  applyView();
+}
 window.addEventListener('hashchange', () => {
   const t = decodeURIComponent(location.hash.slice(1));
   if (bySlug.has(t)) reveal(bySlug.get(t).id);
