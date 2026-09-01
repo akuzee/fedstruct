@@ -244,9 +244,21 @@ def cmd_resolve(cfg: Config, args) -> dict:
     if adj.errors:
         out["adjudication_errors"] = adj.errors
 
-    out["propose"] = resolve.propose(conn, now_iso()).as_dict()
     if args.apply:
-        out["auto_bind"] = resolve.apply_auto(conn, now_iso()).as_dict()
+        # Propose/bind to a fixpoint: binding a PLUM agency into its FR unit
+        # gives its sub-orgs an agreed canonical parent, which is what lets the
+        # NEXT pass bind them ("FAA the PLUM org" under "DOT" = "FAA the FR
+        # agency" under "DOT"). Converges in 2-3 passes; capped defensively.
+        rounds = []
+        for _ in range(5):
+            p = resolve.propose(conn, now_iso())
+            b = resolve.apply_auto(conn, now_iso())
+            rounds.append({"proposed": p.proposed, "auto_bound": b.auto_bound})
+            if b.auto_bound == 0:
+                break
+        out["rounds"] = rounds
+    else:
+        out["propose"] = resolve.propose(conn, now_iso()).as_dict()
 
     out["summary"] = {
         "units_total": conn.execute("SELECT COUNT(*) c FROM units").fetchone()["c"],

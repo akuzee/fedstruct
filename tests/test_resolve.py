@@ -17,6 +17,18 @@ from src import resolve
 NOW = "2026-09-01T00:00:00+00:00"
 
 
+def _fixpoint(conn, now=NOW):
+    """Propose/bind to convergence, as cmd_resolve does in production.
+
+    Alias-based matching is inherently two-pass: eCFR must merge into FR (by
+    slug) before its published name becomes an FR alias that PLUM can match.
+    """
+    for _ in range(5):
+        resolve.propose(conn, now)
+        if resolve.apply_auto(conn, now).auto_bound == 0:
+            break
+
+
 def _adjudications(env, doc: str):
     p = env.root / "adjudications.yaml"
     p.write_text(doc)
@@ -24,28 +36,67 @@ def _adjudications(env, doc: str):
 
 
 # ── the central guard ──────────────────────────────────────────────────────
-def test_identical_names_without_a_shared_identifier_do_not_merge(ingested):
-    """A false merge invents edges and is not visible by inspection.
+def _plant_unit(env, source, name, run_id):
+    from src.normalize import normalize_name, slugify
 
-    PLUM publishes no identifiers at all — only uppercase free text — so its
-    units may never bind automatically, however exactly the names agree.
+    cur = env.conn.execute(
+        "INSERT INTO units (slug, canonical_name, name_norm, anchor_source, "
+        "anchor_key, first_seen_run, created_at) VALUES (?,?,?,?,?,?,?)",
+        (slugify(f"{source}-{name}"), name, normalize_name(name), source,
+         f"test-{slugify(name)}", run_id, NOW))
+    return int(cur.lastrowid)
+
+
+def test_ambiguous_or_fuzzy_names_never_bind(ingested):
+    """The central rule, refined: a name is a join key only when NOTHING ELSE
+    could claim it. Exact-but-ambiguous (two claimants on one side) and
+    similar-but-not-exact both stay open forever if that's what it takes —
+    a false merge invents edges and is not visible by inspection.
     """
+    run_id = ingested.one("SELECT MAX(id) FROM runs")
+    # Exact name, but TWO claimants on the plum side: ambiguous.
+    a = _plant_unit(ingested, "fr_agencies", "Office of Inspector General Test", run_id)
+    b1 = _plant_unit(ingested, "plum", "Office of Inspector General Test", run_id)
+    _plant_unit(ingested, "plum", "Office of Inspector General Test (dup)", run_id)
+    ingested.conn.execute(  # make the duplicate share the exact name_norm
+        "UPDATE units SET name_norm=(SELECT name_norm FROM units WHERE id=?) "
+        "WHERE canonical_name LIKE '%(dup)%'", (a,))
+    # Similar but not exact: never binds however high the ratio.
+    f1 = _plant_unit(ingested, "fr_agencies", "Federal Grain Inspection Service", run_id)
+    f2 = _plant_unit(ingested, "plum", "Federal Grain Inspection Agency", run_id)
+    ingested.conn.commit()
+
     resolve.propose(ingested.conn, NOW)
     resolve.apply_auto(ingested.conn, NOW)
 
+    for uid in (a, b1, f1, f2):
+        assert ingested.one("SELECT merged_into FROM units WHERE id=?", uid) is None, \
+            f"unit {uid} bound on ambiguous or fuzzy name evidence"
+    # The fuzzy pair must still be VISIBLE as unfinished work, not dropped.
+    assert ingested.one(
+        "SELECT COUNT(*) FROM merge_candidates WHERE status='open' "
+        "AND (left_id IN (?,?) OR right_id IN (?,?))", f1, f2, f1, f2) >= 1
+
+
+def test_unique_exact_name_binds_and_is_labeled_as_a_name_join(ingested):
+    """PLUM EPA = FR EPA: exact normalized name, one claimant per source.
+
+    That binds (plan §7 join order) — but as method 'name_exact', so the UI
+    renders it as "linked", never as an identifier-grade join.
+    """
+    _fixpoint(ingested.conn)
+
     plum_epa = ingested.conn.execute(
-        "SELECT id, merged_into FROM units WHERE anchor_source='plum' "
+        "SELECT id, merged_into, merge_method FROM units WHERE anchor_source='plum' "
         "AND name_norm='environmental protection agency'").fetchone()
     if plum_epa is None:
         pytest.skip("fixture has no PLUM EPA row")
 
-    assert plum_epa["merged_into"] is None, \
-        "a PLUM unit bound on name evidence alone — the one thing that must never happen"
-
-    # It must still be VISIBLE as unfinished work, not silently dropped.
-    assert ingested.one(
-        "SELECT COUNT(*) FROM merge_candidates WHERE status='open' "
-        "AND (left_id=? OR right_id=?)", plum_epa["id"], plum_epa["id"]) >= 1
+    assert plum_epa["merged_into"] is not None
+    assert plum_epa["merge_method"] == "name_exact"
+    survivor = ingested.one(
+        "SELECT anchor_source FROM units WHERE id=?", plum_epa["merged_into"])
+    assert survivor == "fr_agencies"
 
 
 def test_exact_slug_match_does_auto_bind(ingested):
@@ -157,12 +208,10 @@ merges:
 
 
 def test_resolve_is_idempotent(ingested):
-    resolve.propose(ingested.conn, NOW)
-    resolve.apply_auto(ingested.conn, NOW)
+    _fixpoint(ingested.conn)
     first = ingested.q("SELECT id, merged_into, merge_method FROM units ORDER BY id")
 
-    resolve.propose(ingested.conn, "2026-10-01T00:00:00+00:00")
-    resolve.apply_auto(ingested.conn, "2026-10-01T00:00:00+00:00")
+    _fixpoint(ingested.conn, "2026-10-01T00:00:00+00:00")
     second = ingested.q("SELECT id, merged_into, merge_method FROM units ORDER BY id")
 
     assert [tuple(r) for r in first] == [tuple(r) for r in second]

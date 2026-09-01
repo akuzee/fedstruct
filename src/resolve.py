@@ -41,9 +41,20 @@ NAME_MATCH_ACCEPT = 0.92
 NAME_MATCH_MARGIN = 0.06
 NAME_MATCH_REVIEW = 0.80
 
-# Signals that may bind automatically. Every one is a deterministic agreement
-# between two independently-published identifiers — never a similarity score.
-AUTO_BIND_SIGNALS = ("slug_exact_1to1",)
+# Signals that may bind automatically (plan §7 join order). The first is two
+# independently-published identifiers agreeing. The other two are exact
+# normalized-name agreement made UNAMBIGUOUS by uniqueness — either the name is
+# unique within both sources government-wide, or it is unique within a parent
+# that both sources already agree on. What never binds is a similarity SCORE:
+# "0.95 similar" is a candidate, "exactly equal and nothing else claims it"
+# is a join key.
+AUTO_BIND_SIGNALS = ("slug_exact_1to1", "name_exact_unique_both", "name_exact_scoped")
+
+# How each auto signal is labeled downstream. Name-based joins are visibly
+# weaker than identifier joins and must render as "linked", never "published".
+BIND_METHOD = {"slug_exact_1to1": "crosswalk",
+               "name_exact_unique_both": "name_exact",
+               "name_exact_scoped": "name_exact"}
 
 # Which source anchors the survivor when a merge happens. Federal Register wins
 # because it is the only source that publishes organizational hierarchy.
@@ -92,10 +103,49 @@ def propose(conn, now: str) -> ResolveResult:
             slug_of[uid][src] = key
             slug_owners[src][key].append(uid)
 
+    canon = {r["id"]: r["canonical_id"]
+             for r in conn.execute("SELECT * FROM v_canonical")}
+
+    # Alias sets: every name any absorbed source published for an entity is a
+    # name of that entity. This is what lets PLUM's "DEPARTMENT OF
+    # TRANSPORTATION" match the FR unit styled "Transportation Department" —
+    # not by reordering words, but because eCFR (already merged in) publishes
+    # exactly "Department of Transportation" for it. The evidence is still an
+    # exact government-published name, never a similarity score.
+    aliases: dict[int, set[str]] = defaultdict(set)
+    for r in conn.execute("SELECT id, name_norm FROM units WHERE name_norm != ''"):
+        aliases[canon.get(r["id"], r["id"])].add(r["name_norm"])
+
+    # Claimant sets, not frequency counts: a name is unambiguous exactly when
+    # the two candidates are its ONLY claimants anywhere.
+    claimants: dict[str, set[int]] = defaultdict(set)
+    for cid, names in aliases.items():
+        for n in names:
+            claimants[n].add(cid)
+
+    parent_of: dict[int, int] = {}
+    for r in conn.execute(
+            "SELECT parent_id, child_id FROM unit_edges "
+            "WHERE valid_to IS NULL AND edge_kind='org' AND parent_id IS NOT NULL"):
+        # Canonicalized: a PLUM org whose agency merged into an FR unit now has
+        # that FR unit as its effective parent, which is what lets the second
+        # resolve pass bind sub-units the first pass could not.
+        parent_of[canon.get(r["child_id"], r["child_id"])] = \
+            canon.get(r["parent_id"], r["parent_id"])
+    scoped_claimants: dict[tuple[int, str], set[int]] = defaultdict(set)
+    for cid, names in aliases.items():
+        p = parent_of.get(cid)
+        if p is not None:
+            for n in names:
+                scoped_claimants[(p, n)].add(cid)
+
+    ctx = {"aliases": aliases, "claimants": claimants,
+           "scoped_claimants": scoped_claimants, "parent_of": parent_of}
+
     # Blocking keeps this O(n·k) rather than O(n²) over 2,300 units.
     buckets: dict[str, list[int]] = defaultdict(list)
     for uid, u in units.items():
-        for bk in _blocking_keys(u, slug_of.get(uid, {})):
+        for bk in _blocking_keys(u, slug_of.get(uid, {}), aliases.get(uid, set())):
             buckets[bk].append(uid)
 
     seen: set[tuple[int, int]] = set()
@@ -112,7 +162,7 @@ def propose(conn, now: str) -> ResolveResult:
                 continue
             seen.add(pair)
 
-            sig = _signals(ua, ub, slug_of, slug_owners)
+            sig = _signals(ua, ub, slug_of, slug_owners, ctx)
             score = _score(sig)
             if score < NAME_MATCH_REVIEW and not any(
                     sig.get(k) for k in AUTO_BIND_SIGNALS):
@@ -141,15 +191,16 @@ def _pairs(group: list[int]):
             yield g[i], g[j]
 
 
-def _blocking_keys(u, slugs: dict[str, str]) -> list[str]:
+def _blocking_keys(u, slugs: dict[str, str], alias_norms: set[str]) -> list[str]:
     """Cheap keys that bring plausible pairs into the same bucket.
 
     Blocking decides only what gets COMPARED, never what gets merged, so a
     loose key here costs CPU and cannot cause a bad merge.
     """
     out = [f"slug:{s}" for s in set(slugs.values())]
-    n = u["name_norm"] or ""
-    if n:
+    for n in alias_norms | {u["name_norm"] or ""}:
+        if not n:
+            continue
         out.append(f"name:{n}")
         words = [w for w in n.split() if w not in
                  ("of", "the", "and", "for", "united", "states", "department",
@@ -159,7 +210,7 @@ def _blocking_keys(u, slugs: dict[str, str]) -> list[str]:
     return out
 
 
-def _signals(ua, ub, slug_of, slug_owners) -> dict:
+def _signals(ua, ub, slug_of, slug_owners, ctx) -> dict:
     """Every evidence axis, recorded separately so a human sees WHY."""
     sa, sb = slug_of.get(ua["id"], {}), slug_of.get(ub["id"], {})
     shared = set(sa.values()) & set(sb.values())
@@ -173,11 +224,34 @@ def _signals(ua, ub, slug_of, slug_owners) -> dict:
             exact_1to1 = True
             break
 
+    both = {ua["id"], ub["id"]}
+    shared_names = (ctx["aliases"].get(ua["id"], set())
+                    & ctx["aliases"].get(ub["id"], set()))
+    name_exact = bool(shared_names)
+
+    # A shared name binds only when these two units are its ONLY claimants
+    # anywhere. "Environmental Protection Agency" qualifies; "Office of
+    # Inspector General" (dozens of claimants) never can.
+    unique_both = any(ctx["claimants"][n] == both for n in shared_names)
+
+    # Or: unique under a parent both sides already agree on. This is what binds
+    # "Federal Aviation Administration"-the-PLUM-org to FAA-the-FR-agency:
+    # same published name, same canonical parent (DOT), no other claimant
+    # under that parent.
+    parent_a = ctx["parent_of"].get(ua["id"])
+    parent_b = ctx["parent_of"].get(ub["id"])
+    parent_agrees = parent_a is not None and parent_a == parent_b
+    scoped = parent_agrees and any(
+        ctx["scoped_claimants"][(parent_a, n)] == both for n in shared_names)
+
     ratio = SequenceMatcher(None, ua["name_norm"] or "", ub["name_norm"] or "").ratio()
     return {
         "slug_exact_1to1": exact_1to1,
         "slug_shared": sorted(shared),
-        "name_exact": (ua["name_norm"] == ub["name_norm"]) and bool(ua["name_norm"]),
+        "name_exact": name_exact,
+        "name_exact_unique_both": unique_both,
+        "name_exact_scoped": scoped,
+        "parent_agrees": parent_agrees,
         "name_ratio": round(ratio, 4),
         "left": {"id": ua["id"], "source": ua["anchor_source"], "name": ua["canonical_name"]},
         "right": {"id": ub["id"], "source": ub["anchor_source"], "name": ub["canonical_name"]},
@@ -207,14 +281,27 @@ def apply_auto(conn, now: str) -> ResolveResult:
 
     for r in rows:
         sig = json.loads(r["signals_json"])
-        if not any(sig.get(k) for k in AUTO_BIND_SIGNALS):
+        fired = next((k for k in AUTO_BIND_SIGNALS if sig.get(k)), None)
+        if fired is None:
             continue
-        _merge(conn, r["left_id"], r["right_id"], method="crosswalk",
-               by=RULE_VERSION,
-               evidence=f"exact 1:1 slug match on {', '.join(sig['slug_shared'])}")
+        # A merge earlier in this same pass can make a later candidate stale
+        # (one side already absorbed) — skip it; the next propose() re-scores.
+        already = conn.execute(
+            "SELECT 1 FROM units WHERE id IN (?, ?) AND merged_into IS NOT NULL",
+            (r["left_id"], r["right_id"])).fetchone()
+        if already:
+            continue
+        method = BIND_METHOD[fired]
+        evidence = {
+            "slug_exact_1to1": f"exact 1:1 slug match on {', '.join(sig['slug_shared'])}",
+            "name_exact_unique_both": "exact normalized name, unique in both sources",
+            "name_exact_scoped": "exact normalized name, unique within an agreed parent",
+        }[fired]
+        _merge(conn, r["left_id"], r["right_id"], method=method,
+               by=RULE_VERSION, evidence=evidence)
         conn.execute(
-            "UPDATE merge_candidates SET status='auto_bound', bind_method='crosswalk', "
-            "resolved_at=? WHERE id=?", (now, r["id"]))
+            "UPDATE merge_candidates SET status='auto_bound', bind_method=?, "
+            "resolved_at=? WHERE id=?", (method, now, r["id"]))
         res.auto_bound += 1
 
     conn.commit()

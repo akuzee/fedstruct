@@ -24,6 +24,9 @@ METHOD_CONFIDENCE = {
     "published": 1.00,
     "crosswalk": 0.95,
     "derived": 0.90,
+    "name_exact": 0.85,   # exact normalized name made unambiguous by uniqueness
+                          # (plan §7 join order). Renders as "linked", never
+                          # "published" — a name join is visibly not an id join.
     "adjudicated": 0.80,
     "inferred": 0.60,
     "asserted": 0.50,

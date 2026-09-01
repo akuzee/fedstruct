@@ -60,6 +60,14 @@
   .b.n1 { color: var(--inferred); border-color: var(--inferred); }
   .b.sec { color: var(--warn); border-color: var(--warn); background: var(--warn-soft); }
   .dim { opacity: .28; }
+  .row.pos { cursor: default; }
+  .row.pos:hover { background: transparent; }
+  .vac { color: var(--muted); font-style: italic; font-size: 13px; }
+  .divider {
+    margin: 18px 6px 8px; padding: 8px 10px; font-size: 12px; color: var(--muted);
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    background: var(--warn-soft);
+  }
   h2 { font-size: 21px; margin: 0 0 2px; letter-spacing: -.015em; }
   .sub { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
   section { margin-bottom: 22px; }
@@ -139,6 +147,29 @@ for (const list of kids.values())
 const open = new Set();
 let selected = null, filter = '';
 
+// Position leaves are fetched lazily on first expand — 9.5k positions would
+// bloat the initial payload for nothing.
+const posCache = new Map();          // unit id -> [{title, person, is_pas, vacant}]
+const posLoading = new Set();
+
+async function loadPositions(id) {
+  if (posCache.has(id) || posLoading.has(id)) return;
+  posLoading.add(id);
+  try {
+    const d = await fetch(`${DATA}/units/${byId.get(id).slug}.json`).then(r => r.json());
+    const rows = d.officials.map(o =>
+      ({ title: o.title, person: o.person, is_pas: o.is_pas, since: o.valid_from }));
+    // Positions with no current holder still exist as posts — show them vacant.
+    const vacantCount = d.counts.positions - rows.length;
+    if (vacantCount > 0)
+      rows.push({ title: `${vacantCount} further position(s) listed without a current holder`, vacant: true });
+    posCache.set(id, rows);
+  } finally {
+    posLoading.delete(id);
+    render();
+  }
+}
+
 // A unit is "unverified" when nothing but a single source vouches for it —
 // i.e. it has not been reconciled against any other government system.
 const unverified = u => u.source_count < 2;
@@ -156,9 +187,25 @@ function render() {
   const roots = edges.roots
     .filter(id => byId.has(id))
     .sort((a, b) => byId.get(a).name.localeCompare(byId.get(b).name));
-  const html = roots.filter(id => visible(id)).map(id => nodeHtml(id, 0)).join('');
-  $('#tree').innerHTML = html || '<div class="empty">Nothing matches.</div>';
+
+  // Roots the Federal Register vouches for are the real top level. Roots known
+  // only to one other source are floating fragments awaiting reconciliation —
+  // shown, because hiding them would overstate how finished this is, but
+  // below a divider rather than mixed into the government's actual top level.
+  const isFR = id => byId.get(id).sources.includes('fr_agencies');
+  const main = roots.filter(id => isFR(id) && visible(id)).map(id => nodeHtml(id, 0)).join('');
+  const frag = roots.filter(id => !isFR(id) && visible(id)).map(id => nodeHtml(id, 0)).join('');
+
+  $('#tree').innerHTML = (main || '<div class="empty">Nothing matches.</div>')
+    + (frag ? `<div class="divider">Not yet reconciled to the Federal Register list
+        — single-source fragments awaiting identity review</div>${frag}` : '');
+
+  if (scrollToSelected) {
+    scrollToSelected = false;
+    $('#tree .row.sel')?.scrollIntoView({ block: 'center' });
+  }
 }
+let scrollToSelected = false;
 
 function visible(id) {
   if ($('#onlyInferred').checked && !subtreeHasUnverified(id)) return false;
@@ -178,6 +225,7 @@ function nodeHtml(id, depth, seen = new Set()) {
   seen = new Set(seen); seen.add(id);
   const u = byId.get(id); if (!u) return '';
   const ch = (kids.get(id) || []).filter(e => visible(e.child));
+  const hasLeaves = ch.length > 0 || u.positions > 0;
   const isOpen = open.has(id) || (filter && ch.length);
   const dim = $('#shadeCoverage').checked && u.source_count < 2 ? ' dim' : '';
 
@@ -187,23 +235,45 @@ function nodeHtml(id, depth, seen = new Set()) {
     u.current_officials ? `<span class="b">${u.current_officials}&nbsp;ppl</span>` : '',
   ].join('');
 
+  let leaves = '';
+  if (isOpen && u.positions > 0) {
+    if (posCache.has(id)) {
+      leaves = posCache.get(id).map(p => `
+        <div class="node"><div class="row pos" data-id="${id}">
+          <span class="tw">·</span>
+          <span class="nm">${p.vacant
+            ? `<span class="vac">${esc(p.title)}</span>`
+            : `<span class="who">${esc(p.person)}</span>
+               <span class="role">— ${esc(p.title)}</span>`}
+          </span>
+          ${p.is_pas ? '<span class="badges"><span class="pill">Senate-confirmed</span></span>' : ''}
+        </div></div>`).join('');
+    } else {
+      loadPositions(id);
+      leaves = '<div class="node"><div class="row"><span class="tw"></span><span class="nm vac">loading positions…</span></div></div>';
+    }
+  }
+
   return `<div class="node${dim}">
     <div class="row${selected === id ? ' sel' : ''}" data-id="${id}">
-      <span class="tw">${ch.length ? (isOpen ? '▾' : '▸') : ''}</span>
+      <span class="tw">${hasLeaves ? (isOpen ? '▾' : '▸') : ''}</span>
       <span class="nm">${esc(u.name)}</span>
       <span class="badges">${badges}</span>
     </div>
     ${isOpen ? ch.map(e => nodeHtml(e.child, depth + 1, seen)).join('') : ''}
+    ${leaves}
   </div>`;
 }
 
 $('#tree').addEventListener('click', ev => {
   const row = ev.target.closest('.row'); if (!row) return;
+  if (row.classList.contains('pos')) return;   // position leaves are display-only
   const id = +row.dataset.id;
   if (ev.target.classList.contains('tw') || selected === id)
     open.has(id) ? open.delete(id) : open.add(id);
   else open.add(id);
   selected = id;
+  history.replaceState(null, '', '#' + byId.get(id).slug);
   render();
   show(id);
 });
@@ -271,6 +341,26 @@ async function show(id) {
   $('#detail').scrollTop = 0;
 }
 
+// Deep links: #<slug> opens the tree to that unit and selects it. Also what
+// makes any node on the site citable as a URL.
+const bySlug = new Map(units.units.map(u => [u.slug, u]));
+const parentOf = new Map();
+for (const e of edges.edges)
+  if (!e.secondary && e.parent != null) parentOf.set(e.child, e.parent);
+
+function openTo(slug) {
+  const u = bySlug.get(slug); if (!u) return false;
+  let n = u.id;
+  while (n != null) { open.add(n); n = parentOf.get(n); }
+  selected = u.id;
+  scrollToSelected = true;
+  show(u.id);
+  return true;
+}
+window.addEventListener('hashchange', () => {
+  if (openTo(decodeURIComponent(location.hash.slice(1)))) render();
+});
+
 const m = manifest;
 $('#foot').innerHTML = `
   ${m.counts.units.toLocaleString()} units · ${m.counts.positions.toLocaleString()} positions ·
@@ -280,5 +370,6 @@ $('#foot').innerHTML = `
   <strong>${unresolved.count}</strong> identity links still awaiting human review.
   ${esc(m.history_note)}`;
 
+if (location.hash) openTo(decodeURIComponent(location.hash.slice(1)));
 render();
 </script>
