@@ -1,0 +1,400 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  },
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {
+  "name": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": null,
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#indian-affairs-bureau"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "Bureau of Indian Affairs",
+    "value_num": null
+   }
+  ]
+ },
+ "counts": {
+  "children": 0,
+  "current_officials": 6,
+  "positions": 7
+ },
+ "facts": {
+  "agency_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agency_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/234"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "http://www.bia.gov/",
+   "value_num": null
+  },
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/234"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Bureau of Indian Affairs (BIA) was created as part of the War Department in 1824 and transferred to the Department of the Interior when the latter was established in 1849. The mission of BIA is to fulfill its trust responsibilities and promote self-determination on behalf of federally recognized tribal governments, American Indians, and Alaska Natives. BIA provides services directly or through contracts, grants, or compacts to approximately 1.9 million American Indians and Alaska Natives, members of 573 federally recognized Indian tribes in the 48 contiguous United States and Alaska.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/234"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "logo_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.logo_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/234"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://agency-logos.federalregister.gov/234/medium.gif?1322517889",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/234"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Indian Affairs Bureau",
+   "value_num": null
+  },
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "linked",
+    "confidence": 0.85,
+    "cosmetic_revisions": 0,
+    "link_method": "name_exact",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "7",
+   "value_num": 7.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "linked",
+    "confidence": 0.85,
+    "cosmetic_revisions": 0,
+    "link_method": "name_exact",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/234"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "BIA",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/234"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "indian-affairs-bureau",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/234"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/indian-affairs-bureau",
+   "value_num": null
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Louis Poitra",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY DIRECTOR - JUSTICE SERVICES",
+   "valid_from": "2023-09-10",
+   "valid_to": "2026-04-04"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stephanie Conduff",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, BUREAU OF INDIAN AFFAIRS",
+   "valid_from": "2025-01-21",
+   "valid_to": "2025-03-09"
+  }
+ ],
+ "id": 214,
+ "merged_from": [
+  {
+   "key": "indian-affairs-bureau",
+   "method": "crosswalk",
+   "source": "ecfr_agencies"
+  },
+  {
+   "key": "80e1e58dfa9e7dc5",
+   "method": "name_exact",
+   "source": "plum"
+  }
+ ],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=indian-affairs-bureau].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-25/chapter-I"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "25 CFR chapter I",
+    "value_num": null
+   },
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=indian-affairs-bureau].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-25/chapter-V"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "25 CFR chapter V",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "Indian Affairs Bureau",
+ "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Genevieve Giaccardo",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY BUREAU DIRECTOR, INDIAN SERVICES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Bartholomew Stevens",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR, FIELD OPERATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Johnna Blackhair",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR, TRUST SERVICES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Bryan Mercier",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR, BUREAU OF INDIAN AFFAIRS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Trina Locke",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTORATE OF ENVIRONMENTAL AND NATURAL RESOURCES MANAGEMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Ryan Edwards",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT, BIA",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "indian-affairs-bureau",
+ "sources": [
+  "ecfr_agencies",
+  "fr_agencies",
+  "plum"
+ ]
+}

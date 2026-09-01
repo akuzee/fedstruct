@@ -1,0 +1,117 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 1,
+  "current_officials": 2,
+  "positions": 3
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "3",
+   "value_num": 3.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joseph Mitchell",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF OF STAFF",
+   "valid_from": "2025-03-14",
+   "valid_to": "2025-05-05"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Christina Norton",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "VICE PRESIDENT OF OPERATIONS, PUBLIC RELATIONS, AND EXTERNAL AFFAIRS",
+   "valid_from": "2025-03-24",
+   "valid_to": "2025-03-26"
+  }
+ ],
+ "id": 1774,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Federal Housing Finance Agency",
+ "officials": [
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Aaron Kofsky",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ASSOCIATE DIRECTOR, DIVISION OF HOUSING MISSION AND GOALS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Christina Norton",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "VICE PRESIDENT OF OPERATIONS, PUBLIC RELATIONS, AND EXTERNAL AFFAIRS",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "federal-housing-finance-agency-3",
+ "sources": [
+  "plum"
+ ]
+}

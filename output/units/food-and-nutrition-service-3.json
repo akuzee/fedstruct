@@ -1,0 +1,321 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 4,
+  "positions": 22
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "22",
+   "value_num": 22.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "James Miller",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ADMINISTRATOR",
+   "valid_from": "2025-03-23",
+   "valid_to": "2025-11-19"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tameka Owens",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT ADMINISTRATOR",
+   "valid_from": "2022-03-13",
+   "valid_to": "2026-04-04"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Quvator Gore",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT CHIEF INFORMATION OFFICER",
+   "valid_from": "2021-01-17",
+   "valid_to": "2026-02-28"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Timothy English",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE ADMINISTRATOR",
+   "valid_from": "2020-12-20",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Catherine Buhrig",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE ADMINISTRATOR FOR SUPPLEMENTAL NUTRITION ASSISTANCE PROGRAM",
+   "valid_from": "2023-03-12",
+   "valid_to": "2025-03-22"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Diane Kriviski",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ADMINISTRATOR FOR SUPPLEMENTAL NUTRITION AND SAFETY PROGRAMS",
+   "valid_from": "2014-09-21",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Melissa Abelev",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ADMINISTRATOR FOR SUPPLEMENTAL NUTRITION AND SAFETY PROGRAMS",
+   "valid_from": "2025-01-12",
+   "valid_to": "2025-12-11"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Abram Brown",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ADMINISTRATOR, CENTER FOR NUTRITION POLICY AND PROGRAMS",
+   "valid_from": "2024-12-15",
+   "valid_to": "2025-12-10"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Melissa Rothstein",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ADMINISTRATOR, CHILD NUTRITION PROGRAMS",
+   "valid_from": "2022-10-09",
+   "valid_to": "2025-04-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Angela Kline",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ADMINISTRATOR, OFFICE OF RETAILER OPERATIONS &amp; COMPLIANCE",
+   "valid_from": "2024-10-20",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Vista Fletcher",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "REGIONAL ADMINISTRATOR (CHICAGO), FOOD AND NUTRITION SERVICE",
+   "valid_from": "2021-05-23",
+   "valid_to": "2025-08-06"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Dana Platin",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "REGIONAL ADMINISTRATOR (DENVER), FOOD AND NUTRITION SERVICE",
+   "valid_from": "2025-01-12",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lizbeth Silberman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "REGIONAL ADMINISTRATOR - NORTHEAST REGION",
+   "valid_from": "2021-06-06",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Patricia Bennett",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "REGIONAL ADMINISTRATOR - ROBBINSVILLE, NEW JERSEY",
+   "valid_from": "2021-01-31",
+   "valid_to": "2025-07-26"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "William Ludwig",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "REGIONAL ADMINISTRATOR, DALLAS, TEXAS",
+   "valid_from": "2003-06-29",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Burr",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR ADVISOR FOR FINANCIAL OPERATIONS",
+   "valid_from": "2025-01-12",
+   "valid_to": "2025-06-30"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Babs Hough",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR POLICY ADVISOR",
+   "valid_from": "2025-03-09",
+   "valid_to": "2025-11-16"
+  }
+ ],
+ "id": 837,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Food and Nutrition Service",
+ "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Carla Stuckey",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ADMINISTRATOR FOR COMM AND EXTERNAL ENGAGEMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Richard Lucas",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ADMINISTRATOR, POLICY SUPPORT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Willie Taylor",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "REGIONAL ADMINISTRATOR, ATLANTA,GEORGIA",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Muzafar Makhdoomi",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "REGIONAL ADMINISTRATOR, SAN FRANCISCO, CALIFORNIA",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "food-and-nutrition-service-3",
+ "sources": [
+  "plum"
+ ]
+}

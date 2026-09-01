@@ -1,0 +1,405 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 6,
+  "positions": 17
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "17",
+   "value_num": 17.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Christopher Bennethum",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR ASSISTED ACQUISITION SERVICES",
+   "valid_from": "2020-06-21",
+   "valid_to": "2025-02-08"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "William Toth",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR CUSTOMER AND STAKEHOLDER ENGAGEMENT",
+   "valid_from": "2022-04-24",
+   "valid_to": "2025-01-24"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stacy Buechele",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR CUSTOMER AND STAKEHOLDER ENGAGEMENT",
+   "valid_from": "2025-07-13",
+   "valid_to": "2026-03-09"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Erville Koehler",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR GENERAL SUPPLIES AND SERVICES CATEGORIES",
+   "valid_from": "2022-04-24",
+   "valid_to": "2025-07-12"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jeffrey Lau",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR GENERAL SUPPLIES AND SERVICES CATEGORIES",
+   "valid_from": "2025-07-13",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Laura Stanton",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR INFORMATION TECHNOLOGY CATEGORY",
+   "valid_from": "2020-08-16",
+   "valid_to": "2025-07-12"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lawrence Hale",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR INFORMATION TECHNOLOGY CATEGORY",
+   "valid_from": "2025-06-01",
+   "valid_to": "2026-01-24"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lawrence Hale",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR INFORMATION TECHNOLOGY CATEGORY",
+   "valid_from": "2026-01-25",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Mark Lee",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR POLICY AND COMPLIANCE",
+   "valid_from": "2017-05-28",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tiffany Hixson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR PROFESSIONAL SERVICES AND HUMAN CAPITAL CATEGORIES",
+   "valid_from": "2023-03-26",
+   "valid_to": "2025-07-12"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Sheri Meadema",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR PROFESSIONAL SERVICES AND HUMAN CAPITAL CATEGORIES",
+   "valid_from": "2025-07-13",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Charlotte Phelan",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR STRATEGY AND INNOVATION",
+   "valid_from": "2022-04-24",
+   "valid_to": "2025-12-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brian Isbrandt",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR STRATEGY AND INNOVATION",
+   "valid_from": "2025-06-15",
+   "valid_to": "2026-02-10"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Crystal Philcox",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR TRAVEL, TRANSPORTATION &amp; LOGISTICS CATEGORIES",
+   "valid_from": "2022-04-24",
+   "valid_to": "2025-07-12"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Christina Kingsland",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FOR TRAVEL, TRANSPORTATION &amp; LOGISTICS CATEGORIES",
+   "valid_from": "2025-07-13",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joshua Gruenbaum",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "COMMISSIONER",
+   "valid_from": "2025-01-20",
+   "valid_to": "2026-04-16"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Thomas Howder",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY COMMISSIONER",
+   "valid_from": "2020-01-19",
+   "valid_to": "2025-07-12"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Crystal Philcox",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR EXECUTIVE- DRP",
+   "valid_from": "2025-07-13",
+   "valid_to": "2025-12-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kim Garcia",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR EXECUTIVE- DRP",
+   "valid_from": "2025-07-13",
+   "valid_to": "2025-12-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Erville Koehler",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR EXECUTIVE-DRP",
+   "valid_from": "2025-07-13",
+   "valid_to": "2025-12-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tiffany Hixson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR EXECUTIVE-DRP",
+   "valid_from": "2025-07-13",
+   "valid_to": "2025-12-31"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alexander Tullman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ADVISOR",
+   "valid_from": "2026-01-18",
+   "valid_to": "2026-04-06"
+  }
+ ],
+ "id": 1807,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Federal Acquisition Service",
+ "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Peter Burr",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER FOR ASSISTED ACQUISITION SERVICES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lawrence Hale",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER, OFFICE OF ACQUISITION SOLUTIONS DEVELOPMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Mark Lee",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER, OFFICE OF BUSINESS UTILIZATION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jeffrey Lau",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER, OFFICE OF SHARED SERVICES DELIVERY",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Laura Stanton",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY COMMISSIONER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Matthew Batzel",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ADVISOR",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "federal-acquisition-service",
+ "sources": [
+  "plum"
+ ]
+}

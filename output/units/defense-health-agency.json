@@ -1,0 +1,225 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 9,
+  "positions": 12
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "12",
+   "value_num": 12.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Robert Goodman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT DIRECTOR, RESOURCES AND PERSONNEL INTEGRATION",
+   "valid_from": "2024-07-18",
+   "valid_to": "2025-08-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Malanoski",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY DIRECTOR, DEFENSE HEALTH AGENCY",
+   "valid_from": "2022-05-08",
+   "valid_to": "2025-04-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "William Tinston",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, FEDERAL ELECTRONIC HEALTH RECORD MODERNIZATION",
+   "valid_from": "2020-07-19",
+   "valid_to": "2026-03-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Yvette Weber",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "PROGRAM EXECUTIVE OFFICER, DEFENSE HEALTHCARE MGMT SYSTEMS",
+   "valid_from": "2024-06-16",
+   "valid_to": "2025-09-30"
+  }
+ ],
+ "id": 2058,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Defense Health Agency",
+ "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Emerson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT DIRECTOR, RESOURCES AND PERSONNEL INTEGRATION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Regina Julian",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT DIRECTOR, HEALTH CARE OPERATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Thomas Flanders",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT DIRECTOR, INFORMATION OPERATIONS / MILITARY HEALTH SYSTEMS CHIEF INFORMATION OFFICER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Paul Cordts",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT DIRECTOR, MEDICAL AFFAIRS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "James Watkins",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT DIRECTOR, PRICING AND CONTRACTING",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Smith",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR, DEFENSE HEALTH AGENCY",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Carrie Quinn",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY TO THE COMMANDING GENERAL, MRDC",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "John Short",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR, FEDERAL AND COMMERCIAL INTEROPERABILITY",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alicia English",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR, PERSONNEL AND ADMINISTRATION",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "defense-health-agency",
+ "sources": [
+  "plum"
+ ]
+}

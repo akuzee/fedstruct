@@ -1,0 +1,104 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 4
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "4",
+   "value_num": 4.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Peter Mina",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY CIVIL RIGHTS AND CIVIL LIBERTIES OFFICER, PROGRAMS AND COMPLIANCE",
+   "valid_from": "2019-04-14",
+   "valid_to": "2025-10-04"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Victoria Porto",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR CIVIL RIGHTS AND CIVIL LIBERTIES PROGRAMS BRANCH",
+   "valid_from": "2020-03-01",
+   "valid_to": "2025-03-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Dana Salvano-Dunn",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, COMPLIANCE BRANCH",
+   "valid_from": "2017-10-29",
+   "valid_to": "2025-05-31"
+  }
+ ],
+ "id": 1129,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Office for Civil Rights and Civil Liberties",
+ "officials": [],
+ "slug": "office-for-civil-rights-and-civil-liberties",
+ "sources": [
+  "plum"
+ ]
+}

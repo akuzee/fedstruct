@@ -1,0 +1,453 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 16,
+  "positions": 34
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "34",
+   "value_num": 34.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Douglas Anderson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER (RETAIL SECURITIES SERVICES)",
+   "valid_from": "2020-05-01",
+   "valid_to": "2025-05-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Douglas Anderson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER ADMINISTRATIVE RESOURCE CENTER SERVICE DELIVERY",
+   "valid_from": "2025-06-01",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Angela Jones",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER AND CHIEF HUMAN RESOURCE OFFICER",
+   "valid_from": "2022-10-23",
+   "valid_to": "2025-12-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Sandra Paylor",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER FISCAL ACCOUNTING",
+   "valid_from": "2023-06-04",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Daniel Vavasour",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER, ADMINISTRATIVE RESOURCE CENTER, MANAGEMENT, MODERNIZATION AND CUSTOMER CARE",
+   "valid_from": "2023-02-12",
+   "valid_to": "2025-08-23"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "D Linder",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT COMMISSIONER, REVENUE COLLECTIONS MANAGEMENT",
+   "valid_from": "2023-06-04",
+   "valid_to": "2025-08-23"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Dara Seaman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE COMMISSIONER FINANCIAL OPERATIONS",
+   "valid_from": "2023-02-12",
+   "valid_to": "2025-12-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Timothy Gribben",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "COMMISSIONER, BUREAU OF THE FISCAL SERVICE",
+   "valid_from": "2019-05-12",
+   "valid_to": "2026-04-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alyssa Riedl",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT COMMISSIONER (RETAIL SECURITIES SERVICES)",
+   "valid_from": "2022-09-11",
+   "valid_to": "2025-05-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Adam Goldberg",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT COMMISSIONER AND BUSINESS TRANSFORMATION EXECUTIVE",
+   "valid_from": "2023-02-03",
+   "valid_to": "2025-12-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jason Hill",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT COMMISSIONER, ADMINISTRATIVE RESOURCE CENTER MANAGEMENT, MODERNIZATION AND CUSTOMER CARE",
+   "valid_from": "2023-12-31",
+   "valid_to": "2026-05-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Paula Corbin",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT COMMISSIONER, ADMINISTRATIVE RESOURCE CENTER SERVICE DELIVERY",
+   "valid_from": "2023-01-31",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tannura Elie",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT COMMISSIONER, TAX AND COMPLIANCE",
+   "valid_from": "2022-07-17",
+   "valid_to": "2025-08-09"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Peter Genova",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY CHIEF INFORMATION OFFICER",
+   "valid_from": "2010-01-03",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jeffrey Schramek",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY COMMISSIONER ADMINISTRATIVE RESOURCE CENTER",
+   "valid_from": "2021-11-07",
+   "valid_to": "2025-11-29"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Matthew Miller",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY COMMISSIONER, FINANCING AND OPERATIONS",
+   "valid_from": "2021-11-07",
+   "valid_to": "2025-09-30"
+  }
+ ],
+ "id": 1454,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Bureau of the Fiscal Service",
+ "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Caitlin Gehring",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER AND CHIEF CUSTOMER OFFICER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Justin Marsico",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER AND CHIEF DATA OFFICER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Daniel Berger",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER AND CHIEF FINANCIAL OFFICER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Amanda Kupfner",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER AND CHIEF STRATEGY INTEGRATION OFFICER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Linda Chero",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER, DISBURSING AND DEBT MANAGEMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tannura Elie",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER, REVENUE COLLECTIONS MANAGEMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Copenhaver",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT COMMISSIONER, WHOLESALE SECURITIES SERVICES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Thomas Vannoy",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT COMMISSIONER (WHOLESALE SECURITIES SERVICES)",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tony Paul",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT COMMISSIONER AND CHIEF TECHNOLOGY OFFICER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Horye Flowers",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT COMMISSIONER, DEBT COLLECTIONS MANAGEMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Ryan Shaedig",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT COMMISSIONER, ENTERPRISE INFORMATION TECHNOLOGY OPERATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kirstie Pottmeyer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT COMMISSIONER, FISCAL ACCOUNTING",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Bernadette Goodwin",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT COMMISSIONER, FISCAL AND FINANCIAL AGENT SERVICES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Vona Robinson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT COMMISSIONER, PROGRAMS, POLICY AND CUSTOMER RELATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joseph Gioeli",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY COMMISSIONER TRANSFORMATION AND MODERNIZATION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lori Santamorena",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "EXECUTIVE DIRECTOR, GOVERNMENT SECURITIES REGULATIONS",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "bureau-of-the-fiscal-service-3",
+ "sources": [
+  "plum"
+ ]
+}

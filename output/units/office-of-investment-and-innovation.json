@@ -1,0 +1,273 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 6,
+  "positions": 10
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "10",
+   "value_num": 10.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Frank Salomone",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE ADMINISTRATOR FOR INVESTMENT AND INNOVATION",
+   "valid_from": "2025-03-03",
+   "valid_to": "2025-08-16"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joshua Carter",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE ADMINISTRATOR FOR INVESTMENT AND INNOVATION",
+   "valid_from": "2025-08-18",
+   "valid_to": "2025-12-02"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Heath Morris",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF OF INVESTMENT AND INNOVATION RISK MANAGEMENT",
+   "valid_from": "2024-12-01",
+   "valid_to": "2025-11-27"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brittany Sickler",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR OF INVESTMENT AND INNOVATION ECOSYSTEMS",
+   "valid_from": "2023-10-08",
+   "valid_to": "2025-04-19"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Thomas Morris",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR OF PATIENT CAPITAL INVESTMENTS",
+   "valid_from": "2022-09-11",
+   "valid_to": "2026-06-09"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tami Howie",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR OF PATIENT CAPITAL INVESTMENTS",
+   "valid_from": "2026-04-24",
+   "valid_to": "2026-08-22"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Erick Page-Littleford",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR OF SMALL BUSINESS INNOVATION RESEARCH AND TECHNOLOGY TRANSFER",
+   "valid_from": "2024-03-24",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Wheeler",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR ADVISOR",
+   "valid_from": "2025-06-09",
+   "valid_to": "2025-08-29"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jack Stein",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR ADVISOR",
+   "valid_from": "2025-08-01",
+   "valid_to": "2025-11-15"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Isaac Yi",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ADVISOR",
+   "valid_from": "2025-09-07",
+   "valid_to": "2026-06-12"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Edward Hamburger",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT FOR INVESTMENT AND INNOVATION",
+   "valid_from": "2025-02-09",
+   "valid_to": "2026-01-24"
+  }
+ ],
+ "id": 2163,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Office of Investment and Innovation",
+ "officials": [
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joshua Carter",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE ADMINISTRATOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jennifer Shieh",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR OF SMALL BUSINESS INNOVATION RESEARCH AND TECHNOLOGY TRANSFER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joseph Howell",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ADVISOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Timothy Fitzgibbon",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ADVISOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Edward Hamburger",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ADVISOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Audrey Crawford",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "office-of-investment-and-innovation",
+ "sources": [
+  "plum"
+ ]
+}

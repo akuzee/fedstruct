@@ -1,0 +1,176 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/379"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "In 1978, Congress institutionalized the NHS network by establishing the Neighborhood Reinvestment Corporation to carry on the work of the Urban Reinvestment Task Force. [In April 2005, the Corporation began doing business as NeighborWorks America.] The Congressional act (Public Law 95-557) charged Neighborhood Reinvestment with promoting reinvestment in older neighborhoods by local financial institutions in cooperation with the community, residents and local governments. Bill Whiteside was named executive director. The act defined Neighborhood Reinvestment's mission as \"revitalizing older urban neighborhoods by mobilizing public, private and community resources at the neighborhood level.\"\r[http://nw.org/network/aboutUs/history/default.asp]",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/379"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/379"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Neighborhood Reinvestment Corporation",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/379"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "NEIGHBOR",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/379"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "neighborhood-reinvestment-corporation",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/379"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/neighborhood-reinvestment-corporation",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 339,
+ "merged_from": [
+  {
+   "key": "neighborhood-reinvestment-corporation",
+   "method": "crosswalk",
+   "source": "ecfr_agencies"
+  }
+ ],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=neighborhood-reinvestment-corporation].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-24/chapter-XXV"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "24 CFR chapter XXV",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "Neighborhood Reinvestment Corporation",
+ "officials": [],
+ "slug": "neighborhood-reinvestment-corporation",
+ "sources": [
+  "ecfr_agencies",
+  "fr_agencies"
+ ]
+}

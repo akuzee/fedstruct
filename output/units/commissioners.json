@@ -1,0 +1,237 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 10,
+  "positions": 8
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "8",
+   "value_num": 8.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Gail Heriot",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "COMMISSIONER",
+   "valid_from": "2007-02-28",
+   "valid_to": "2025-12-12"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "John Mashburn",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT TO COMMISSIONER",
+   "valid_from": "2020-09-14",
+   "valid_to": "2025-12-05"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stephanie Wong",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT TO THE COMMISSIONER",
+   "valid_from": "2023-09-11",
+   "valid_to": "2025-09-04"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alexis Fragosa",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT TO THE COMMISSIONER",
+   "valid_from": "2022-08-01",
+   "valid_to": "2026-01-25"
+  }
+ ],
+ "id": 2275,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Commissioners",
+ "officials": [
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Mondaire Jones",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMMISSIONER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Glenn Magpantay",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMMISSIONER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Peter Kirsanow",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMMISSIONER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stephen Gilchrist",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMMISSIONER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "J Christian Adams",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMMISSIONER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Rochelle Garza",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMMISSIONER (CHAIR)",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Victoria Nourse",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMMISSIONER (VICE CHAIR)",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Nathalie Demirdjian-Rivest",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stephanie Wong",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT TO THE COMMISSIONER",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Irena Vidulovic",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT TO THE COMMISSIONER",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "commissioners",
+ "sources": [
+  "plum"
+ ]
+}

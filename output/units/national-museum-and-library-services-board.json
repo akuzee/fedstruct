@@ -1,0 +1,296 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 1
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "1",
+   "value_num": 1.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "William Harris",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2023-03-20",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brian Allen",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2021-01-22",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Allison Perkins",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kelli Mosteller",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2023-03-20",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Monica Ramirez-Montagut",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-09-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Julius Jefferson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Halona Norton-Westbrook",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lisa Hathaway",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2023-03-20",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Cameron Kitchin",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Annie Norman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Amy Gilman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Marylynn Mack",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2023-03-20",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Susan Gibbons",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Ashley Jordan",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2023-03-20",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alan Price",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2023-03-20",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Ramiro Salazar",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2017-01-17",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Dipesh Navsaria",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "James Neal",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joan Breier-Brodsky",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER",
+   "valid_from": "2022-08-15",
+   "valid_to": "2025-09-30"
+  }
+ ],
+ "id": 1842,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "National Museum and Library Services Board",
+ "officials": [],
+ "slug": "national-museum-and-library-services-board",
+ "sources": [
+  "plum"
+ ]
+}

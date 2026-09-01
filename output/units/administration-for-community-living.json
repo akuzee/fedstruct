@@ -1,0 +1,273 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 12,
+  "positions": 16
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "16",
+   "value_num": 16.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "1",
+   "value_num": 1.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Richard Nicholls",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT SECRETARY FOR AGING AND ADMINISTRATOR, ADMINISTRATION FOR COMMUNITY LIVING",
+   "valid_from": "2025-01-20",
+   "valid_to": "2025-03-02"
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Mary Lazare",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT SECRETARY FOR AGING AND ADMINISTRATOR, ADMINISTRATION FOR COMMUNITY LIVING",
+   "valid_from": "2025-03-03",
+   "valid_to": "2025-11-15"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Cameron Compare",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CONFIDENTIAL ASSISTANT",
+   "valid_from": "2025-08-04",
+   "valid_to": "2025-12-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Elliot Kennedy",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ADMINISTRATOR FOR POLICY AND EVALUATION",
+   "valid_from": "2024-06-30",
+   "valid_to": "2026-03-06"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Mary Lazare",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "PRINCIPAL DEPUTY ADMINISTRATOR",
+   "valid_from": "2025-03-03",
+   "valid_to": "2026-01-10"
+  }
+ ],
+ "id": 1068,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Administration for Community Living",
+ "officials": [
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Mary Lazare",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT SECRETARY FOR AGING AND ADMINISTRATOR, ADMINISTRATION FOR COMMUNITY LIVING",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jennifer Smith",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ADVISOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Rebecca Hines",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMMISSIONER OF THE ADMINISTRATION ON DISABILITIES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kelly Cronin",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ADMINISTRATOR FOR THE CENTER FOR INTEGRATED PROGRAMS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kari Benson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT SECRETARY FOR AGING",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kristi Hill",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR,  NATIONAL INSTITUTE FOR DISABILITY, INDEPENDENT LIVING AND REHABILITATION RESEARCH",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Amanda Shoopman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "POLICY ADVISOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "TA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jennifer Johnson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "PRINCIPAL COORDINATOR FOR THE ADMINISTRATION ON DISABILITIES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Mary Lazare",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "PRINCIPAL DEPUTY ADMINISTRATOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Diana Diaz",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "PRINCIPAL DEPUTY COMMISSIONER OF THE ADMINISTRATION ON DISABILITIES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Richard Nicholls",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ADVISOR TO THE ADMINISTRATOR/CHIEF OF STAFF",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Cameron Compare",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "administration-for-community-living",
+ "sources": [
+  "plum"
+ ]
+}

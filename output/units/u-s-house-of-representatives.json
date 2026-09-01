@@ -1,0 +1,139 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/502"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The House of Representatives is made up of 435 elected members, divided among the 50 states in proportion to their total population. In addition, there are 6 non-voting members, representing the District of Columbia, the Commonwealth of Puerto Rico, and four other territories of the United States. The presiding officer of the chamber is the Speaker of the House, elected by the Representatives. He or she is third in the line of succession to the Presidency.\r\n\r\nMembers of the House are elected every two years and must be 25 years of age, a U.S. citizen for at least seven years, and a resident of the state (but not necessarily the district) they represent.\r\n\r\nThe House has several powers assigned exclusively to it, including the power to initiate revenue bills, impeach federal officials, and elect the President in the case of an electoral college tie. \r\n\r\nFor further information about the functions, organization, and activities, of the U.S. House of Representatives, please visit http://www.house.gov/.\r\n\r\n__________\r\nSources:\r\nhttp://www.whitehouse.gov/our-government/legislative-branch.\r\n",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/502"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/502"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "U.S. House of Representatives",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/502"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "HOUSE",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/502"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "u-s-house-of-representatives",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/502"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/u-s-house-of-representatives",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 445,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "U.S. House of Representatives",
+ "officials": [],
+ "slug": "u-s-house-of-representatives",
+ "sources": [
+  "fr_agencies"
+ ]
+}

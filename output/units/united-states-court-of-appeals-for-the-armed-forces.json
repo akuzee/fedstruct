@@ -1,0 +1,152 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 7,
+  "positions": 4
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "4",
+   "value_num": 4.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "2",
+   "value_num": 2.0
+  }
+ },
+ "former_officials": [],
+ "id": 2103,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "United States Court of Appeals for the Armed Forces",
+ "officials": [
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Liam Hardy",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE JUDGE, UNITED STATES COURT OF APPEALS FOR THE ARMED FORCES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "John Sparks",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE JUDGE, UNITED STATES COURT OF APPEALS FOR THE ARMED FORCES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Gregory Maggs",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE JUDGE, UNITED STATES COURT OF APPEALS FOR THE ARMED FORCES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Musetta Johnson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE JUDGE, UNITED STATES COURT OF APPEALS FOR THE ARMED FORCES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Kevin Ohlson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF JUDGE, UNITED STATES COURT OF APPEALS FOR THE ARMED FORCES",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Anderson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF DEPUTY CLERK OF THE COURT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Malcolm Squires",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CLERK OF THE COURT",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "united-states-court-of-appeals-for-the-armed-forces",
+ "sources": [
+  "plum"
+ ]
+}

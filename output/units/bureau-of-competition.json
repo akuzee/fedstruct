@@ -1,0 +1,225 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 11,
+  "positions": 14
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "14",
+   "value_num": 14.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Peter Richman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT DIRECTOR FOR MERGERS III",
+   "valid_from": "2016-07-10",
+   "valid_to": "2026-02-28"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tara Koslov",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY DIRECTOR FOR OPERATIONS, PROGRAMS, TECHNOLOGY AND INFORMATION MANAGEMENT",
+   "valid_from": "2020-08-16",
+   "valid_to": "2025-06-30"
+  }
+ ],
+ "id": 1794,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Bureau of Competition",
+ "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Geoffrey Green",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT DIRECTOR FOR ANTICOMPETITIVE PRACTICES I",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Mark Woodward",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT DIRECTOR FOR ANTICOMPETITIVE PRACTICES II",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Maribeth Petrizzi",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT DIRECTOR FOR COMPLIANCE",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Bradley Albert",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT DIRECTOR FOR HEALTH CARE",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Peggy Femenella",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT DIRECTOR FOR MERGERS II",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Patricia Galvan",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT DIRECTOR FOR TECHNOLOGY ENFORCEMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Emma Burnham",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE  DIRECTOR, HEALHCARE",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kelse Moen",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR, BUREAU OF COMPETITION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Taylor Hoogendoorn",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR, BUREAU OF COMPETITION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Daniel Guarnera",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR, BUREAU OF COMPETITION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Shaw",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR DEPUTY DIRECTOR, BUREAU OF COMPETITION",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "bureau-of-competition",
+ "sources": [
+  "plum"
+ ]
+}

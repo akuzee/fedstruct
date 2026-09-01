@@ -1,0 +1,357 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 13,
+  "positions": 18
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "18",
+   "value_num": 18.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Deborah Meland",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF CIVIL TRIAL SECTION EASTERN REGION",
+   "valid_from": "2013-01-05",
+   "valid_to": "2025-08-29"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Katinsky",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF CIVIL TRIAL SECTION NORTHERN",
+   "valid_from": "2019-06-18",
+   "valid_to": "2025-07-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Richard Ward",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF CIVIL TRIAL SECTION, WESTERN REGION",
+   "valid_from": "2007-02-04",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Francesca Ugolini",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF, APPELLATE SECTION",
+   "valid_from": "2020-03-15",
+   "valid_to": "2025-09-05"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Russell Clarke",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF, CIVIL TRIAL SECTION, CENTRAL REGION",
+   "valid_from": "2014-03-09",
+   "valid_to": "2025-10-20"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Karen Kelly",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF, CRIMINAL ENFORCEMENT SECTION, SOUTHERN REGION",
+   "valid_from": "2019-06-18",
+   "valid_to": "2025-08-08"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brett Shumate",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
+   "valid_from": "2025-02-23",
+   "valid_to": "2025-06-10"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Hubbert",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
+   "valid_from": "2013-01-04",
+   "valid_to": "2025-02-14"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stanley Okula",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR TRIAL ATTORNEY",
+   "valid_from": "2022-04-04",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Mitchell Ballweg",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR TRIAL ATTORNEY",
+   "valid_from": "2020-03-15",
+   "valid_to": "2026-05-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Eileen Shatz",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL LITIGATION COUNSEL",
+   "valid_from": "2008-04-13",
+   "valid_to": "2025-02-28"
+  }
+ ],
+ "id": 1221,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Tax Division",
+ "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Angelo Frattarelli",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF CIVIL TRIAL SECTION (SOUTHERN REGION)",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Cynthia Messersmith",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF CIVIL TRIAL SECTION SOUTHWESTERN REGION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "James Wilkinson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF OFFICE OF REVIEW",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Pincus",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF, COURT OF FEDERAL CLAIMS SECTION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Samuel Lyons",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF, CRIMINAL APPEALS AND TAX ENFORCEMENT POLICY SECTION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "John Kane",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF, CRIMINAL ENFORCEMENT SECTION, NORTHERN REGION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Larry Wszalek",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF, CRIMINAL ENFORCEMENT SECTION, WESTERN REGION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Haungs",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY CHIEF, APPELLATE SECTION",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Harris Phillips",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR LEVEL TRIAL ATTORNEY",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jonathan Blacker",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR LEVEL TRIAL ATTORNEY",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Margaret Sheer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR LEVEL TRIAL ATTORNEY",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Richard Rolwing",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR TRIAL ATTORNEY",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Boteler",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR TRIAL ATTORNEY",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "tax-division",
+ "sources": [
+  "plum"
+ ]
+}

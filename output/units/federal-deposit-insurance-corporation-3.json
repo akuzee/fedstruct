@@ -1,0 +1,141 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 1,
+  "current_officials": 3,
+  "positions": 5
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "5",
+   "value_num": 5.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "3",
+   "value_num": 3.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Travis Hill",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHAIRMAN OF THE BOARD OF DIRECTORS (DIRECTOR)",
+   "valid_from": "2025-01-20",
+   "valid_to": "2026-01-01"
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Jonathan Mckernan",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "MEMBER OF THE BOARD OF DIRECTORS",
+   "valid_from": "2022-12-22",
+   "valid_to": "2025-02-10"
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Travis Hill",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "VICE CHAIRMAN",
+   "valid_from": "2022-12-22",
+   "valid_to": "2026-01-01"
+  }
+ ],
+ "id": 1755,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Federal Deposit Insurance Corporation",
+ "officials": [
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Travis Hill",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHAIRMAN OF THE BOARD OF DIRECTORS (DIRECTOR)",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Samuel Lupas",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY CHIEF OF STAFF",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Dana Wade",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY TO THE CHAIRMAN AND CHIEF OF STAFF",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "federal-deposit-insurance-corporation-3",
+ "sources": [
+  "plum"
+ ]
+}

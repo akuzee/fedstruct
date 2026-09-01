@@ -1,0 +1,88 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agencies[?slug=east-west-foreign-trade-board]",
+    "method": "published",
+    "observations": 1,
+    "source": "ecfr_agencies",
+    "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#east-west-foreign-trade-board"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "ecfr_agencies",
+    "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#east-west-foreign-trade-board"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "East-West Foreign Trade Board",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 551,
+ "merged_from": [],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 1.0,
+     "cosmetic_revisions": 0,
+     "link_method": "published",
+     "locator": "$.agencies[?slug=east-west-foreign-trade-board].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-15/chapter-XIII"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "15 CFR chapter XIII",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "East-West Foreign Trade Board",
+ "officials": [],
+ "slug": "east-west-foreign-trade-board",
+ "sources": [
+  "ecfr_agencies"
+ ]
+}

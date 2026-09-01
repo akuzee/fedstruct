@@ -1,0 +1,279 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  },
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {
+  "name": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": null,
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#natural-resources-revenue-office"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "Office of Natural Resources Revenue",
+    "value_num": null
+   }
+  ]
+ },
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 1
+ },
+ "facts": {
+  "agency_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agency_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/586"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "http://www.onrr.gov",
+   "value_num": null
+  },
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/586"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Office of Natural Resources Revenue (ONRR) ) is entrusted with a fiduciary role, managing an average of $11 billion in annual revenues from energy and mineral leases and other monies owed for the use of public natural resources on the Outer Continental Shelf and onshore Federal and American Indian lands. Revenue sources include royalties, rents, and bonuses generated throughout the life of the lease.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/586"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/586"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Natural Resources Revenue Office",
+   "value_num": null
+  },
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "linked",
+    "confidence": 0.85,
+    "cosmetic_revisions": 0,
+    "link_method": "name_exact",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "1",
+   "value_num": 1.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "linked",
+    "confidence": 0.85,
+    "cosmetic_revisions": 0,
+    "link_method": "name_exact",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "0",
+   "value_num": 0.0
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/586"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "ONRR",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/586"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "natural-resources-revenue-office",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/586"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/natural-resources-revenue-office",
+   "value_num": null
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Howard Cantor",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, OFFICE OF NATURAL RESOURCES REVENUE MANAGEMENT",
+   "valid_from": "2023-03-30",
+   "valid_to": "2025-05-31"
+  }
+ ],
+ "id": 336,
+ "merged_from": [
+  {
+   "key": "natural-resources-revenue-office",
+   "method": "crosswalk",
+   "source": "ecfr_agencies"
+  },
+  {
+   "key": "8f808d788089866c",
+   "method": "name_exact",
+   "source": "plum"
+  }
+ ],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=natural-resources-revenue-office].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-30/chapter-XII"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "30 CFR chapter XII",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "Natural Resources Revenue Office",
+ "officials": [],
+ "slug": "natural-resources-revenue-office",
+ "sources": [
+  "ecfr_agencies",
+  "fr_agencies",
+  "plum"
+ ]
+}

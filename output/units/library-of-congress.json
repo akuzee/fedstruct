@@ -1,0 +1,227 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  },
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 7,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "agency_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agency_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/277"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "http://www.loc.gov/index.html",
+   "value_num": null
+  },
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/277"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Library of Congress is the national library of the United States, offering diverse materials for research including the world's most extensive collections in many areas such as American history, music, and law.\r\n\r\nThe Library of Congress was established by act of April 24, 1800 (2 Stat. 56), appropriating $5,000 ''for the purchase of such books as may be necessary for the use of Congress . . . .'' The Library's scope of responsibility has been widened by subsequent legislation (2 U.S.C. 131-168d). The Librarian, appointed by the President with the advice and consent of the Senate, directs the Library.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/277"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "logo_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.logo_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/277"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://agency-logos.federalregister.gov/277/medium.png?1323299516",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/277"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Library of Congress",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/277"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "LOC",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/277"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "library-of-congress",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/277"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/library-of-congress",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 256,
+ "merged_from": [
+  {
+   "key": "library-of-congress",
+   "method": "crosswalk",
+   "source": "ecfr_agencies"
+  },
+  {
+   "key": "818896510fd8bccd",
+   "method": "name_exact",
+   "source": "plum"
+  }
+ ],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=library-of-congress].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-36/chapter-VII"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "36 CFR chapter VII",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "Library of Congress",
+ "officials": [],
+ "slug": "library-of-congress",
+ "sources": [
+  "ecfr_agencies",
+  "fr_agencies",
+  "plum"
+ ]
+}

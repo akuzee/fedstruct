@@ -1,0 +1,194 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "agency_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agency_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/205"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "http://www.fsgb.gov/",
+   "value_num": null
+  },
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/205"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Foreign Service Grievance Board was established under Section 1105 of the Foreign Service Act of 1980, as amended (the Act). \r\n\r\nThe purpose of the Board is to determine jurisdiction in cases involving grievances and separation for cause proceedings; to compile a record of such cases; to conduct hearings in such cases, when required or deemed necessary; and to decide such cases, or otherwise disposing of them so as to ensure the fullest measure of due process for the members of the foreign service. \r\nT\r\nhe Board consists of no fewer than five members who are independent, distinguished citizens of the United States. Well known for their integrity, they are not employees of the foreign affairs agencies or members of the Service. ",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/205"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/205"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Foreign Service Grievance Board",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/205"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "FSGB",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/205"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "foreign-service-grievance-board",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/205"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/foreign-service-grievance-board",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 190,
+ "merged_from": [
+  {
+   "key": "foreign-service-grievance-board",
+   "method": "crosswalk",
+   "source": "ecfr_agencies"
+  }
+ ],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=foreign-service-grievance-board].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-22/chapter-IX"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "22 CFR chapter IX",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "Foreign Service Grievance Board",
+ "officials": [],
+ "slug": "foreign-service-grievance-board",
+ "sources": [
+  "ecfr_agencies",
+  "fr_agencies"
+ ]
+}

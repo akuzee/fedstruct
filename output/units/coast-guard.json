@@ -1,0 +1,292 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {
+  "name": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "linked",
+     "confidence": 0.85,
+     "cosmetic_revisions": 0,
+     "link_method": "name_exact",
+     "locator": null,
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#coast-guard-(great-lakes-pilotage)"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "Coast Guard (Great Lakes Pilotage)",
+    "value_num": null
+   }
+  ]
+ },
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "agency_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agency_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/53"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "http://www.uscg.mil/",
+   "value_num": null
+  },
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/53"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The United States Coast Guard was established by act of January 28, 1915 (14 U.S.C. 1) and became a component of the Department of Transportation on April 1, 1967, pursuant to the Department of Transportation Act of October 15, 1966. Following the enactment of the Homeland Security Act of 2002, The Coast Guard was transferred from Department of Transportation to the Department of Homeland Security on March 1, 2003 (116 Stat. 2135).\r\n\r\nThe Coast Guard protects the public, the environment, and U.S. economic interests in the Nation's ports and waterways, along the coast, on international waters, or in any maritime region, as required, to support national security. Among its duties are: search and rescue operations in and over the high seas and navigable waters, maritime law enforcement, marine inspection and licensing, pilotage of the Great Lakes, protection of the marine environment by enforcing the Federal Water Pollution Control Act, ensuring the safety and security of ports and anchorages, maintaining the management of waterways, providing navigational aids, and regulating the construction, maintenance and operation of bridges and causeways across navigable waters.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/53"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "logo_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.logo_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/53"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://agency-logos.federalregister.gov/53/medium.jpg?1321388388",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/53"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Coast Guard",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/53"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "USCG",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/53"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "coast-guard",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/53"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/coast-guard",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 53,
+ "merged_from": [
+  {
+   "key": "coast-guard",
+   "method": "crosswalk",
+   "source": "ecfr_agencies"
+  },
+  {
+   "key": "coast-guard-(great-lakes-pilotage)",
+   "method": "name_exact",
+   "source": "ecfr_agencies"
+  }
+ ],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=coast-guard].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-33/chapter-I"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "33 CFR chapter I",
+    "value_num": null
+   },
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=coast-guard].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-46/chapter-I"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "46 CFR chapter I",
+    "value_num": null
+   },
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "linked",
+     "confidence": 0.85,
+     "cosmetic_revisions": 0,
+     "link_method": "name_exact",
+     "locator": "$.agencies[?slug=coast-guard-(great-lakes-pilotage)].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-46/chapter-III"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "46 CFR chapter III",
+    "value_num": null
+   },
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=coast-guard].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-49/chapter-IV"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "49 CFR chapter IV",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "Coast Guard",
+ "officials": [],
+ "slug": "coast-guard",
+ "sources": [
+  "ecfr_agencies",
+  "fr_agencies"
+ ]
+}

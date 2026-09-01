@@ -1,0 +1,4693 @@
+{
+ "count": 293,
+ "open_candidates": [
+  {
+   "candidate": 100,
+   "left": {
+    "name": "Council of the Inspectors General on Integrity and Efficiency",
+    "slug": "council-of-the-inspectors-general-on-integrity-and-efficiency",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9661,
+   "right": {
+    "name": "Council of Inspectors General on Integrity and Efficiency",
+    "slug": "council-of-inspectors-general-on-integrity-and-efficiency",
+    "source": "plum"
+   },
+   "score": 0.9661
+  },
+  {
+   "candidate": 101,
+   "left": {
+    "name": "Council of the Inspectors General on Integrity and Efficiency",
+    "slug": "council-of-the-inspectors-general-on-integrity-and-efficiency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9661,
+   "right": {
+    "name": "Council of Inspectors General on Integrity and Efficiency",
+    "slug": "council-of-inspectors-general-on-integrity-and-efficiency",
+    "source": "plum"
+   },
+   "score": 0.9661
+  },
+  {
+   "candidate": 611,
+   "left": {
+    "name": "Office of Under-Secretary for Economic Affairs",
+    "slug": "under-secretary-for-economic-affairs-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9583,
+   "right": {
+    "name": "Office of the Under Secretary for Economic Affairs",
+    "slug": "office-of-the-under-secretary-for-economic-affairs",
+    "source": "plum"
+   },
+   "score": 0.9583
+  },
+  {
+   "candidate": 612,
+   "left": {
+    "name": "Office of Under-Secretary for Economic Affairs",
+    "slug": "under-secretary-for-economic-affairs-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9583,
+   "right": {
+    "name": "Office of the Under Secretary for Economic Affairs",
+    "slug": "office-of-the-under-secretary-for-economic-affairs-2",
+    "source": "plum"
+   },
+   "score": 0.9583
+  },
+  {
+   "candidate": 591,
+   "left": {
+    "name": "Office of United States Trade Representative",
+    "slug": "trade-representative-office-of-united-states-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9565,
+   "right": {
+    "name": "Office of the United States Trade Representative",
+    "slug": "office-of-the-united-states-trade-representative",
+    "source": "plum"
+   },
+   "score": 0.9565
+  },
+  {
+   "candidate": 531,
+   "left": {
+    "name": "Privacy and Civil Liberties Oversight Board",
+    "slug": "privacy-and-civil-liberties-oversight-board",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9556,
+   "right": {
+    "name": "Privacy and Civil Liberties and Oversight Board",
+    "slug": "privacy-and-civil-liberties-and-oversight-board",
+    "source": "plum"
+   },
+   "score": 0.9556
+  },
+  {
+   "candidate": 532,
+   "left": {
+    "name": "Privacy and Civil Liberties Oversight Board",
+    "slug": "privacy-and-civil-liberties-oversight-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9556,
+   "right": {
+    "name": "Privacy and Civil Liberties and Oversight Board",
+    "slug": "privacy-and-civil-liberties-and-oversight-board",
+    "source": "plum"
+   },
+   "score": 0.9556
+  },
+  {
+   "candidate": 3,
+   "left": {
+    "name": "Executive Office of the President",
+    "slug": "executive-office-of-the-president-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Executive Office of the President",
+    "slug": "executive-office-of-the-president-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 6,
+   "left": {
+    "name": "Administrative Conference of the United States",
+    "slug": "administrative-conference-of-the-united-states-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Administrative Conference of the United States",
+    "slug": "administrative-conference-of-the-united-states-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 9,
+   "left": {
+    "name": "Advisory Council on Historic Preservation",
+    "slug": "advisory-council-on-historic-preservation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Advisory Council on Historic Preservation",
+    "slug": "advisory-council-on-historic-preservation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 11,
+   "left": {
+    "name": "Office of Advocacy and Outreach",
+    "slug": "advocacy-and-outreach-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Advocacy and Outreach",
+    "slug": "office-of-advocacy-and-outreach",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 16,
+   "left": {
+    "name": "Agricultural Marketing Service",
+    "slug": "agricultural-marketing-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Agricultural Marketing Service",
+    "slug": "agricultural-marketing-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 19,
+   "left": {
+    "name": "Agricultural Research Service",
+    "slug": "agricultural-research-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Agricultural Research Service",
+    "slug": "agricultural-research-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 21,
+   "left": {
+    "name": "Department of Agriculture",
+    "slug": "agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Agriculture",
+    "slug": "department-of-agriculture",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 25,
+   "left": {
+    "name": "Alcohol and Tobacco Tax and Trade Bureau",
+    "slug": "alcohol-and-tobacco-tax-and-trade-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Alcohol and Tobacco Tax and Trade Bureau",
+    "slug": "alcohol-and-tobacco-tax-and-trade-bureau-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 28,
+   "left": {
+    "name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+    "slug": "alcohol-tobacco-firearms-and-explosives-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+    "slug": "bureau-of-alcohol-tobacco-firearms-and-explosives",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 31,
+   "left": {
+    "name": "American Battle Monuments Commission",
+    "slug": "american-battle-monuments-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "American Battle Monuments Commission",
+    "slug": "american-battle-monuments-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 34,
+   "left": {
+    "name": "Animal and Plant Health Inspection Service",
+    "slug": "animal-and-plant-health-inspection-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Animal and Plant Health Inspection Service",
+    "slug": "animal-and-plant-health-inspection-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 38,
+   "left": {
+    "name": "Appalachian Regional Commission",
+    "slug": "appalachian-regional-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Appalachian Regional Commission",
+    "slug": "appalachian-regional-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 43,
+   "left": {
+    "name": "Arctic Research Commission",
+    "slug": "arctic-research-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Arctic Research Commission",
+    "slug": "arctic-research-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 46,
+   "left": {
+    "name": "Armed Forces Retirement Home",
+    "slug": "armed-forces-retirement-home-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Armed Forces Retirement Home",
+    "slug": "armed-forces-retirement-home-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 51,
+   "left": {
+    "name": "Bureau of the Fiscal Service",
+    "slug": "bureau-of-the-fiscal-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of the Fiscal Service",
+    "slug": "bureau-of-the-fiscal-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 57,
+   "left": {
+    "name": "Centers for Medicare & Medicaid Services",
+    "slug": "centers-for-medicare-medicaid-services",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.95,
+   "right": {
+    "name": "Centers for Medicare and Medicaid Services",
+    "slug": "centers-for-medicare-and-medicaid-services",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 58,
+   "left": {
+    "name": "Centers for Medicare & Medicaid Services",
+    "slug": "centers-for-medicare-medicaid-services-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.95,
+   "right": {
+    "name": "Centers for Medicare and Medicaid Services",
+    "slug": "centers-for-medicare-and-medicaid-services",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 61,
+   "left": {
+    "name": "Central Intelligence Agency",
+    "slug": "central-intelligence-agency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Central Intelligence Agency",
+    "slug": "central-intelligence-agency-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 64,
+   "left": {
+    "name": "Chemical Safety and Hazard Investigation Board",
+    "slug": "chemical-safety-and-hazard-investigation-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Chemical Safety and Hazard Investigation Board",
+    "slug": "chemical-safety-and-hazard-investigation-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 66,
+   "left": {
+    "name": "Administration for Children and Families",
+    "slug": "children-and-families-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Administration for Children and Families",
+    "slug": "administration-for-children-and-families",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 72,
+   "left": {
+    "name": "Department of Commerce",
+    "slug": "commerce-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Commerce",
+    "slug": "department-of-commerce",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 76,
+   "left": {
+    "name": "Commission of Fine Arts",
+    "slug": "commission-of-fine-arts-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Commission of Fine Arts",
+    "slug": "commission-of-fine-arts-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 79,
+   "left": {
+    "name": "Committee for Purchase From People Who Are Blind or Severely Disabled",
+    "slug": "committee-for-purchase-from-people-who-are-blind-or-severely-disabled-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Committee for Purchase From People Who Are Blind Or Severely Disabled",
+    "slug": "committee-for-purchase-from-people-who-are-blind-or-severely-disabled-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 83,
+   "left": {
+    "name": "Commodity Futures Trading Commission",
+    "slug": "commodity-futures-trading-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Commodity Futures Trading Commission",
+    "slug": "commodity-futures-trading-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 87,
+   "left": {
+    "name": "Comptroller of the Currency",
+    "slug": "comptroller-of-the-currency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Comptroller of the Currency",
+    "slug": "comptroller-of-the-currency-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 90,
+   "left": {
+    "name": "Consumer Financial Protection Bureau",
+    "slug": "consumer-financial-protection-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Consumer Financial Protection Bureau",
+    "slug": "consumer-financial-protection-bureau-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 93,
+   "left": {
+    "name": "Consumer Product Safety Commission",
+    "slug": "consumer-product-safety-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Consumer Product Safety Commission",
+    "slug": "consumer-product-safety-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 98,
+   "left": {
+    "name": "Corporation for National and Community Service",
+    "slug": "corporation-for-national-and-community-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Corporation for National and Community Service",
+    "slug": "corporation-for-national-and-community-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 104,
+   "left": {
+    "name": "Council on Environmental Quality",
+    "slug": "council-on-environmental-quality-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Council on Environmental Quality",
+    "slug": "council-on-environmental-quality-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 107,
+   "left": {
+    "name": "Court Services and Offender Supervision Agency for the District of Columbia",
+    "slug": "court-services-and-offender-supervision-agency-for-the-district-of-columbia-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Court Services and Offender Supervision Agency for the District of Columbia",
+    "slug": "court-services-and-offender-supervision-agency-for-the-district-of-columbia-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 113,
+   "left": {
+    "name": "Defense Logistics Agency",
+    "slug": "defense-logistics-agency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Defense Logistics Agency",
+    "slug": "defense-logistics-agency-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 116,
+   "left": {
+    "name": "Defense Nuclear Facilities Safety Board",
+    "slug": "defense-nuclear-facilities-safety-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Defense Nuclear Facilities Safety Board",
+    "slug": "defense-nuclear-facilities-safety-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 122,
+   "left": {
+    "name": "Drug Enforcement Administration",
+    "slug": "drug-enforcement-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Drug Enforcement Administration",
+    "slug": "drug-enforcement-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 124,
+   "left": {
+    "name": "Bureau of Economic Analysis",
+    "slug": "economic-analysis-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Economic Analysis",
+    "slug": "bureau-of-economic-analysis",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 127,
+   "left": {
+    "name": "Economic Development Administration",
+    "slug": "economic-development-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Economic Development Administration",
+    "slug": "economic-development-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 130,
+   "left": {
+    "name": "Economic Research Service",
+    "slug": "economic-research-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Economic Research Service",
+    "slug": "economic-research-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 132,
+   "left": {
+    "name": "Department of Education",
+    "slug": "education-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Education",
+    "slug": "department-of-education",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 140,
+   "left": {
+    "name": "Employee Benefits Security Administration",
+    "slug": "employee-benefits-security-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Employee Benefits Security Administration",
+    "slug": "employee-benefits-security-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 144,
+   "left": {
+    "name": "Employment and Training Administration",
+    "slug": "employment-and-training-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Employment and Training Administration",
+    "slug": "employment-and-training-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 146,
+   "left": {
+    "name": "Department of Energy",
+    "slug": "energy-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Energy",
+    "slug": "department-of-energy",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 150,
+   "left": {
+    "name": "Bureau of Engraving and Printing",
+    "slug": "engraving-and-printing-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Engraving and Printing",
+    "slug": "bureau-of-engraving-and-printing",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 153,
+   "left": {
+    "name": "Environmental Protection Agency",
+    "slug": "environmental-protection-agency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Environmental Protection Agency",
+    "slug": "environmental-protection-agency-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 156,
+   "left": {
+    "name": "Equal Employment Opportunity Commission",
+    "slug": "equal-employment-opportunity-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Equal Employment Opportunity Commission",
+    "slug": "equal-employment-opportunity-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 159,
+   "left": {
+    "name": "Executive Office for Immigration Review",
+    "slug": "executive-office-for-immigration-review-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Executive Office for Immigration Review",
+    "slug": "executive-office-for-immigration-review-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 164,
+   "left": {
+    "name": "Farm Credit Administration",
+    "slug": "farm-credit-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Farm Credit Administration",
+    "slug": "farm-credit-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 169,
+   "left": {
+    "name": "Farm Service Agency",
+    "slug": "farm-service-agency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Farm Service Agency",
+    "slug": "farm-service-agency-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 172,
+   "left": {
+    "name": "Federal Aviation Administration",
+    "slug": "federal-aviation-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Aviation Administration",
+    "slug": "federal-aviation-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 176,
+   "left": {
+    "name": "Federal Communications Commission",
+    "slug": "federal-communications-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Communications Commission",
+    "slug": "federal-communications-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 179,
+   "left": {
+    "name": "Office of Federal Contract Compliance Programs",
+    "slug": "federal-contract-compliance-programs-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Federal Contract Compliance Programs",
+    "slug": "office-of-federal-contract-compliance-programs",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 183,
+   "left": {
+    "name": "Federal Deposit Insurance Corporation",
+    "slug": "federal-deposit-insurance-corporation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Deposit Insurance Corporation",
+    "slug": "federal-deposit-insurance-corporation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 186,
+   "left": {
+    "name": "Federal Election Commission",
+    "slug": "federal-election-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Election Commission",
+    "slug": "federal-election-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 189,
+   "left": {
+    "name": "Federal Emergency Management Agency",
+    "slug": "federal-emergency-management-agency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Emergency Management Agency",
+    "slug": "federal-emergency-management-agency-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 192,
+   "left": {
+    "name": "Federal Energy Regulatory Commission",
+    "slug": "federal-energy-regulatory-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Energy Regulatory Commission",
+    "slug": "federal-energy-regulatory-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 196,
+   "left": {
+    "name": "Federal Highway Administration",
+    "slug": "federal-highway-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Highway Administration",
+    "slug": "federal-highway-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 200,
+   "left": {
+    "name": "Federal Housing Finance Agency",
+    "slug": "federal-housing-finance-agency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Housing Finance Agency",
+    "slug": "federal-housing-finance-agency-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 205,
+   "left": {
+    "name": "Federal Labor Relations Authority",
+    "slug": "federal-labor-relations-authority-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Labor Relations Authority",
+    "slug": "federal-labor-relations-authority-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 208,
+   "left": {
+    "name": "Federal Law Enforcement Training Center",
+    "slug": "federal-law-enforcement-training-center-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Law Enforcement Training Center",
+    "slug": "federal-law-enforcement-training-center-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 211,
+   "left": {
+    "name": "Federal Maritime Commission",
+    "slug": "federal-maritime-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Maritime Commission",
+    "slug": "federal-maritime-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 214,
+   "left": {
+    "name": "Federal Mediation and Conciliation Service",
+    "slug": "federal-mediation-and-conciliation-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Mediation and Conciliation Service",
+    "slug": "federal-mediation-and-conciliation-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 217,
+   "left": {
+    "name": "Federal Mine Safety and Health Review Commission",
+    "slug": "federal-mine-safety-and-health-review-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Mine Safety and Health Review Commission",
+    "slug": "federal-mine-safety-and-health-review-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 220,
+   "left": {
+    "name": "Federal Motor Carrier Safety Administration",
+    "slug": "federal-motor-carrier-safety-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Motor Carrier Safety Administration",
+    "slug": "federal-motor-carrier-safety-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 223,
+   "left": {
+    "name": "Federal Permitting Improvement Steering Council",
+    "slug": "federal-permitting-improvement-steering-council-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Permitting Improvement Steering Council",
+    "slug": "federal-permitting-improvement-steering-council-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 226,
+   "left": {
+    "name": "Office of Federal Procurement Policy",
+    "slug": "federal-procurement-policy-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Federal Procurement Policy",
+    "slug": "office-of-federal-procurement-policy",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 229,
+   "left": {
+    "name": "Federal Railroad Administration",
+    "slug": "federal-railroad-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Railroad Administration",
+    "slug": "federal-railroad-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 235,
+   "left": {
+    "name": "Federal Reserve System",
+    "slug": "federal-reserve-system-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Reserve System",
+    "slug": "federal-reserve-system-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 238,
+   "left": {
+    "name": "Federal Retirement Thrift Investment Board",
+    "slug": "federal-retirement-thrift-investment-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Retirement Thrift Investment Board",
+    "slug": "federal-retirement-thrift-investment-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 241,
+   "left": {
+    "name": "Federal Service Impasses Panel ",
+    "slug": "federal-service-impasses-panel-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Service Impasses Panel",
+    "slug": "federal-service-impasses-panel-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 244,
+   "left": {
+    "name": "Federal Trade Commission",
+    "slug": "federal-trade-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Trade Commission",
+    "slug": "federal-trade-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 247,
+   "left": {
+    "name": "Federal Transit Administration",
+    "slug": "federal-transit-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Federal Transit Administration",
+    "slug": "federal-transit-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 250,
+   "left": {
+    "name": "Financial Crimes Enforcement Network",
+    "slug": "financial-crimes-enforcement-network-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Financial Crimes Enforcement Network",
+    "slug": "financial-crimes-enforcement-network-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 254,
+   "left": {
+    "name": "First Responder Network Authority",
+    "slug": "first-responder-network-authority-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "First Responder Network Authority",
+    "slug": "first-responder-network-authority-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 256,
+   "left": {
+    "name": "United States Fish and Wildlife Service",
+    "slug": "fish-and-wildlife-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "United States Fish and Wildlife Service",
+    "slug": "united-states-fish-and-wildlife-service",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 259,
+   "left": {
+    "name": "Food and Drug Administration",
+    "slug": "food-and-drug-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Food and Drug Administration",
+    "slug": "food-and-drug-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 262,
+   "left": {
+    "name": "Food and Nutrition Service",
+    "slug": "food-and-nutrition-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Food and Nutrition Service",
+    "slug": "food-and-nutrition-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 265,
+   "left": {
+    "name": "Food Safety and Inspection Service",
+    "slug": "food-safety-and-inspection-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Food Safety and Inspection Service",
+    "slug": "food-safety-and-inspection-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 268,
+   "left": {
+    "name": "Foreign Agricultural Service",
+    "slug": "foreign-agricultural-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Foreign Agricultural Service",
+    "slug": "foreign-agricultural-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 278,
+   "left": {
+    "name": "Forest Service",
+    "slug": "forest-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Forest Service",
+    "slug": "forest-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 281,
+   "left": {
+    "name": "General Services Administration",
+    "slug": "general-services-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "General Services Administration",
+    "slug": "general-services-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 285,
+   "left": {
+    "name": "Government Accountability Office",
+    "slug": "government-accountability-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Government Accountability Office",
+    "slug": "government-accountability-office-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 287,
+   "left": {
+    "name": "Office of Government Ethics",
+    "slug": "government-ethics-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Government Ethics",
+    "slug": "office-of-government-ethics",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 290,
+   "left": {
+    "name": "Government National Mortgage Association",
+    "slug": "government-national-mortgage-association-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Government National Mortgage Association",
+    "slug": "government-national-mortgage-association-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 294,
+   "left": {
+    "name": "Great Lakes St. Lawrence Seaway Development Corporation",
+    "slug": "great-lakes-st-lawrence-seaway-development-corporation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Great Lakes St. Lawrence Seaway Development Corporation",
+    "slug": "great-lakes-st-lawrence-seaway-development-corporation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 297,
+   "left": {
+    "name": "Gulf Coast Ecosystem Restoration Council",
+    "slug": "gulf-coast-ecosystem-restoration-council-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Gulf Coast Ecosystem Restoration Council",
+    "slug": "gulf-coast-ecosystem-restoration-council-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 300,
+   "left": {
+    "name": "Harry S. Truman Scholarship Foundation",
+    "slug": "harry-s-truman-scholarship-foundation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Harry S Truman Scholarship Foundation",
+    "slug": "harry-s-truman-scholarship-foundation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 302,
+   "left": {
+    "name": "Department of Health and Human Services",
+    "slug": "health-and-human-services-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Health and Human Services",
+    "slug": "department-of-health-and-human-services",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 305,
+   "left": {
+    "name": "Department of Homeland Security",
+    "slug": "homeland-security-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Homeland Security",
+    "slug": "department-of-homeland-security",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 307,
+   "left": {
+    "name": "Department of Housing and Urban Development",
+    "slug": "housing-and-urban-development-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Housing and Urban Development",
+    "slug": "department-of-housing-and-urban-development",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 309,
+   "left": {
+    "name": "Bureau of Indian Affairs",
+    "slug": "indian-affairs-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Indian Affairs",
+    "slug": "bureau-of-indian-affairs",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 313,
+   "left": {
+    "name": "Indian Health Service",
+    "slug": "indian-health-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Indian Health Service",
+    "slug": "indian-health-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 315,
+   "left": {
+    "name": "Bureau of Industry and Security",
+    "slug": "industry-and-security-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Industry and Security",
+    "slug": "bureau-of-industry-and-security",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 320,
+   "left": {
+    "name": "Institute of Museum and Library Services",
+    "slug": "institute-of-museum-and-library-services-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Institute of Museum and Library Services",
+    "slug": "institute-of-museum-and-library-services-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 326,
+   "left": {
+    "name": "Inter-American Foundation",
+    "slug": "inter-american-foundation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Inter-american Foundation",
+    "slug": "inter-american-foundation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 331,
+   "left": {
+    "name": "Internal Revenue Service",
+    "slug": "internal-revenue-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Internal Revenue Service",
+    "slug": "internal-revenue-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 340,
+   "left": {
+    "name": "International Trade Administration",
+    "slug": "international-trade-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "International Trade Administration",
+    "slug": "international-trade-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 346,
+   "left": {
+    "name": "James Madison Memorial Fellowship Foundation",
+    "slug": "james-madison-memorial-fellowship-foundation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "James Madison Memorial Fellowship Foundation",
+    "slug": "james-madison-memorial-fellowship-foundation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 348,
+   "left": {
+    "name": "Japan-United States Friendship Commission",
+    "slug": "japan-united-states-friendship-commission",
+    "source": "fr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Japan United States Friendship Commission",
+    "slug": "japan-united-states-friendship-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 349,
+   "left": {
+    "name": "Japan-United States Friendship Commission",
+    "slug": "japan-united-states-friendship-commission",
+    "source": "fr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Japan-united States Friendship Commission",
+    "slug": "japan-united-states-friendship-commission-4",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 350,
+   "left": {
+    "name": "Japan-United States Friendship Commission",
+    "slug": "japan-united-states-friendship-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Japan United States Friendship Commission",
+    "slug": "japan-united-states-friendship-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 351,
+   "left": {
+    "name": "Japan-United States Friendship Commission",
+    "slug": "japan-united-states-friendship-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Japan-united States Friendship Commission",
+    "slug": "japan-united-states-friendship-commission-4",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 354,
+   "left": {
+    "name": "Department of Justice",
+    "slug": "justice-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Justice",
+    "slug": "department-of-justice",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 357,
+   "left": {
+    "name": "Department of Labor",
+    "slug": "labor-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Labor",
+    "slug": "department-of-labor",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 359,
+   "left": {
+    "name": "Office of Labor-Management Standards",
+    "slug": "labor-management-standards-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Labor-management Standards",
+    "slug": "office-of-labor-management-standards",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 361,
+   "left": {
+    "name": "Bureau of Land Management",
+    "slug": "land-management-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Land Management",
+    "slug": "bureau-of-land-management",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 365,
+   "left": {
+    "name": "Library of Congress",
+    "slug": "library-of-congress-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Library of Congress",
+    "slug": "library-of-congress-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 369,
+   "left": {
+    "name": "Marine Mammal Commission",
+    "slug": "marine-mammal-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Marine Mammal Commission",
+    "slug": "marine-mammal-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 372,
+   "left": {
+    "name": "Maritime Administration",
+    "slug": "maritime-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Maritime Administration",
+    "slug": "maritime-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 376,
+   "left": {
+    "name": "Merit Systems Protection Board",
+    "slug": "merit-systems-protection-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Merit Systems Protection Board",
+    "slug": "merit-systems-protection-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 380,
+   "left": {
+    "name": "Millennium Challenge Corporation",
+    "slug": "millennium-challenge-corporation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Millennium Challenge Corporation",
+    "slug": "millennium-challenge-corporation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 383,
+   "left": {
+    "name": "Mine Safety and Health Administration",
+    "slug": "mine-safety-and-health-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Mine Safety and Health Administration",
+    "slug": "mine-safety-and-health-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 386,
+   "left": {
+    "name": "Minority Business Development Agency",
+    "slug": "minority-business-development-agency-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Minority Business Development Agency",
+    "slug": "minority-business-development-agency-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 390,
+   "left": {
+    "name": "Morris K. Udall and Stewart L. Udall Foundation",
+    "slug": "morris-k-udall-and-stewart-l-udall-foundation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Morris K. Udall and Stewart L. Udall Foundation",
+    "slug": "morris-k-udall-and-stewart-l-udall-foundation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 393,
+   "left": {
+    "name": "National Aeronautics and Space Administration",
+    "slug": "national-aeronautics-and-space-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Aeronautics and Space Administration",
+    "slug": "national-aeronautics-and-space-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 396,
+   "left": {
+    "name": "National Agricultural Statistics Service",
+    "slug": "national-agricultural-statistics-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Agricultural Statistics Service",
+    "slug": "national-agricultural-statistics-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 399,
+   "left": {
+    "name": "National Archives and Records Administration",
+    "slug": "national-archives-and-records-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Archives and Records Administration",
+    "slug": "national-archives-and-records-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 402,
+   "left": {
+    "name": "National Capital Planning Commission",
+    "slug": "national-capital-planning-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Capital Planning Commission",
+    "slug": "national-capital-planning-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 407,
+   "left": {
+    "name": "National Council on Disability",
+    "slug": "national-council-on-disability-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Council on Disability",
+    "slug": "national-council-on-disability-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 411,
+   "left": {
+    "name": "National Credit Union Administration",
+    "slug": "national-credit-union-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Credit Union Administration",
+    "slug": "national-credit-union-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 416,
+   "left": {
+    "name": "National Endowment for the Arts",
+    "slug": "national-endowment-for-the-arts-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Endowment for the Arts",
+    "slug": "national-endowment-for-the-arts-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 419,
+   "left": {
+    "name": "National Endowment for the Humanities",
+    "slug": "national-endowment-for-the-humanities-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Endowment for the Humanities",
+    "slug": "national-endowment-for-the-humanities-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 424,
+   "left": {
+    "name": "National Highway Traffic Safety Administration",
+    "slug": "national-highway-traffic-safety-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Highway Traffic Safety Administration",
+    "slug": "national-highway-traffic-safety-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 427,
+   "left": {
+    "name": "National Indian Gaming Commission",
+    "slug": "national-indian-gaming-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Indian Gaming Commission",
+    "slug": "national-indian-gaming-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 432,
+   "left": {
+    "name": "National Institute of Standards and Technology",
+    "slug": "national-institute-of-standards-and-technology-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Institute of Standards and Technology",
+    "slug": "national-institute-of-standards-and-technology-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 437,
+   "left": {
+    "name": "National Labor Relations Board",
+    "slug": "national-labor-relations-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Labor Relations Board",
+    "slug": "national-labor-relations-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 441,
+   "left": {
+    "name": "National Mediation Board",
+    "slug": "national-mediation-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Mediation Board",
+    "slug": "national-mediation-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 445,
+   "left": {
+    "name": "National Oceanic and Atmospheric Administration",
+    "slug": "national-oceanic-and-atmospheric-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Oceanic and Atmospheric Administration",
+    "slug": "national-oceanic-and-atmospheric-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 448,
+   "left": {
+    "name": "National Park Service",
+    "slug": "national-park-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Park Service",
+    "slug": "national-park-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 452,
+   "left": {
+    "name": "National Science Foundation",
+    "slug": "national-science-foundation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Science Foundation",
+    "slug": "national-science-foundation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 455,
+   "left": {
+    "name": "National Security Council",
+    "slug": "national-security-council-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Security Council",
+    "slug": "national-security-council-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 458,
+   "left": {
+    "name": "National Technical Information Service",
+    "slug": "national-technical-information-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Technical Information Service",
+    "slug": "national-technical-information-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 461,
+   "left": {
+    "name": "National Telecommunications and Information Administration",
+    "slug": "national-telecommunications-and-information-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Telecommunications and Information Administration",
+    "slug": "national-telecommunications-and-information-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 464,
+   "left": {
+    "name": "National Transportation Safety Board",
+    "slug": "national-transportation-safety-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "National Transportation Safety Board",
+    "slug": "national-transportation-safety-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 467,
+   "left": {
+    "name": "Natural Resources Conservation Service",
+    "slug": "natural-resources-conservation-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Natural Resources Conservation Service",
+    "slug": "natural-resources-conservation-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 469,
+   "left": {
+    "name": "Office of Natural Resources Revenue",
+    "slug": "natural-resources-revenue-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Natural Resources Revenue",
+    "slug": "office-of-natural-resources-revenue",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 476,
+   "left": {
+    "name": "Nuclear Regulatory Commission",
+    "slug": "nuclear-regulatory-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Nuclear Regulatory Commission",
+    "slug": "nuclear-regulatory-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 479,
+   "left": {
+    "name": "Nuclear Waste Technical Review Board",
+    "slug": "nuclear-waste-technical-review-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Nuclear Waste Technical Review Board",
+    "slug": "nuclear-waste-technical-review-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 482,
+   "left": {
+    "name": "Occupational Safety and Health Administration",
+    "slug": "occupational-safety-and-health-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Occupational Safety and Health Administration",
+    "slug": "occupational-safety-and-health-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 485,
+   "left": {
+    "name": "Occupational Safety and Health Review Commission",
+    "slug": "occupational-safety-and-health-review-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Occupational Safety and Health Review Commission",
+    "slug": "occupational-safety-and-health-review-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 487,
+   "left": {
+    "name": "Bureau of Ocean Energy Management",
+    "slug": "ocean-energy-management-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Ocean Energy Management",
+    "slug": "bureau-of-ocean-energy-management",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 498,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-chief-financial-officer",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 505,
+   "left": {
+    "name": "Office of Operations",
+    "slug": "office-of-operations",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Operations",
+    "slug": "office-of-operations-2",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 506,
+   "left": {
+    "name": "Office of Operations",
+    "slug": "office-of-operations",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Operations",
+    "slug": "office-of-operations-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 507,
+   "left": {
+    "name": "Office of Operations",
+    "slug": "office-of-operations",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Operations",
+    "slug": "office-of-operations-4",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 511,
+   "left": {
+    "name": "United States Patent and Trademark Office",
+    "slug": "patent-and-trademark-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "United States Patent and Trademark Office",
+    "slug": "united-states-patent-and-trademark-office",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 514,
+   "left": {
+    "name": "Peace Corps",
+    "slug": "peace-corps-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Peace Corps",
+    "slug": "peace-corps-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 517,
+   "left": {
+    "name": "Pension Benefit Guaranty Corporation",
+    "slug": "pension-benefit-guaranty-corporation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Pension Benefit Guaranty Corporation",
+    "slug": "pension-benefit-guaranty-corporation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 519,
+   "left": {
+    "name": "Office of Personnel Management",
+    "slug": "personnel-management-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Personnel Management",
+    "slug": "office-of-personnel-management",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 522,
+   "left": {
+    "name": "Pipeline and Hazardous Materials Safety Administration",
+    "slug": "pipeline-and-hazardous-materials-safety-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Pipeline and Hazardous Materials Safety Administration",
+    "slug": "pipeline-and-hazardous-materials-safety-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 525,
+   "left": {
+    "name": "Postal Regulatory Commission",
+    "slug": "postal-regulatory-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Postal Regulatory Commission",
+    "slug": "postal-regulatory-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 527,
+   "left": {
+    "name": "United States Postal Service",
+    "slug": "postal-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "United States Postal Service",
+    "slug": "united-states-postal-service",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 539,
+   "left": {
+    "name": "Railroad Retirement Board",
+    "slug": "railroad-retirement-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Railroad Retirement Board",
+    "slug": "railroad-retirement-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 541,
+   "left": {
+    "name": "Bureau of Reclamation",
+    "slug": "reclamation-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Reclamation",
+    "slug": "bureau-of-reclamation",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 547,
+   "left": {
+    "name": "Rural Housing Service",
+    "slug": "rural-housing-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Rural Housing Service",
+    "slug": "rural-housing-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 550,
+   "left": {
+    "name": "Rural Utilities Service",
+    "slug": "rural-utilities-service-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Rural Utilities Service",
+    "slug": "rural-utilities-service-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 553,
+   "left": {
+    "name": "Bureau of Safety and Environmental Enforcement",
+    "slug": "safety-and-environmental-enforcement-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Bureau of Safety and Environmental Enforcement",
+    "slug": "bureau-of-safety-and-environmental-enforcement",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 555,
+   "left": {
+    "name": "Office of Science and Technology Policy",
+    "slug": "science-and-technology-policy-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Science and Technology Policy",
+    "slug": "office-of-science-and-technology-policy",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 559,
+   "left": {
+    "name": "Securities and Exchange Commission",
+    "slug": "securities-and-exchange-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Securities and Exchange Commission",
+    "slug": "securities-and-exchange-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 562,
+   "left": {
+    "name": "Selective Service System",
+    "slug": "selective-service-system-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Selective Service System",
+    "slug": "selective-service-system-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 565,
+   "left": {
+    "name": "Small Business Administration",
+    "slug": "small-business-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Small Business Administration",
+    "slug": "small-business-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 569,
+   "left": {
+    "name": "Social Security Administration",
+    "slug": "social-security-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Social Security Administration",
+    "slug": "social-security-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 571,
+   "left": {
+    "name": "Office of Special Counsel",
+    "slug": "special-counsel-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Special Counsel",
+    "slug": "office-of-special-counsel",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 576,
+   "left": {
+    "name": "Department of State",
+    "slug": "state-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of State",
+    "slug": "department-of-state",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 580,
+   "left": {
+    "name": "Office of Surface Mining Reclamation and Enforcement",
+    "slug": "surface-mining-reclamation-and-enforcement-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Surface Mining Reclamation and Enforcement",
+    "slug": "office-of-surface-mining-reclamation-and-enforcement",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 583,
+   "left": {
+    "name": "Surface Transportation Board",
+    "slug": "surface-transportation-board-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Surface Transportation Board",
+    "slug": "surface-transportation-board-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 587,
+   "left": {
+    "name": "Tennessee Valley Authority",
+    "slug": "tennessee-valley-authority-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Tennessee Valley Authority",
+    "slug": "tennessee-valley-authority-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 594,
+   "left": {
+    "name": "Department of Transportation",
+    "slug": "transportation-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Transportation",
+    "slug": "department-of-transportation",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 597,
+   "left": {
+    "name": "Transportation Security Administration",
+    "slug": "transportation-security-administration-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Transportation Security Administration",
+    "slug": "transportation-security-administration-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 603,
+   "left": {
+    "name": "U.S. Customs and Border Protection",
+    "slug": "u-s-customs-and-border-protection-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "U.s. Customs and Border Protection",
+    "slug": "u-s-customs-and-border-protection-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 615,
+   "left": {
+    "name": "African Development Foundation",
+    "slug": "african-development-foundation-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "African Development Foundation",
+    "slug": "african-development-foundation-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 622,
+   "left": {
+    "name": "Utah Reclamation Mitigation and Conservation Commission",
+    "slug": "utah-reclamation-mitigation-and-conservation-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Utah Reclamation Mitigation and Conservation Commission",
+    "slug": "utah-reclamation-mitigation-and-conservation-commission-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 624,
+   "left": {
+    "name": "Department of Veterans Affairs",
+    "slug": "veterans-affairs-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Department of Veterans Affairs",
+    "slug": "department-of-veterans-affairs",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 628,
+   "left": {
+    "name": "Wage and Hour Division",
+    "slug": "wage-and-hour-division-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Wage and Hour Division",
+    "slug": "wage-and-hour-division-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 631,
+   "left": {
+    "name": "Office of Workers' Compensation Programs",
+    "slug": "workers-compensation-programs-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Workers Compensation Programs",
+    "slug": "office-of-workers-compensation-programs",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 632,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Inspector General",
+    "slug": "office-of-inspector-general",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 633,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Inspector General",
+    "slug": "office-of-inspector-general-2",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 634,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of Inspector General",
+    "slug": "office-of-inspector-general-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 642,
+   "left": {
+    "name": "Commission on Civil Rights",
+    "slug": "civil-rights-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Commission on Civil Rights",
+    "slug": "commission-on-civil-rights",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 643,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-2",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 644,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 645,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-4",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 646,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-5",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 647,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-6",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 648,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-7",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 649,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-8",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 650,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-9",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 651,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-10",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 652,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-11",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 653,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-12",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 654,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-13",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 655,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-14",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 656,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-15",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 657,
+   "left": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-16",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 704,
+   "left": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights-2",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 705,
+   "left": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 1.0,
+   "right": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 732,
+   "left": {
+    "name": "Inspector General Office, Agriculture Department",
+    "slug": "inspector-general-office-agriculture-department",
+    "source": "fr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 0.4595,
+   "right": {
+    "name": "Office of Inspector General",
+    "slug": "office-of-inspector-general",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 733,
+   "left": {
+    "name": "Inspector General Office, Agriculture Department",
+    "slug": "inspector-general-office-agriculture-department",
+    "source": "fr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 0.4595,
+   "right": {
+    "name": "Office of Inspector General",
+    "slug": "office-of-inspector-general-2",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 734,
+   "left": {
+    "name": "Inspector General Office, Agriculture Department",
+    "slug": "inspector-general-office-agriculture-department",
+    "source": "fr_agencies"
+   },
+   "name_exact": true,
+   "name_ratio": 0.4595,
+   "right": {
+    "name": "Office of Inspector General",
+    "slug": "office-of-inspector-general-3",
+    "source": "plum"
+   },
+   "score": 0.95
+  },
+  {
+   "candidate": 491,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 492,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-2",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 493,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-3",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 494,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-4",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 495,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-5",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 496,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-6",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 497,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-7",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 499,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-8",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 500,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-9",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 501,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-10",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 502,
+   "left": {
+    "name": "Office of Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9429,
+   "right": {
+    "name": "Office of the Chief Financial Officer",
+    "slug": "office-of-the-chief-financial-officer-11",
+    "source": "plum"
+   },
+   "score": 0.9429
+  },
+  {
+   "candidate": 706,
+   "left": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9333,
+   "right": {
+    "name": "Office of Civil Rights",
+    "slug": "office-of-civil-rights",
+    "source": "plum"
+   },
+   "score": 0.9333
+  },
+  {
+   "candidate": 707,
+   "left": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9333,
+   "right": {
+    "name": "Office of Civil Rights",
+    "slug": "office-of-civil-rights-2",
+    "source": "plum"
+   },
+   "score": 0.9333
+  },
+  {
+   "candidate": 708,
+   "left": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9333,
+   "right": {
+    "name": "Office of Civil Rights",
+    "slug": "office-of-civil-rights-3",
+    "source": "plum"
+   },
+   "score": 0.9333
+  },
+  {
+   "candidate": 709,
+   "left": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9333,
+   "right": {
+    "name": "Office of Civil Rights",
+    "slug": "office-of-civil-rights-4",
+    "source": "plum"
+   },
+   "score": 0.9333
+  },
+  {
+   "candidate": 710,
+   "left": {
+    "name": "Office for Civil Rights",
+    "slug": "office-for-civil-rights",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9333,
+   "right": {
+    "name": "Office of Civil Rights",
+    "slug": "office-of-civil-rights-5",
+    "source": "plum"
+   },
+   "score": 0.9333
+  },
+  {
+   "candidate": 635,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.931,
+   "right": {
+    "name": "Office of the Inspector General",
+    "slug": "office-of-the-inspector-general",
+    "source": "plum"
+   },
+   "score": 0.931
+  },
+  {
+   "candidate": 636,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.931,
+   "right": {
+    "name": "Office of the Inspector General",
+    "slug": "office-of-the-inspector-general-2",
+    "source": "plum"
+   },
+   "score": 0.931
+  },
+  {
+   "candidate": 637,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.931,
+   "right": {
+    "name": "Office of the Inspector General",
+    "slug": "office-of-the-inspector-general-3",
+    "source": "plum"
+   },
+   "score": 0.931
+  },
+  {
+   "candidate": 638,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.931,
+   "right": {
+    "name": "Office of the Inspector General",
+    "slug": "office-of-the-inspector-general-4",
+    "source": "plum"
+   },
+   "score": 0.931
+  },
+  {
+   "candidate": 639,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.931,
+   "right": {
+    "name": "Office of the Inspector General",
+    "slug": "office-of-the-inspector-general-5",
+    "source": "plum"
+   },
+   "score": 0.931
+  },
+  {
+   "candidate": 640,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.931,
+   "right": {
+    "name": "Office of the Inspector General",
+    "slug": "office-of-the-inspector-general-6",
+    "source": "plum"
+   },
+   "score": 0.931
+  },
+  {
+   "candidate": 641,
+   "left": {
+    "name": "Office of Inspector General",
+    "slug": "inspector-general-office-agriculture-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.931,
+   "right": {
+    "name": "Office of the Inspector General",
+    "slug": "office-of-the-inspector-general-7",
+    "source": "plum"
+   },
+   "score": 0.931
+  },
+  {
+   "candidate": 231,
+   "left": {
+    "name": "Office of Federal Register",
+    "slug": "federal-register-office-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9286,
+   "right": {
+    "name": "Office of the Federal Register",
+    "slug": "office-of-the-federal-register",
+    "source": "plum"
+   },
+   "score": 0.9286
+  },
+  {
+   "candidate": 322,
+   "left": {
+    "name": "Intellectual Property Enforcement Coordinator Office",
+    "slug": "intellectual-property-enforcement-coordinator-office",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9278,
+   "right": {
+    "name": "Intellectual Property Enforcement Coordinator",
+    "slug": "intellectual-property-enforcement-coordinator",
+    "source": "plum"
+   },
+   "score": 0.9278
+  },
+  {
+   "candidate": 703,
+   "left": {
+    "name": "Office of Director of National Intelligence",
+    "slug": "national-intelligence-office-of-the-national-director-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9231,
+   "right": {
+    "name": "Office of the Director for National Intelligence",
+    "slug": "office-of-the-director-for-national-intelligence",
+    "source": "plum"
+   },
+   "score": 0.9231
+  },
+  {
+   "candidate": 328,
+   "left": {
+    "name": "Department of Interior",
+    "slug": "interior-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9167,
+   "right": {
+    "name": "Department of the Interior",
+    "slug": "department-of-the-interior",
+    "source": "plum"
+   },
+   "score": 0.9167
+  },
+  {
+   "candidate": 599,
+   "left": {
+    "name": "Department of Treasury",
+    "slug": "treasury-department-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9167,
+   "right": {
+    "name": "Department of the Treasury",
+    "slug": "department-of-the-treasury",
+    "source": "plum"
+   },
+   "score": 0.9167
+  },
+  {
+   "candidate": 658,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-2",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 659,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-3",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 660,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-4",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 661,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-5",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 662,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-6",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 663,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-7",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 664,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-8",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 665,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-9",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 666,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-10",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 667,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-11",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 668,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-12",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 669,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-13",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 670,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-14",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 671,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-15",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 672,
+   "left": {
+    "name": "Office of Secretary",
+    "slug": "office-of-secretary",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-16",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 673,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-2",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 674,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-3",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 675,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-4",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 676,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-5",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 677,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-6",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 678,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-7",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 679,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-8",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 680,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-9",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 681,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-10",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 682,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-11",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 683,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-12",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 684,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-13",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 685,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-14",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 686,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-15",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 687,
+   "left": {
+    "name": "Office of Secretary (Housing Assistance Programs and Public and Indian Housing Programs)",
+    "slug": "office-of-secretary-(housing-assistance-programs-and-public-and-indian-housing-programs)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-16",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 688,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-2",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 689,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-3",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 690,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-4",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 691,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-5",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 692,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-6",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 693,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-7",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 694,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-8",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 695,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-9",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 696,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-10",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 697,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-11",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 698,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-12",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 699,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-13",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 700,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-14",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 701,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-15",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 702,
+   "left": {
+    "name": "Office of Secretary (Aviation Proceedings)",
+    "slug": "office-of-secretary-(aviation-proceedings)",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9048,
+   "right": {
+    "name": "Office of the Secretary",
+    "slug": "office-of-the-secretary-16",
+    "source": "plum"
+   },
+   "score": 0.9048
+  },
+  {
+   "candidate": 588,
+   "left": {
+    "name": "The White House Office",
+    "slug": "the-white-house-office",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.9,
+   "right": {
+    "name": "White House Office",
+    "slug": "white-house-office",
+    "source": "plum"
+   },
+   "score": 0.9
+  },
+  {
+   "candidate": 573,
+   "left": {
+    "name": "Special Inspector General For Iraq Reconstruction",
+    "slug": "special-inspector-general-for-iraq-reconstruction",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8952,
+   "right": {
+    "name": "Special Inspector General for Afghanistan Reconstruction",
+    "slug": "special-inspector-general-for-afghanistan-reconstruction-2",
+    "source": "ecfr_agencies"
+   },
+   "score": 0.8952
+  },
+  {
+   "candidate": 54,
+   "left": {
+    "name": "Bureau of Census",
+    "slug": "census-bureau-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8889,
+   "right": {
+    "name": "Bureau of the Census",
+    "slug": "bureau-of-the-census",
+    "source": "plum"
+   },
+   "score": 0.8889
+  },
+  {
+   "candidate": 488,
+   "left": {
+    "name": "Office of Motor Carrier Safety",
+    "slug": "office-of-motor-carrier-safety",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8696,
+   "right": {
+    "name": "Office of Motor Carrier Safety Programs",
+    "slug": "office-of-motor-carrier-safety-programs",
+    "source": "plum"
+   },
+   "score": 0.8696
+  },
+  {
+   "candidate": 323,
+   "left": {
+    "name": "Office of the Intellectual Property Enforcement Coordinator",
+    "slug": "office-of-the-intellectual-property-enforcement-coordinator",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8654,
+   "right": {
+    "name": "Intellectual Property Enforcement Coordinator",
+    "slug": "intellectual-property-enforcement-coordinator",
+    "source": "plum"
+   },
+   "score": 0.8654
+  },
+  {
+   "candidate": 335,
+   "left": {
+    "name": "International Development Cooperation Agency",
+    "slug": "international-development-cooperation-agency",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8627,
+   "right": {
+    "name": "United States International Development Cooperation Agency",
+    "slug": "united-states-international-development-cooperation-agency",
+    "source": "ecfr_agencies"
+   },
+   "score": 0.8627
+  },
+  {
+   "candidate": 201,
+   "left": {
+    "name": "Federal Housing Finance Board",
+    "slug": "federal-housing-finance-board",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8475,
+   "right": {
+    "name": "Federal Housing Finance Agency",
+    "slug": "federal-housing-finance-agency-2",
+    "source": "ecfr_agencies"
+   },
+   "score": 0.8475
+  },
+  {
+   "candidate": 202,
+   "left": {
+    "name": "Federal Housing Finance Board",
+    "slug": "federal-housing-finance-board",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8475,
+   "right": {
+    "name": "Federal Housing Finance Agency",
+    "slug": "federal-housing-finance-agency-3",
+    "source": "plum"
+   },
+   "score": 0.8475
+  },
+  {
+   "candidate": 609,
+   "left": {
+    "name": "Under-Secretary for Economic Affairs",
+    "slug": "under-secretary-for-economic-affairs",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8372,
+   "right": {
+    "name": "Office of the Under Secretary for Economic Affairs",
+    "slug": "office-of-the-under-secretary-for-economic-affairs",
+    "source": "plum"
+   },
+   "score": 0.8372
+  },
+  {
+   "candidate": 610,
+   "left": {
+    "name": "Under-Secretary for Economic Affairs",
+    "slug": "under-secretary-for-economic-affairs",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8372,
+   "right": {
+    "name": "Office of the Under Secretary for Economic Affairs",
+    "slug": "office-of-the-under-secretary-for-economic-affairs-2",
+    "source": "plum"
+   },
+   "score": 0.8372
+  },
+  {
+   "candidate": 355,
+   "left": {
+    "name": "Juvenile Justice and Delinquency Prevention Office",
+    "slug": "juvenile-justice-and-delinquency-prevention-office",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.835,
+   "right": {
+    "name": "Office of Juvenile Justice and Delinquency Prevention",
+    "slug": "office-of-juvenile-justice-and-delinquency-prevention",
+    "source": "plum"
+   },
+   "score": 0.835
+  },
+  {
+   "candidate": 714,
+   "left": {
+    "name": "Office of Secretary of the Treasury",
+    "slug": "office-of-secretary-of-the-treasury",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8333,
+   "right": {
+    "name": "Secretary of the Treasury",
+    "slug": "secretary-of-the-treasury",
+    "source": "plum"
+   },
+   "score": 0.8333
+  },
+  {
+   "candidate": 134,
+   "left": {
+    "name": "Election Assistance Commission",
+    "slug": "election-assistance-commission",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8108,
+   "right": {
+    "name": "United States Election Assistance Commission",
+    "slug": "united-states-election-assistance-commission",
+    "source": "plum"
+   },
+   "score": 0.8108
+  },
+  {
+   "candidate": 135,
+   "left": {
+    "name": "Election Assistance Commission",
+    "slug": "election-assistance-commission-2",
+    "source": "ecfr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8108,
+   "right": {
+    "name": "United States Election Assistance Commission",
+    "slug": "united-states-election-assistance-commission",
+    "source": "plum"
+   },
+   "score": 0.8108
+  },
+  {
+   "candidate": 321,
+   "left": {
+    "name": "Intellectual Property Enforcement Coordinator Office",
+    "slug": "intellectual-property-enforcement-coordinator-office",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8108,
+   "right": {
+    "name": "Office of the Intellectual Property Enforcement Coordinator",
+    "slug": "office-of-the-intellectual-property-enforcement-coordinator",
+    "source": "ecfr_agencies"
+   },
+   "score": 0.8108
+  },
+  {
+   "candidate": 197,
+   "left": {
+    "name": "Federal Housing Enterprise Oversight Office",
+    "slug": "federal-housing-enterprise-oversight-office",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.809,
+   "right": {
+    "name": "Office of Federal Housing Enterprise Oversight",
+    "slug": "office-of-federal-housing-enterprise-oversight",
+    "source": "ecfr_agencies"
+   },
+   "score": 0.809
+  },
+  {
+   "candidate": 508,
+   "left": {
+    "name": "Partnerships and Public Engagement Office",
+    "slug": "partnerships-and-public-engagement-office",
+    "source": "fr_agencies"
+   },
+   "name_exact": false,
+   "name_ratio": 0.8,
+   "right": {
+    "name": "Office of Partnerships and Public Engagement",
+    "slug": "office-of-partnerships-and-public-engagement",
+    "source": "plum"
+   },
+   "score": 0.8
+  }
+ ]
+}

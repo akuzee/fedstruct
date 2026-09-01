@@ -1,0 +1,213 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 10,
+  "positions": 11
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "11",
+   "value_num": 11.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "9",
+   "value_num": 9.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Michael Waltz",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "USUN (AMB/COM) - REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE UNITED NATIONS, WITH THE RANK AND STATUS OF THE AMBASSADOR EXTRAORDINARY AND PLENIPOTENTIARY, AND THE REPRESENTATIVE OF THE UNITED STATES OF AMERICA IN THE SECURITY COUNCIL OF THE",
+   "valid_from": "2025-09-20",
+   "valid_to": "2026-05-28"
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Dorothy Shea",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "USUN (DEP REP) - DEPUTY REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE UNITED NATIONS, WITH THE RANK AND STATUS OF AMBASSADOR EXTRAORDINARY AND PLENIPOTENTIARY AND THE DEPUTY REPRESENTATIVE OF THE UNITED STATES OF AMERICA IN THE SECURITY COUNC",
+   "valid_from": "2024-08-05",
+   "valid_to": "2025-11-28"
+  }
+ ],
+ "id": 1323,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "United States Mission to United Nations",
+ "officials": [
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Dan Negrea",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN (ECOSOC) - REPRESENTATIVE OF THE UNITED STATES OF AMERICA ON THE ECONOMIC AND SOCIAL COUNCIL OF THE UNITED NATIONS, WITH THE RANK OF AMBASSADOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Jeffrey Bartos",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN (M&amp;R) - REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE UNITED NATIONS FOR U.N. MANAGEMENT AND REFORM, WITH THE RANK OF AMBASSADOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Jennifer Locetta",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN (POL) - ALTERNATE REPRESENTATIVE OF THE UNITED STATES OF AMERICA FOR SPECIAL POLITICAL AFFAIRS IN THE UNITED NATIONS, WITH THE RANK OF AMBASSADOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Michael Waltz",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN UNGA (AMB/COM) - REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE SESSIONS OF THE GENERAL ASSEMBLY OF THE UNITED NATIONS DURING HIS/HER TENURE OF SERVICE AS REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE UNITED NATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Tammy Bruce",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN UNGA (DEP REP) - REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE SESSIONS OF THE GENERAL ASSEMBLY OF THE UNITED NATIONS, DURING HIS/HER TENURE OF SERVICE AS DEPUTY REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE UNITED NATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Dan Negrea",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN UNGA (ECOSOC) - ALTERNATE REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE SESSIONS OF THE GENERAL ASSEMBLY OF THE UNITED NATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Jeffrey Bartos",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN UNGA (M&amp;R) - ALTERNATE REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE SESSIONS OF THE GENERAL ASSEMBLY OF THE UNITED NATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Jennifer Locetta",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN UNGA (POL) ALTERNATE REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE SESSIONS OF THE GENERAL ASSEMBLY OF THE UNITED NATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Emily Kimball",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COUNSELOR, INTERNATIONAL LEGAL AFFAIRS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "PA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Tammy Bruce",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "USUN (DEP REP) - DEPUTY REPRESENTATIVE OF THE UNITED STATES OF AMERICA TO THE UNITED NATIONS, WITH THE RANK AND STATUS OF AMBASSADOR EXTRAORDINARY AND PLENIPOTENTIARY AND THE DEPUTY REPRESENTATIVE OF THE UNITED STATES OF AMERICA IN THE SECURITY COUNC",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "united-states-mission-to-united-nations",
+ "sources": [
+  "plum"
+ ]
+}

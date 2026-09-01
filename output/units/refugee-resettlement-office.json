@@ -1,0 +1,197 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {
+  "name": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": null,
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#refugee-resettlement-office"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "Office of Administration for Children and Families Refugee Resettlement",
+    "value_num": null
+   }
+  ]
+ },
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/448"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Office of Refugee Resettlement (ORR) was established by Congress under The Refugee Act of 1980. This Act incorporates the definition of \"refugee\" used in the U.N. Protocol, and makes provision for regular flow as well as emergency admission of refugees, and authorizes federal assistance for the resettlement of refugees.\r\n\r\nIndividuals granted refugee status overseas by the U.S. Department of Homeland Security are brought to the United States for resettlement by the U.S. Department of State. Voluntary agencies and ORR through their programs assist with their resettlement and integration into the U.S. Refugees are eligible to receive ORR benefits and services from the first day they arrive in the U.S. \r\n\r\nFounded on the belief that newly arriving populations have inherent capabilities when given opportunities, the goal of the ORR is to provide people in need with critical resources to assist them in becoming integrated members of American society.\r\n",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/448"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/448"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Refugee Resettlement Office",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/448"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "ORR",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/448"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "refugee-resettlement-office",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/448"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/refugee-resettlement-office",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 394,
+ "merged_from": [
+  {
+   "key": "refugee-resettlement-office",
+   "method": "crosswalk",
+   "source": "ecfr_agencies"
+  }
+ ],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=refugee-resettlement-office].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-45/chapter-IV"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "45 CFR chapter IV",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "Refugee Resettlement Office",
+ "officials": [],
+ "slug": "refugee-resettlement-office",
+ "sources": [
+  "ecfr_agencies",
+  "fr_agencies"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agencies[?slug=national-commission-for-employment-policy]",
+    "method": "published",
+    "observations": 1,
+    "source": "ecfr_agencies",
+    "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#national-commission-for-employment-policy"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "ecfr_agencies",
+    "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#national-commission-for-employment-policy"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "National Commission for Employment Policy",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 564,
+ "merged_from": [],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 1.0,
+     "cosmetic_revisions": 0,
+     "link_method": "published",
+     "locator": "$.agencies[?slug=national-commission-for-employment-policy].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-1/chapter-IV"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "1 CFR chapter IV",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "National Commission for Employment Policy",
+ "officials": [],
+ "slug": "national-commission-for-employment-policy",
+ "sources": [
+  "ecfr_agencies"
+ ]
+}

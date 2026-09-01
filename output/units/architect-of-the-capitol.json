@@ -1,0 +1,227 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  },
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 1
+ },
+ "facts": {
+  "agency_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agency_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "http://www.aoc.gov/",
+   "value_num": null
+  },
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Architect of the Capitol is responsible for the care and maintenance of the U.S. Capitol and the buildings and grounds of the Capitol complex. The agency implements construction, renovation, conservation, and landscape improvement projects as authorized by the Congress.\r\n\r\nThe Architect of the Capitol is charged with operating and maintaining the buildings of the Capitol complex committed to his care by Congress. Permanent authority for the care and maintenance of the Capitol was established by the act of August 15, 1876 (40 U.S.C. 162, 163). The Architect's duties include the mechanical and structural maintenance of the Capitol, the conservation and care of works of art in the building under the Architect's jurisdiction, the upkeep and improvement of the Capitol grounds, and the arrangement of inaugural and other ceremonies held in the building or on the grounds.\r\n\r\nIn addition to the Capitol, the Architect is responsible for the upkeep of all of the congressional office buildings, the Library of Congress buildings, the U.S. Supreme Court building, the Thurgood Marshall Federal Judiciary Building, the Capitol Power Plant, the Capitol Police headquarters, and the Robert A. Taft Memorial. The Architect performs his duties in connection with the Senate side of the Capitol and the Senate office buildings subject to the approval of the Senate Committee on Rules and Administration. In matters of general policy in connection with the House office buildings, his activities are subject to the approval and direction of the House Office Building Commission. The Architect is under the direction of the Speaker in matters concerning the House side of the Capitol. He is subject to the oversight of the Committee on House Administration with respect to many administrative matters affecting operations on the House side of the Capitol complex. In addition, the Architect of the Capitol serves as the Acting Director of the U.S. Botanic Garden under the Joint Committee on the Library.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "logo_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.logo_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://agency-logos.federalregister.gov/27/medium.jpg?1321309136",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Architect of the Capitol",
+   "value_num": null
+  },
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "linked",
+    "confidence": 0.85,
+    "cosmetic_revisions": 0,
+    "link_method": "name_exact",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "1",
+   "value_num": 1.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "linked",
+    "confidence": 0.85,
+    "cosmetic_revisions": 0,
+    "link_method": "name_exact",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "1",
+   "value_num": 1.0
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "AOC",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "architect-of-the-capitol",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/architect-of-the-capitol",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 28,
+ "merged_from": [
+  {
+   "key": "a477475808f85cf6",
+   "method": "name_exact",
+   "source": "plum"
+  }
+ ],
+ "multi_facts": {},
+ "name": "Architect of the Capitol",
+ "officials": [],
+ "slug": "architect-of-the-capitol",
+ "sources": [
+  "fr_agencies",
+  "plum"
+ ]
+}

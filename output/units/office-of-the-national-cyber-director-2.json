@@ -1,0 +1,393 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 16,
+  "positions": 20
+ },
+ "facts": {
+  "position_count": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "20",
+   "value_num": 20.0
+  },
+  "position_count_pas": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": null,
+    "method": "published",
+    "observations": 1,
+    "source": "plum",
+    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
+   },
+   "since": "2026-09-01",
+   "unit": "count",
+   "value": "1",
+   "value_num": 1.0
+  }
+ },
+ "former_officials": [
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Laurie Buckhout",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT NATIONAL CYBER DIRECTOR FOR POLICY",
+   "valid_from": "2025-09-10",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jennifer Belair",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT NATIONAL CYBER DIRECTOR FOR STAKEHOLDER ENGAGEMENT GOVERNMENT AFFAIRS",
+   "valid_from": "2025-09-09",
+   "valid_to": "2026-02-07"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Thomas",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE DIRECTOR FOR INDUSTRY ENGAGEMENT",
+   "valid_from": "2025-09-08",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Rosetta Jones",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR FOR INDUSTRY ENGAGEMENT",
+   "valid_from": "2025-12-01",
+   "valid_to": "2026-05-29"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Coleman Turnipseed",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "EXTERNAL AFFAIRS COORDINATOR",
+   "valid_from": "2026-02-08",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alexandra Seymour",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "PRINCIPAL DEPUTY ASST NATIONAL CYBER DIRECTOR FOR  POLICY",
+   "valid_from": "2025-09-22",
+   "valid_to": "2026-06-18"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Thomas Lind",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR ADVISOR TO THE NATIONAL CYBER DIRECTOR",
+   "valid_from": "2025-10-05",
+   "valid_to": "2026-06-18"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Coleman Turnipseed",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": "2025-04-21",
+   "valid_to": "2025-10-04"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "William Pentecost",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": "2026-01-05",
+   "valid_to": "2026-05-30"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brooke Mccabe",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": "2025-05-05",
+   "valid_to": "2026-05-16"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Coleman Turnipseed",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "STAKEHOLDER PROGRAMS COORDINATOR",
+   "valid_from": "2025-10-05",
+   "valid_to": "2026-02-07"
+  }
+ ],
+ "id": 1692,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Office of the National Cyber Director",
+ "officials": [
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Sean Cairncross",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "NATIONAL CYBER DIRECTOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Bars",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT NATIONAL CYBER DIRECTOR FOR COMMUNICATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Elizabeth Mcalindon",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE DIRECTOR FOR COMMUNICATIONS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Coleman Turnipseed",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE DIRECTOR FOR INDUSTRY ENGAGEMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jennifer Belair",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASST NATIONAL CYBER DIRECTOR FOR EXTERNAL AFFAIRS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lara Smith",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF OF STAFF",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Elizabeth Mount",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT, NATIONAL CYBER DIRECTOR FOR EXTERNAL AFFAIRS",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lorrie King",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY CHIEF OF STAFF",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Carina Bergal",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY GENERAL COUNSEL",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Anika Smith",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY GENERAL COUNSEL",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Thomas",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR FOR INDUSTRY ENGAGEMENT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Robin Celestino",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "GENERAL COUNSEL",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "John Schaefer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "POLICY COORDINATOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brooke Mccabe",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "PRINCIPAL SPECIAL ASSISTANT TO THE DIRECTOR",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Marley Schwarz",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": null,
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Isabella D&#039;Antonio",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": null,
+   "valid_to": null
+  }
+ ],
+ "slug": "office-of-the-national-cyber-director-2",
+ "sources": [
+  "plum"
+ ]
+}

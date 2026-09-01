@@ -1,0 +1,30 @@
+{
+ "caveats": [
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 52,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {},
+ "former_officials": [],
+ "id": 1934,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "National Science Foundation",
+ "officials": [],
+ "slug": "national-science-foundation-3",
+ "sources": [
+  "plum"
+ ]
+}

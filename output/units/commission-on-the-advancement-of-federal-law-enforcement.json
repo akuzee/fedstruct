@@ -1,0 +1,121 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/69"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Commission on the Advancement of Federal Law Enforcement was established by the Anti-Terrorism and Effective Death Penalty Act of 1996 (Pub. L. 104-132).\r\nThe Commission was created to review and ascertain, evaluate, report and recommend actions to the Congress on a broad spectrum of issues affecting federal law enforcement priorities for the Twenty-First Century.\r\n\r\nThe Commission was terminated following the submission of its final report in February, 2000.\r\n",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/69"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/69"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Commission on the Advancement of Federal Law Enforcement",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/69"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "commission-on-the-advancement-of-federal-law-enforcement",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/69"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/commission-on-the-advancement-of-federal-law-enforcement",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 61,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Commission on the Advancement of Federal Law Enforcement",
+ "officials": [],
+ "slug": "commission-on-the-advancement-of-federal-law-enforcement",
+ "sources": [
+  "fr_agencies"
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "agency_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agency_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/336"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.fbi.gov/services/cjis/compact-council",
+   "value_num": null
+  },
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/336"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The National Crime Prevention and Privacy Compact Council was established under the National Crime Prevention and Privacy Compact (Compact) Act of 1998. The Compact provides an infrastructure by which States can exchange criminal records for noncriminal justice purposes according to the laws of the requesting State, and provide reciprocity among the States to share records without charging each other for the information. \r\n\r\nThe Compact Council acts as a national independent authority that works in partnership with criminal history record custodians, end users, and policy makers to regulate and facilitate the sharing the complete, accurate, and timely criminal history record information to noncriminal justice users in order to enhance public safety, welfare and security of Society while recognizing the importance of individual privacy rights. \r\n\r\nThe goal of the Council and the compact is to make available the most complete and up-to date records possible for noncriminal justice purposes.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/336"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/336"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "National Crime Prevention and Privacy Compact Council",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/336"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "NCPPCC",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/336"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "national-crime-prevention-and-privacy-compact-council",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/336"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/national-crime-prevention-and-privacy-compact-council",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 296,
+ "merged_from": [
+  {
+   "key": "national-crime-prevention-and-privacy-compact-council",
+   "method": "crosswalk",
+   "source": "ecfr_agencies"
+  }
+ ],
+ "multi_facts": {
+  "cfr_chapter": [
+   {
+    "effective_from": null,
+    "provenance": {
+     "band": "published",
+     "confidence": 0.95,
+     "cosmetic_revisions": 0,
+     "link_method": "crosswalk",
+     "locator": "$.agencies[?slug=national-crime-prevention-and-privacy-compact-council].cfr_references",
+     "method": "published",
+     "observations": 1,
+     "source": "ecfr_agencies",
+     "source_url": "https://www.ecfr.gov/current/title-28/chapter-IX"
+    },
+    "since": "2026-09-01",
+    "unit": null,
+    "value": "28 CFR chapter IX",
+    "value_num": null
+   }
+  ]
+ },
+ "name": "National Crime Prevention and Privacy Compact Council",
+ "officials": [],
+ "slug": "national-crime-prevention-and-privacy-compact-council",
+ "sources": [
+  "ecfr_agencies",
+  "fr_agencies"
+ ]
+}

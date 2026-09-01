@@ -1,0 +1,77 @@
+{
+ "as_of": "2026-09-01T18:49:07+00:00",
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.ecfr.gov/developers/documentation/api/v1",
+   "downgrades_absent": 0,
+   "facet": "regulatory_authority",
+   "kind": "scope_limit",
+   "source": "ecfr_agencies",
+   "summary": "eCFR lists only agencies that have a chapter in the Code of Federal Regulations. For a non-regulatory or non-executive body, having no CFR chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE rather than ABSENT."
+  },
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  },
+  {
+   "citation": "GAO-26-108164 (Feb 2026)",
+   "citation_url": "https://www.gao.gov/products/gao-26-108164",
+   "downgrades_absent": 1,
+   "facet": "leadership",
+   "kind": "incompleteness",
+   "source": "plum",
+   "summary": "PLUM omits at least 7 federal entities and at least 130 Senate-confirmed positions, and contains inconsistent identifiers and duplicate positions. OPM concurred with all recommendations. Absence from PLUM is therefore evidence of a gap in PLUM, not proof that an agency has no such positions."
+  }
+ ],
+ "counts": {
+  "current_officials": 6832,
+  "cycles": 0,
+  "edges": 2004,
+  "positions": 9545,
+  "roots": 377,
+  "units": 1863
+ },
+ "history_note": "Structural history begins at this project's first run. Anything earlier is attestation, not history — the sources publish only current state. Officeholder history is the exception: OPM PLUM retains vacated incumbencies, so tenure data predates run #1.",
+ "reconciliation": {
+  "bound_to_2plus_sources": 288,
+  "bound_to_3plus_sources": 168,
+  "note": "headline metric; it FALLS when a bad merge is split, which is honest in the direction that matters",
+  "pct_3plus": 9.0
+ },
+ "schema_version": "1",
+ "sources": [
+  {
+   "fail_streak": 0,
+   "last_changed": "2026-09-01T18:49:07+00:00",
+   "last_checked": "2026-09-01T18:49:07+00:00",
+   "name": "ecfr_agencies",
+   "scope_claim": "eCFR lists every agency with a chapter in the Code of Federal Regulations. Absence means the agency has no CFR chapter, which for a non-regulatory or non-executive body is correct rather than opaque.",
+   "unchanged_streak": 0,
+   "url": "https://www.ecfr.gov/api/admin/v1/agencies.json"
+  },
+  {
+   "fail_streak": 0,
+   "last_changed": "2026-09-01T18:49:07+00:00",
+   "last_checked": "2026-09-01T18:49:07+00:00",
+   "name": "fr_agencies",
+   "scope_claim": "The Office of the Federal Register publishes this list as the set of agencies that submit documents for publication in the Federal Register. It includes defunct agencies and carries no active flag.",
+   "unchanged_streak": 0,
+   "url": "https://www.federalregister.gov/api/v1/agencies.json"
+  },
+  {
+   "fail_streak": 0,
+   "last_changed": "2026-09-01T18:49:07+00:00",
+   "last_checked": "2026-09-01T18:49:07+00:00",
+   "name": "plum",
+   "scope_claim": "OPM PLUM is the statutory public directory of federal policy and supporting positions under 5 U.S.C. § 3330f. Agencies certify their data at least annually. GAO-26-108164 (Feb 2026) documented material gaps: at least 7 entities and 130 PAS positions missing.",
+   "unchanged_streak": 0,
+   "url": "https://escs.opm.gov/escs-net/api/pbpub/download-data"
+  }
+ ]
+}

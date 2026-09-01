@@ -1,0 +1,139 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/598"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Federal Council on the Arts and the Humanities is composed of the Chairman of the National Endowment for the Arts, the Chairman of the National Endowment for the Humanities, the Secretary of Education, the Director of the National Science Foundation, the Librarian of Congress, the Chairman of the Commission of Fine Arts, the Archivist of the United States, the Commissioner, Public Buildings Service, General Services Administration, the Administrator of the General Services Administration, the Director of the United States Information Agency, the Secretary of the Interior, the Secretary of Commerce, the Secretary of Transportation, the Chairman of the National Museum Services Board, the Director of the Institute of Museum and Library Services, the Secretary of Housing and Urban Development, the Secretary of Labor, the Secretary of Veterans Affairs, and the Commissioner of the Administration on Aging.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/598"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/598"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Federal Council on the Arts and the Humanities",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/598"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "FCAH",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/598"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "federal-council-on-the-arts-and-the-humanities",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/598"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/federal-council-on-the-arts-and-the-humanities",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 146,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Federal Council on the Arts and the Humanities",
+ "officials": [],
+ "slug": "federal-council-on-the-arts-and-the-humanities",
+ "sources": [
+  "fr_agencies"
+ ]
+}

@@ -6,4 +6,3 @@ __pycache__/
 config/fedstruct.yaml
 state/*.sqlite-wal
 state/*.sqlite-shm
-output/

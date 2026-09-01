@@ -1,0 +1,139 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/495"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Bureau of Transportation Statistics (BTS) was established as a statistical agency in 1992. The Intermodal Surface Transportation Efficiency Act (ISTEA) of 1991 created BTS to administer data collection, analysis, and reporting and to ensure the most cost-effective use of transportation-monitoring resources. BTS brings a greater degree of coordination, comparability, and quality standards to transportation data, and facilitates in the closing of important data gaps.\r\rOn February 20, 2005, BTS became a part of the Research and Innovative Technology Administration (RITA). RITA is composed of BTS, the former Research Office of the Research and Special Programs Administration (RSPA), Volpe National Transportation Systems Center (formerly with RSPA), Transportation Safety Institute (formerly with RSPA), and Office of Intermodalism (formerly with the Office of the Secretary). BTS is headed by a Director, appointed by the Secretary of Transportation, and the Director reports to the RITA Administrator.\r\rBTS' basic authorizing legislation is the Safe, Accountable, Flexible, Efficient Transportation Equity Act: A Legacy for Users (SAFETEA-LU), which authorizes $27 million each year for a five year period (2005-2009). This funding comes from the Highway Trust Fund, and is administered within the Research and Development account under the Federal Highway Administration. \r\rBTS' data collection program for aviation is authorized under separate legislation enacted when the Civil Aeronautics Board (CAB) was terminated. This program is a mandatory data collection. The Wendell Ford Aviation Investment Reform Act (AIR-21) authorized funding for the airline information program from the Airport and Airways Trust Fund (AATF), but to date no funding has been appropriated. ",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/495"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/495"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Transportation Statistics Bureau",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/495"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "BTS",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/495"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "transportation-statistics-bureau",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/495"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/transportation-statistics-bureau",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 437,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Transportation Statistics Bureau",
+ "officials": [],
+ "slug": "transportation-statistics-bureau",
+ "sources": [
+  "fr_agencies"
+ ]
+}

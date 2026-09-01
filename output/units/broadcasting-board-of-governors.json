@@ -1,0 +1,175 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "agency_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.agency_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/41"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "http://www.bbg.gov/",
+   "value_num": null
+  },
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/41"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Broadcasting Board of Governors' mission is to promote freedom and democracy and to enhance understanding by broadcasting accurate, objective, and balanced news and information about the United States and the world to audiences abroad.\r\n\r\nThe Broadcasting Board of Governors (BBG) became an independent agency on October 1, 1999, by authority of the Foreign Affairs Reform and Restructuring Act of 1998 (22 U.S.C. 6501 note). It is composed of nine members. Eight members are appointed by the President and confirmed by the Senate; the ninth, an ex-officio member, is the Secretary of State.\r\n\r\nThe BBG serves as the governing body for all nonmilitary U.S. broadcasting and provides programming in 56 languages via radio, television, and the Internet. The BBG broadcast services include the Voice of America, the Office of Cuba Broadcasting, Radio Free Europe/ Radio Liberty, Radio Free Asia, and the Middle East Broadcasting Networks.\r\n\r\nAll BBG broadcast services adhere to the broadcasting standards and principles of the International Broadcasting Act of 1994, which include reliable, accurate, and comprehensive news; balanced and comprehensive presentations of U.S. thought, institutions, and policies, as well as discussions about those policies; information about developments throughout the world; and a variety of opinions from nations around the world.\r\n",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/41"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "logo_url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.logo_url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/41"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://agency-logos.federalregister.gov/41/medium.png?1321379861",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/41"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Broadcasting Board of Governors",
+   "value_num": null
+  },
+  "short_name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.short_name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/41"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "BBG",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/41"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "broadcasting-board-of-governors",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/41"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/broadcasting-board-of-governors",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 40,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Broadcasting Board of Governors",
+ "officials": [],
+ "slug": "broadcasting-board-of-governors",
+ "sources": [
+  "fr_agencies"
+ ]
+}

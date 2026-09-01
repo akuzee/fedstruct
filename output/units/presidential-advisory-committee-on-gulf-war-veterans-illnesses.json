@@ -1,0 +1,121 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/412"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The Presidential Advisory Committee on Gulf War Veterans' Illnesses was established by EO 12961 of May 26, 1995. The purpose of the Advisory Committee was the oversight of the ongoing investigation being conducted by the Department of Defense and ther executive departments and agencies into possible chemical or biological warfare agent exposures during the Gulf War. The Advisory Committee was also charged with the evaluation of the Federal Government's plan for and progress toward the implementation of those recommendations made in its report submitted on December 31, 1996. \rThe Presidential Advisory Committee on Gulf War Veterans' Illnesses was terminated upon the issuance of its special report of October 31, 1997.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/412"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/412"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "Presidential Advisory Committee on Gulf War Veterans' Illnesses",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/412"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "presidential-advisory-committee-on-gulf-war-veterans-illnesses",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/412"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/presidential-advisory-committee-on-gulf-war-veterans-illnesses",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 379,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Presidential Advisory Committee on Gulf War Veterans' Illnesses",
+ "officials": [],
+ "slug": "presidential-advisory-committee-on-gulf-war-veterans-illnesses",
+ "sources": [
+  "fr_agencies"
+ ]
+}

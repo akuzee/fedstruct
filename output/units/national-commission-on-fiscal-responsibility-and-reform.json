@@ -1,0 +1,121 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/317"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "The National Commission on Fiscal Responsibility and Reform was create by Executive Order on February 18, 2010.\r\n \r\nThe purpose of the Commission is to address the nation's fiscal challenges by identifying policies to improve the fiscal situation in the medium term and to achieve fiscal sustainability over the long run. Specifically, the Commission is ordered to meet as a whole on a monthly basis while Congress is in session. The members shall  propose recommendations designed to balance the budget, excluding interest payments on the debt, by 2015. The Commission will also propose recommendations that meaningfully improve the long-run fiscal outlook, including changes to address the growth of entitlement spending and the gap between the projected revenues and expenditures of the Federal Government.\r\n \r\nNo later than December 1, 2010, the Commission will vote on a final report containing a set of recommendations to achieve its mission. The final report will require the approval of at least 14 of the Commission's 18 members.",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/317"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/317"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "National Commission on Fiscal Responsibility and Reform",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/317"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "national-commission-on-fiscal-responsibility-and-reform",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/317"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/national-commission-on-fiscal-responsibility-and-reform",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 283,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "National Commission on Fiscal Responsibility and Reform",
+ "officials": [],
+ "slug": "national-commission-on-fiscal-responsibility-and-reform",
+ "sources": [
+  "fr_agencies"
+ ]
+}

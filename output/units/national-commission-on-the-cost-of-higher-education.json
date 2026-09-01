@@ -1,0 +1,121 @@
+{
+ "caveats": [
+  {
+   "citation": "verified by inspection, Sept 2026",
+   "citation_url": "https://www.federalregister.gov/developers/documentation/api/v1",
+   "downgrades_absent": 1,
+   "facet": "hierarchy",
+   "kind": "scope_limit",
+   "source": "fr_agencies",
+   "summary": "The Federal Register agency list covers bodies that submit documents for publication in the Federal Register. It retains defunct agencies as first-class entries and carries no active/abolished flag, so the absence of an agency is ambiguous and its presence does not imply it still exists."
+  }
+ ],
+ "contested": {},
+ "counts": {
+  "children": 0,
+  "current_officials": 0,
+  "positions": 0
+ },
+ "facts": {
+  "description": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.description",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/326"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "National Commission on the Cost of Higher Education was established as a public advisory commission under the Department of Education by Title IV of the Cost of Higher Education Review (PL 105-18) of June 12, 1997.\r\n\r\nThe Commission was created to examine the costs of higher education. According to the Final Report issued by the Commission on January 21, 1998, the Commission was created to examine eleven specific factors related to the costs of higher education. These factors included: \r\n1. The increase in tuition compared with other commodities and services.\r\n2. Innovative methods of reducing or stabilizing tuition.\r\n3. Trends in college and university administrative costs, including administrative staffing, ratio of administrative staff to instructors, ratio of administrative staff to students, remuneration of administrative staff, and remuneration of college and university presidents and chancellors.\r\n4. Trends in faculty workload and remuneration (including the use of adjunct faculty); faculty-to-student ratios; number of hours spent in the classroom by faculty; and tenure practices, and the impact of such trends on tuition.\r\n5. Trends in the construction and renovation of academic and other collegiate facilities, the modernization of facilities to access and utilize new technologies, and the impact of such trends on tuition.\r\n6. The extent to which increases in institutional financial aid and tuition discounting have effected tuition increases, including the demographics of students receiving such aid, the extent to which such aid is provided to students with limited need in order to attract such students to particular institutions or major fields of study, and the extent to which Federal financial aid, including loan aid, has been used to offset such increases.\r\n7. The extent to which Federal, state and local laws, regulations or other mandates contribute to increasing tuition, and recommendations on reducing those mandates.\r\n8. The establishment of a mechanism for a more timely and widespread distribution of data on tuition trends and other costs of operating colleges and universities.\r\n9. The extent to which student financial aid programs have contributed to changes in tuition.\r\n10. Trends in state fiscal policies that have affected college costs.\r\n11. The adequacy of existing Federal and state financial aid programs in meeting the costs of attending colleges and universities.\r\n\r\nFollowing the publication of its final report, the Commission was terminated in September 1999. \r\n\r\nSource: http://www.nyu.edu/classes/jepsen/costreport.html\r\n",
+   "value_num": null
+  },
+  "exists": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.exists",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/326"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "true",
+   "value_num": null
+  },
+  "name": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.name",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/326"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "National Commission on the Cost of Higher Education",
+   "value_num": null
+  },
+  "slug": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.slug",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/326"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "national-commission-on-the-cost-of-higher-education",
+   "value_num": null
+  },
+  "url": {
+   "effective_from": null,
+   "provenance": {
+    "band": "published",
+    "confidence": 1.0,
+    "cosmetic_revisions": 0,
+    "link_method": "published",
+    "locator": "$.url",
+    "method": "published",
+    "observations": 1,
+    "source": "fr_agencies",
+    "source_url": "http://www.federalregister.gov/api/v1/agencies/326"
+   },
+   "since": "2026-09-01",
+   "unit": null,
+   "value": "https://www.federalregister.gov/agencies/national-commission-on-the-cost-of-higher-education",
+   "value_num": null
+  }
+ },
+ "former_officials": [],
+ "id": 289,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "National Commission on the Cost of Higher Education",
+ "officials": [],
+ "slug": "national-commission-on-the-cost-of-higher-education",
+ "sources": [
+  "fr_agencies"
+ ]
+}
