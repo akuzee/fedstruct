@@ -1,0 +1,143 @@
+# Scheduled refresh (plan §6).
+#
+# Three crons, one workflow, a mode input. Every refresh commits state/ and
+# output/ back to the repo, so `git log --oneline -- state/` is a free,
+# human-readable history of what changed and `git revert` is a real recovery
+# path for a bad run.
+#
+# The scheduled path needs NO secrets: Federal Register, eCFR, and OPM PLUM are
+# all open. That is why it keeps working when nobody is looking at it.
+name: refresh
+
+on:
+  schedule:
+    # Daily heartbeat. Its real job is keeping the repo active: GitHub disables
+    # scheduled workflows after 60 days of inactivity, and that failure is
+    # silent — no run means no status means no alarm (plan §11 R6).
+    - cron: '41 7 * * *'
+    # Monthly, the 5th: DATA Act submissions land early-month. Offset from :00,
+    # which is heavily contended on Actions and gets delayed by tens of minutes.
+    - cron: '17 9 5 * *'
+    # Yearly deep pass, early February: the President's Budget has landed and
+    # GOVMAN's ~3-month publication lag has cleared the prior year.
+    - cron: '17 11 8 2 *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [poll, deep, heartbeat, doctor]
+        default: poll
+      source:
+        type: string
+        description: "limit to one source (blank = all due)"
+      force:
+        type: boolean
+        default: false
+        description: "ignore due-ness AND the hash gate"
+
+permissions:
+  contents: write
+  issues: write        # the alarm channel
+
+concurrency:
+  group: fedstruct-refresh
+  # The load-bearing half: a run killed between ingest and commit leaves the DB
+  # ahead of the repo. A late run is fine; a half-written one is not.
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      MODE: >-
+        ${{ inputs.mode
+         || (github.event.schedule == '17 11 8 2 *' && 'deep')
+         || (github.event.schedule == '41 7 * * *'  && 'heartbeat')
+         || 'poll' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Runners have datacenter IPs, so the Federal Register 302 and the eCFR
+      # 406 DO fire here even though they never reproduce from a laptop.
+      # doctor asserts the payload shape, not just HTTP 200.
+      - name: Preflight
+        run: python -m src.main doctor
+
+      - name: Refresh
+        if: env.MODE != 'doctor'
+        run: |
+          ARGS=""
+          [ -n "${{ inputs.source }}" ] && ARGS="$ARGS --source ${{ inputs.source }}"
+          [ "${{ inputs.force }}" = "true" ] && ARGS="$ARGS --force"
+          if [ "$MODE" = "heartbeat" ]; then
+            python -m src.main status
+          else
+            python -m src.main all $ARGS
+          fi
+
+      - name: Commit state and output
+        if: env.MODE != 'doctor' && env.MODE != 'heartbeat'
+        run: |
+          git config user.name  "fedstruct-bot"
+          git config user.email "fedstruct-bot@users.noreply.github.com"
+          git add state/ output/
+          if git diff --staged --quiet; then
+            echo "No changes — nothing to commit. A quiet month costs an empty diff."
+            exit 0
+          fi
+          git commit -m "$(python -m src.main commit-message)"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase --autostash && sleep $((i * 5))
+          done
+
+      # Exactly one notification on the RAISE transition. An open issue is
+      # idempotent in a way a Slack ping is not: if one already exists, do
+      # nothing — commenting on every tick is the stale nagging to avoid.
+      - name: Raise alarm
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = '[alarm] fedstruct refresh is failing';
+            const { data } = await github.rest.issues.listForRepo({
+              ...context.repo, state: 'open', labels: 'alarm' });
+            if (data.length) { core.info('alarm already open; not commenting'); return; }
+            await github.rest.issues.create({ ...context.repo, title, labels: ['alarm'],
+              body: `Run ${context.runId} failed in mode \`${process.env.MODE}\`.\n\n` +
+                    `[Logs](https://github.com/${context.repo.owner}/${context.repo.repo}` +
+                    `/actions/runs/${context.runId})\n\n` +
+                    `Reproduce locally:\n\`\`\`sh\npython -m src.main doctor\n` +
+                    `python -m src.main all --force\n\`\`\`` });
+
+      # Self-clearing, so the alarm can never go stale.
+      - name: Clear alarm
+        if: success() && env.MODE != 'doctor'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.issues.listForRepo({
+              ...context.repo, state: 'open', labels: 'alarm' });
+            for (const issue of data) {
+              await github.rest.issues.createComment({ ...context.repo,
+                issue_number: issue.number,
+                body: `Recovered in run ${context.runId}.` });
+              await github.rest.issues.update({ ...context.repo,
+                issue_number: issue.number, state: 'closed' });
+            }
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.13', cache: pip }
+      - run: pip install -r requirements-dev.txt
+      - run: python -m pytest tests/ -q

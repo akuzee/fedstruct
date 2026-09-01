@@ -1,0 +1,28 @@
+# Identity decisions — the human in the loop.
+#
+# This file is the ONLY way a name-similarity candidate becomes a merge. Rules
+# bind on deterministic identifiers; everything else waits here.
+#
+# Merges are POINTERS, not rewrites. Deleting an entry and re-running `resolve`
+# un-merges. Merge state is a pure function of the rules plus this file, never
+# an accumulation of past runs.
+#
+# References are `<anchor_source>:<anchor_key>`, or `slug:<slug>`, or `id:<n>`.
+version: 1
+
+merges: []
+
+never_merge:
+  # Anti-merges are consulted BEFORE scoring; nothing overrides them.
+  # Seeded with the archetype: an Inspector General's name is nearly identical
+  # to its parent's, so the blocker will keep proposing the pair, and merging
+  # would erase exactly the statutory independence this site exists to show.
+  - pair: ["fr_agencies:145", "slug:environmental-protection-agency-office-of-the-inspector-general"]
+    reason: >
+      EPA vs EPA Office of Inspector General. Offices of Inspector General are
+      statutorily independent of the agencies they audit (5 U.S.C. app.).
+      Merging them would misrepresent that independence.
+    decided_by: akuzee17@mit.edu
+    decided_on: 2026-09-01
+
+identifiers: []

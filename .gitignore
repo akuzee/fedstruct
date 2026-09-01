@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+config/fedstruct.yaml
+state/*.sqlite-wal
+state/*.sqlite-shm
+output/

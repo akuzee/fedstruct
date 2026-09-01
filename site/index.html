@@ -1,0 +1,284 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>fedstruct — US federal government structure</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #fff; --ink: #1d2733; --muted: #5c6b7a;
+    --line: #dfe4ea; --accent: #2f7fd1; --accent-soft: #eaf2fb;
+    --warn: #b25e00; --warn-soft: #fdf3e6; --bad: #a3282d;
+    --published: #1a7f4b; --linked: #8a6d1f; --inferred: #a3282d;
+    --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181d; --panel: #1b2027; --ink: #e6ebf1; --muted: #9aa7b4;
+      --line: #2b333c; --accent: #6aa9e9; --accent-soft: #1e2937;
+      --warn: #e0a45c; --warn-soft: #2a2115; --bad: #e07b80;
+      --published: #5cc48d; --linked: #d4b45c; --inferred: #e07b80;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.5 system-ui, -apple-system, sans-serif;
+    height: 100vh; display: flex; flex-direction: column;
+  }
+  header {
+    padding: 10px 16px; border-bottom: 1px solid var(--line);
+    background: var(--panel); display: flex; gap: 14px; align-items: center;
+    flex-wrap: wrap;
+  }
+  h1 { font-size: 15px; margin: 0; font-weight: 650; letter-spacing: -.01em; }
+  h1 span { color: var(--muted); font-weight: 400; }
+  #q {
+    flex: 1; min-width: 200px; padding: 6px 10px; border: 1px solid var(--line);
+    border-radius: 6px; background: var(--bg); color: var(--ink); font-size: 14px;
+  }
+  label.tog { font-size: 12.5px; color: var(--muted); cursor: pointer; user-select: none; }
+  main { flex: 1; display: flex; min-height: 0; }
+  #tree {
+    width: 44%; max-width: 560px; overflow: auto; padding: 10px 6px 40px;
+    border-right: 1px solid var(--line);
+  }
+  #detail { flex: 1; overflow: auto; padding: 18px 24px 60px; }
+  .node { padding-left: 14px; }
+  .row {
+    display: flex; align-items: baseline; gap: 6px; padding: 3px 6px;
+    border-radius: 5px; cursor: pointer; line-height: 1.35;
+  }
+  .row:hover { background: var(--accent-soft); }
+  .row.sel { background: var(--accent-soft); box-shadow: inset 2px 0 0 var(--accent); }
+  .tw { width: 12px; color: var(--muted); font-size: 10px; flex: none; }
+  .nm { flex: 1; }
+  .badges { display: flex; gap: 4px; flex: none; }
+  .b {
+    font: 10px/1.6 var(--mono); padding: 0 5px; border-radius: 3px;
+    border: 1px solid var(--line); color: var(--muted); white-space: nowrap;
+  }
+  .b.src { background: var(--bg); }
+  .b.n1 { color: var(--inferred); border-color: var(--inferred); }
+  .b.sec { color: var(--warn); border-color: var(--warn); background: var(--warn-soft); }
+  .dim { opacity: .28; }
+  h2 { font-size: 21px; margin: 0 0 2px; letter-spacing: -.015em; }
+  .sub { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+  section { margin-bottom: 22px; }
+  section > h3 {
+    font-size: 11.5px; text-transform: uppercase; letter-spacing: .07em;
+    color: var(--muted); margin: 0 0 8px; font-weight: 650;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  td { padding: 5px 8px 5px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td.k { color: var(--muted); width: 150px; white-space: nowrap; }
+  .cite {
+    font: 10px/1.5 var(--mono); text-decoration: none; padding: 0 4px;
+    border-radius: 3px; border: 1px solid currentColor; margin-left: 6px;
+    white-space: nowrap;
+  }
+  .cite.published { color: var(--published); }
+  .cite.linked    { color: var(--linked); }
+  .cite.inferred  { color: var(--inferred); border-style: dashed; }
+  .caveat {
+    background: var(--warn-soft); border-left: 3px solid var(--warn);
+    padding: 9px 12px; font-size: 13px; margin-bottom: 8px; border-radius: 0 5px 5px 0;
+  }
+  .caveat a { color: inherit; }
+  .empty {
+    color: var(--muted); font-size: 13.5px; font-style: italic;
+    padding: 8px 0; border-top: 1px solid var(--line);
+  }
+  ul.plain { list-style: none; padding: 0; margin: 0; }
+  ul.plain li { padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .who { font-weight: 600; }
+  .role { color: var(--muted); font-size: 12.5px; }
+  .pill {
+    font: 10px/1.6 var(--mono); background: var(--accent-soft); color: var(--accent);
+    padding: 0 5px; border-radius: 3px; margin-left: 5px;
+  }
+  footer {
+    font-size: 12px; color: var(--muted); padding: 10px 16px;
+    border-top: 1px solid var(--line); background: var(--panel);
+  }
+  a { color: var(--accent); }
+</style>
+
+<header>
+  <h1>fedstruct <span>— federal structure, with sources</span></h1>
+  <input id="q" placeholder="Search agencies and offices…" autocomplete="off">
+  <label class="tog"><input type="checkbox" id="onlyInferred"> show only unverified links</label>
+  <label class="tog"><input type="checkbox" id="shadeCoverage"> shade by sourcing</label>
+</header>
+<main>
+  <div id="tree">loading…</div>
+  <div id="detail" class="sub">Select an agency.</div>
+</main>
+<footer id="foot"></footer>
+
+<script type="module">
+const DATA = '../output';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+const [units, edges, manifest, unresolved] = await Promise.all(
+  ['units', 'edges', 'manifest', 'unresolved'].map(f =>
+    fetch(`${DATA}/${f}.json`).then(r => r.json())));
+
+const byId = new Map(units.units.map(u => [u.id, u]));
+// Primary edges form the spanning tree; secondary ones are real cross-links
+// (dual-hatted and matrixed offices), kept and marked rather than dropped.
+const kids = new Map();
+for (const e of edges.edges) {
+  if (e.secondary || e.parent == null) continue;
+  if (!kids.has(e.parent)) kids.set(e.parent, []);
+  kids.get(e.parent).push(e);
+}
+for (const list of kids.values())
+  list.sort((a, b) => (byId.get(a.child)?.name || '').localeCompare(byId.get(b.child)?.name || ''));
+
+const open = new Set();
+let selected = null, filter = '';
+
+// A unit is "unverified" when nothing but a single source vouches for it —
+// i.e. it has not been reconciled against any other government system.
+const unverified = u => u.source_count < 2;
+
+function matches(id, seen = new Set()) {
+  if (!filter) return true;
+  if (seen.has(id)) return false;
+  seen.add(id);
+  const u = byId.get(id);
+  if (u && u.name.toLowerCase().includes(filter)) return true;
+  return (kids.get(id) || []).some(e => matches(e.child, seen));
+}
+
+function render() {
+  const roots = edges.roots
+    .filter(id => byId.has(id))
+    .sort((a, b) => byId.get(a).name.localeCompare(byId.get(b).name));
+  const html = roots.filter(id => visible(id)).map(id => nodeHtml(id, 0)).join('');
+  $('#tree').innerHTML = html || '<div class="empty">Nothing matches.</div>';
+}
+
+function visible(id) {
+  if ($('#onlyInferred').checked && !subtreeHasUnverified(id)) return false;
+  return matches(id);
+}
+
+function subtreeHasUnverified(id, seen = new Set()) {
+  if (seen.has(id)) return false;
+  seen.add(id);
+  const u = byId.get(id);
+  if (u && unverified(u)) return true;
+  return (kids.get(id) || []).some(e => subtreeHasUnverified(e.child, seen));
+}
+
+function nodeHtml(id, depth, seen = new Set()) {
+  if (seen.has(id)) return '';
+  seen = new Set(seen); seen.add(id);
+  const u = byId.get(id); if (!u) return '';
+  const ch = (kids.get(id) || []).filter(e => visible(e.child));
+  const isOpen = open.has(id) || (filter && ch.length);
+  const dim = $('#shadeCoverage').checked && u.source_count < 2 ? ' dim' : '';
+
+  const badges = [
+    `<span class="b src">${u.sources.map(s => s.replace('_agencies','')).join('·')}</span>`,
+    unverified(u) ? '<span class="b n1" title="only one source vouches for this unit">1 src</span>' : '',
+    u.current_officials ? `<span class="b">${u.current_officials}&nbsp;ppl</span>` : '',
+  ].join('');
+
+  return `<div class="node${dim}">
+    <div class="row${selected === id ? ' sel' : ''}" data-id="${id}">
+      <span class="tw">${ch.length ? (isOpen ? '▾' : '▸') : ''}</span>
+      <span class="nm">${esc(u.name)}</span>
+      <span class="badges">${badges}</span>
+    </div>
+    ${isOpen ? ch.map(e => nodeHtml(e.child, depth + 1, seen)).join('') : ''}
+  </div>`;
+}
+
+$('#tree').addEventListener('click', ev => {
+  const row = ev.target.closest('.row'); if (!row) return;
+  const id = +row.dataset.id;
+  if (ev.target.classList.contains('tw') || selected === id)
+    open.has(id) ? open.delete(id) : open.add(id);
+  else open.add(id);
+  selected = id;
+  render();
+  show(id);
+});
+
+$('#q').addEventListener('input', e => { filter = e.target.value.toLowerCase().trim(); render(); });
+$('#onlyInferred').addEventListener('change', render);
+$('#shadeCoverage').addEventListener('change', render);
+
+function citation(p) {
+  if (!p) return '';
+  const label = p.link_method && p.link_method !== 'published'
+    ? `${p.source} via ${p.link_method}` : p.source;
+  return `<a class="cite ${p.band}" href="${esc(p.source_url)}" target="_blank" rel="noopener"
+    title="${esc(label)} · confidence ${p.confidence} · seen ${p.observations}×">${esc(p.band)}</a>`;
+}
+
+async function show(id) {
+  const u = byId.get(id);
+  const d = await fetch(`${DATA}/units/${u.slug}.json`).then(r => r.json());
+  const f = d.facts;
+  const row = (k, v) => v ? `<tr><td class="k">${k}</td><td>${v}</td></tr>` : '';
+
+  const chapters = (d.multi_facts.cfr_chapter || [])
+    .map(c => `<div>${esc(c.value)}${citation(c.provenance)}</div>`).join('');
+
+  const officials = d.officials.length
+    ? `<ul class="plain">${d.officials.map(o => `<li>
+         <span class="who">${esc(o.person)}</span>${o.is_pas ? '<span class="pill">Senate-confirmed</span>' : ''}
+         <div class="role">${esc(o.title)}${o.valid_from ? ` · since ${o.valid_from}` : ''}</div>
+       </li>`).join('')}</ul>`
+    // Wording matters: absence in a source is not absence in the world.
+    : `<div class="empty">No officeholders listed in the sources reconciled to this
+       unit. That is not a claim that it has none — see the caveats below.</div>`;
+
+  $('#detail').innerHTML = `
+    <h2>${esc(d.name)}</h2>
+    <div class="sub">
+      ${d.sources.join(' · ')} ·
+      ${d.counts.children} sub-units · ${d.counts.positions} positions
+      ${d.merged_from.length ? ` · reconciled from ${d.merged_from.length} other source(s)` : ''}
+    </div>
+
+    ${d.caveats.map(c => `<div class="caveat"><strong>${esc(c.source)}:</strong>
+      ${esc(c.summary)} <a href="${esc(c.citation_url)}" target="_blank"
+      rel="noopener">${esc(c.citation)}</a></div>`).join('')}
+
+    <section><h3>Facts</h3><table>
+      ${row('Name', esc(f.name?.value) + citation(f.name?.provenance))}
+      ${row('Abbreviation', f.short_name ? esc(f.short_name.value) + citation(f.short_name.provenance) : '')}
+      ${row('Website', f.agency_url ? `<a href="${esc(f.agency_url.value)}" target="_blank" rel="noopener">${esc(f.agency_url.value)}</a>${citation(f.agency_url.provenance)}` : '')}
+      ${row('Positions listed', f.position_count ? f.position_count.value_num + citation(f.position_count.provenance) : '')}
+      ${row('Senate-confirmed', f.position_count_pas ? f.position_count_pas.value_num + citation(f.position_count_pas.provenance) : '')}
+      ${row('Regulatory authority', chapters)}
+    </table></section>
+
+    ${f.description ? `<section><h3>Official description</h3>
+      <div>${esc(f.description.value)}${citation(f.description.provenance)}</div></section>` : ''}
+
+    <section><h3>Current officeholders</h3>${officials}</section>
+
+    ${d.merged_from.length ? `<section><h3>Reconciliation</h3><table>
+      ${d.merged_from.map(m => row(m.source, `<code>${esc(m.key)}</code> — matched by ${esc(m.method)}`)).join('')}
+    </table></section>` : ''}
+  `;
+  $('#detail').scrollTop = 0;
+}
+
+const m = manifest;
+$('#foot').innerHTML = `
+  ${m.counts.units.toLocaleString()} units · ${m.counts.positions.toLocaleString()} positions ·
+  ${m.counts.current_officials.toLocaleString()} current officeholders ·
+  data as of ${(m.as_of || '').slice(0, 10)} ·
+  <strong>${m.reconciliation.bound_to_2plus_sources}</strong> units confirmed by 2+ sources ·
+  <strong>${unresolved.count}</strong> identity links still awaiting human review.
+  ${esc(m.history_note)}`;
+
+render();
+</script>

@@ -1,0 +1,50 @@
+# Known source incompleteness, surfaced in every rendered view.
+#
+# This is the ONE deliberately hand-curated input in the project. Everything
+# else is derived. The exception exists because an external audit finding is by
+# nature not machine-derivable — you cannot compute "GAO looked at this and
+# found gaps" from the data itself.
+#
+# `downgrades_absent: true` gives a caveat teeth. Any ABSENT cell from that
+# source then:
+#   1. renders as "not listed in <source>", never as "none exist",
+#   2. is excluded from the darkest-agencies numerator unless a second probe
+#      corroborates it,
+#   3. is bucketed separately in the coverage score.
+
+- source: plum
+  facet: leadership
+  kind: incompleteness
+  summary: >
+    PLUM omits at least 7 federal entities and at least 130 Senate-confirmed
+    positions, and contains inconsistent identifiers and duplicate positions.
+    OPM concurred with all recommendations. Absence from PLUM is therefore
+    evidence of a gap in PLUM, not proof that an agency has no such positions.
+  citation: "GAO-26-108164 (Feb 2026)"
+  citation_url: "https://www.gao.gov/products/gao-26-108164"
+  applies_from: "2026-02-01"
+  downgrades_absent: true
+
+- source: fr_agencies
+  facet: hierarchy
+  kind: scope_limit
+  summary: >
+    The Federal Register agency list covers bodies that submit documents for
+    publication in the Federal Register. It retains defunct agencies as
+    first-class entries and carries no active/abolished flag, so the absence
+    of an agency is ambiguous and its presence does not imply it still exists.
+  citation: "verified by inspection, Sept 2026"
+  citation_url: "https://www.federalregister.gov/developers/documentation/api/v1"
+  downgrades_absent: true
+
+- source: ecfr_agencies
+  facet: regulatory_authority
+  kind: scope_limit
+  summary: >
+    eCFR lists only agencies that have a chapter in the Code of Federal
+    Regulations. For a non-regulatory or non-executive body, having no CFR
+    chapter is correct rather than opaque, and is recorded as NOT_APPLICABLE
+    rather than ABSENT.
+  citation: "verified by inspection, Sept 2026"
+  citation_url: "https://www.ecfr.gov/developers/documentation/api/v1"
+  downgrades_absent: false

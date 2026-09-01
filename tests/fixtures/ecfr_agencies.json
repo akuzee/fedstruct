@@ -1,0 +1,493 @@
+{
+ "agencies": [
+  {
+   "name": "Department of Agriculture",
+   "short_name": "USDA",
+   "display_name": "Department of Agriculture",
+   "sortable_name": "Agriculture, Department of",
+   "slug": "agriculture-department",
+   "children": [
+    {
+     "name": "Agricultural Marketing Service",
+     "short_name": "AMS",
+     "display_name": "Agricultural Marketing Service, Department of Agriculture",
+     "sortable_name": "Agricultural Marketing Service",
+     "slug": "agricultural-marketing-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "I"
+      },
+      {
+       "title": 7,
+       "chapter": "VIII"
+      },
+      {
+       "title": 7,
+       "chapter": "IX"
+      },
+      {
+       "title": 7,
+       "chapter": "X"
+      },
+      {
+       "title": 7,
+       "chapter": "XI"
+      },
+      {
+       "title": 9,
+       "chapter": "II"
+      }
+     ]
+    },
+    {
+     "name": "Agricultural Research Service",
+     "short_name": "ARS",
+     "display_name": "Agricultural Research Service, Department of Agriculture",
+     "sortable_name": "Agricultural Research Service",
+     "slug": "agricultural-research-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "V"
+      }
+     ]
+    },
+    {
+     "name": "Animal and Plant Health Inspection Service",
+     "short_name": "APHIS",
+     "display_name": "Animal and Plant Health Inspection Service, Department of Agriculture",
+     "sortable_name": "Animal and Plant Health Inspection Service",
+     "slug": "animal-and-plant-health-inspection-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "III"
+      },
+      {
+       "title": 9,
+       "chapter": "I"
+      }
+     ]
+    },
+    {
+     "name": "Commodity Credit Corporation",
+     "short_name": "CCC",
+     "display_name": "Commodity Credit Corporation, Department of Agriculture",
+     "sortable_name": "Commodity Credit Corporation",
+     "slug": "commodity-credit-corporation",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XIV"
+      }
+     ]
+    },
+    {
+     "name": "Economic Research Service",
+     "short_name": "ERS",
+     "display_name": "Economic Research Service, Department of Agriculture",
+     "sortable_name": "Economic Research Service",
+     "slug": "economic-research-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXXVII"
+      }
+     ]
+    },
+    {
+     "name": "Farm Service Agency",
+     "short_name": "FSA",
+     "display_name": "Farm Service Agency, Department of Agriculture",
+     "sortable_name": "Farm Service Agency",
+     "slug": "farm-service-agency",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "VII"
+      }
+     ]
+    },
+    {
+     "name": "Federal Crop Insurance Corporation",
+     "short_name": "FCIC",
+     "display_name": "Federal Crop Insurance Corporation, Department of Agriculture",
+     "sortable_name": "Federal Crop Insurance Corporation",
+     "slug": "federal-crop-insurance-corporation",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "IV"
+      }
+     ]
+    },
+    {
+     "name": "Food and Nutrition Service",
+     "short_name": "FNS",
+     "display_name": "Food and Nutrition Service, Department of Agriculture",
+     "sortable_name": "Food and Nutrition Service",
+     "slug": "food-and-nutrition-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "II"
+      }
+     ]
+    },
+    {
+     "name": "Food Safety and Inspection Service",
+     "short_name": "FSIS",
+     "display_name": "Food Safety and Inspection Service, Department of Agriculture",
+     "sortable_name": "Food Safety and Inspection Service",
+     "slug": "food-safety-and-inspection-service",
+     "cfr_references": [
+      {
+       "title": 9,
+       "chapter": "III"
+      }
+     ]
+    },
+    {
+     "name": "Foreign Agricultural Service",
+     "short_name": "FAS",
+     "display_name": "Foreign Agricultural Service, Department of Agriculture",
+     "sortable_name": "Foreign Agricultural Service",
+     "slug": "foreign-agricultural-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XV"
+      }
+     ]
+    },
+    {
+     "name": "Forest Service",
+     "short_name": "FS",
+     "display_name": "Forest Service, Department of Agriculture",
+     "sortable_name": "Forest Service",
+     "slug": "forest-service",
+     "cfr_references": [
+      {
+       "title": 36,
+       "chapter": "II"
+      }
+     ]
+    },
+    {
+     "name": "National Agricultural Statistics Service",
+     "short_name": "NASS",
+     "display_name": "National Agricultural Statistics Service, Department of Agriculture",
+     "sortable_name": "National Agricultural Statistics Service",
+     "slug": "national-agricultural-statistics-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXXVI"
+      }
+     ]
+    },
+    {
+     "name": "National Institute of Food and Agriculture",
+     "short_name": "NIFA",
+     "display_name": "National Institute of Food and Agriculture, Department of Agriculture",
+     "sortable_name": "National Institute of Food and Agriculture",
+     "slug": "national-institute-of-food-and-agriculture",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXXIV"
+      }
+     ]
+    },
+    {
+     "name": "Natural Resources Conservation Service",
+     "short_name": "NRCS",
+     "display_name": "Natural Resources Conservation Service, Department of Agriculture",
+     "sortable_name": "Natural Resources Conservation Service",
+     "slug": "natural-resources-conservation-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "VI"
+      }
+     ]
+    },
+    {
+     "name": "Office of Advocacy and Outreach",
+     "short_name": "OAO",
+     "display_name": "Office of Advocacy and Outreach, Department of Agriculture",
+     "sortable_name": "Advocacy and Outreach, Office of",
+     "slug": "advocacy-and-outreach-office",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXV"
+      }
+     ]
+    },
+    {
+     "name": "Office of Chief Financial Officer",
+     "short_name": null,
+     "display_name": "Office of Chief Financial Officer, Department of Agriculture",
+     "sortable_name": "Chief Financial Officer, Office of",
+     "slug": "office-of-the-chief-financial-officer-agriculture-department",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXX"
+      }
+     ]
+    },
+    {
+     "name": "Office of Energy Policy and New Uses",
+     "short_name": "OEPNU",
+     "display_name": "Office of Energy Policy and New Uses, Department of Agriculture",
+     "sortable_name": "Energy Policy and New Uses, Office of",
+     "slug": "energy-policy-and-new-uses-office",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXIX"
+      }
+     ]
+    },
+    {
+     "name": "Office of Environmental Quality",
+     "short_name": "",
+     "display_name": "Office of Environmental Quality, Department of Agriculture",
+     "sortable_name": "Environmental Quality, Office of",
+     "slug": "office-of-environmental-quality",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXXI"
+      }
+     ]
+    },
+    {
+     "name": "Office of Information Resources Management",
+     "short_name": "",
+     "display_name": "Office of Information Resources Management, Department of Agriculture",
+     "sortable_name": "Information Resources Management, Office of",
+     "slug": "office-of-information-resources-management",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXVII"
+      }
+     ]
+    },
+    {
+     "name": "Office of Inspector General",
+     "short_name": "OIG USDA",
+     "display_name": "Office of Inspector General, Department of Agriculture",
+     "sortable_name": "Inspector General, Office of",
+     "slug": "inspector-general-office-agriculture-department",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXVI"
+      }
+     ]
+    },
+    {
+     "name": "Office of Operations",
+     "short_name": "",
+     "display_name": "Office of Operations, Department of Agriculture",
+     "sortable_name": "Operations, Office of",
+     "slug": "office-of-operations",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXVIII"
+      }
+     ]
+    },
+    {
+     "name": "Office of Procurement and Property Management",
+     "short_name": "OPPM",
+     "display_name": "Office of Procurement and Property Management, Department of Agriculture",
+     "sortable_name": "Procurement and Property Management, Office of",
+     "slug": "procurement-and-property-management-office-of",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXXII"
+      }
+     ]
+    },
+    {
+     "name": "Office of Secretary of Agriculture",
+     "short_name": "",
+     "display_name": "Office of Secretary of Agriculture, Department of Agriculture",
+     "sortable_name": "Secretary of Agriculture, Office of",
+     "slug": "office-of-secretary-of-agriculture",
+     "cfr_references": [
+      {
+       "title": 7,
+       "subtitle": "A"
+      }
+     ]
+    },
+    {
+     "name": "Office of Transportation",
+     "short_name": null,
+     "display_name": "Office of Transportation, Department of Agriculture",
+     "sortable_name": "Transportation, Office of",
+     "slug": "transportation-office",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXXIII"
+      }
+     ]
+    },
+    {
+     "name": "Rural Business-Cooperative Service",
+     "short_name": "RBS",
+     "display_name": "Rural Business-Cooperative Service, Department of Agriculture",
+     "sortable_name": "Rural Business-Cooperative Service",
+     "slug": "rural-business-cooperative-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XVIII"
+      },
+      {
+       "title": 7,
+       "chapter": "XLII"
+      },
+      {
+       "title": 7,
+       "chapter": "L"
+      }
+     ]
+    },
+    {
+     "name": "Rural Housing Service",
+     "short_name": "RHS",
+     "display_name": "Rural Housing Service, Department of Agriculture",
+     "sortable_name": "Rural Housing Service",
+     "slug": "rural-housing-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XVIII"
+      },
+      {
+       "title": 7,
+       "chapter": "XXXV"
+      },
+      {
+       "title": 7,
+       "chapter": "L"
+      }
+     ]
+    },
+    {
+     "name": "Rural Utilities Service",
+     "short_name": "RUS",
+     "display_name": "Rural Utilities Service, Department of Agriculture",
+     "sortable_name": "Rural Utilities Service",
+     "slug": "rural-utilities-service",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XVII"
+      },
+      {
+       "title": 7,
+       "chapter": "XVIII"
+      },
+      {
+       "title": 7,
+       "chapter": "XLII"
+      },
+      {
+       "title": 7,
+       "chapter": "L"
+      }
+     ]
+    },
+    {
+     "name": "World Agricultural Outlook Board",
+     "short_name": null,
+     "display_name": "World Agricultural Outlook Board, Department of Agriculture",
+     "sortable_name": "World Agricultural Outlook Board",
+     "slug": "world-agricultural-outlook-board",
+     "cfr_references": [
+      {
+       "title": 7,
+       "chapter": "XXXVIII"
+      }
+     ]
+    }
+   ],
+   "cfr_references": [
+    {
+     "title": 2,
+     "chapter": "IV"
+    },
+    {
+     "title": 5,
+     "chapter": "LXXIII"
+    },
+    {
+     "title": 7,
+     "chapter": "XVI"
+    },
+    {
+     "title": 7,
+     "chapter": "XX"
+    },
+    {
+     "title": 7,
+     "chapter": "XXI"
+    },
+    {
+     "title": 48,
+     "chapter": "4"
+    }
+   ]
+  },
+  {
+   "name": "Environmental Protection Agency",
+   "short_name": "EPA",
+   "display_name": "Environmental Protection Agency",
+   "sortable_name": "Environmental Protection Agency",
+   "slug": "environmental-protection-agency",
+   "children": [],
+   "cfr_references": [
+    {
+     "title": 2,
+     "chapter": "XV"
+    },
+    {
+     "title": 5,
+     "chapter": "LIV"
+    },
+    {
+     "title": 40,
+     "chapter": "I"
+    },
+    {
+     "title": 40,
+     "chapter": "IV"
+    },
+    {
+     "title": 40,
+     "chapter": "VII"
+    },
+    {
+     "title": 41,
+     "chapter": "115"
+    },
+    {
+     "title": 48,
+     "chapter": "15"
+    }
+   ]
+  }
+ ]
+}

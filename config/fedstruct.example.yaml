@@ -1,0 +1,48 @@
+# fedstruct configuration.
+#
+# Copy to config/fedstruct.yaml and edit. Nothing outside src/config.py reads
+# this file, and nothing downstream reads environment variables — secrets are
+# layered in by load_config() and travel on the Config object.
+
+# Sent in the User-Agent. Federal Register and govinfo etiquette want a contact
+# address, and it is the difference between polite automation and a bot.
+contact: "akuzee17@mit.edu"
+
+state_dir: state
+output_dir: output
+
+# Phase 1 (plan §9): the three sources that exercise every hard mechanic —
+# a clean ID source, a crosswalk with no shared identifiers, and an ID-less
+# string-keyed source.
+enabled_sources:
+  - fr_agencies
+  - ecfr_agencies
+  - plum
+
+# Ceilings on staleness, not schedules. Omitted sources use the defaults in
+# src/config.py:DEFAULT_CADENCE_DAYS, which are matched to each source's real
+# publication cadence.
+cadence_days:
+  fr_agencies: 30
+  ecfr_agencies: 30
+  plum: 30
+
+# ── circuit breakers (plan §11 R1, R8) ───────────────────────────────────────
+# Identity drift — Federal Register reassigning ids, or OPM rewording its
+# uppercase agency strings — presents as hundreds of simultaneous
+# "reorganizations". Published once, that permanently destroys the project's
+# credibility, so an implausible run commits nothing at all.
+max_changes_per_run: 40
+
+# A fetch whose row count moves more than this against the previous successful
+# fetch is quarantined. A truncated response and a mass abolition look
+# identical to a differ, and only one of them is real.
+rowcount_sanity_pct: 0.20
+
+max_coverage_flips_per_run: 20
+
+# ── LLM governor (plan §8) ───────────────────────────────────────────────────
+# LLMs do plumbing only: crosswalk candidates, defunct classification, diff
+# classification. They never write text a reader sees as fact. No verb in
+# `all` spends money.
+max_usd_per_run: 2.00
