@@ -8,7 +8,8 @@
     --line: #dfe4ea; --accent: #2f7fd1; --accent-soft: #eaf2fb;
     --warn: #b25e00; --warn-soft: #fdf3e6; --bad: #a3282d;
     --published: #1a7f4b; --linked: #8a6d1f; --inferred: #a3282d;
-    --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+    --edge: #b9c2cc; --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+    --shadow: 0 1px 3px rgba(20,30,40,.10), 0 4px 14px rgba(20,30,40,.06);
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -16,110 +17,147 @@
       --line: #2b333c; --accent: #6aa9e9; --accent-soft: #1e2937;
       --warn: #e0a45c; --warn-soft: #2a2115; --bad: #e07b80;
       --published: #5cc48d; --linked: #d4b45c; --inferred: #e07b80;
+      --edge: #3a4450; --shadow: 0 1px 3px rgba(0,0,0,.4);
     }
   }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--ink);
-    font: 15px/1.5 system-ui, -apple-system, sans-serif;
-    height: 100vh; display: flex; flex-direction: column;
+    font: 14px/1.45 system-ui, -apple-system, sans-serif;
+    height: 100vh; display: flex; flex-direction: column; overflow: hidden;
   }
   header {
-    padding: 10px 16px; border-bottom: 1px solid var(--line);
-    background: var(--panel); display: flex; gap: 14px; align-items: center;
-    flex-wrap: wrap;
+    padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel);
+    display: flex; gap: 14px; align-items: center; z-index: 30; position: relative;
   }
-  h1 { font-size: 15px; margin: 0; font-weight: 650; letter-spacing: -.01em; }
+  h1 { font-size: 15px; margin: 0; font-weight: 650; white-space: nowrap; }
   h1 span { color: var(--muted); font-weight: 400; }
+  #searchwrap { position: relative; flex: 1; max-width: 480px; }
   #q {
-    flex: 1; min-width: 200px; padding: 6px 10px; border: 1px solid var(--line);
-    border-radius: 6px; background: var(--bg); color: var(--ink); font-size: 14px;
+    width: 100%; padding: 7px 11px; border: 1px solid var(--line); border-radius: 7px;
+    background: var(--bg); color: var(--ink); font-size: 14px;
   }
-  label.tog { font-size: 12.5px; color: var(--muted); cursor: pointer; user-select: none; }
-  main { flex: 1; display: flex; min-height: 0; }
-  #tree {
-    width: 44%; max-width: 560px; overflow: auto; padding: 10px 6px 40px;
-    border-right: 1px solid var(--line);
+  #hits {
+    position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+    box-shadow: var(--shadow); max-height: 340px; overflow: auto; display: none;
   }
-  #detail { flex: 1; overflow: auto; padding: 18px 24px 60px; }
-  .node { padding-left: 14px; }
-  .row {
-    display: flex; align-items: baseline; gap: 6px; padding: 3px 6px;
-    border-radius: 5px; cursor: pointer; line-height: 1.35;
+  #hits div { padding: 8px 12px; cursor: pointer; }
+  #hits div:hover, #hits div.hot { background: var(--accent-soft); }
+  #hits small { color: var(--muted); display: block; }
+  label.tog { font-size: 12.5px; color: var(--muted); cursor: pointer; user-select: none; white-space: nowrap; }
+  #zoomctl { display: flex; gap: 4px; }
+  #zoomctl button {
+    width: 30px; height: 30px; border: 1px solid var(--line); background: var(--panel);
+    color: var(--ink); border-radius: 7px; cursor: pointer; font-size: 15px;
   }
-  .row:hover { background: var(--accent-soft); }
-  .row.sel { background: var(--accent-soft); box-shadow: inset 2px 0 0 var(--accent); }
-  .tw { width: 12px; color: var(--muted); font-size: 10px; flex: none; }
-  .nm { flex: 1; }
-  .badges { display: flex; gap: 4px; flex: none; }
-  .b {
-    font: 10px/1.6 var(--mono); padding: 0 5px; border-radius: 3px;
-    border: 1px solid var(--line); color: var(--muted); white-space: nowrap;
+  #zoomctl button:hover { background: var(--accent-soft); }
+
+  /* ── the canvas ─────────────────────────────────────────────────────── */
+  #canvas { flex: 1; position: relative; overflow: hidden; cursor: grab; }
+  #canvas.panning { cursor: grabbing; }
+  #world { position: absolute; top: 0; left: 0; transform-origin: 0 0; }
+  #wires { position: absolute; top: 0; left: 0; overflow: visible; pointer-events: none; }
+  #wires path { fill: none; stroke: var(--edge); stroke-width: 1.6; }
+  #wires path.pp { stroke-dasharray: 3 4; opacity: .7; }
+
+  .card {
+    position: absolute; width: 250px; height: 64px; overflow: hidden;
+    background: var(--panel);
+    border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow);
+    padding: 8px 10px; cursor: pointer; user-select: none;
   }
-  .b.src { background: var(--bg); }
+  .card:hover { border-color: var(--accent); }
+  .card.sel { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow); }
+  .card.dim { opacity: .35; }
+  .card .nm { font-weight: 600; font-size: 13.5px; line-height: 1.25;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .meta { color: var(--muted); font-size: 11.5px; margin-top: 3px;
+    display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .b { font: 9.5px/1.6 var(--mono); padding: 0 4px; border-radius: 3px;
+    border: 1px solid var(--line); color: var(--muted); }
   .b.n1 { color: var(--inferred); border-color: var(--inferred); }
-  .b.sec { color: var(--warn); border-color: var(--warn); background: var(--warn-soft); }
-  .dim { opacity: .28; }
-  .row.pos { cursor: default; }
-  .row.pos:hover { background: transparent; }
-  .vac { color: var(--muted); font-style: italic; font-size: 13px; }
-  .divider {
-    margin: 18px 6px 8px; padding: 8px 10px; font-size: 12px; color: var(--muted);
-    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-    background: var(--warn-soft);
+  .grow {
+    position: absolute; right: -13px; top: 50%; transform: translateY(-50%);
+    min-width: 26px; height: 26px; padding: 0 5px; border-radius: 13px;
+    background: var(--accent); color: #fff; border: 2px solid var(--panel);
+    font: 600 11px/22px var(--mono); text-align: center; cursor: pointer;
   }
-  h2 { font-size: 21px; margin: 0 0 2px; letter-spacing: -.015em; }
-  .sub { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
-  section { margin-bottom: 22px; }
-  section > h3 {
-    font-size: 11.5px; text-transform: uppercase; letter-spacing: .07em;
-    color: var(--muted); margin: 0 0 8px; font-weight: 650;
+  .grow.openN { background: var(--muted); }
+
+  .pcard {
+    position: absolute; width: 230px; height: 48px; overflow: hidden;
+    background: var(--bg);
+    border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px;
+    cursor: pointer; user-select: none;
   }
-  table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  td { padding: 5px 8px 5px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
-  td.k { color: var(--muted); width: 150px; white-space: nowrap; }
-  .cite {
-    font: 10px/1.5 var(--mono); text-decoration: none; padding: 0 4px;
-    border-radius: 3px; border: 1px solid currentColor; margin-left: 6px;
-    white-space: nowrap;
+  .pcard .who { font-weight: 600; font-size: 12.5px; }
+  .pcard .role { color: var(--muted); font-size: 10.5px; line-height: 1.3;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pcard.vac { font-style: italic; color: var(--muted); font-size: 11.5px; }
+  .pill { font: 9px/1.5 var(--mono); background: var(--accent-soft); color: var(--accent);
+    padding: 0 4px; border-radius: 3px; }
+
+  /* ── detail popup ───────────────────────────────────────────────────── */
+  #shade { position: fixed; inset: 0; background: rgba(10,15,20,.35); display: none; z-index: 40; }
+  #pop {
+    position: fixed; top: 6vh; right: 3vw; width: min(620px, 90vw); max-height: 86vh;
+    overflow: auto; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 12px; box-shadow: 0 12px 48px rgba(10,20,30,.3);
+    display: none; z-index: 41; padding: 20px 24px 28px;
   }
+  #pop.on, #shade.on { display: block; }
+  #pop h2 { font-size: 20px; margin: 0 32px 2px 0; }
+  #pop .sub { color: var(--muted); font-size: 12.5px; margin-bottom: 14px; }
+  #popx { position: absolute; top: 12px; right: 12px; width: 28px; height: 28px;
+    border: 1px solid var(--line); border-radius: 7px; background: var(--bg);
+    color: var(--muted); cursor: pointer; font-size: 14px; }
+  #pop section { margin-bottom: 18px; }
+  #pop h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .07em;
+    color: var(--muted); margin: 0 0 6px; font-weight: 650; }
+  #pop table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  #pop td { padding: 4px 8px 4px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  #pop td.k { color: var(--muted); width: 140px; white-space: nowrap; }
+  .cite { font: 9.5px/1.5 var(--mono); text-decoration: none; padding: 0 4px;
+    border-radius: 3px; border: 1px solid currentColor; margin-left: 6px; white-space: nowrap; }
   .cite.published { color: var(--published); }
-  .cite.linked    { color: var(--linked); }
-  .cite.inferred  { color: var(--inferred); border-style: dashed; }
-  .caveat {
-    background: var(--warn-soft); border-left: 3px solid var(--warn);
-    padding: 9px 12px; font-size: 13px; margin-bottom: 8px; border-radius: 0 5px 5px 0;
-  }
+  .cite.linked { color: var(--linked); }
+  .cite.inferred { color: var(--inferred); border-style: dashed; }
+  .caveat { background: var(--warn-soft); border-left: 3px solid var(--warn);
+    padding: 8px 11px; font-size: 12.5px; margin-bottom: 7px; border-radius: 0 5px 5px 0; }
   .caveat a { color: inherit; }
-  .empty {
-    color: var(--muted); font-size: 13.5px; font-style: italic;
-    padding: 8px 0; border-top: 1px solid var(--line);
-  }
+  .empty { color: var(--muted); font-size: 13px; font-style: italic; }
   ul.plain { list-style: none; padding: 0; margin: 0; }
-  ul.plain li { padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
-  .who { font-weight: 600; }
-  .role { color: var(--muted); font-size: 12.5px; }
-  .pill {
-    font: 10px/1.6 var(--mono); background: var(--accent-soft); color: var(--accent);
-    padding: 0 5px; border-radius: 3px; margin-left: 5px;
-  }
-  footer {
-    font-size: 12px; color: var(--muted); padding: 10px 16px;
-    border-top: 1px solid var(--line); background: var(--panel);
-  }
+  ul.plain li { padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; }
+  .role2 { color: var(--muted); font-size: 12px; }
   a { color: var(--accent); }
+
+  footer { font-size: 11.5px; color: var(--muted); padding: 7px 16px;
+    border-top: 1px solid var(--line); background: var(--panel); z-index: 30; }
 </style>
 
 <header>
   <h1>fedstruct <span>— federal structure, with sources</span></h1>
-  <input id="q" placeholder="Search agencies and offices…" autocomplete="off">
-  <label class="tog"><input type="checkbox" id="onlyInferred"> show only unverified links</label>
-  <label class="tog"><input type="checkbox" id="shadeCoverage"> shade by sourcing</label>
+  <div id="searchwrap">
+    <input id="q" placeholder="Search agencies and offices…" autocomplete="off">
+    <div id="hits"></div>
+  </div>
+  <label class="tog"><input type="checkbox" id="shadeCoverage"> shade single-source</label>
+  <div id="zoomctl">
+    <button id="zin" title="zoom in">+</button>
+    <button id="zout" title="zoom out">−</button>
+    <button id="zfit" title="fit">⤢</button>
+  </div>
 </header>
-<main>
-  <div id="tree">loading…</div>
-  <div id="detail" class="sub">Select an agency.</div>
-</main>
+
+<div id="canvas">
+  <div id="world">
+    <svg id="wires"></svg>
+    <div id="nodes"></div>
+  </div>
+</div>
+<div id="shade"></div>
+<div id="pop"><button id="popx">✕</button><div id="popbody"></div></div>
 <footer id="foot"></footer>
 
 <script type="module">
@@ -128,160 +166,332 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c =>
   ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-const [units, edges, manifest, unresolved] = await Promise.all(
-  ['units', 'edges', 'manifest', 'unresolved'].map(f =>
-    fetch(`${DATA}/${f}.json`).then(r => r.json())));
+const [unitsDoc, edgesDoc, manifest] = await Promise.all(
+  ['units', 'edges', 'manifest'].map(f => fetch(`${DATA}/${f}.json`).then(r => r.json())));
 
-const byId = new Map(units.units.map(u => [u.id, u]));
-// Primary edges form the spanning tree; secondary ones are real cross-links
-// (dual-hatted and matrixed offices), kept and marked rather than dropped.
-const kids = new Map();
-for (const e of edges.edges) {
+const byId = new Map(unitsDoc.units.map(u => [u.id, u]));
+const bySlug = new Map(unitsDoc.units.map(u => [u.slug, u]));
+
+// Spanning tree only: secondary (dual-hat) edges live in the popup, not the
+// canvas — two parents for one box makes a layout, not a chart.
+const kids = new Map(), parentOf = new Map();
+for (const e of edgesDoc.edges) {
   if (e.secondary || e.parent == null) continue;
   if (!kids.has(e.parent)) kids.set(e.parent, []);
-  kids.get(e.parent).push(e);
+  kids.get(e.parent).push(e.child);
+  parentOf.set(e.child, e.parent);
 }
-for (const list of kids.values())
-  list.sort((a, b) => (byId.get(a.child)?.name || '').localeCompare(byId.get(b.child)?.name || ''));
+// Weight = how much government hangs off a node; decides which roots lead and
+// which children surface first, so the majors appear before alphabetical noise.
+const weightMemo = new Map();
+function weight(id, seen = new Set()) {
+  if (weightMemo.has(id)) return weightMemo.get(id);
+  if (seen.has(id)) return 0;
+  seen.add(id);
+  const u = byId.get(id);
+  let w = 1 + (u?.positions || 0) / 4;
+  for (const c of kids.get(id) || []) w += weight(c, seen);
+  weightMemo.set(id, w);
+  return w;
+}
+for (const l of kids.values())
+  l.sort((a, b) => (weight(b) - weight(a))
+    || (byId.get(a)?.name || '').localeCompare(byId.get(b)?.name || ''));
+const allRoots = edgesDoc.roots.filter(id => byId.has(id));
+const frRoots = allRoots.filter(id => byId.get(id).sources.includes('fr_agencies'))
+  .sort((a, b) => weight(b) - weight(a));
+const TOP_N = 20;
 
-const open = new Set();
-let selected = null, filter = '';
-
-// Position leaves are fetched lazily on first expand — 9.5k positions would
-// bloat the initial payload for nothing.
-const posCache = new Map();          // unit id -> [{title, person, is_pas, vacant}]
-const posLoading = new Set();
+// ── state ────────────────────────────────────────────────────────────────
+const expanded = new Set();
+let showAllRoots = false;
+let selected = null;
+const posCache = new Map();          // unit id -> [{person,title,is_pas} | {vacant,n}]
+const view = { x: 40, y: 40, s: 1 };
 
 async function loadPositions(id) {
-  if (posCache.has(id) || posLoading.has(id)) return;
-  posLoading.add(id);
-  try {
-    const d = await fetch(`${DATA}/units/${byId.get(id).slug}.json`).then(r => r.json());
-    const rows = d.officials.map(o =>
-      ({ title: o.title, person: o.person, is_pas: o.is_pas, since: o.valid_from }));
-    // Positions with no current holder still exist as posts — show them vacant.
-    const vacantCount = d.counts.positions - rows.length;
-    if (vacantCount > 0)
-      rows.push({ title: `${vacantCount} further position(s) listed without a current holder`, vacant: true });
-    posCache.set(id, rows);
-  } finally {
-    posLoading.delete(id);
-    render();
-  }
+  if (posCache.has(id)) return;
+  posCache.set(id, null);            // in flight
+  const d = await fetch(`${DATA}/units/${byId.get(id).slug}.json`).then(r => r.json());
+  const rows = d.officials.slice(0, 10).map(o =>
+    ({ person: o.person, title: o.title, is_pas: o.is_pas }));
+  const rest = (d.counts.positions || 0) - rows.length;
+  if (d.officials.length > 10)
+    rows.push({ vacant: true, label: `…and ${d.officials.length - 10} more officeholders` });
+  else if (rest > 0)
+    rows.push({ vacant: true, label: `${rest} position(s) listed without a current holder` });
+  posCache.set(id, rows);
+  layoutAndRender();
 }
 
-// A unit is "unverified" when nothing but a single source vouches for it —
-// i.e. it has not been reconciled against any other government system.
-const unverified = u => u.source_count < 2;
+// ── layout: left-to-right tidy tree ──────────────────────────────────────
+// Layout slots are slightly taller than the fixed CSS card heights (64/48px),
+// so cards can never overlap however their text wraps.
+const UW = 250, UH = 70, PW = 230, PH = 52, GX = 110, GY = 12, PGX = 70;
 
-function matches(id, seen = new Set()) {
-  if (!filter) return true;
-  if (seen.has(id)) return false;
-  seen.add(id);
+// Children are paginated: a department with 100 sub-units shows the first 15
+// and a "+85 more" card, so one expand never produces a mile-high column.
+const PAGE = 15;
+const limits = new Map();
+
+function visibleLeaves(id) {
+  const out = [];
+  if (!expanded.has(id)) return out;
+  const all = kids.get(id) || [];
+  const lim = limits.get(id) || PAGE;
+  for (const c of all.slice(0, lim)) out.push({ kind: 'unit', id: c });
+  if (all.length > lim)
+    out.push({ kind: 'morekids', id: `mk${id}`, unit: id, n: all.length - lim });
   const u = byId.get(id);
-  if (u && u.name.toLowerCase().includes(filter)) return true;
-  return (kids.get(id) || []).some(e => matches(e.child, seen));
-}
-
-function render() {
-  const roots = edges.roots
-    .filter(id => byId.has(id))
-    .sort((a, b) => byId.get(a).name.localeCompare(byId.get(b).name));
-
-  // Roots the Federal Register vouches for are the real top level. Roots known
-  // only to one other source are floating fragments awaiting reconciliation —
-  // shown, because hiding them would overstate how finished this is, but
-  // below a divider rather than mixed into the government's actual top level.
-  const isFR = id => byId.get(id).sources.includes('fr_agencies');
-  const main = roots.filter(id => isFR(id) && visible(id)).map(id => nodeHtml(id, 0)).join('');
-  const frag = roots.filter(id => !isFR(id) && visible(id)).map(id => nodeHtml(id, 0)).join('');
-
-  $('#tree').innerHTML = (main || '<div class="empty">Nothing matches.</div>')
-    + (frag ? `<div class="divider">Not yet reconciled to the Federal Register list
-        — single-source fragments awaiting identity review</div>${frag}` : '');
-
-  if (scrollToSelected) {
-    scrollToSelected = false;
-    $('#tree .row.sel')?.scrollIntoView({ block: 'center' });
+  if (u.positions > 0) {
+    const rows = posCache.get(id);
+    if (rows === undefined) loadPositions(id);
+    else if (rows) rows.forEach((p, i) => out.push({ kind: 'pos', id: `p${id}.${i}`, p, unit: id }));
   }
-}
-let scrollToSelected = false;
-
-function visible(id) {
-  if ($('#onlyInferred').checked && !subtreeHasUnverified(id)) return false;
-  return matches(id);
+  return out;
 }
 
-function subtreeHasUnverified(id, seen = new Set()) {
-  if (seen.has(id)) return false;
-  seen.add(id);
-  const u = byId.get(id);
-  if (u && unverified(u)) return true;
-  return (kids.get(id) || []).some(e => subtreeHasUnverified(e.child, seen));
+let placed = [], wires = [];
+function measure(node, seen) {
+  if (node.kind === 'pos' || node.kind === 'morekids') return PH + GY;
+  if (seen.has(node.id)) return UH + GY;
+  seen.add(node.id);
+  const ch = visibleLeaves(node.id);
+  if (!ch.length) return UH + GY;
+  let h = 0;
+  for (const c of ch) h += measure(c, seen);
+  return Math.max(UH + GY, h);
+}
+function place(node, x, y, seen) {
+  if (node.kind === 'pos' || node.kind === 'morekids') {
+    placed.push({ ...node, x, y: y + 2, w: PW, h: PH });
+    return PH + GY;
+  }
+  if (seen.has(node.id)) return UH + GY;
+  // Span BEFORE marking self visited — measure() short-circuits on anything
+  // already in `seen`, and a node must not short-circuit on itself or every
+  // subtree collapses to one card-height and siblings overlap.
+  const span = measure(node, new Set(seen));
+  seen.add(node.id);
+  const ch = visibleLeaves(node.id);
+  const my = y + span / 2 - UH / 2;
+  placed.push({ kind: 'unit', id: node.id, x, y: my, w: UW, h: UH });
+  let cy = y;
+  for (const c of ch) {
+    const small = c.kind !== 'unit';
+    const cx = x + UW + (small ? PGX : GX);
+    const csp = place(c, cx, cy, seen);
+    wires.push({ x1: x + UW, y1: my + UH / 2, x2: cx,
+                 y2: small ? cy + 2 + PH / 2 : cy + csp / 2,
+                 pp: small });
+    cy += csp;
+  }
+  return span;
 }
 
-function nodeHtml(id, depth, seen = new Set()) {
-  if (seen.has(id)) return '';
-  seen = new Set(seen); seen.add(id);
-  const u = byId.get(id); if (!u) return '';
-  const ch = (kids.get(id) || []).filter(e => visible(e.child));
-  const hasLeaves = ch.length > 0 || u.positions > 0;
-  const isOpen = open.has(id) || (filter && ch.length);
+function layout() {
+  placed = []; wires = [];
+  const roots = showAllRoots ? frRoots : frRoots.slice(0, TOP_N);
+  let y = 0;
+  const seen = new Set();
+  for (const r of roots) y += place({ kind: 'unit', id: r }, 0, y, seen);
+  if (!showAllRoots && frRoots.length > TOP_N)
+    placed.push({ kind: 'more', id: 'more', x: 0, y: y + 6, w: UW, h: UH,
+                  n: frRoots.length - TOP_N });
+}
+
+// ── render ───────────────────────────────────────────────────────────────
+function cardHtml(n) {
+  if (n.kind === 'more')
+    return `<div class="card" data-more="1" style="transform:translate(${n.x}px,${n.y}px)">
+      <div class="nm">… ${n.n} more agencies</div>
+      <div class="meta">click to show every top-level agency</div></div>`;
+  if (n.kind === 'morekids')
+    return `<div class="pcard vac" data-morekids="${n.unit}"
+        style="transform:translate(${n.x}px,${n.y}px)">… ${n.n} more sub-unit${n.n > 1 ? 's' : ''} (show)</div>`;
+  if (n.kind === 'pos') {
+    const p = n.p;
+    return `<div class="pcard${p.vacant ? ' vac' : ''}" data-unit="${n.unit}"
+        style="transform:translate(${n.x}px,${n.y}px)">
+      ${p.vacant ? esc(p.label)
+        : `<div class="who">${esc(p.person)} ${p.is_pas ? '<span class="pill">Senate-confirmed</span>' : ''}</div>
+           <div class="role">${esc(p.title)}</div>`}</div>`;
+  }
+  const u = byId.get(n.id);
+  const nk = (kids.get(n.id) || []).length;
+  const growable = nk > 0 || u.positions > 0;
+  const isOpen = expanded.has(n.id);
   const dim = $('#shadeCoverage').checked && u.source_count < 2 ? ' dim' : '';
-
-  const badges = [
-    `<span class="b src">${u.sources.map(s => s.replace('_agencies','')).join('·')}</span>`,
-    unverified(u) ? '<span class="b n1" title="only one source vouches for this unit">1 src</span>' : '',
-    u.current_officials ? `<span class="b">${u.current_officials}&nbsp;ppl</span>` : '',
-  ].join('');
-
-  let leaves = '';
-  if (isOpen && u.positions > 0) {
-    if (posCache.has(id)) {
-      leaves = posCache.get(id).map(p => `
-        <div class="node"><div class="row pos" data-id="${id}">
-          <span class="tw">·</span>
-          <span class="nm">${p.vacant
-            ? `<span class="vac">${esc(p.title)}</span>`
-            : `<span class="who">${esc(p.person)}</span>
-               <span class="role">— ${esc(p.title)}</span>`}
-          </span>
-          ${p.is_pas ? '<span class="badges"><span class="pill">Senate-confirmed</span></span>' : ''}
-        </div></div>`).join('');
-    } else {
-      loadPositions(id);
-      leaves = '<div class="node"><div class="row"><span class="tw"></span><span class="nm vac">loading positions…</span></div></div>';
-    }
-  }
-
-  return `<div class="node${dim}">
-    <div class="row${selected === id ? ' sel' : ''}" data-id="${id}">
-      <span class="tw">${hasLeaves ? (isOpen ? '▾' : '▸') : ''}</span>
-      <span class="nm">${esc(u.name)}</span>
-      <span class="badges">${badges}</span>
+  return `<div class="card${selected === n.id ? ' sel' : ''}${dim}" data-id="${n.id}"
+      style="transform:translate(${n.x}px,${n.y}px)">
+    <div class="nm">${esc(u.name)}</div>
+    <div class="meta">
+      ${nk ? `${nk} sub-unit${nk > 1 ? 's' : ''}` : ''}
+      ${u.current_officials ? `${u.current_officials} official${u.current_officials > 1 ? 's' : ''}` : ''}
+      <span class="b">${u.sources.map(s => s.replace('_agencies', '')).join('·')}</span>
+      ${u.source_count < 2 ? '<span class="b n1" title="only one source vouches for this unit">1 src</span>' : ''}
     </div>
-    ${isOpen ? ch.map(e => nodeHtml(e.child, depth + 1, seen)).join('') : ''}
-    ${leaves}
+    ${growable ? `<div class="grow${isOpen ? ' openN' : ''}" data-grow="${n.id}">
+       ${isOpen ? '−' : '+' + (nk || '')}</div>` : ''}
   </div>`;
 }
 
-$('#tree').addEventListener('click', ev => {
-  const row = ev.target.closest('.row'); if (!row) return;
-  if (row.classList.contains('pos')) return;   // position leaves are display-only
-  const id = +row.dataset.id;
-  if (ev.target.classList.contains('tw') || selected === id)
-    open.has(id) ? open.delete(id) : open.add(id);
-  else open.add(id);
+function render() {
+  $('#nodes').innerHTML = placed.map(cardHtml).join('');
+  const xs = placed.flatMap(n => [n.x, n.x + n.w]), ys = placed.flatMap(n => [n.y, n.y + n.h]);
+  const W = Math.max(...xs, 800) + 200, H = Math.max(...ys, 600) + 200;
+  const svg = $('#wires');
+  svg.setAttribute('width', W); svg.setAttribute('height', H);
+  svg.innerHTML = wires.map(w => {
+    const mx = (w.x1 + w.x2) / 2;
+    return `<path class="${w.pp ? 'pp' : ''}" d="M${w.x1},${w.y1} C${mx},${w.y1} ${mx},${w.y2} ${w.x2},${w.y2}"/>`;
+  }).join('');
+  applyView();
+}
+function layoutAndRender() { layout(); render(); }
+function applyView() {
+  $('#world').style.transform = `translate(${view.x}px,${view.y}px) scale(${view.s})`;
+}
+
+// ── pan / zoom ───────────────────────────────────────────────────────────
+const cv = $('#canvas');
+let drag = null;
+cv.addEventListener('pointerdown', e => {
+  drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y, moved: false };
+  cv.setPointerCapture(e.pointerId);
+});
+cv.addEventListener('pointermove', e => {
+  if (!drag) return;
+  const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+  if (Math.abs(dx) + Math.abs(dy) > 5) drag.moved = true;
+  if (drag.moved) {
+    cv.classList.add('panning');
+    view.x = drag.vx + dx; view.y = drag.vy + dy;
+    applyView();
+  }
+});
+cv.addEventListener('pointerup', e => {
+  cv.classList.remove('panning');
+  const wasDrag = drag?.moved; drag = null;
+  if (wasDrag) return;
+  const grow = e.target.closest('[data-grow]');
+  if (grow) { toggle(+grow.dataset.grow); return; }
+  const more = e.target.closest('[data-more]');
+  if (more) { showAllRoots = true; layoutAndRender(); return; }
+  const mk = e.target.closest('[data-morekids]');
+  if (mk) {
+    const id = +mk.dataset.morekids;
+    limits.set(id, (limits.get(id) || PAGE) + 30);
+    layoutAndRender(); return;
+  }
+  const pc = e.target.closest('.pcard');
+  if (pc) { openPopup(+pc.dataset.unit); return; }
+  const card = e.target.closest('.card[data-id]');
+  if (card) {
+    selected = +card.dataset.id;
+    history.replaceState(null, '', '#' + byId.get(selected).slug);
+    openPopup(selected);
+    layoutAndRender();
+  }
+});
+cv.addEventListener('wheel', e => {
+  e.preventDefault();
+  if (e.ctrlKey || e.metaKey) zoomAt(e.clientX, e.clientY, Math.exp(-e.deltaY * 0.01));
+  else { view.x -= e.deltaX; view.y -= e.deltaY; applyView(); }
+}, { passive: false });
+
+function zoomAt(cx, cy, f) {
+  const r = cv.getBoundingClientRect();
+  const px = cx - r.left, py = cy - r.top;
+  const ns = Math.min(2.5, Math.max(0.08, view.s * f));
+  view.x = px - (px - view.x) * (ns / view.s);
+  view.y = py - (py - view.y) * (ns / view.s);
+  view.s = ns;
+  applyView();
+}
+$('#zin').onclick = () => zoomAt(cv.clientWidth / 2, cv.clientHeight / 2, 1.3);
+$('#zout').onclick = () => zoomAt(cv.clientWidth / 2, cv.clientHeight / 2, 1 / 1.3);
+$('#zfit').onclick = fitAll;
+function fitAll() {
+  if (!placed.length) return;
+  const minX = Math.min(...placed.map(n => n.x)), maxX = Math.max(...placed.map(n => n.x + n.w));
+  const minY = Math.min(...placed.map(n => n.y)), maxY = Math.max(...placed.map(n => n.y + n.h));
+  const s = Math.min(2, 0.92 * Math.min(cv.clientWidth / (maxX - minX + 80),
+                                        cv.clientHeight / (maxY - minY + 80)));
+  view.s = Math.max(0.08, s);
+  view.x = (cv.clientWidth - (maxX - minX) * view.s) / 2 - minX * view.s;
+  view.y = (cv.clientHeight - (maxY - minY) * view.s) / 2 - minY * view.s;
+  applyView();
+}
+$('#shadeCoverage').addEventListener('change', layoutAndRender);
+
+function toggle(id) {
+  if (expanded.has(id)) expanded.delete(id);
+  else { expanded.add(id); if (byId.get(id).positions > 0) loadPositions(id); }
+  layoutAndRender();
+}
+
+// ── reveal: the search / deep-link behaviour ─────────────────────────────
+// Expand every ancestor, expand the node's own next layer, then zoom to it.
+function reveal(id) {
+  let n = parentOf.get(id);
+  while (n != null) { expanded.add(n); n = parentOf.get(n); }
+  let root = id;
+  while (parentOf.get(root) != null) root = parentOf.get(root);
+  if (frRoots.indexOf(root) >= TOP_N) showAllRoots = true;
+  expanded.add(id);
+  if (byId.get(id).positions > 0) loadPositions(id);
   selected = id;
+  layoutAndRender();
+  const me = placed.find(p => p.kind === 'unit' && p.id === id);
+  if (me) {
+    view.s = 0.95;
+    view.x = cv.clientWidth * 0.28 - (me.x + me.w / 2) * view.s;
+    view.y = cv.clientHeight * 0.5 - (me.y + me.h / 2) * view.s;
+    applyView();
+  }
   history.replaceState(null, '', '#' + byId.get(id).slug);
-  render();
-  show(id);
+}
+
+// ── search ───────────────────────────────────────────────────────────────
+const hits = $('#hits');
+let hot = -1, hitIds = [];
+$('#q').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase().trim();
+  hot = -1;
+  if (q.length < 2) { hits.style.display = 'none'; return; }
+  hitIds = unitsDoc.units
+    .filter(u => u.name.toLowerCase().includes(q))
+    .sort((a, b) => weight(b.id) - weight(a.id))
+    .slice(0, 12);
+  hits.innerHTML = hitIds.map(u => {
+    let chain = [], n = parentOf.get(u.id);
+    while (n != null) { chain.unshift(byId.get(n).name); n = parentOf.get(n); }
+    return `<div data-go="${u.id}"><strong>${esc(u.name)}</strong>
+      <small>${chain.length ? esc(chain.join(' → ')) : 'top level'}
+        · ${u.positions} positions</small></div>`;
+  }).join('') || '<div class="empty" style="padding:10px">no match</div>';
+  hits.style.display = 'block';
+});
+hits.addEventListener('pointerdown', e => {
+  const t = e.target.closest('[data-go]');
+  if (t) { hits.style.display = 'none'; $('#q').value = ''; reveal(+t.dataset.go); }
+});
+$('#q').addEventListener('keydown', e => {
+  if (hits.style.display === 'none') return;
+  const rows = [...hits.querySelectorAll('[data-go]')];
+  if (e.key === 'ArrowDown') { hot = Math.min(hot + 1, rows.length - 1); }
+  else if (e.key === 'ArrowUp') { hot = Math.max(hot - 1, 0); }
+  else if (e.key === 'Enter' && rows[Math.max(hot, 0)]) {
+    hits.style.display = 'none'; $('#q').value = '';
+    reveal(+rows[Math.max(hot, 0)].dataset.go); return;
+  } else if (e.key === 'Escape') { hits.style.display = 'none'; return; }
+  else return;
+  e.preventDefault();
+  rows.forEach((r, i) => r.classList.toggle('hot', i === hot));
 });
 
-$('#q').addEventListener('input', e => { filter = e.target.value.toLowerCase().trim(); render(); });
-$('#onlyInferred').addEventListener('change', render);
-$('#shadeCoverage').addEventListener('change', render);
-
+// ── detail popup: every fact with its citation ───────────────────────────
 function citation(p) {
   if (!p) return '';
   const label = p.link_method && p.link_method !== 'published'
@@ -289,37 +499,27 @@ function citation(p) {
   return `<a class="cite ${p.band}" href="${esc(p.source_url)}" target="_blank" rel="noopener"
     title="${esc(label)} · confidence ${p.confidence} · seen ${p.observations}×">${esc(p.band)}</a>`;
 }
-
-async function show(id) {
+async function openPopup(id) {
   const u = byId.get(id);
   const d = await fetch(`${DATA}/units/${u.slug}.json`).then(r => r.json());
   const f = d.facts;
   const row = (k, v) => v ? `<tr><td class="k">${k}</td><td>${v}</td></tr>` : '';
-
   const chapters = (d.multi_facts.cfr_chapter || [])
     .map(c => `<div>${esc(c.value)}${citation(c.provenance)}</div>`).join('');
-
   const officials = d.officials.length
-    ? `<ul class="plain">${d.officials.map(o => `<li>
-         <span class="who">${esc(o.person)}</span>${o.is_pas ? '<span class="pill">Senate-confirmed</span>' : ''}
-         <div class="role">${esc(o.title)}${o.valid_from ? ` · since ${o.valid_from}` : ''}</div>
-       </li>`).join('')}</ul>`
-    // Wording matters: absence in a source is not absence in the world.
+    ? `<ul class="plain">${d.officials.map(o => `<li><strong>${esc(o.person)}</strong>
+        ${o.is_pas ? '<span class="pill">Senate-confirmed</span>' : ''}
+        <div class="role2">${esc(o.title)}${o.valid_from ? ` · since ${o.valid_from}` : ''}</div></li>`).join('')}</ul>`
     : `<div class="empty">No officeholders listed in the sources reconciled to this
-       unit. That is not a claim that it has none — see the caveats below.</div>`;
+       unit. That is not a claim that it has none — see the caveats.</div>`;
 
-  $('#detail').innerHTML = `
+  $('#popbody').innerHTML = `
     <h2>${esc(d.name)}</h2>
-    <div class="sub">
-      ${d.sources.join(' · ')} ·
-      ${d.counts.children} sub-units · ${d.counts.positions} positions
-      ${d.merged_from.length ? ` · reconciled from ${d.merged_from.length} other source(s)` : ''}
-    </div>
-
+    <div class="sub">${d.sources.join(' · ')} · ${d.counts.children} sub-units ·
+      ${d.counts.positions} positions
+      ${d.merged_from.length ? ` · reconciled from ${d.merged_from.length} other source(s)` : ''}</div>
     ${d.caveats.map(c => `<div class="caveat"><strong>${esc(c.source)}:</strong>
-      ${esc(c.summary)} <a href="${esc(c.citation_url)}" target="_blank"
-      rel="noopener">${esc(c.citation)}</a></div>`).join('')}
-
+      ${esc(c.summary)} <a href="${esc(c.citation_url)}" target="_blank" rel="noopener">${esc(c.citation)}</a></div>`).join('')}
     <section><h3>Facts</h3><table>
       ${row('Name', esc(f.name?.value) + citation(f.name?.provenance))}
       ${row('Abbreviation', f.short_name ? esc(f.short_name.value) + citation(f.short_name.provenance) : '')}
@@ -328,48 +528,39 @@ async function show(id) {
       ${row('Senate-confirmed', f.position_count_pas ? f.position_count_pas.value_num + citation(f.position_count_pas.provenance) : '')}
       ${row('Regulatory authority', chapters)}
     </table></section>
-
     ${f.description ? `<section><h3>Official description</h3>
       <div>${esc(f.description.value)}${citation(f.description.provenance)}</div></section>` : ''}
-
     <section><h3>Current officeholders</h3>${officials}</section>
-
     ${d.merged_from.length ? `<section><h3>Reconciliation</h3><table>
       ${d.merged_from.map(m => row(m.source, `<code>${esc(m.key)}</code> — matched by ${esc(m.method)}`)).join('')}
-    </table></section>` : ''}
-  `;
-  $('#detail').scrollTop = 0;
+    </table></section>` : ''}`;
+  $('#pop').classList.add('on'); $('#shade').classList.add('on');
 }
+$('#popx').onclick = $('#shade').onclick = () => {
+  $('#pop').classList.remove('on'); $('#shade').classList.remove('on');
+};
+addEventListener('keydown', e => { if (e.key === 'Escape') $('#popx').onclick(); });
 
-// Deep links: #<slug> opens the tree to that unit and selects it. Also what
-// makes any node on the site citable as a URL.
-const bySlug = new Map(units.units.map(u => [u.slug, u]));
-const parentOf = new Map();
-for (const e of edges.edges)
-  if (!e.secondary && e.parent != null) parentOf.set(e.child, e.parent);
-
-function openTo(slug) {
-  const u = bySlug.get(slug); if (!u) return false;
-  let n = u.id;
-  while (n != null) { open.add(n); n = parentOf.get(n); }
-  selected = u.id;
-  scrollToSelected = true;
-  show(u.id);
-  return true;
-}
-window.addEventListener('hashchange', () => {
-  if (openTo(decodeURIComponent(location.hash.slice(1)))) render();
-});
-
+// ── boot ─────────────────────────────────────────────────────────────────
 const m = manifest;
 $('#foot').innerHTML = `
   ${m.counts.units.toLocaleString()} units · ${m.counts.positions.toLocaleString()} positions ·
   ${m.counts.current_officials.toLocaleString()} current officeholders ·
   data as of ${(m.as_of || '').slice(0, 10)} ·
   <strong>${m.reconciliation.bound_to_2plus_sources}</strong> units confirmed by 2+ sources ·
-  <strong>${unresolved.count}</strong> identity links still awaiting human review.
-  ${esc(m.history_note)}`;
+  drag to pan · pinch or ctrl-scroll to zoom · + expands a node · click a card for sources`;
 
-if (location.hash) openTo(decodeURIComponent(location.hash.slice(1)));
-render();
+// Start with the biggest department's first layer open — an org chart, not an
+// empty page — at a fixed readable zoom. Fit-to-everything is a trap here: one
+// expanded department is thousands of pixels tall, and fitting it shrinks the
+// whole chart to confetti. The ⤢ button still fits on demand.
+expanded.add(frRoots[0]);
+layoutAndRender();
+const target = decodeURIComponent(location.hash.slice(1));
+if (target && bySlug.has(target)) reveal(bySlug.get(target).id);
+else { view.s = 0.85; view.x = 60; view.y = 30; applyView(); }
+window.addEventListener('hashchange', () => {
+  const t = decodeURIComponent(location.hash.slice(1));
+  if (bySlug.has(t)) reveal(bySlug.get(t).id);
+});
 </script>
