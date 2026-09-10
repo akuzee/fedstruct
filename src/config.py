@@ -150,10 +150,18 @@ def load_config(path: Path | None = None, *, env: dict | None = None) -> Config:
 
     path = Path(path) if path else DEFAULT_CONFIG_PATH
     if not path.exists():
-        raise ConfigError(
-            f"no config at {path}. Copy config/fedstruct.example.yaml to "
-            f"config/fedstruct.yaml and edit it."
-        )
+        # fedstruct.yaml is gitignored (it is local config), so a fresh clone —
+        # including every CI runner — has only the example. The example is a
+        # complete, working configuration; falling back to it is what lets the
+        # scheduled refresh run with zero setup and zero secrets.
+        example = path.with_name("fedstruct.example.yaml")
+        if example.exists():
+            path = example
+        else:
+            raise ConfigError(
+                f"no config at {path} and no example beside it. Copy "
+                f"config/fedstruct.example.yaml to config/fedstruct.yaml."
+            )
     raw = yaml.safe_load(path.read_text()) or {}
     cfg = parse_config(raw, path.resolve().parents[1])
 

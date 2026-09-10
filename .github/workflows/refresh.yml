@@ -11,12 +11,13 @@ name: refresh
 
 on:
   schedule:
-    # Daily heartbeat. Its real job is keeping the repo active: GitHub disables
-    # scheduled workflows after 60 days of inactivity, and that failure is
-    # silent — no run means no status means no alarm (plan §11 R6).
-    - cron: '41 7 * * *'
-    # Monthly, the 5th: DATA Act submissions land early-month. Offset from :00,
-    # which is heavily contended on Actions and gets delayed by tens of minutes.
+    # Monthly, the 5th: DATA Act submissions land early-month, and monthly is
+    # the cadence the positions data actually moves at — anything more frequent
+    # is noise in the Actions tab, not fresher data. The hash gate makes an
+    # unchanged month cost three HTTP requests and an empty diff. Offset from
+    # :00, which is heavily contended on Actions and gets delayed by tens of
+    # minutes. A monthly run also keeps the repo comfortably inside GitHub's
+    # 60-day workflow-dormancy window; doctor checks the workflow state besides.
     - cron: '17 9 5 * *'
     # Yearly deep pass, early February: the President's Budget has landed and
     # GOVMAN's ~3-month publication lag has cleared the prior year.
@@ -25,7 +26,7 @@ on:
     inputs:
       mode:
         type: choice
-        options: [poll, deep, heartbeat, doctor]
+        options: [poll, deep, doctor]
         default: poll
       source:
         type: string
@@ -52,7 +53,6 @@ jobs:
       MODE: >-
         ${{ inputs.mode
          || (github.event.schedule == '17 11 8 2 *' && 'deep')
-         || (github.event.schedule == '41 7 * * *'  && 'heartbeat')
          || 'poll' }}
     steps:
       - uses: actions/checkout@v4
@@ -76,14 +76,10 @@ jobs:
           ARGS=""
           [ -n "${{ inputs.source }}" ] && ARGS="$ARGS --source ${{ inputs.source }}"
           [ "${{ inputs.force }}" = "true" ] && ARGS="$ARGS --force"
-          if [ "$MODE" = "heartbeat" ]; then
-            python -m src.main status
-          else
-            python -m src.main all $ARGS
-          fi
+          python -m src.main all $ARGS
 
       - name: Commit state and output
-        if: env.MODE != 'doctor' && env.MODE != 'heartbeat'
+        if: env.MODE != 'doctor'
         run: |
           git config user.name  "fedstruct-bot"
           git config user.email "fedstruct-bot@users.noreply.github.com"
