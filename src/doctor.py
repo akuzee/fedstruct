@@ -30,7 +30,15 @@ class Check:
         return f"  {_MARK[self.status]} {self.name}" + (f" — {self.detail}" if self.detail else "")
 
 
-def run_checks(cfg: Config, *, network: bool = True, session: Session | None = None) -> list[Check]:
+def run_checks(cfg: Config, *, network: bool = True, session: Session | None = None,
+               warn_sources: bool = False) -> list[Check]:
+    """`warn_sources` downgrades source-probe failures to warnings.
+
+    For CI: one blocked source must not abort refreshing the others — the
+    fetch layer records per-source failures properly (fail_streak, backoff,
+    visible in `status`). The hard gate remains the default for humans,
+    because run #1 is unrepeatable.
+    """
     checks: list[Check] = []
 
     # ── environment ────────────────────────────────────────────────────────
@@ -71,15 +79,22 @@ def run_checks(cfg: Config, *, network: bool = True, session: Session | None = N
     # ── the hostility assertions (plan §10) ────────────────────────────────
     if network:
         sess = session or Session(user_agent=cfg.user_agent, contact=cfg.contact)
-        checks.extend(_probe(sess, "federalregister.gov not blocking us",
-                             "https://www.federalregister.gov/api/v1/agencies.json",
-                             expect_json_array=True))
-        checks.extend(_probe(sess, "ecfr.gov accepts our Accept-Encoding",
-                             "https://www.ecfr.gov/api/admin/v1/agencies.json",
-                             expect_json_key="agencies"))
-        checks.extend(_probe(sess, "escs.opm.gov serving PLUM CSV",
-                             "https://escs.opm.gov/escs-net/api/pbpub/download-data",
-                             expect_csv_header="AgencyName"))
+        probes = [
+            *_probe(sess, "federalregister.gov not blocking us",
+                    "https://www.federalregister.gov/api/v1/agencies.json",
+                    expect_json_array=True),
+            *_probe(sess, "ecfr.gov accepts our Accept-Encoding",
+                    "https://www.ecfr.gov/api/admin/v1/agencies.json",
+                    expect_json_key="agencies"),
+            *_probe(sess, "escs.opm.gov serving PLUM CSV",
+                    "https://escs.opm.gov/escs-net/api/pbpub/download-data",
+                    expect_csv_header="AgencyName"),
+        ]
+        if warn_sources:
+            for c in probes:
+                if c.status == FAIL:
+                    c.status = WARN
+        checks.extend(probes)
     else:
         checks.append(Check("network probes", INFO, "skipped (--offline)"))
 
@@ -121,7 +136,9 @@ def _probe(sess: Session, name: str, url: str, *, expect_json_array: bool = Fals
         if expect_csv_header:
             head = r.text[:200]
             if expect_csv_header not in head:
-                return [Check(name, FAIL, f"200 but no {expect_csv_header!r} header")]
+                return [Check(name, FAIL,
+                              f"200 but no {expect_csv_header!r} header; "
+                              f"body starts {head[:80]!r}")]
             return [Check(name, OK, f"{len(r.content):,} bytes")]
     except Exception as exc:
         return [Check(name, FAIL, f"200 but unparseable: {exc}")]

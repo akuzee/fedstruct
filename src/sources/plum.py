@@ -82,6 +82,15 @@ class PlumPositions(Source):
         "gaps: at least 7 entities and 130 PAS positions missing."
     )
 
+    def sniff(self, body: bytes) -> str | None:
+        # Akamai in front of escs.opm.gov serves its block page as HTTP 200
+        # from datacenter IPs (verified on GitHub runners, Sept 2026). The
+        # header row is the only reliable tell.
+        head = body[:512].decode("utf-8-sig", errors="replace")
+        if "AgencyName" not in head:
+            return f"expected the PLUM CSV header, got {head[:80]!r}"
+        return None
+
     def parse(self, body: bytes) -> Parsed:
         rows = list(csv.DictReader(io.StringIO(body.decode("utf-8-sig"))))
         if not rows:

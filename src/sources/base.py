@@ -111,6 +111,17 @@ class Source:
     def parse(self, body: bytes) -> Parsed:
         raise NotImplementedError
 
+    def sniff(self, body: bytes) -> str | None:
+        """Cheap shape check run at FETCH time, before anything is stored.
+
+        Returns an error string if the body cannot be this source's data.
+        Exists because a CDN block page can arrive as HTTP 200 (verified:
+        escs.opm.gov via Akamai on GitHub runners) — and a block page that
+        gets stored hashes stably, so the NEXT fetch of the same block page
+        would read as 'unchanged' and the block would become invisible.
+        """
+        return None
+
     def check_allowed(self, parsed: Parsed) -> None:
         """Enforce the predicate allowlist. Called by ingest, and tested."""
         if self.allowed_predicates is None:

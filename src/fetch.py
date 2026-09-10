@@ -93,7 +93,8 @@ def read_raw(cfg: Config, raw_path: str) -> bytes:
 
 
 def check_source(conn, cfg: Config, sess: Session, source_name: str, run_id: int,
-                 now: str, *, force: bool = False, suffix: str = ".json") -> FetchResult:
+                 now: str, *, force: bool = False, suffix: str = ".json",
+                 sniff=None) -> FetchResult:
     """Poll one source through the gate. The single place fetch state changes."""
     src = conn.execute("SELECT * FROM sources WHERE name = ?", (source_name,)).fetchone()
     if src is None:
@@ -106,6 +107,15 @@ def check_source(conn, cfg: Config, sess: Session, source_name: str, run_id: int
 
     try:
         resp = sess.get(src["url"])
+        # Shape check BEFORE the hash gate: a CDN block page can arrive as
+        # HTTP 200 (verified: Akamai on escs.opm.gov from GitHub runners), and
+        # if it were stored it would hash stably — the next identical block
+        # page would read as 'unchanged' and the outage would go invisible.
+        if sniff is not None:
+            err = sniff(resp.content)
+            if err:
+                raise SourceBlocked(f"{src['url']} returned HTTP {resp.status} "
+                                    f"but not this source's data: {err}")
     except (SourceBlocked, FetchFailed) as exc:
         # A block and a fetch failure are both `failed`. Neither may ever
         # become `unchanged`, and neither may yield an empty parse.

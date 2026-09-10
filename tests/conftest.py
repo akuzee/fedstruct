@@ -65,7 +65,8 @@ class Env:
         for name in self.cfg.enabled_sources:
             src = sources.get(name)
             r = fetchmod.check_source(self.conn, self.cfg, self.sess, name, run_id,
-                                      now, force=force, suffix=src.raw_suffix)
+                                      now, force=force, suffix=src.raw_suffix,
+                                      sniff=src.sniff)
             if not r.changed:
                 out[name] = r
                 continue

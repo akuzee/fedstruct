@@ -238,6 +238,30 @@ def test_block_is_a_failure_not_an_empty_result(env):
         "SELECT outcome FROM fetches WHERE source='fr_agencies'") == "failed"
 
 
+def test_block_page_served_as_http_200_never_becomes_data(env):
+    """Akamai serves its block page as HTTP 200 (verified on GitHub runners).
+
+    The sniff must reject it at fetch time — and reject it AGAIN on the next
+    identical response. If the block page were stored, its stable hash would
+    make the next fetch read 'unchanged' and the outage would go invisible.
+    """
+    block = b"<html><head><title>Access Denied</title></head></html>"
+    env.sess.set_body("escs.opm.gov", block)
+
+    first = env.run_all()
+    assert first["plum"].outcome == "failed"
+    assert "not this source's data" in first["plum"].error
+
+    second = env.run_all(force=True, now="2026-10-01T00:00:00+00:00")
+    assert second["plum"].outcome == "failed", \
+        "an identical block page hash-matched and read as 'unchanged'"
+
+    assert env.one("SELECT COUNT(*) FROM units WHERE anchor_source='plum'") == 0
+    assert env.one("SELECT fail_streak FROM sources WHERE name='plum'") == 2
+    # And the healthy sources were refreshed despite the blocked one.
+    assert env.one("SELECT COUNT(*) FROM units WHERE anchor_source='fr_agencies'") > 0
+
+
 def test_empty_agency_list_is_refused(env):
     env.sess.set_body("federalregister.gov", b"[]")
     with pytest.raises(ValueError, match="empty"):

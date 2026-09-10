@@ -64,11 +64,13 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # Runners have datacenter IPs, so the Federal Register 302 and the eCFR
-      # 406 DO fire here even though they never reproduce from a laptop.
-      # doctor asserts the payload shape, not just HTTP 200.
+      # Runners have datacenter IPs: escs.opm.gov's Akamai serves its block
+      # page as HTTP 200 here (verified Sept 2026), though FR and eCFR turned
+      # out to allow runners through. --warn-sources keeps one blocked source
+      # from aborting the others' refresh; the fetch layer records the failure
+      # per source (fail_streak, backoff) and it surfaces in `status`.
       - name: Preflight
-        run: python -m src.main doctor
+        run: python -m src.main doctor --warn-sources
 
       - name: Refresh
         if: env.MODE != 'doctor'

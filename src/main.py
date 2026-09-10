@@ -88,7 +88,8 @@ def _seed_caveats(conn, cfg: Config) -> int:
 def cmd_doctor(cfg: Config, args) -> dict:
     from .doctor import report, run_checks
 
-    checks = run_checks(cfg, network=not args.offline)
+    checks = run_checks(cfg, network=not args.offline,
+                        warn_sources=args.warn_sources)
     text, code = report(checks)
     print(text, file=sys.stderr)
     return {"checks": [{"name": c.name, "status": c.status, "detail": c.detail}
@@ -109,7 +110,8 @@ def cmd_fetch(cfg: Config, args) -> dict:
     for name in names:
         src = sources.get(name)
         r = fetchmod.check_source(conn, cfg, sess, name, run_id, now_iso(),
-                                  force=args.force, suffix=src.raw_suffix)
+                                  force=args.force, suffix=src.raw_suffix,
+                                  sniff=src.sniff)
         results[name] = {"outcome": r.outcome, "fetch_id": r.fetch_id,
                          "sha256": (r.sha256 or "")[:12] or None, "error": r.error}
 
@@ -138,7 +140,13 @@ def cmd_parse(cfg: Config, args) -> dict:
             continue
 
         body = fetchmod.read_raw(cfg, row["raw_path"])
-        parsed = src.parse(body)
+        # One source's bad payload must not abort the other sources' refresh;
+        # the failure is recorded and surfaces in `status`, not a traceback.
+        try:
+            parsed = src.parse(body)
+        except Exception as exc:
+            out[name] = {"parse_error": str(exc)}
+            continue
 
         # A truncated response and a mass abolition look identical to a differ,
         # and only one of them is real.
@@ -341,6 +349,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     d = sub.add_parser("doctor", help="preflight; gates the unrepeatable run #1")
     d.add_argument("--offline", action="store_true", help="skip network probes")
+    d.add_argument("--warn-sources", action="store_true",
+                   help="CI mode: a blocked source warns instead of failing; "
+                        "the fetch layer handles per-source failure properly")
 
     for name, help_ in (("fetch", "poll due sources through the sha256 gate"),
                         ("parse", "turn fetched payloads into statements"),

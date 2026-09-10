@@ -35,6 +35,11 @@ class ECFRAgencies(Source):
         "a non-regulatory or non-executive body is correct rather than opaque."
     )
 
+    def sniff(self, body: bytes) -> str | None:
+        if body.lstrip()[:1] != b"{":
+            return f"expected a JSON object, got {body[:80]!r}"
+        return None
+
     def parse(self, body: bytes) -> Parsed:
         payload = json.loads(body.decode("utf-8-sig"))
         agencies = payload.get("agencies") if isinstance(payload, dict) else payload

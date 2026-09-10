@@ -37,6 +37,12 @@ class FederalRegisterAgencies(Source):
         "Register. It includes defunct agencies and carries no active flag."
     )
 
+    def sniff(self, body: bytes) -> str | None:
+        head = body.lstrip()[:1]
+        if head != b"[":
+            return f"expected a JSON array, got {body[:80]!r}"
+        return None
+
     def parse(self, body: bytes) -> Parsed:
         data = json.loads(body.decode("utf-8-sig"))
         if not isinstance(data, list):
