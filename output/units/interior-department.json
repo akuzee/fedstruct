@@ -30,7 +30,7 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#interior-department"
     },
@@ -56,7 +56,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/253"
    },
@@ -74,7 +74,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/253"
    },
@@ -92,7 +92,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/253"
    },
@@ -110,7 +110,7 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/253"
    },
@@ -128,7 +128,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/253"
    },
@@ -146,7 +146,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/253"
    },
@@ -164,7 +164,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/253"
    },
@@ -182,7 +182,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/253"
    },
@@ -212,7 +212,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=interior-department].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-2/chapter-XIV"
     },
@@ -230,7 +230,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=interior-department].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-41/chapter-114"
     },
@@ -248,7 +248,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=interior-department].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-48/chapter-14"
     },
@@ -266,7 +266,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=interior-department].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-XXV"
     },

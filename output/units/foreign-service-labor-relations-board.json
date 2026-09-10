@@ -35,7 +35,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/207"
    },
@@ -53,7 +53,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/207"
    },
@@ -71,7 +71,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/207"
    },
@@ -89,7 +89,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/207"
    },
@@ -107,7 +107,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/207"
    },
@@ -125,7 +125,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/207"
    },
@@ -143,7 +143,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/207"
    },
@@ -173,7 +173,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=foreign-service-labor-relations-board].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-22/chapter-XIV"
     },

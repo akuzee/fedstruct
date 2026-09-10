@@ -35,7 +35,7 @@
     "link_method": "published",
     "locator": "$.agencies[?slug=office-of-postsecondary-education]",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-postsecondary-education"
    },
@@ -53,7 +53,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-postsecondary-education"
    },
@@ -71,7 +71,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -89,7 +89,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -216,7 +216,7 @@
      "link_method": "published",
      "locator": "$.agencies[?slug=office-of-postsecondary-education].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-34/chapter-VI"
     },

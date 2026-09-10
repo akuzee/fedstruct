@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": "$.agencies[?slug=human-resources-management-system-(homeland-security---office-of-personnel-management)]",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#human-resources-management-system-(homeland-security---office-of-personnel-management)"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#human-resources-management-system-(homeland-security---office-of-personnel-management)"
    },
@@ -68,7 +68,7 @@
      "link_method": "published",
      "locator": "$.agencies[?slug=human-resources-management-system-(homeland-security---office-of-personnel-management)].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-XCVII"
     },

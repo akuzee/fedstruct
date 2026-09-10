@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": "$.agencies[?slug=office-of-the-intellectual-property-enforcement-coordinator]",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-the-intellectual-property-enforcement-coordinator"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-the-intellectual-property-enforcement-coordinator"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-the-intellectual-property-enforcement-coordinator"
    },
@@ -86,7 +86,7 @@
      "link_method": "published",
      "locator": "$.agencies[?slug=office-of-the-intellectual-property-enforcement-coordinator].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-CIV"
     },

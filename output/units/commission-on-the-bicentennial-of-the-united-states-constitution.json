@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/70"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/70"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/70"
    },
@@ -80,7 +80,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/70"
    },
@@ -98,7 +98,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/70"
    },

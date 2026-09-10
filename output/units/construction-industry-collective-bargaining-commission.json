@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": "$.agencies[?slug=construction-industry-collective-bargaining-commission]",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#construction-industry-collective-bargaining-commission"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#construction-industry-collective-bargaining-commission"
    },
@@ -68,7 +68,7 @@
      "link_method": "published",
      "locator": "$.agencies[?slug=construction-industry-collective-bargaining-commission].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-29/chapter-IX"
     },
