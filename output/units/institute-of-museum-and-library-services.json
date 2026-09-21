@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/591"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/591"
    },
@@ -80,7 +80,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -98,7 +98,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -116,7 +116,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/591"
    },
@@ -134,7 +134,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/591"
    },
@@ -182,7 +182,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=institute-of-museum-and-library-services].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-2/chapter-XXXI"
     },
@@ -200,7 +200,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=institute-of-museum-and-library-services].cfr_references",
      "method": "published",
-     "observations": 1,
+     "observations": 2,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-LXVII"
     },

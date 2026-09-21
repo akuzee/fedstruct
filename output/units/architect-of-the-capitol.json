@@ -35,7 +35,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
    },
@@ -53,7 +53,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
    },
@@ -71,7 +71,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
    },
@@ -89,7 +89,7 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
    },
@@ -107,7 +107,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
    },
@@ -125,7 +125,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -143,7 +143,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -161,7 +161,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
    },
@@ -179,7 +179,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
    },
@@ -197,7 +197,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 1,
+    "observations": 2,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/27"
    },
