@@ -26551,20 +26551,6 @@
    "sources": [
     "plum"
    ]
-  },
-  {
-   "children": 0,
-   "current_officials": 0,
-   "id": 2322,
-   "lifecycle": "active",
-   "name": "Marine Minerals Administration",
-   "positions": 0,
-   "short_name": "MMA",
-   "slug": "marine-minerals-administration",
-   "source_count": 1,
-   "sources": [
-    "fr_agencies"
-   ]
   }
  ]
 }

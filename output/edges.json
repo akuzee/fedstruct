@@ -18045,15 +18045,6 @@
    "since": "2026-09-21",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
-  },
-  {
-   "child": 2322,
-   "kind": "org",
-   "parent": 230,
-   "secondary": false,
-   "since": "2026-09-21",
-   "source": "fr_agencies",
-   "source_url": "http://www.federalregister.gov/api/v1/agencies/627"
   }
  ],
  "roots": [
