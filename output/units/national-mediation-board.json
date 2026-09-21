@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/357"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The National Mediation Board facilitates harmonious labor-management relations within two of the Nation's key transportation sectors: the railroads and the airlines. The Board handles mediation and employee representation disputes and provides administrative and financial support in adjusting grievances in the railroad industry.\rThe National Mediation Board (NMB) is an independent agency established by the 1934 amendments to the Railway Labor Act of 1926 (45 U.S.C. 151-158, 160-162, 1181-1188). The Board is composed of three members, appointed by the President and confirmed by the Senate. The board designates a Chairman on a yearly basis.\rThe Agency's dispute-resolution processes are designed to resolve disputes over the negotiation of new or revised collective bargaining agreements and the interpretation or application of existing agreements. It also effectuates employee rights of self-organization where a representation dispute exists.",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/357"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/357"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "National Mediation Board",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "4",
    "value_num": 4.0
@@ -116,11 +116,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "2",
    "value_num": 2.0
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/357"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "NMB",
    "value_num": null
@@ -152,11 +152,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/357"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "national-mediation-board",
    "value_num": null
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/357"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/national-mediation-board",
    "value_num": null
@@ -206,7 +206,7 @@
    "valid_to": "2026-04-20"
   }
  ],
- "id": 316,
+ "id": 317,
  "merged_from": [
   {
    "key": "national-mediation-board",
@@ -230,11 +230,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-mediation-board].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-29/chapter-X"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "29 CFR chapter X",
     "value_num": null
@@ -248,11 +248,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-mediation-board].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-CI"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "5 CFR chapter CI",
     "value_num": null
@@ -264,25 +264,25 @@
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2027-07-01",
    "person": "Linda Puchala",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2009-05-26",
    "valid_to": null
   },
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2026-07-01",
    "person": "Loren Sweatt",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHAIRMAN",
-   "valid_from": null,
+   "valid_from": "2024-07-01",
    "valid_to": null
   },
   {
@@ -294,7 +294,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CONFIDENTIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2024-08-25",
    "valid_to": null
   },
   {
@@ -306,7 +306,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "GENERAL COUNSEL",
-   "valid_from": null,
+   "valid_from": "2003-09-22",
    "valid_to": null
   }
  ],

@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/373"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The National Telecommunications and Information Administration (NTIA) was established in 1978 by Reorganization Plan No. 1 of 1977 (5 U.S.C. app.) and Executive Order 12046 of March 27, 1978 (3 CFR, 1978 Comp., p. 158), by combining the Office of Telecommunications Policy of the Executive Office of the President and the Office of Telecommunications of the Department of Commerce to form a new agency reporting to the Secretary of Commerce. NTIA operates under the authority of the National Telecommunications and Information Administration Organization Act (47 U.S.C. 901).\r\rNTIA's principal responsibilities and functions include:\r\r--serving as the principal executive branch adviser to the President on telecommunications and information policy;\r--developing and presenting U.S. plans and policies at international communications conferences and related meetings;\r--prescribing policies for and managing Federal use of the radio frequency spectrum;\r--serving as the principal Federal telecommunications research and engineering laboratory, through NTIA's Institute for Telecommunication \rSciences, headquartered in Boulder, CO;\r--administering Federal programs to assist telecommunication facilities, public safety organizations, and the general public with the transition to digital broadcasting;\r--providing grants through the Broadband Technology Opportunities \rProgram to increase broadband accessibility in underserved areas of the \rUnited States; and\r--providing grants through the Public Telecommunications Facilities \rProgram to extend delivery or public telecommunications services to U.S. citizens, to increase ownership and management by women and minorities, and to strengthen the capabilities of existing public broadcasting stations to provide telecommunications services.",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/373"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/373"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "National Telecommunications and Information Administration",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "13",
    "value_num": 13.0
@@ -116,11 +116,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/373"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "NTIA",
    "value_num": null
@@ -152,11 +152,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/373"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "national-telecommunications-and-information-administration",
    "value_num": null
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/373"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/national-telecommunications-and-information-administration",
    "value_num": null
@@ -242,7 +242,7 @@
    "valid_to": "2026-02-21"
   }
  ],
- "id": 332,
+ "id": 333,
  "merged_from": [
   {
    "key": "national-telecommunications-and-information-administration",
@@ -266,11 +266,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-telecommunications-and-information-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-15/chapter-XXIII"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "15 CFR chapter XXIII",
     "value_num": null
@@ -284,11 +284,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-telecommunications-and-information-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-47/chapter-III"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "47 CFR chapter III",
     "value_num": null
@@ -302,11 +302,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-telecommunications-and-information-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-47/chapter-IV"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "47 CFR chapter IV",
     "value_num": null
@@ -324,7 +324,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF STAFF, NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2025-03-22",
    "valid_to": null
   },
   {
@@ -336,7 +336,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CONFIDENTIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2025-07-28",
    "valid_to": null
   },
   {
@@ -348,7 +348,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY FOR OPERATIONS AND ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2023-09-25",
    "valid_to": null
   },
   {
@@ -360,7 +360,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY TO NTIA",
-   "valid_from": null,
+   "valid_from": "2025-02-26",
    "valid_to": null
   },
   {
@@ -372,7 +372,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSOCIATE ADMINISTRATOR FOR STRATEGY, IMPLEMENTATION, AND COORDINATION",
-   "valid_from": null,
+   "valid_from": "2025-01-12",
    "valid_to": null
   },
   {
@@ -384,7 +384,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSOCIATE ADMINISTRATOR, OFFICE OF PUBLIC SAFETY COMMUNICATIONS",
-   "valid_from": null,
+   "valid_from": "2024-12-15",
    "valid_to": null
   },
   {
@@ -396,7 +396,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF CONGRESSIONAL AFFAIRS",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   },
   {
@@ -408,7 +408,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-01-12",
    "valid_to": null
   },
   {
@@ -420,7 +420,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-02-17",
    "valid_to": null
   },
   {
@@ -432,7 +432,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR FOR PUBLIC AFFAIRS",
-   "valid_from": null,
+   "valid_from": "2025-08-11",
    "valid_to": null
   },
   {
@@ -444,7 +444,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-07-14",
    "valid_to": null
   }
  ],

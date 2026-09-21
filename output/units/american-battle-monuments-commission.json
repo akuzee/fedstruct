@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/20"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.abmc.gov",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/20"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The American Battle Monuments Commission (ABMC) was established by Congress in 1923 to commemorate the service, achievements, and sacrifice of U.S. armed forces where they have served overseas since 1917, and within the U.S. when directed by public law.\r\n\r\nThe ABMC commemorative mission is reflected in 24 overseas military cemeteries that serve as resting places for almost 125,000 American war dead; on Tablets of the Missing that memorialize more than 94,000 U.S. servicemen and women; and through 25 memorials, monuments and markers.",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/20"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/20"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/20/medium.png?1306287839",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/20"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "American Battle Monuments Commission",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "5",
    "value_num": 5.0
@@ -152,11 +152,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/20"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "ABMC",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/20"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "american-battle-monuments-commission",
    "value_num": null
@@ -206,11 +206,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/20"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/american-battle-monuments-commission",
    "value_num": null
@@ -278,11 +278,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=american-battle-monuments-commission].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-36/chapter-IV"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "36 CFR chapter IV",
     "value_num": null
@@ -300,7 +300,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Chairman",
-   "valid_from": null,
+   "valid_from": "2023-07-14",
    "valid_to": null
   },
   {
@@ -312,7 +312,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Commission Member",
-   "valid_from": null,
+   "valid_from": "2025-06-02",
    "valid_to": null
   },
   {
@@ -324,7 +324,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Commission Member",
-   "valid_from": null,
+   "valid_from": "2025-04-14",
    "valid_to": null
   },
   {
@@ -336,7 +336,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Commission Member",
-   "valid_from": null,
+   "valid_from": "2025-04-14",
    "valid_to": null
   },
   {
@@ -348,7 +348,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Commission Member",
-   "valid_from": null,
+   "valid_from": "2025-12-08",
    "valid_to": null
   },
   {
@@ -360,7 +360,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Commission Member",
-   "valid_from": null,
+   "valid_from": "2026-05-01",
    "valid_to": null
   },
   {
@@ -372,7 +372,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Commission Member",
-   "valid_from": null,
+   "valid_from": "2025-09-01",
    "valid_to": null
   },
   {
@@ -384,7 +384,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Commission Member",
-   "valid_from": null,
+   "valid_from": "2025-04-14",
    "valid_to": null
   },
   {
@@ -396,7 +396,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Commission Member",
-   "valid_from": null,
+   "valid_from": "2025-04-14",
    "valid_to": null
   },
   {
@@ -408,7 +408,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2024-06-30",
    "valid_to": null
   },
   {
@@ -420,7 +420,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SECRETARY",
-   "valid_from": null,
+   "valid_from": "2025-04-14",
    "valid_to": null
   }
  ],

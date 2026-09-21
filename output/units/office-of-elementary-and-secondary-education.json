@@ -35,11 +35,11 @@
     "link_method": "published",
     "locator": "$.agencies[?slug=office-of-elementary-and-secondary-education]",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-elementary-and-secondary-education"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -53,11 +53,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-elementary-and-secondary-education"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Office of Elementary and Secondary Education",
    "value_num": null
@@ -71,11 +71,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "12",
    "value_num": 12.0
@@ -89,11 +89,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -233,7 +233,7 @@
    "valid_to": "2026-04-18"
   }
  ],
- "id": 557,
+ "id": 558,
  "merged_from": [
   {
    "key": "175e3fab85bbf358",
@@ -252,11 +252,11 @@
      "link_method": "published",
      "locator": "$.agencies[?slug=office-of-elementary-and-secondary-education].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-34/chapter-II"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "34 CFR chapter II",
     "value_num": null
@@ -274,7 +274,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT SECRETARY, OFFICE OF ELEMENTARY AND SECONDARY EDUCATION",
-   "valid_from": null,
+   "valid_from": "2025-11-24",
    "valid_to": null
   },
   {
@@ -286,7 +286,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-09-15",
    "valid_to": null
   },
   {
@@ -298,7 +298,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY",
-   "valid_from": null,
+   "valid_from": "2025-03-17",
    "valid_to": null
   },
   {
@@ -310,7 +310,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY FOR DISCRETIONARY GRANTS",
-   "valid_from": null,
+   "valid_from": "2026-03-17",
    "valid_to": null
   },
   {
@@ -322,7 +322,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY FOR POLICY AND PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2019-06-23",
    "valid_to": null
   },
   {
@@ -334,7 +334,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MANAGER, OPERATIONS &amp; SPECIAL PROJECTS",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   },
   {
@@ -346,7 +346,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PRINCIPAL DEPUTY ASSISTANT SECRETARY &amp; CHIEF STRATEGIST",
-   "valid_from": null,
+   "valid_from": "2026-01-11",
    "valid_to": null
   },
   {
@@ -358,7 +358,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-06-16",
    "valid_to": null
   },
   {
@@ -370,7 +370,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-06-01",
    "valid_to": null
   }
  ],

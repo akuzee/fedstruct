@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "3",
    "value_num": 3.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -58,7 +58,7 @@
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2027-06-30",
    "person": "David Rosner",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -70,7 +70,7 @@
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2031-06-30",
    "person": "Willie Phillips",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -104,7 +104,7 @@
    "valid_to": "2025-05-31"
   }
  ],
- "id": 1771,
+ "id": 1772,
  "merged_from": [],
  "multi_facts": {},
  "name": "Office of the Commissioner",
@@ -112,49 +112,49 @@
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2028-06-30",
    "person": "Lindsay See",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MEMBER-FEDERAL ENERGY REGULATORY COMMISSION",
-   "valid_from": null,
+   "valid_from": "2024-06-28",
    "valid_to": null
   },
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2027-06-30",
    "person": "David Rosner",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MEMBER-FEDERAL ENERGY REGULATORY COMMISSION",
-   "valid_from": null,
+   "valid_from": "2025-10-20",
    "valid_to": null
   },
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2029-06-30",
    "person": "Judy Chang",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MEMBER-FEDERAL ENERGY REGULATORY COMMISSION",
-   "valid_from": null,
+   "valid_from": "2024-07-15",
    "valid_to": null
   },
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2031-06-30",
    "person": "David Lacerte",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MEMBER-FEDERAL ENERGY REGULATORY COMMISSION",
-   "valid_from": null,
+   "valid_from": "2025-10-27",
    "valid_to": null
   },
   {
@@ -166,7 +166,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CONFIDENTIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2024-09-22",
    "valid_to": null
   },
   {
@@ -178,7 +178,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CONFIDENTIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2025-01-12",
    "valid_to": null
   },
   {
@@ -190,7 +190,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CONFIDENTIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-01-11",
    "valid_to": null
   }
  ],

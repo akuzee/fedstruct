@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/358"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The National Nanotechnology Coordination Office (NACO) was established in 2001 by a memorandum of understanding among the eight agencies participating in the National Nanotechnology Initiative (NNI) at that time.\r\n\r\nThe NNCO coordinates the preparation and publication of NNI interagency planning, budget, and assessment documents. The NNCO organizes meetings of the Nanoscale Science, Engineering & Technology Subcommittee and its working groups. It also organizes NNI-sponsored workshops and, as appropriate, prepares and publishes reports of those workshops.The NNCO also maintains www.nano.gov and coordinates development of information on the NNI and its activities for Congress when requested. \r\n",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/358"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/358"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "National Nanotechnology Coordination Office",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/358"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "NNCO",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/358"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "national-nanotechnology-coordination-office",
    "value_num": null
@@ -116,18 +116,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/358"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/national-nanotechnology-coordination-office",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 317,
+ "id": 318,
  "merged_from": [],
  "multi_facts": {},
  "name": "National Nanotechnology Coordination Office",

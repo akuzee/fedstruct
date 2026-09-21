@@ -30,11 +30,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#national-intelligence-office-of-the-national-director"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "Office of Director of National Intelligence",
     "value_num": null
@@ -56,11 +56,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/354"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.dni.gov/who.htm",
    "value_num": null
@@ -74,11 +74,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/354"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Director of National Intelligence (DNI) serves as the head of the Intelligence Community (IC), overseeing and directing the implementation of the National Intelligence Program and acting as the principal advisor to the President, the National Security Council, and the Homeland Security Council for intelligence matters related to the national security. Working together with the Principal Deputy DNI (PDDNI) and with the assistance of Mission Managers and four Deputy Directors, the Office of the DNI's goal is to effectively integrate foreign, military and domestic intelligence in defense of the homeland and of United States interests abroad. ",
    "value_num": null
@@ -92,11 +92,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/354"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -110,11 +110,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/354"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "National Intelligence, Office of the National Director",
    "value_num": null
@@ -128,11 +128,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/354"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "ODNI",
    "value_num": null
@@ -146,11 +146,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/354"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "national-intelligence-office-of-the-national-director",
    "value_num": null
@@ -164,18 +164,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/354"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/national-intelligence-office-of-the-national-director",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 313,
+ "id": 314,
  "merged_from": [
   {
    "key": "national-intelligence-office-of-the-national-director",
@@ -194,11 +194,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-intelligence-office-of-the-national-director].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-32/chapter-XVII"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "32 CFR chapter XVII",
     "value_num": null
@@ -212,11 +212,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-intelligence-office-of-the-national-director].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-IV"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "5 CFR chapter IV",
     "value_num": null

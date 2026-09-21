@@ -35,11 +35,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/351"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://nij.gov/",
    "value_num": null
@@ -53,11 +53,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/351"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "NIJ was created in 1969 by the Omnibus Crime Control and Safe Streets Act as the National Institute of Law Enforcement and Criminal Justice with the purpose of monitoring and supporting federally funded criminal justice research to assist State and local governments to improve police, courts and corrections issues. Renamed National Institute of Justice in 1978, NIJ currently functions as the research, development and evaluation agency of the U.S. Department of Justice.",
    "value_num": null
@@ -71,11 +71,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/351"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -89,11 +89,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/351"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/351/medium.png?1462304961",
    "value_num": null
@@ -107,11 +107,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/351"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "National Institute of Justice",
    "value_num": null
@@ -125,11 +125,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "3",
    "value_num": 3.0
@@ -143,11 +143,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -161,11 +161,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/351"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "NIJ",
    "value_num": null
@@ -179,11 +179,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/351"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "national-institute-of-justice",
    "value_num": null
@@ -197,11 +197,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/351"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/national-institute-of-justice",
    "value_num": null
@@ -221,7 +221,7 @@
    "valid_to": "2025-09-30"
   }
  ],
- "id": 310,
+ "id": 311,
  "merged_from": [
   {
    "key": "42cfe1cd163c7857",
@@ -241,7 +241,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PRINCIPAL DEPUTY DIRECTOR, NATIONAL INSTITUTE OF JUSTICE",
-   "valid_from": null,
+   "valid_from": "2020-08-16",
    "valid_to": null
   }
  ],

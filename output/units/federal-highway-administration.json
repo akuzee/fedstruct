@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/170"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.fhwa.dot.gov/",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/170"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Federal Highway Administration (FHWA) was established as an agency of the Department of Transportation by the Department of Transportation Act (49 U.S.C. 104). Title 23 of the United States Code and other supporting legislation authorize the Administration's various activities.\r\nFHWA's mission is to improve mobility on our Nation's highways through national leadership, innovation, and program delivery. The \r\nAdministration works with Federal, State, and local agencies as well as other stakeholders and partners to preserve and improve the National \r\nHighway System, which includes the Interstate System and other roads of importance for national defense and mobility. The FHWA works to improve highway safety and minimize traffic congestion on these and other key facilities. The FHWA bears the responsibility of ensuring that America's roads and highways remain safe, technologically up-to-date, and environmentally-friendly. Through surface transportation programs, innovative and traditional financing mechanisms, and new types of pavement and operational technology, FHWA increases the efficiency by which people and goods move throughout the Nation. The Administration also works to improve the efficiency of highway and road connections to other modes of transportation. The Federal-aid Highway Program's budget is primarily divided between Federal-aid funding and the Federal Lands Highway Program.",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/170"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/170"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/170/medium.png?1321991143",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/170"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Federal Highway Administration",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "3",
    "value_num": 3.0
@@ -152,11 +152,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/170"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "FHWA",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/170"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "federal-highway-administration",
    "value_num": null
@@ -206,11 +206,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/170"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/federal-highway-administration",
    "value_num": null
@@ -254,11 +254,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=federal-highway-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-23/chapter-I"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "23 CFR chapter I",
     "value_num": null
@@ -272,11 +272,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=federal-highway-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-23/chapter-II"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "23 CFR chapter II",
     "value_num": null
@@ -294,7 +294,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF GOVERNMENTAL AFFAIRS",
-   "valid_from": null,
+   "valid_from": "2025-06-01",
    "valid_to": null
   },
   {
@@ -306,7 +306,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF PUBLIC AFFAIRS",
-   "valid_from": null,
+   "valid_from": "2025-04-06",
    "valid_to": null
   }
  ],

@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/498"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Establishment of the Twenty-First Century Workforce Commission was mandated by Subtitle C of Title III of the Workforce Investment Act, Sec. 331 of Pub. L. 105-220, 112 Stat. 1087-1091 (29 U.S.C. 2701 note), signed into law on August 7, 1998. \r\n\r\nThe 15 voting member Twenty-First Century Workforce Commission is charged with carrying out a study of the information technology workforce in the U.S., including the examination of the following issues:\r\nWhat skills are currently required to enter the information technology workforce? What technical skills will be demanded in the near future?\r\nHow can the United States expand its number of skilled information technology workers?\r\nHow do information technology education programs in the United States compare with other countries in effectively training information technology workers? \r\n\r\nThe Workforce Investment Act directed the Commission to issue recommendations to the President and Congress within six months. The Commission first met on November 16, 1999, and issued its final report with recommendations by May 16, 2000. \r\n\r\n__________\r\nSource:\r\nFederal Register of June 14, 2000 (65 FR 37467)",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/498"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/498"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Twenty-First Century Workforce Commission",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/498"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "twenty-first-century-workforce-commission",
    "value_num": null
@@ -98,18 +98,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/498"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/twenty-first-century-workforce-commission",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 440,
+ "id": 441,
  "merged_from": [],
  "multi_facts": {},
  "name": "Twenty-First Century Workforce Commission",

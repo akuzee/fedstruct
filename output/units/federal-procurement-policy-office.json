@@ -39,11 +39,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#federal-procurement-policy-office"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "Office of Federal Procurement Policy",
     "value_num": null
@@ -65,11 +65,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/184"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.whitehouse.gov/omb/procurement_default/",
    "value_num": null
@@ -83,11 +83,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/184"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Office of Federal Procurement Policy (OFPP) in the Office of Management and Budget plays a central role in shaping the policies and practices federal agencies use to acquire the goods and services they need to carry out their responsibilities. OFPP was established by Congress in 1974 to provide overall direction for government-wide procurement policies, regulations and procedures and to promote economy, efficiency, and effectiveness in acquisition processes. OFPP is headed by an Administrator who is appointed by the President and confirmed by the Senate. \r\n\r\nThrough a variety of statutory authorities and results-oriented policy initiatives, OFPP seeks to ensure the federal acquisition system provides the best value to the taxpayer. Current priorities  are designed to provide for a better skilled and more agile workforce, consistent and effective use of competition, contract vehicles that reflect the government's buying power, and a data system that gives federal managers the information they need to evaluate results and plan effectively for the future.\r\n[http://www.whitehouse.gov/omb/procurement_mission/]",
    "value_num": null
@@ -101,11 +101,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/184"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -119,11 +119,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/184"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Federal Procurement Policy Office",
    "value_num": null
@@ -137,11 +137,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "3",
    "value_num": 3.0
@@ -155,11 +155,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -173,11 +173,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/184"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "OFPP",
    "value_num": null
@@ -191,11 +191,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/184"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "federal-procurement-policy-office",
    "value_num": null
@@ -209,11 +209,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/184"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/federal-procurement-policy-office",
    "value_num": null
@@ -269,11 +269,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=federal-procurement-policy-office].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-48/chapter-99"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "48 CFR chapter 99",
     "value_num": null
@@ -291,7 +291,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADMINISTRATOR OFFICE OF FEDERAL PROCUREMENT POLICY",
-   "valid_from": null,
+   "valid_from": "2025-10-15",
    "valid_to": null
   },
   {
@@ -303,7 +303,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADVISOR TO THE OFFICE OF FEDERAL PROCUREMENT POLICY",
-   "valid_from": null,
+   "valid_from": "2025-05-12",
    "valid_to": null
   },
   {
@@ -315,7 +315,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADVISOR TO THE OFFICE OF FEDERAL PROCUREMENT POLICY",
-   "valid_from": null,
+   "valid_from": "2025-07-28",
    "valid_to": null
   },
   {
@@ -327,7 +327,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CONFIDENTIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-02-08",
    "valid_to": null
   }
  ],

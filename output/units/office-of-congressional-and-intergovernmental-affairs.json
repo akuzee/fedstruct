@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "16",
    "value_num": 16.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -320,7 +320,7 @@
    "valid_to": "2025-08-20"
   }
  ],
- "id": 1233,
+ "id": 1234,
  "merged_from": [],
  "multi_facts": {},
  "name": "Office of Congressional and Intergovernmental Affairs",
@@ -334,7 +334,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF STAFF",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   },
   {
@@ -346,7 +346,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OVERSIGHT COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   },
   {
@@ -358,7 +358,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY, OCIA",
-   "valid_from": null,
+   "valid_from": "2025-04-20",
    "valid_to": null
   },
   {
@@ -370,7 +370,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR INTERGOVERNMENTAL AFFAIRS",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -382,7 +382,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "LEGISLATIVE ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   },
   {
@@ -394,7 +394,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "LEGISLATIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {
@@ -406,7 +406,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "OVERSIGHT COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-07-13",
    "valid_to": null
   },
   {
@@ -418,7 +418,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-05-17",
    "valid_to": null
   },
   {
@@ -430,7 +430,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR LEGISLATIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   },
   {
@@ -442,7 +442,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR LEGISLATIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -454,7 +454,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR LEGISLATIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -466,7 +466,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR LIAISON",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   }
  ],

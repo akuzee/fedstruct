@@ -39,11 +39,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#alcohol-tobacco-firearms-and-explosives-bureau"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
     "value_num": null
@@ -65,11 +65,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/19"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.atf.gov/",
    "value_num": null
@@ -83,11 +83,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/19"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) is responsible for enforcing Federal criminal laws and regulating the firearms and explosives industries. \r\n\r\nATF, formerly known as the Bureau of Alcohol, Tobacco, and Firearms, was initially established by Department of Treasury Order No. 221, effective July 1, 1972, which transferred the functions, powers, and duties arising under laws relating to alcohol, tobacco, firearms, and explosives from the Internal Revenue Service to ATF. The Homeland Security Act of 2002 (6 U.S.C. 531) transferred certain functions and authorities of ATF to the Department of Justice and established it under its current name. ATF works, directly and through partnerships, to investigate and reduce violent crime involving firearms and explosives, acts of arson, and illegal trafficking of alcohol and tobacco products. \r\n\r\nThe Bureau provides training and support to its Federal, State, local, and international law enforcement partners and works primarily in 23 field divisions across the 50 States, Puerto Rico, the U.S. Virgin Islands, and Guam. It also has foreign offices in Mexico, Canada, Colombia, and France.",
    "value_num": null
@@ -101,11 +101,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/19"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -119,11 +119,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/19"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/19/medium.png?1279143727",
    "value_num": null
@@ -137,11 +137,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/19"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Alcohol, Tobacco, Firearms, and Explosives Bureau",
    "value_num": null
@@ -155,11 +155,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "36",
    "value_num": 36.0
@@ -173,11 +173,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -191,11 +191,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/19"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "ATF",
    "value_num": null
@@ -209,11 +209,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/19"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "alcohol-tobacco-firearms-and-explosives-bureau",
    "value_num": null
@@ -227,11 +227,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/19"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/alcohol-tobacco-firearms-and-explosives-bureau",
    "value_num": null
@@ -599,11 +599,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=alcohol-tobacco-firearms-and-explosives-bureau].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-27/chapter-II"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "27 CFR chapter II",
     "value_num": null
@@ -621,7 +621,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, BUREAU OF ALCOHOL, TOBACCO, FIREARMS, AND EXPLOSIVES",
-   "valid_from": null,
+   "valid_from": "2026-04-30",
    "valid_to": null
   },
   {
@@ -633,7 +633,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT DIRECTOR, ENFORCEMENT PROGRAMS AND SERVICES",
-   "valid_from": null,
+   "valid_from": "2025-06-29",
    "valid_to": null
   },
   {
@@ -645,7 +645,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT DIRECTOR, FIELD OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2026-01-04",
    "valid_to": null
   },
   {
@@ -657,7 +657,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT DIRECTOR, HUMAN RESOURCES AND PROFESSIONAL DEVELOPMENT",
-   "valid_from": null,
+   "valid_from": "2023-11-19",
    "valid_to": null
   },
   {
@@ -669,7 +669,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT DIRECTOR, MANAGEMENT AND CHIEF FINANCIAL OFFICER",
-   "valid_from": null,
+   "valid_from": "2019-11-03",
    "valid_to": null
   },
   {
@@ -681,7 +681,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT DIRECTOR, OFFICE OF PROFESSIONAL RESPONSIBILITY AND SECURITY OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2024-03-31",
    "valid_to": null
   },
   {
@@ -693,7 +693,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT DIRECTOR, OFFICE OF STRATEGIC INTELLIGENCE AND INFORMATION",
-   "valid_from": null,
+   "valid_from": "2025-08-24",
    "valid_to": null
   },
   {
@@ -705,7 +705,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT DIRECTOR, SCIENCE AND TECHNOLOGY",
-   "valid_from": null,
+   "valid_from": "2015-11-01",
    "valid_to": null
   },
   {
@@ -717,7 +717,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-05-19",
    "valid_to": null
   },
   {
@@ -729,7 +729,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, FIREARMS OPERATIONS DIVISION",
-   "valid_from": null,
+   "valid_from": "2025-10-05",
    "valid_to": null
   },
   {
@@ -741,7 +741,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, SPECIAL OPERATIONS DIVISION",
-   "valid_from": null,
+   "valid_from": "2026-01-31",
    "valid_to": null
   },
   {
@@ -753,7 +753,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR HUMAN RESOURCES",
-   "valid_from": null,
+   "valid_from": "2023-11-19",
    "valid_to": null
   },
   {
@@ -765,7 +765,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, FIELD OPERATIONS (PROGRAMS)",
-   "valid_from": null,
+   "valid_from": "2025-07-27",
    "valid_to": null
   },
   {
@@ -777,7 +777,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, FIELD OPERATIONS - WEST",
-   "valid_from": null,
+   "valid_from": "2025-11-02",
    "valid_to": null
   },
   {
@@ -789,7 +789,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, FIELD OPERATIONS-CENTRAL",
-   "valid_from": null,
+   "valid_from": "2025-06-29",
    "valid_to": null
   },
   {
@@ -801,7 +801,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, FIELD OPERATIONS-EAST",
-   "valid_from": null,
+   "valid_from": "2025-11-02",
    "valid_to": null
   },
   {
@@ -813,7 +813,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, FORENSIC SERVICES",
-   "valid_from": null,
+   "valid_from": "2010-09-26",
    "valid_to": null
   },
   {
@@ -825,7 +825,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, INDUSTRY OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2022-03-27",
    "valid_to": null
   },
   {
@@ -837,7 +837,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, MANAGEMENT AND CHIEF FINANCIAL OFFICER",
-   "valid_from": null,
+   "valid_from": "2025-05-04",
    "valid_to": null
   },
   {
@@ -849,7 +849,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, OFFICE OF ENFORCEMENT PROGRAMS AND SERVICES",
-   "valid_from": null,
+   "valid_from": "2024-02-25",
    "valid_to": null
   },
   {
@@ -861,7 +861,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT DIRECTOR, OFFICE OF STRATEGIC INTELLIGENCE AND INFORMATION",
-   "valid_from": null,
+   "valid_from": "2026-01-11",
    "valid_to": null
   },
   {
@@ -873,7 +873,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -885,7 +885,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL AGENT IN CHARGE, HOUSTON",
-   "valid_from": null,
+   "valid_from": "2024-02-25",
    "valid_to": null
   },
   {
@@ -897,7 +897,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL AGENT IN CHARGE, NATIONAL CENTER FOR EXPLOSIVES TRAINING AND RESEARCH",
-   "valid_from": null,
+   "valid_from": "2024-10-20",
    "valid_to": null
   }
  ],

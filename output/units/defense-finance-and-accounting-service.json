@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "26",
    "value_num": 26.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -284,7 +284,7 @@
    "valid_to": "2025-10-24"
   }
  ],
- "id": 2057,
+ "id": 2058,
  "merged_from": [],
  "multi_facts": {},
  "name": "Defense Finance and Accounting Service",
@@ -298,7 +298,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF FINANCIAL OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-04-06",
    "valid_to": null
   },
   {
@@ -310,7 +310,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, INDUSTRIAL BASE PAY",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -322,7 +322,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, INFORMATION AND TECHNOLOGY",
-   "valid_from": null,
+   "valid_from": "2025-09-07",
    "valid_to": null
   },
   {
@@ -334,7 +334,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2026-04-06",
    "valid_to": null
   },
   {
@@ -346,7 +346,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, DEFENSE FINANCE AND ACCOUNTING SERVICE",
-   "valid_from": null,
+   "valid_from": "2025-11-18",
    "valid_to": null
   },
   {
@@ -358,7 +358,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, ENTERPRISE ACCOUNTING AND AUDIT SUPPORT",
-   "valid_from": null,
+   "valid_from": "2021-03-14",
    "valid_to": null
   },
   {
@@ -370,7 +370,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, INDUSTRIAL BASE PAY",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -382,7 +382,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, INFORMATION AND TECHNOLOGY",
-   "valid_from": null,
+   "valid_from": "2023-04-23",
    "valid_to": null
   },
   {
@@ -394,7 +394,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, STRATEGY AND SUPPORT",
-   "valid_from": null,
+   "valid_from": "2025-01-12",
    "valid_to": null
   },
   {
@@ -406,7 +406,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, STRATEGY, POLICY, AND REQUIREMENTS",
-   "valid_from": null,
+   "valid_from": "2019-06-09",
    "valid_to": null
   },
   {
@@ -418,7 +418,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, TOTAL FORCE PAY",
-   "valid_from": null,
+   "valid_from": "2026-04-06",
    "valid_to": null
   },
   {
@@ -430,7 +430,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "GENERAL COUNSEL",
-   "valid_from": null,
+   "valid_from": "2013-12-16",
    "valid_to": null
   },
   {
@@ -442,7 +442,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PRINCIPAL DEPUTY DIRECTOR, DEFENSE FINANCE AND ACCOUNTING SERVICE",
-   "valid_from": null,
+   "valid_from": "2025-12-28",
    "valid_to": null
   },
   {
@@ -454,7 +454,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SITE DIRECTOR - CLEVELAND",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   },
   {
@@ -466,7 +466,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SITE DIRECTOR - INDIANAPOLIS",
-   "valid_from": null,
+   "valid_from": "2025-01-12",
    "valid_to": null
   }
  ],

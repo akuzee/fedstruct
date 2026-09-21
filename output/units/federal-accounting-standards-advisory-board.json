@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/158"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.fasab.gov/",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/158"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Federal Accounting Standards Advisory Board was created in October 1990 as a federal advisory committee charged with the purpose of developing accounting standards and principles for the United States Government.\r\n\r\n The mission of the FASAB is to promulgate Federal accounting standards after considering the financial and budgetary information needs of citizens, congressional oversight groups, executive agencies, and the needs of other users of federal financial information. Accounting and financial reporting standards are essential for public accountability and for an efficient and effective functioning of our democratic system of government. Thus, Federal accounting standards and financial reporting play a major role in fulfilling the government's duty to be publicly accountable and can be used to assess (1) the government's accountability and its efficiency and effectiveness, and (2) the economic, political, and social consequences of the allocation and various uses of Federal resources. \r\n[http://www.fasab.gov/pdffiles/fasab_facts_2009.pdf]",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/158"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/158"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/158/medium.png?1321993236",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/158"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Federal Accounting Standards Advisory Board",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/158"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "FASAB",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/158"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "federal-accounting-standards-advisory-board",
    "value_num": null
@@ -152,11 +152,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/158"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/federal-accounting-standards-advisory-board",
    "value_num": null

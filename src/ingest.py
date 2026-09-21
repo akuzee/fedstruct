@@ -355,14 +355,26 @@ def _upsert_occupancy(conn, source: Source, occ, pid: int, fetch_id: int, now: s
         return False
     norm = normalize_name(display)
 
-    row = conn.execute("SELECT id FROM persons WHERE name_norm = ?", (norm,)).fetchone()
+    # Identity by the publisher's identifier when there is one. Falling back to
+    # the name is a last resort and is what conflates same-named officials, so
+    # it applies only to sources that publish no person id at all.
+    if occ.person_key:
+        row = conn.execute(
+            "SELECT id FROM persons WHERE source = ? AND source_key = ?",
+            (source.name, occ.person_key)).fetchone()
+    else:
+        row = conn.execute(
+            "SELECT id FROM persons WHERE source_key IS NULL AND name_norm = ?",
+            (norm,)).fetchone()
+
     if row:
         person_id = int(row["id"])
     else:
         cur = conn.execute(
             "INSERT INTO persons (display_name, name_norm, first_name, last_name, "
-            "created_at) VALUES (?,?,?,?,?)",
-            (display.title(), norm, occ.first_name, occ.last_name, now))
+            "source, source_key, created_at) VALUES (?,?,?,?,?,?,?)",
+            (display.title(), norm, occ.first_name, occ.last_name,
+             source.name if occ.person_key else None, occ.person_key, now))
         person_id = int(cur.lastrowid)
 
     existing = conn.execute(

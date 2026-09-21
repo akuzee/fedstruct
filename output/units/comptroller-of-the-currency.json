@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/80"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.occ.gov",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/80"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Office of the Comptroller of the Currency was created February 25, 1863, (12 Stat. 665), as an independent bureau of the Department of the Treasury. Its mission is to ensure that national banks, federal savings associations, and federal branches and agencies of foreign banking organizations operating in the United States (banks) operate in a safe and sound manner, provide fair access to financial services, treat customers fairly, and comply with applicable laws and regulations.\r\n\r\nThe Office is headed by the Comptroller, who is appointed for a 5-year term by the President with the advice and consent of the Senate.\r\n\r\nThe Office has the power to supervise and examine banks; approve or deny applications for new bank charters, branches, or mergers; take enforcement action against banks that do not comply with laws and regulations; and issue regulations and interpretations pertaining to banks.\r\n\r\nThe Office supervises approximately 1,200 banks. The Office is independently funded through assessments on the assets of banks.\r\n",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/80"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/80"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/80/medium.gif?1612295540",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/80"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Comptroller of the Currency",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "7",
    "value_num": 7.0
@@ -152,11 +152,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/80"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "OCC",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/80"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "comptroller-of-the-currency",
    "value_num": null
@@ -206,11 +206,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/80"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/comptroller-of-the-currency",
    "value_num": null
@@ -266,11 +266,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=comptroller-of-the-currency].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-12/chapter-I"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "12 CFR chapter I",
     "value_num": null
@@ -288,7 +288,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMPTROLLER OF THE CURRENCY",
-   "valid_from": null,
+   "valid_from": "2025-07-15",
    "valid_to": null
   },
   {
@@ -300,7 +300,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF OF STAFF",
-   "valid_from": null,
+   "valid_from": "2021-12-05",
    "valid_to": null
   },
   {
@@ -312,7 +312,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF OF STAFF",
-   "valid_from": null,
+   "valid_from": "2025-08-18",
    "valid_to": null
   },
   {
@@ -324,7 +324,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2025-09-08",
    "valid_to": null
   },
   {
@@ -336,7 +336,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "FRONT OFFICE SPECIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2025-10-19",
    "valid_to": null
   },
   {
@@ -348,7 +348,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PRINCIPAL DEPUTY CHIEF CUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-09-08",
    "valid_to": null
   },
   {
@@ -360,7 +360,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR DEPUTY COMPTROLLER AND CHIEF COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-08-10",
    "valid_to": null
   }
  ],

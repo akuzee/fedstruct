@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "23",
    "value_num": 23.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -164,7 +164,7 @@
    "valid_to": "2025-12-21"
   }
  ],
- "id": 2092,
+ "id": 2093,
  "merged_from": [],
  "multi_facts": {},
  "name": "Office of the Director of Cost Assessment and Program Evaluation",
@@ -178,7 +178,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, COST ASSESSMENT AND PROGRAM EVALUATION",
-   "valid_from": null,
+   "valid_from": "2025-12-22",
    "valid_to": null
   },
   {
@@ -190,7 +190,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF STAFF",
-   "valid_from": null,
+   "valid_from": "2025-11-03",
    "valid_to": null
   },
   {
@@ -202,7 +202,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, ANALYSIS AND INNOVATION",
-   "valid_from": null,
+   "valid_from": "2018-04-22",
    "valid_to": null
   },
   {
@@ -214,7 +214,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, CAPABILITY ENABLERS",
-   "valid_from": null,
+   "valid_from": "2025-05-04",
    "valid_to": null
   },
   {
@@ -226,7 +226,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, COST ASSESSMENT",
-   "valid_from": null,
+   "valid_from": "2025-05-04",
    "valid_to": null
   },
   {
@@ -238,7 +238,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, PROGRAM EVALUATION",
-   "valid_from": null,
+   "valid_from": "2025-05-04",
    "valid_to": null
   },
   {
@@ -250,7 +250,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, AIR WARFARE COST ANALYSIS DIVISION",
-   "valid_from": null,
+   "valid_from": "2025-05-04",
    "valid_to": null
   },
   {
@@ -262,7 +262,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, COMMAND, CONTROL, COMMUNICATIONS, COMPUTERS (C4) AND INFORMATION PROGRAMS DIVISION",
-   "valid_from": null,
+   "valid_from": "2010-12-18",
    "valid_to": null
   },
   {
@@ -274,7 +274,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, ECONOMIC & MANPOWER ANALYSIS DIVISION",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -286,7 +286,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, GLOBAL SHAPING DIVISION",
-   "valid_from": null,
+   "valid_from": "2024-12-01",
    "valid_to": null
   },
   {
@@ -298,7 +298,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, LAND AND NAVAL WARFARE COST ANALYSIS DIVISION",
-   "valid_from": null,
+   "valid_from": "2024-06-30",
    "valid_to": null
   },
   {
@@ -310,7 +310,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, LAND FORCES DIVISION",
-   "valid_from": null,
+   "valid_from": "2024-06-16",
    "valid_to": null
   },
   {
@@ -322,7 +322,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, NAVAL FORCES DIVISION",
-   "valid_from": null,
+   "valid_from": "2024-01-28",
    "valid_to": null
   },
   {
@@ -334,7 +334,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, PROGRAM ANALYSIS DIVISION",
-   "valid_from": null,
+   "valid_from": "2019-01-20",
    "valid_to": null
   },
   {
@@ -346,7 +346,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, PROGRAM RESOURCES AND INFORMATION SYSTEMS MANAGEMENT DIVISION",
-   "valid_from": null,
+   "valid_from": "2010-08-15",
    "valid_to": null
   },
   {
@@ -358,7 +358,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, READINESS AND FORCE EMPLOYMENT DIVISION",
-   "valid_from": null,
+   "valid_from": "2024-06-02",
    "valid_to": null
   },
   {
@@ -370,7 +370,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, SPACE AND INTELLIGENCE DIVISION",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -382,7 +382,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, SPACE AND STRATEGIC SYSTEMS COST ANALYSIS",
-   "valid_from": null,
+   "valid_from": "2026-02-08",
    "valid_to": null
   },
   {
@@ -394,7 +394,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, STRATEGIC ANALYSIS AND ANALYTIC INNOVATION DIVISION",
-   "valid_from": null,
+   "valid_from": "2023-07-02",
    "valid_to": null
   },
   {
@@ -406,7 +406,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, STRATEGIC, DEFENSIVE AND SCIENCE/TECHNOLOGY DIVISION",
-   "valid_from": null,
+   "valid_from": "2023-04-09",
    "valid_to": null
   },
   {
@@ -418,7 +418,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, TACTICAL AIR FORCES DIVISION",
-   "valid_from": null,
+   "valid_from": "2024-01-28",
    "valid_to": null
   }
  ],

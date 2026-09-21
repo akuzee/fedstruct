@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/468"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Small Business Administration aids, counsels, assists, and protects the interests of small business; ensures that small business concerns receive a fair portion of Government purchases, contracts, and subcontracts, as well as of the sales of Government property; makes loans to small business concerns, State and local development companies, and the victims of floods or other catastrophes, or of certain types of economic injury; and licenses, regulates, and makes loans to small business investment companies.\r\rThe Small Business Administration (SBA) was created by the Small Business Act of 1953 and derives its present existence and authority from the Small Business Act (15 U.S.C. 631 et seq.) and the Small Business Investment Act of 1958 (15 U.S.C. 661).",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/468"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/468"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/468/medium.png?1279151365",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/468"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Small Business Administration",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/468"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "SBA",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/468"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "small-business-administration",
    "value_num": null
@@ -152,18 +152,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/468"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/small-business-administration",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 411,
+ "id": 412,
  "merged_from": [
   {
    "key": "small-business-administration",
@@ -187,11 +187,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=small-business-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-13/chapter-I"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "13 CFR chapter I",
     "value_num": null
@@ -205,11 +205,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=small-business-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-2/chapter-XXVII"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "2 CFR chapter XXVII",
     "value_num": null

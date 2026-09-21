@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/18"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.ttb.gov",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/18"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Alcohol and Tobacco Tax and Trade Bureau, statutorily named the Tax and Trade Bureau (TTB) was established under the Homeland Security Act of 2002 (the Act) on January 24, 2003. Rendering the functions of the Bureau of Alcohol, Tobacco and Firearms (ATF) into two new organizations with separate functions, the Act created a new tax and trade bureau within the Department of the Treasury, and shifted certain law enforcement functions of ATF to the Department of Justice. The Act called for the tax collection functions to remain with the Department of the Treasury; and the new organization was called the “Alcohol and Tobacco Tax and Trade Bureau.”\r\n\r\nThe mission of TTB is to collect alcohol, tobacco, firearms, and ammunition excise taxes that are rightfully due; to protect the consumer of alcohol beverages through compliance programs that are based upon education and enforcement of the industry to ensure an effectively regulated marketplace; and to assist industry members to understand and comply with Federal tax, product, and marketing requirements associated with the commodities we regulate.\r\n\r\n\r\n",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/18"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/18"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/18/medium.png?1321298190",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/18"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Alcohol and Tobacco Tax and Trade Bureau",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "6",
    "value_num": 6.0
@@ -152,11 +152,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/18"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "TTB",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/18"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "alcohol-and-tobacco-tax-and-trade-bureau",
    "value_num": null
@@ -206,11 +206,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/18"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/alcohol-and-tobacco-tax-and-trade-bureau",
    "value_num": null
@@ -266,11 +266,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=alcohol-and-tobacco-tax-and-trade-bureau].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-27/chapter-I"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "27 CFR chapter I",
     "value_num": null
@@ -288,7 +288,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT ADMINISTRATOR FOR DATA ANALYTICS - CHIEF DATA OFFICER",
-   "valid_from": null,
+   "valid_from": "2024-01-28",
    "valid_to": null
   },
   {
@@ -300,7 +300,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT ADMINISTRATOR, MANAGEMENT/CHIEF FINANCIAL OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -312,7 +312,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT ADMINISTRATOR, PERMITTING AND TAXATION",
-   "valid_from": null,
+   "valid_from": "2023-12-31",
    "valid_to": null
   },
   {
@@ -324,7 +324,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ADMINISTRATOR, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU",
-   "valid_from": null,
+   "valid_from": "2023-12-17",
    "valid_to": null
   }
  ],

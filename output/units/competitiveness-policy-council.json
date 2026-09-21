@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/79"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Competitiveness Policy Council was established in 1991as an independent  public advisory council by the Omnibus Trade and Competitiveness Act of 1988 (Pub. L. 100-418).\r\n\r\nThe Council was created to develop recommendations for national strategies and on specific policies intended to enhance the productivity and international competitiveness of U.S. industries. During its existence, the Council made a number of important recommendations during its years of operation regarding pensions, education, public investment, trade negotiations, and many other issues.\r\n\r\nThe Council was terminated in  July 1996 after the House of Representatives Appropriations Committee withheld further funding of its operations on the grounds that the Council was \"duplicative of private sector organizations\" that performed the same function without receiveing Federal funding. \r\n\r\n[Source: Wickipedia: http://en.wikipedia.org/wiki/Competitiveness_Policy_Council]",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/79"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/79"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Competitiveness Policy Council",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/79"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "CPC",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/79"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "competitiveness-policy-council",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/79"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/competitiveness-policy-council",
    "value_num": null

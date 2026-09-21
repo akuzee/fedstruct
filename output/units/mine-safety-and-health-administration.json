@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/288"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.msha.gov/",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/288"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Mine Safety and Health Administration (MSHA) is responsible for safety and health in the Nation's mines. MSHA develops and promulgates mandatory safety and health standards, ensures compliance with such standards, assesses civil penalties for violations, and investigates accidents. It cooperates with and provides assistance to the States in the development of effective State mine safety and health programs; improves and expands training programs in cooperation with the States and the mining industry; and contributes to the improvement and expansion of mine safety and health research and development. All of these activities are aimed at preventing and reducing mine accidents and occupational diseases in the mining industry.",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/288"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/288"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Mine Safety and Health Administration",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "11",
    "value_num": 11.0
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -152,11 +152,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/288"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "MSHA",
    "value_num": null
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/288"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "mine-safety-and-health-administration",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/288"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/mine-safety-and-health-administration",
    "value_num": null
@@ -260,7 +260,7 @@
    "valid_to": "2025-12-31"
   }
  ],
- "id": 265,
+ "id": 266,
  "merged_from": [
   {
    "key": "mine-safety-and-health-administration",
@@ -284,11 +284,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=mine-safety-and-health-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-30/chapter-I"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "30 CFR chapter I",
     "value_num": null
@@ -306,7 +306,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT SECRETARY, MINE SAFETY AND HEALTH ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2025-11-02",
    "valid_to": null
   },
   {
@@ -318,7 +318,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADMINISTRATOR, MINE SAFETY AND HEALTH ENFORCEMENT",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   },
   {
@@ -330,7 +330,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF STAFF",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -342,7 +342,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ADMINISTRATOR FOR REGIONAL OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2024-03-10",
    "valid_to": null
   },
   {
@@ -354,7 +354,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY",
-   "valid_from": null,
+   "valid_from": "2025-04-27",
    "valid_to": null
   },
   {
@@ -366,7 +366,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY, OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2025-08-24",
    "valid_to": null
   },
   {
@@ -378,7 +378,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF ADMINISTRATION AND MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2024-12-15",
    "valid_to": null
   },
   {
@@ -390,7 +390,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF PROGRAM EVALUATION AND INFORMATION RESOURCES",
-   "valid_from": null,
+   "valid_from": "2023-10-08",
    "valid_to": null
   },
   {
@@ -402,7 +402,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   }
  ],

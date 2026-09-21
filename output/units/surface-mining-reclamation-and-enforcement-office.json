@@ -39,11 +39,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#surface-mining-reclamation-and-enforcement-office"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "Office of Surface Mining Reclamation and Enforcement",
     "value_num": null
@@ -65,11 +65,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/480"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Office of Surface Mining Reclamation and Enforcement (OSM) was established in the Department of the Interior by the Surface Mining Control and Reclamation Act of 1977 (30 U.S.C. 1211).\r\rThe Office's primary goal is to assist States in operating a nationwide program that protects society and the environment from the adverse effects of coal mining, while ensuring that surface coal mining can be done without permanent damage to land and water resources. With most coal mining States responsible for regulating coal mining and reclamation activities within their borders, OSM's main objectives are to oversee State mining regulatory and abandoned-mine reclamation programs, assist States in meeting the objectives of the surface mining law, and regulate mining and reclamation activities on Federal and Indian lands, and in those States choosing not to assume primary responsibility.",
    "value_num": null
@@ -83,11 +83,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/480"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -101,11 +101,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/480"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Surface Mining Reclamation and Enforcement Office",
    "value_num": null
@@ -119,11 +119,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "5",
    "value_num": 5.0
@@ -137,11 +137,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -155,11 +155,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/480"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "OSM",
    "value_num": null
@@ -173,11 +173,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/480"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "surface-mining-reclamation-and-enforcement-office",
    "value_num": null
@@ -191,11 +191,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/480"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/surface-mining-reclamation-and-enforcement-office",
    "value_num": null
@@ -227,7 +227,7 @@
    "valid_to": "2025-12-31"
   }
  ],
- "id": 424,
+ "id": 425,
  "merged_from": [
   {
    "key": "surface-mining-reclamation-and-enforcement-office",
@@ -251,11 +251,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=surface-mining-reclamation-and-enforcement-office].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-30/chapter-VII"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "30 CFR chapter VII",
     "value_num": null
@@ -273,7 +273,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OFFICE OF SURFACE MINING RECLAMATION AND ENFORCEMENT",
-   "valid_from": null,
+   "valid_from": "2025-10-14",
    "valid_to": null
   },
   {
@@ -285,7 +285,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "POLICY ADVISOR, OSMRE",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   },
   {
@@ -297,7 +297,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR, OSMRE",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   }
  ],

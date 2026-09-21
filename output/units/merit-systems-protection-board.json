@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/285"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.mspb.gov/",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/285"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Merit Systems Protection Board (MSPB) is an independent, quasi-judicial agency in the Executive branch that serves as the guardian of Federal merit systems. The Board was established by Reorganization Plan No. 2 of 1978, which was codified by the Civil Service Reform Act of 1978 (CSRA), Public Law No. 95-454. The CSRA, which became effective January 11, 1979, replaced the Civil Service Commission with three new independent agencies: Office of Personnel Management (OPM), which manages the Federal work force; Federal Labor Relations Authority (FLRA), which oversees Federal labor-management relations; and, the Board.\r\n\r\nThe Board assumed the employee appeals function of the Civil Service Commission and was given new responsibilities to perform merit systems studies and to review the significant actions of OPM.\r\n\r\nThe Board's mission is to protect Federal merit systems and the rights of individuals within those systems. MSPB carries out its statutory responsibilities and authorities primarily by adjudicating individual employee appeals and by conducting merit systems studies. In addition, MSPB reviews the significant actions of the Office of Personnel Management (OPM) to assess the degree to which those actions may affect merit. \r\n",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/285"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/285"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/285/medium.jpg?1325105175",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/285"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Merit Systems Protection Board",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/285"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "MSPB",
    "value_num": null
@@ -152,11 +152,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/285"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "merit-systems-protection-board",
    "value_num": null
@@ -170,18 +170,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/285"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/merit-systems-protection-board",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 262,
+ "id": 263,
  "merged_from": [
   {
    "key": "merit-systems-protection-board",
@@ -205,11 +205,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=merit-systems-protection-board].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-II"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "5 CFR chapter II",
     "value_num": null
@@ -223,11 +223,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=merit-systems-protection-board].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-LXIV"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "5 CFR chapter LXIV",
     "value_num": null

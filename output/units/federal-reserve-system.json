@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/188"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.federalreserve.gov/",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/188"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Federal Reserve System, the central bank of the United States, is charged with administering and formulating the Nation's credit and monetary policy. Through its supervisory and regulatory banking functions, the Federal Reserve maintains the safety and soundness of the Nation's economy, responding to the Nation's domestic and international financial needs and objectives.\r\n\r\nThe Federal Reserve System was established by the Federal Reserve Act (12 U.S.C. 221), approved December 23, 1913. Its major responsibility is in the execution of monetary policy. It also performs other functions, such as the transfer of funds, handling Government deposits and debt issues, supervising and regulating banks, and acting as lender of last resort.\r\n\r\nIt is the responsibility of the Federal Reserve System to contribute to the strength and vitality of the U.S. economy. By influencing the lending and investing activities of depository institutions and the cost and availability of money and credit, the Federal Reserve System helps promote the full use of human and capital resources, the growth of productivity, relatively stable prices, and equilibrium in the Nation's international balance of payments. Through its supervisory and regulatory banking functions, the Federal Reserve System helps maintain a commercial banking system that is responsive to the Nation's financial needs and objectives.\r\n",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/188"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/188"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/188/medium.png?1322071292",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/188"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Federal Reserve System",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "4",
    "value_num": 4.0
@@ -152,11 +152,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "4",
    "value_num": 4.0
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/188"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "FRS",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/188"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "federal-reserve-system",
    "value_num": null
@@ -206,11 +206,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/188"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/federal-reserve-system",
    "value_num": null
@@ -241,11 +241,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=federal-reserve-system].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-12/chapter-II"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "12 CFR chapter II",
     "value_num": null
@@ -263,7 +263,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2018-11-26",
    "valid_to": null
   },
   {
@@ -275,7 +275,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2022-05-23",
    "valid_to": null
   },
   {
@@ -287,7 +287,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2012-05-25",
    "valid_to": null
   },
   {
@@ -299,7 +299,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2022-07-19",
    "valid_to": null
   },
   {
@@ -311,7 +311,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2020-12-18",
    "valid_to": null
   },
   {
@@ -323,7 +323,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2023-09-13",
    "valid_to": null
   },
   {
@@ -335,7 +335,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2022-05-23",
    "valid_to": null
   },
   {
@@ -347,7 +347,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHAIRMAN",
-   "valid_from": null,
+   "valid_from": "2018-02-05",
    "valid_to": null
   },
   {
@@ -359,7 +359,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "VICE CHAIR OF SUPERVISION",
-   "valid_from": null,
+   "valid_from": "2022-07-19",
    "valid_to": null
   },
   {
@@ -371,7 +371,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "VICE CHAIRMAN",
-   "valid_from": null,
+   "valid_from": "2023-09-13",
    "valid_to": null
   }
  ],

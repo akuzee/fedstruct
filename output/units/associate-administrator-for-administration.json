@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "2",
    "value_num": 2.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -104,7 +104,7 @@
    "valid_to": "2026-02-28"
   }
  ],
- "id": 1484,
+ "id": 1485,
  "merged_from": [],
  "multi_facts": {},
  "name": "Associate Administrator for Administration",
@@ -118,7 +118,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR FOR ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2025-11-16",
    "valid_to": null
   },
   {
@@ -130,7 +130,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR FOR ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2013-12-29",
    "valid_to": null
   },
   {
@@ -142,7 +142,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR FOR ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2019-04-14",
    "valid_to": null
   },
   {
@@ -154,7 +154,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR FOR ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2024-09-08",
    "valid_to": null
   },
   {
@@ -166,7 +166,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR FOR ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2019-01-20",
    "valid_to": null
   },
   {
@@ -178,7 +178,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, OFFICE OF HUMAN RESOURCES",
-   "valid_from": null,
+   "valid_from": "2026-04-20",
    "valid_to": null
   }
  ],

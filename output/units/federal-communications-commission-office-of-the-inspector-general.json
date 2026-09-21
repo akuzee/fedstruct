@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "2",
    "value_num": 2.0
@@ -44,18 +44,18 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
   }
  },
  "former_officials": [],
- "id": 1754,
+ "id": 1755,
  "merged_from": [],
  "multi_facts": {},
  "name": "Federal Communications Commission Office of the Inspector General",
@@ -69,7 +69,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "INSPECTOR GENERAL",
-   "valid_from": null,
+   "valid_from": "2024-03-25",
    "valid_to": null
   }
  ],

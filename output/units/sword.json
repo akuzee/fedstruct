@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "4",
    "value_num": 4.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -68,7 +68,7 @@
    "valid_to": "2026-05-01"
   }
  ],
- "id": 2302,
+ "id": 2303,
  "merged_from": [],
  "multi_facts": {},
  "name": "Sword",
@@ -82,7 +82,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MANAGING DIRECTOR, SWORD INVESTMENT ARM (POLICY)",
-   "valid_from": null,
+   "valid_from": "2026-02-23",
    "valid_to": null
   },
   {
@@ -94,7 +94,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "VICE PRESIDENT, SWORD INVESTMENT ARM",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   }
  ],

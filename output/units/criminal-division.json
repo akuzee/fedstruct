@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "30",
    "value_num": 30.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -152,7 +152,7 @@
    "valid_to": "2025-09-30"
   }
  ],
- "id": 1187,
+ "id": 1188,
  "merged_from": [],
  "multi_facts": {},
  "name": "Criminal Division",
@@ -166,7 +166,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT ATTORNEY GENERAL CRIMINAL DIVISION",
-   "valid_from": null,
+   "valid_from": "2025-12-23",
    "valid_to": null
   },
   {
@@ -178,7 +178,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF NARCOTIC AND DANGEROUS DRUG SECTION",
-   "valid_from": null,
+   "valid_from": "2023-11-19",
    "valid_to": null
   },
   {
@@ -190,7 +190,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, ASSET FORFEITURE AND MONEY LAUNDERING SECTION",
-   "valid_from": null,
+   "valid_from": "2018-09-02",
    "valid_to": null
   },
   {
@@ -202,7 +202,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, CAPITAL CASE SECTION",
-   "valid_from": null,
+   "valid_from": "2019-12-08",
    "valid_to": null
   },
   {
@@ -214,7 +214,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, HUMAN RIGHTS AND SPECIAL PROSECUTIONS SECTION",
-   "valid_from": null,
+   "valid_from": "2022-12-18",
    "valid_to": null
   },
   {
@@ -226,7 +226,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, ORGANIZED CRIME AND GANG SECTION",
-   "valid_from": null,
+   "valid_from": "2018-08-19",
    "valid_to": null
   },
   {
@@ -238,7 +238,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSELOR NARC &amp; TRANSNTL ORG CRIME",
-   "valid_from": null,
+   "valid_from": "2023-06-18",
    "valid_to": null
   },
   {
@@ -250,7 +250,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2024-09-16",
    "valid_to": null
   },
   {
@@ -262,7 +262,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2020-01-19",
    "valid_to": null
   },
   {
@@ -274,7 +274,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF FOR ORGANIZED CRIME AND GANG SECTION",
-   "valid_from": null,
+   "valid_from": "2019-12-08",
    "valid_to": null
   },
   {
@@ -286,7 +286,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF, CHILD EXPLOITATION AND OBSCENITY SECTION",
-   "valid_from": null,
+   "valid_from": "2016-05-01",
    "valid_to": null
   },
   {
@@ -298,7 +298,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF, COMPUTER CRIME AND INTELLECTUAL PROPERTY SECTION",
-   "valid_from": null,
+   "valid_from": "2025-06-01",
    "valid_to": null
   },
   {
@@ -310,7 +310,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF, HUMAN RIGHTS AND SPECIAL PROSECUTIONS",
-   "valid_from": null,
+   "valid_from": "2023-07-30",
    "valid_to": null
   },
   {
@@ -322,7 +322,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF, NARCOTIC AND DANGEROUS DRUG SECTION",
-   "valid_from": null,
+   "valid_from": "2024-09-08",
    "valid_to": null
   },
   {
@@ -334,7 +334,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR FOR INTERNATIONAL POLICY",
-   "valid_from": null,
+   "valid_from": "2016-03-06",
    "valid_to": null
   },
   {
@@ -346,7 +346,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, INTERNATIONAL CRIMINAL INVESTIGATIVE TRAINING ASSISTANCE PROGRAM (ICITAP)",
-   "valid_from": null,
+   "valid_from": "2024-06-02",
    "valid_to": null
   },
   {
@@ -358,7 +358,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, OFFICE OF ENFORCEMENT OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2024-03-24",
    "valid_to": null
   },
   {
@@ -370,7 +370,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY, CHIEF FRAUD SECTION",
-   "valid_from": null,
+   "valid_from": "2023-04-09",
    "valid_to": null
   },
   {
@@ -382,7 +382,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, INTERNATIONAL CRIMINAL INVESTIGATIVE TRAINING ASSISTANCE PROGRAM",
-   "valid_from": null,
+   "valid_from": "2020-12-20",
    "valid_to": null
   },
   {
@@ -394,7 +394,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, OFFICE OF ENFORCEMENT OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2023-06-04",
    "valid_to": null
   },
   {
@@ -406,7 +406,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, OFFICE OF POLICY AND LEGISLATION",
-   "valid_from": null,
+   "valid_from": "2024-12-30",
    "valid_to": null
   },
   {
@@ -418,7 +418,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-09-15",
    "valid_to": null
   },
   {
@@ -430,7 +430,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR LEGAL COUNSEL",
-   "valid_from": null,
+   "valid_from": "2024-11-17",
    "valid_to": null
   }
  ],

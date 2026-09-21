@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "10",
    "value_num": 10.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -104,7 +104,7 @@
    "valid_to": "2026-05-18"
   }
  ],
- "id": 2051,
+ "id": 2052,
  "merged_from": [],
  "multi_facts": {},
  "name": "Headquarters, Office of Special Counsel",
@@ -118,7 +118,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE SPECIAL COUNSEL FOR GENERAL LAW DIVISION",
-   "valid_from": null,
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {
@@ -130,7 +130,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE SPECIAL COUNSEL FOR INVESTIGATION AND PROSECUTION",
-   "valid_from": null,
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {
@@ -142,7 +142,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-05-19",
    "valid_to": null
   },
   {
@@ -154,7 +154,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OPERATING OFFICER",
-   "valid_from": null,
+   "valid_from": "2023-05-21",
    "valid_to": null
   },
   {
@@ -166,7 +166,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "LEGISLATIVE AFFAIRS DIRECTOR",
-   "valid_from": null,
+   "valid_from": "2024-06-30",
    "valid_to": null
   },
   {
@@ -178,7 +178,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PRINCIPAL DEPUTY SPECIAL COUNSEL",
-   "valid_from": null,
+   "valid_from": "2024-12-01",
    "valid_to": null
   }
  ],

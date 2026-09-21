@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/10"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.ars.usda.gov/main/main.htm",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/10"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Agricultural Research Service (ARS) was established on November 2, 1953 under the Secretary of Agriculture’s Reorganization Plan No. 2 of 1953. ARS is the principal in-house research agency of the U.S. Department of Agriculture (USDA).\r\n\r\nARS conducts research to develop and transfer solutions to agricultural problems of high national priority. It provides information access and dissemination to ensure high-quality safe food and other agricultural products; assess the nutritional needs of Americans; sustain a competitive agricultural economy; enhance the natural resource base and the environment; and provide economic opportunities for rural citizens, communities, and society as a whole.\r\n\r\nResearch activities are carried out at 103 domestic locations (including Puerto Rico and the U.S. Virgin Islands) and 5 overseas locations. Much of this research is conducted in cooperation with partners in State universities and experiment stations, other Federal agencies, and private organizations. National Programs, headquartered in Beltsville, MD, is the focal point in the overall planning and coordination of ARS' research programs. Day-to-day management of the respective programs for specific field locations is assigned to eight area offices.\r\n\r\nARS also includes the National Agricultural Library (NAL), which is the primary resource in the United States for information about food, agriculture, and natural resources, and serves as an electronic gateway to a widening array of scientific literature, printed text, and agricultural images. NAL serves USDA and a broad customer base including policymakers, agricultural specialists, research scientists, and the general public. NAL works with other agricultural libraries and institutions to advance open and democratic access to information about agriculture and the Nation's agricultural knowledge.\r\n\r\n\r\n\r\n",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/10"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/10"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/10/medium.png?1308257666",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/10"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Agricultural Research Service",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "7",
    "value_num": 7.0
@@ -152,11 +152,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/10"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "ARS",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/10"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "agricultural-research-service",
    "value_num": null
@@ -206,11 +206,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/10"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/agricultural-research-service",
    "value_num": null
@@ -266,11 +266,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=agricultural-research-service].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-7/chapter-V"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "7 CFR chapter V",
     "value_num": null
@@ -288,7 +288,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADMINISTRATOR, AGRICULTURAL RESEARCH SERVICE",
-   "valid_from": null,
+   "valid_from": "2025-12-28",
    "valid_to": null
   },
   {
@@ -300,7 +300,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT ADMINISTRATOR FOR TECHNOLOGY TRANSFER",
-   "valid_from": null,
+   "valid_from": "2021-11-21",
    "valid_to": null
   },
   {
@@ -312,7 +312,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, NATIONAL BIO AND AGRO-DEFENSE FACILITY",
-   "valid_from": null,
+   "valid_from": "2019-10-13",
    "valid_to": null
   }
  ],

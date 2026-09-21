@@ -21,7 +21,7 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 SCHEMA = """
 -- ── §3 run ledger ──────────────────────────────────────────────────────────
@@ -274,16 +274,27 @@ CREATE TABLE IF NOT EXISTS positions (
 );
 CREATE INDEX IF NOT EXISTS idx_positions_unit ON positions(unit_id);
 
+-- `source_key` is the publisher's own person identifier (OPM's Individual
+-- Unique ID). It, not the name, is the identity key when present: 80 pairs of
+-- distinct federal officials share a name, and keying on name_norm silently
+-- merged them into one person — the same false-merge failure the unit
+-- crosswalk exists to prevent, applied to people (plan §2).
+--
+-- UNIQUE on name_norm is therefore gone. Two officials may share a name; only
+-- a shared identifier makes them the same human.
 CREATE TABLE IF NOT EXISTS persons (
     id           INTEGER PRIMARY KEY,
     display_name TEXT NOT NULL,
     name_norm    TEXT NOT NULL,
     first_name   TEXT,
     last_name    TEXT,
+    source       TEXT,
+    source_key   TEXT,
     wikidata_qid TEXT,
     created_at   TEXT NOT NULL,
-    UNIQUE (name_norm)
+    UNIQUE (source, source_key)
 );
+CREATE INDEX IF NOT EXISTS idx_persons_name ON persons(name_norm);
 
 -- valid_from/valid_to = THIS person's tenure.
 -- period_start/period_end = the OFFICE's term, identical for every holder.

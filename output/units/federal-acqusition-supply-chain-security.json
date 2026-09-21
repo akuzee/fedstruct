@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.agencies[?slug=federal-acqusition-supply-chain-security]",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#federal-acqusition-supply-chain-security"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#federal-acqusition-supply-chain-security"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Federal Acquisition Security Council",
    "value_num": null
@@ -62,18 +62,18 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#federal-acqusition-supply-chain-security"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "FASC",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 579,
+ "id": 580,
  "merged_from": [],
  "multi_facts": {
   "cfr_chapter": [
@@ -86,11 +86,11 @@
      "link_method": "published",
      "locator": "$.agencies[?slug=federal-acqusition-supply-chain-security].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-41/chapter-201"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "41 CFR chapter 201",
     "value_num": null

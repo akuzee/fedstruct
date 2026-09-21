@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "70",
    "value_num": 70.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -248,7 +248,7 @@
    "valid_to": "2026-06-14"
   }
  ],
- "id": 882,
+ "id": 883,
  "merged_from": [],
  "multi_facts": {},
  "name": "Rural Development",
@@ -262,7 +262,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE DIRECTOR",
-   "valid_from": null,
+   "valid_from": "2024-06-02",
    "valid_to": null
   },
   {
@@ -274,7 +274,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OPERATING OFFICER",
-   "valid_from": null,
+   "valid_from": "2025-07-14",
    "valid_to": null
   },
   {
@@ -286,7 +286,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF RISK OFFICER",
-   "valid_from": null,
+   "valid_from": "2025-01-26",
    "valid_to": null
   },
   {
@@ -298,7 +298,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY STATE DIRECTOR (MICHIGAN)",
-   "valid_from": null,
+   "valid_from": "2026-04-24",
    "valid_to": null
   },
   {
@@ -310,7 +310,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY STATE DIRECTOR (OHIO)",
-   "valid_from": null,
+   "valid_from": "2026-04-07",
    "valid_to": null
   },
   {
@@ -322,7 +322,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY STATE DIRECTOR (TEXAS)",
-   "valid_from": null,
+   "valid_from": "2025-10-19",
    "valid_to": null
   },
   {
@@ -334,7 +334,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY STATE DIRECTOR - ALABAMA",
-   "valid_from": null,
+   "valid_from": "2025-08-10",
    "valid_to": null
   },
   {
@@ -346,7 +346,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY STATE DIRECTOR - GEORGIA",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -358,7 +358,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY STATE DIRECTOR - IOWA",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -370,7 +370,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY STATE DIRECTOR - WISCONSIN",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -382,7 +382,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY STATE DIRECTOR MISSISSIPPI",
-   "valid_from": null,
+   "valid_from": "2025-06-19",
    "valid_to": null
   },
   {
@@ -394,7 +394,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, NATIONAL FINANCIAL AND ACCOUNTING OPERATIONS CENTER",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -406,7 +406,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR FOR EXTERNAL COMMUNICATIONS",
-   "valid_from": null,
+   "valid_from": "2025-12-05",
    "valid_to": null
   },
   {
@@ -418,7 +418,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE  DIRECTOR - COLORADO",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -430,7 +430,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR (GEORGIA)",
-   "valid_from": null,
+   "valid_from": "2025-11-18",
    "valid_to": null
   },
   {
@@ -442,7 +442,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - ALABAMA",
-   "valid_from": null,
+   "valid_from": "2025-06-26",
    "valid_to": null
   },
   {
@@ -454,7 +454,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - ALASKA",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -466,7 +466,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - ARIZONA",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -478,7 +478,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - ARKANSAS",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -490,7 +490,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - CALIFORNIA",
-   "valid_from": null,
+   "valid_from": "2025-01-27",
    "valid_to": null
   },
   {
@@ -502,7 +502,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - DE MD",
-   "valid_from": null,
+   "valid_from": "2025-08-24",
    "valid_to": null
   },
   {
@@ -514,7 +514,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - FLORIDA",
-   "valid_from": null,
+   "valid_from": "2025-02-04",
    "valid_to": null
   },
   {
@@ -526,7 +526,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - IDAHO",
-   "valid_from": null,
+   "valid_from": "2025-07-14",
    "valid_to": null
   },
   {
@@ -538,7 +538,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - ILLINOIS",
-   "valid_from": null,
+   "valid_from": "2025-01-27",
    "valid_to": null
   },
   {
@@ -550,7 +550,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - INDIANA",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -562,7 +562,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - IOWA",
-   "valid_from": null,
+   "valid_from": "2025-11-18",
    "valid_to": null
   },
   {
@@ -574,7 +574,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - KENTUCKY",
-   "valid_from": null,
+   "valid_from": "2025-05-22",
    "valid_to": null
   },
   {
@@ -586,7 +586,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - LOUISIANA",
-   "valid_from": null,
+   "valid_from": "2026-02-23",
    "valid_to": null
   },
   {
@@ -598,7 +598,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - MAINE",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -610,7 +610,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - MASSACHUSETTS",
-   "valid_from": null,
+   "valid_from": "2025-12-05",
    "valid_to": null
   },
   {
@@ -622,7 +622,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - MICHIGAN",
-   "valid_from": null,
+   "valid_from": "2025-12-05",
    "valid_to": null
   },
   {
@@ -634,7 +634,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - MINNESOTA",
-   "valid_from": null,
+   "valid_from": "2025-08-24",
    "valid_to": null
   },
   {
@@ -646,7 +646,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - MISSISSIPPI",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -658,7 +658,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - MISSOURI",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -670,7 +670,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - MONTANA",
-   "valid_from": null,
+   "valid_from": "2025-11-18",
    "valid_to": null
   },
   {
@@ -682,7 +682,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - NEBRASKA",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -694,7 +694,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - NEVADA",
-   "valid_from": null,
+   "valid_from": "2025-01-27",
    "valid_to": null
   },
   {
@@ -706,7 +706,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - NEW JERSEY",
-   "valid_from": null,
+   "valid_from": "2026-02-23",
    "valid_to": null
   },
   {
@@ -718,7 +718,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - NEW YORK",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -730,7 +730,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - NORTH DAKOTA",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -742,7 +742,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - OHIO",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -754,7 +754,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - OKLAHOMA",
-   "valid_from": null,
+   "valid_from": "2025-08-24",
    "valid_to": null
   },
   {
@@ -766,7 +766,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - OREGON",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -778,7 +778,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - PUERTO RICO",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -790,7 +790,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - SOUTH CAROLINA",
-   "valid_from": null,
+   "valid_from": "2025-06-24",
    "valid_to": null
   },
   {
@@ -802,7 +802,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - SOUTH DAKOTA",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -814,7 +814,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - TENNESSEE",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -826,7 +826,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - TEXAS",
-   "valid_from": null,
+   "valid_from": "2025-09-07",
    "valid_to": null
   },
   {
@@ -838,7 +838,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - UTAH",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -850,7 +850,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - VIRGINIA",
-   "valid_from": null,
+   "valid_from": "2025-08-24",
    "valid_to": null
   },
   {
@@ -862,7 +862,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - WASHINGTON",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -874,7 +874,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - WEST VIRGINIA",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -886,7 +886,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - WISCONSIN",
-   "valid_from": null,
+   "valid_from": "2025-06-03",
    "valid_to": null
   },
   {
@@ -898,7 +898,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATE DIRECTOR - WYOMING",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   }
  ],

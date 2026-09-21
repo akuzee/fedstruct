@@ -35,11 +35,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/543"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The ICC, the first regulatory commission in U.S. history, was established as a result of mounting public indignation in the 1880s against railroad malpractices and abuses.\r\n\r\nThe ICC's jurisdiction was gradually extended beyond railroads to all common carriers except airplanes by 1940. Its enforcement powers to set rates were also progressively extended, through statute and broadened Supreme Court interpretations of the commerce clause of the Constitution, as were its investigative powers for determining fair rates of return on which to base rates. In addition, the ICC was given the task of consolidating railroad systems and managing labor disputes in interstate transport. In the 1950s and 60s the ICC enforced U.S. Supreme Court rulings that required the desegregation of passenger terminal facilities.\r\n\r\nThe ICC's safety functions were transferred to the Department of Transportation in 1966. The ICC retained its rate-making and regulatory functions. However, in consonance with the deregulatory movement, the ICC's powers over rates and routes in rails and trucking were curtailed in 1980 by the Staggers Rail Act and Motor Carriers Act. Most ICC control over interstate trucking was abandoned in 1994, and the agency was terminated at the end of 1995. Many of its remaining functions were transferred to the new National Surface Transportation Board.",
    "value_num": null
@@ -53,11 +53,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/543"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -71,11 +71,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/543"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/543/medium.jpg?1323295288",
    "value_num": null
@@ -89,11 +89,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/543"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Interstate Commerce Commission",
    "value_num": null
@@ -107,11 +107,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/543"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "ICC",
    "value_num": null
@@ -125,11 +125,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/543"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "interstate-commerce-commission",
    "value_num": null
@@ -143,11 +143,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/543"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/interstate-commerce-commission",
    "value_num": null
@@ -173,11 +173,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=interstate-commerce-commission].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-XL"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "5 CFR chapter XL",
     "value_num": null

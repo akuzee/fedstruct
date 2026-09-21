@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "2",
    "value_num": 2.0
@@ -44,18 +44,18 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
   }
  },
  "former_officials": [],
- "id": 822,
+ "id": 823,
  "merged_from": [],
  "multi_facts": {},
  "name": "Office of the Chief of Program Operations",
@@ -69,7 +69,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR FOR VETERANS, WOUNDED WARRIOR, AND MILITARY FAMILIES",
-   "valid_from": null,
+   "valid_from": "2023-08-28",
    "valid_to": null
   }
  ],

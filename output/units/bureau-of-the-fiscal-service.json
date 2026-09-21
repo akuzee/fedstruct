@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/196"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://home.treasury.gov/about/offices/domestic-finance/fiscal-service",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/196"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Office of Fiscal Service helps formulate policy and develop systems for the collection, disbursement, management and security of public monies in the United States and abroad, and related government-wide accounting and reporting for those funds. Programs of interest in the Fiscal Service are cash and debt management and forecasting, accounting policy, and the Bureau of the Fiscal Service. The Fiscal Assistant Secretary leads this office.",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/196"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/196"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Bureau of the Fiscal Service",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "34",
    "value_num": 34.0
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -152,11 +152,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/196"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "bureau-of-the-fiscal-service",
    "value_num": null
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/196"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/bureau-of-the-fiscal-service",
    "value_num": null
@@ -398,11 +398,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=bureau-of-the-fiscal-service].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-31/chapter-II"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "31 CFR chapter II",
     "value_num": null
@@ -420,7 +420,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT COMMISSIONER AND CHIEF CUSTOMER OFFICER",
-   "valid_from": null,
+   "valid_from": "2024-12-01",
    "valid_to": null
   },
   {
@@ -432,7 +432,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT COMMISSIONER AND CHIEF DATA OFFICER",
-   "valid_from": null,
+   "valid_from": "2021-01-31",
    "valid_to": null
   },
   {
@@ -444,7 +444,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT COMMISSIONER AND CHIEF FINANCIAL OFFICER",
-   "valid_from": null,
+   "valid_from": "2023-12-31",
    "valid_to": null
   },
   {
@@ -456,7 +456,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT COMMISSIONER AND CHIEF STRATEGY INTEGRATION OFFICER",
-   "valid_from": null,
+   "valid_from": "2023-07-30",
    "valid_to": null
   },
   {
@@ -468,7 +468,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT COMMISSIONER, DISBURSING AND DEBT MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2021-11-07",
    "valid_to": null
   },
   {
@@ -480,7 +480,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT COMMISSIONER, REVENUE COLLECTIONS MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2025-08-10",
    "valid_to": null
   },
   {
@@ -492,7 +492,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT COMMISSIONER, WHOLESALE SECURITIES SERVICES",
-   "valid_from": null,
+   "valid_from": "2020-05-01",
    "valid_to": null
   },
   {
@@ -504,7 +504,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT COMMISSIONER (WHOLESALE SECURITIES SERVICES)",
-   "valid_from": null,
+   "valid_from": "2017-08-20",
    "valid_to": null
   },
   {
@@ -516,7 +516,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT COMMISSIONER AND CHIEF TECHNOLOGY OFFICER",
-   "valid_from": null,
+   "valid_from": "2024-08-11",
    "valid_to": null
   },
   {
@@ -528,7 +528,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT COMMISSIONER, DEBT COLLECTIONS MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2024-11-17",
    "valid_to": null
   },
   {
@@ -540,7 +540,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT COMMISSIONER, ENTERPRISE INFORMATION TECHNOLOGY OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2023-12-31",
    "valid_to": null
   },
   {
@@ -552,7 +552,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT COMMISSIONER, FISCAL ACCOUNTING",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -564,7 +564,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT COMMISSIONER, FISCAL AND FINANCIAL AGENT SERVICES",
-   "valid_from": null,
+   "valid_from": "2023-08-27",
    "valid_to": null
   },
   {
@@ -576,7 +576,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT COMMISSIONER, PROGRAMS, POLICY AND CUSTOMER RELATIONS",
-   "valid_from": null,
+   "valid_from": "2019-02-03",
    "valid_to": null
   },
   {
@@ -588,7 +588,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER TRANSFORMATION AND MODERNIZATION",
-   "valid_from": null,
+   "valid_from": "2023-12-17",
    "valid_to": null
   },
   {
@@ -600,7 +600,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, GOVERNMENT SECURITIES REGULATIONS",
-   "valid_from": null,
+   "valid_from": "2000-01-30",
    "valid_to": null
   }
  ],

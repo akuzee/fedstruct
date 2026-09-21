@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/134"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Employment Standards Administration (ESA), originally designated the Workplace Standards Administration, was established as a subagency within the Department of Labor, effective April 28, 1971, by Secretary's Order 13-71, May 4, 1971.\r\n\r\nThe role of ESA was to administer Federal employment standards programs in areas of minimum wage and overtime, nondiscrimination and affirmative action, and workers' compensation. Supervises the activities of the Wage and Hour Division, Office of Federal Contract Compliance Programs, and Office of Workers' Compensation Programs. Prior to 1978, ESA also administered, through the Women's Bureau, programs directed at improving employment conditions of working women.\r\n\r\nESA was eliminated in 2009, leaving its four component agencies to function as independent agencies.\r\n",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/134"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/134"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Employment Standards Administration",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/134"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "DOL",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/134"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "employment-standards-administration",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/134"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/employment-standards-administration",
    "value_num": null

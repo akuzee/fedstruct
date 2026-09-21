@@ -35,11 +35,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/469"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Smithsonian Institution is an independent trust instrumentality of the United States which comprises the world's largest museum and research complex; includes 19 museums and galleries, the National Zoo, and research facilities in several States and the Republic of Panama; and is dedicated to public education, national service, and scholarship in the arts, sciences, history, and culture.\r\rThe Smithsonian Institution was created by an act of Congress on August 10, 1846 (20 U.S.C. 41 et seq.), to carry out the terms of the will of British scientist James Smithson (1765-1829), who in 1826 had bequeathed his entire estate to the United States ``to found at Washington, under the name of the Smithsonian Institution, an establishment for the increase and diffusion of knowledge among men.'' On July 1, 1836, Congress accepted the legacy and pledged the faith of the United States to the charitable trust.",
    "value_num": null
@@ -53,11 +53,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/469"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -71,11 +71,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/469"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/469/medium.jpg?1279151430",
    "value_num": null
@@ -89,11 +89,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/469"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Smithsonian Institution",
    "value_num": null
@@ -107,11 +107,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/469"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "smithsonian-institution",
    "value_num": null
@@ -125,18 +125,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/469"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/smithsonian-institution",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 412,
+ "id": 413,
  "merged_from": [
   {
    "key": "smithsonian-institution",
@@ -155,11 +155,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=smithsonian-institution].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-36/chapter-V"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "36 CFR chapter V",
     "value_num": null

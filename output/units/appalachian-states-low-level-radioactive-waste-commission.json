@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/26"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "In 1986, Maryland ratified the Appalachian States Low-Level Radioactive Waste Compact (Chapter 33, Acts of 1986). Delaware, Pennsylvania, and West Virginia also have ratified the Compact. The Compact established the Appalachian States Low-Level Radioactive Waste Commission to assure interstate cooperation for the proper management and disposal of low-level radioactive wastes. \r\n\r\nThe Commission identifies a host state (based on the volume and curie content of radioactive waste generated) to receive and dispose of radioactive waste from party states. Pennsylvania is currently the host state. Costs and benefits are distributed equitably among party states. Wastes generated outside the region may be banned by the Commission. \r\n\r\nTo reduce the volume of low-level radioactive waste, the Commission conducts research and recommends regulations. The Commission also prepares contingency plans in the event the regional facility is closed and enters into temporary agreements for emergency disposal.",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/26"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/26"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Appalachian States Low-Level Radioactive Waste Commission",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/26"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "APPAL",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/26"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "appalachian-states-low-level-radioactive-waste-commission",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/26"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/appalachian-states-low-level-radioactive-waste-commission",
    "value_num": null

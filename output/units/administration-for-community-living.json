@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "16",
    "value_num": 16.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -116,7 +116,7 @@
    "valid_to": "2026-01-10"
   }
  ],
- "id": 1068,
+ "id": 1069,
  "merged_from": [],
  "multi_facts": {},
  "name": "Administration for Community Living",
@@ -130,7 +130,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT SECRETARY FOR AGING AND ADMINISTRATOR, ADMINISTRATION FOR COMMUNITY LIVING",
-   "valid_from": null,
+   "valid_from": "2025-11-21",
    "valid_to": null
   },
   {
@@ -142,7 +142,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-02-02",
    "valid_to": null
   },
   {
@@ -154,7 +154,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMISSIONER OF THE ADMINISTRATION ON DISABILITIES",
-   "valid_from": null,
+   "valid_from": "2026-01-05",
    "valid_to": null
   },
   {
@@ -166,7 +166,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ADMINISTRATOR FOR THE CENTER FOR INTEGRATED PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2019-02-03",
    "valid_to": null
   },
   {
@@ -178,7 +178,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY FOR AGING",
-   "valid_from": null,
+   "valid_from": "2024-02-11",
    "valid_to": null
   },
   {
@@ -190,7 +190,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR,  NATIONAL INSTITUTE FOR DISABILITY, INDEPENDENT LIVING AND REHABILITATION RESEARCH",
-   "valid_from": null,
+   "valid_from": "2020-12-20",
    "valid_to": null
   },
   {
@@ -202,19 +202,19 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-12-14",
    "valid_to": null
   },
   {
    "appt_type": "TA",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2026-12-14",
    "person": "Jennifer Johnson",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PRINCIPAL COORDINATOR FOR THE ADMINISTRATION ON DISABILITIES",
-   "valid_from": null,
+   "valid_from": "2024-12-15",
    "valid_to": null
   },
   {
@@ -226,7 +226,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PRINCIPAL DEPUTY ADMINISTRATOR",
-   "valid_from": null,
+   "valid_from": "2026-01-11",
    "valid_to": null
   },
   {
@@ -238,7 +238,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PRINCIPAL DEPUTY COMMISSIONER OF THE ADMINISTRATION ON DISABILITIES",
-   "valid_from": null,
+   "valid_from": "2025-11-16",
    "valid_to": null
   },
   {
@@ -250,7 +250,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR TO THE ADMINISTRATOR/CHIEF OF STAFF",
-   "valid_from": null,
+   "valid_from": "2020-08-16",
    "valid_to": null
   },
   {
@@ -262,7 +262,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2025-12-14",
    "valid_to": null
   }
  ],

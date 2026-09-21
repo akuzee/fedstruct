@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "247",
    "value_num": 247.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -1772,7 +1772,7 @@
    "valid_to": "2025-04-05"
   }
  ],
- "id": 1596,
+ "id": 1597,
  "merged_from": [],
  "multi_facts": {},
  "name": "Veterans Health Administration",
@@ -1786,7 +1786,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "UNDER SECRETARY FOR HEALTH",
-   "valid_from": null,
+   "valid_from": "2026-01-06",
    "valid_to": null
   },
   {
@@ -1798,7 +1798,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT UNDER SECRETARY FOR HEALTH FOR DENTISTRY",
-   "valid_from": null,
+   "valid_from": "2024-04-21",
    "valid_to": null
   },
   {
@@ -1810,7 +1810,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF HEALTH INFORMATICS OFFICER, FEDERAL ELECTRONIC HEALTH RECORD MODERNIZATION",
-   "valid_from": null,
+   "valid_from": "2023-07-30",
    "valid_to": null
   },
   {
@@ -1822,7 +1822,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF LEARNING OFFICER, EMPLOYEE EDUCATION SYSTEM",
-   "valid_from": null,
+   "valid_from": "2022-04-24",
    "valid_to": null
   },
   {
@@ -1834,7 +1834,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2021-09-13",
    "valid_to": null
   },
   {
@@ -1846,7 +1846,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2025-05-04",
    "valid_to": null
   },
   {
@@ -1858,7 +1858,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2022-04-24",
    "valid_to": null
   },
   {
@@ -1870,7 +1870,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 15)",
-   "valid_from": null,
+   "valid_from": "2024-02-25",
    "valid_to": null
   },
   {
@@ -1882,7 +1882,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2018-09-16",
    "valid_to": null
   },
   {
@@ -1894,7 +1894,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -1906,7 +1906,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2024-05-19",
    "valid_to": null
   },
   {
@@ -1918,7 +1918,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 21)",
-   "valid_from": null,
+   "valid_from": "2020-08-16",
    "valid_to": null
   },
   {
@@ -1930,7 +1930,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 22)",
-   "valid_from": null,
+   "valid_from": "2023-10-08",
    "valid_to": null
   },
   {
@@ -1942,7 +1942,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2020-09-27",
    "valid_to": null
   },
   {
@@ -1954,7 +1954,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 5)",
-   "valid_from": null,
+   "valid_from": "2024-06-30",
    "valid_to": null
   },
   {
@@ -1966,7 +1966,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 7)",
-   "valid_from": null,
+   "valid_from": "2024-10-06",
    "valid_to": null
   },
   {
@@ -1978,7 +1978,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER (VISN 9)",
-   "valid_from": null,
+   "valid_from": "2019-09-15",
    "valid_to": null
   },
   {
@@ -1990,7 +1990,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF MEDICAL OFFICER, INTEGRATED VETERANS CARE",
-   "valid_from": null,
+   "valid_from": "2022-12-04",
    "valid_to": null
   },
   {
@@ -2002,7 +2002,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF NURSING INFORMATICS OFFICER",
-   "valid_from": null,
+   "valid_from": "2017-04-02",
    "valid_to": null
   },
   {
@@ -2014,7 +2014,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF NURSING INFORMATICS OFFICER",
-   "valid_from": null,
+   "valid_from": "2025-12-15",
    "valid_to": null
   },
   {
@@ -2026,7 +2026,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF STAFF, VETERANS HEALTH ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2025-12-28",
    "valid_to": null
   },
   {
@@ -2038,7 +2038,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OFFICER FOR SPECIALTY CARE SERVICES",
-   "valid_from": null,
+   "valid_from": "2021-10-24",
    "valid_to": null
   },
   {
@@ -2050,7 +2050,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OFFICER SUPPORT OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2025-01-26",
    "valid_to": null
   },
   {
@@ -2062,7 +2062,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OFFICER, DISABILITY AND MEDICAL ASSESSMENT",
-   "valid_from": null,
+   "valid_from": "2018-12-23",
    "valid_to": null
   },
   {
@@ -2074,7 +2074,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OFFICER, OFFICE OF CONNECTED CARE",
-   "valid_from": null,
+   "valid_from": "2016-04-03",
    "valid_to": null
   },
   {
@@ -2086,7 +2086,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OFFICER, READJUSTMENT COUNSELING SERVICE",
-   "valid_from": null,
+   "valid_from": "2016-05-15",
    "valid_to": null
   },
   {
@@ -2098,7 +2098,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OFFICER, WOMENS HEALTH SERVICES",
-   "valid_from": null,
+   "valid_from": "2025-12-15",
    "valid_to": null
   },
   {
@@ -2110,7 +2110,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OFFICER, WORKFORCE MANAGEMENT AND CONSULTING",
-   "valid_from": null,
+   "valid_from": "2020-09-13",
    "valid_to": null
   },
   {
@@ -2122,7 +2122,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF TRANSFORMATION OFFICER",
-   "valid_from": null,
+   "valid_from": "2020-02-16",
    "valid_to": null
   },
   {
@@ -2134,7 +2134,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT UNDER SECRETARY FOR HEALTH FOR DISCOVERY, EDUCATION AND AFFILIATE NETWORK",
-   "valid_from": null,
+   "valid_from": "2022-12-04",
    "valid_to": null
   },
   {
@@ -2146,7 +2146,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF OF STAFF VETERANS HEALTH ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2023-04-09",
    "valid_to": null
   },
   {
@@ -2158,7 +2158,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF OFFICER, BUSINESS SUPPORT OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2026-04-05",
    "valid_to": null
   },
   {
@@ -2170,7 +2170,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF READJUSTMENT COUNSELOR",
-   "valid_from": null,
+   "valid_from": "2022-09-25",
    "valid_to": null
   },
   {
@@ -2182,7 +2182,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF RESEARCH AND DEVELOPMENT OFFICER FOR OPERATIONS AND WORKPLACE CULTURE",
-   "valid_from": null,
+   "valid_from": "2023-07-30",
    "valid_to": null
   },
   {
@@ -2194,7 +2194,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF RESEARCH AND DEVELOPMENT OFFICER, ENTERPRISE OPTIMIZATION",
-   "valid_from": null,
+   "valid_from": "2021-03-14",
    "valid_to": null
   },
   {
@@ -2206,7 +2206,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR",
-   "valid_from": null,
+   "valid_from": "2022-02-13",
    "valid_to": null
   },
   {
@@ -2218,7 +2218,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR SURGERY",
-   "valid_from": null,
+   "valid_from": "2022-06-05",
    "valid_to": null
   },
   {
@@ -2230,7 +2230,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, CLINICAL OPERATION",
-   "valid_from": null,
+   "valid_from": "2024-06-16",
    "valid_to": null
   },
   {
@@ -2242,7 +2242,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, GERIATRICS AND EXTENDED CARE",
-   "valid_from": null,
+   "valid_from": "2020-07-05",
    "valid_to": null
   },
   {
@@ -2254,7 +2254,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 15)",
-   "valid_from": null,
+   "valid_from": "2021-08-01",
    "valid_to": null
   },
   {
@@ -2266,7 +2266,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2022-05-08",
    "valid_to": null
   },
   {
@@ -2278,7 +2278,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2022-01-02",
    "valid_to": null
   },
   {
@@ -2290,7 +2290,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 2)",
-   "valid_from": null,
+   "valid_from": "2023-07-02",
    "valid_to": null
   },
   {
@@ -2302,7 +2302,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
-   "valid_from": null,
+   "valid_from": "2022-05-08",
    "valid_to": null
   },
   {
@@ -2314,7 +2314,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 7)",
-   "valid_from": null,
+   "valid_from": "2022-07-17",
    "valid_to": null
   },
   {
@@ -2326,7 +2326,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 8)",
-   "valid_from": null,
+   "valid_from": "2024-01-28",
    "valid_to": null
   },
   {
@@ -2338,7 +2338,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, NATIONAL CENTER FOR ORGANIZATIONAL DEVELOPMENT",
-   "valid_from": null,
+   "valid_from": "2020-08-30",
    "valid_to": null
   },
   {
@@ -2350,7 +2350,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, NATIONAL CENTER FOR PATIENT SAFETY",
-   "valid_from": null,
+   "valid_from": "2025-01-26",
    "valid_to": null
   },
   {
@@ -2362,7 +2362,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, REHABILITATION AND PROSTHETIC SERVICES",
-   "valid_from": null,
+   "valid_from": "2022-07-17",
    "valid_to": null
   },
   {
@@ -2374,7 +2374,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, VETERANS CRISIS LINE",
-   "valid_from": null,
+   "valid_from": "2024-11-17",
    "valid_to": null
   },
   {
@@ -2386,7 +2386,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY EXECUTIVE DIRECTOR, VETERANS INTEGRATED SYSTEMS NETWORK (VISN 8)",
-   "valid_from": null,
+   "valid_from": "2018-09-16",
    "valid_to": null
   },
   {
@@ -2398,7 +2398,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY TO THE ASSISTANT UNDER SECRETARY FOR HEALTH FOR CLINICAL SERVICES",
-   "valid_from": null,
+   "valid_from": "2021-06-06",
    "valid_to": null
   },
   {
@@ -2410,7 +2410,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY TO THE ASSISTANT UNDER SECRETARY HEALTH FOR CLINICAL SERVICES QUALITY AND FIELD OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2021-07-18",
    "valid_to": null
   },
   {
@@ -2422,7 +2422,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY UNDER SECRETARY FOR HEALTH",
-   "valid_from": null,
+   "valid_from": "2026-02-15",
    "valid_to": null
   },
   {
@@ -2434,7 +2434,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR HEALTH SYSTEMS RESEARCH PORTFOLIO",
-   "valid_from": null,
+   "valid_from": "2024-06-30",
    "valid_to": null
   },
   {
@@ -2446,7 +2446,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE ADVISOR, STRATEGIC FORECAST",
-   "valid_from": null,
+   "valid_from": "2023-10-23",
    "valid_to": null
   },
   {
@@ -2458,7 +2458,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR CLINICAL INFORMATICS",
-   "valid_from": null,
+   "valid_from": "2022-07-17",
    "valid_to": null
   },
   {
@@ -2470,7 +2470,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR CONNECTED HEALTH",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   },
   {
@@ -2482,7 +2482,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR MEDICAL CENTER (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2022-03-27",
    "valid_to": null
   },
   {
@@ -2494,7 +2494,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR MEDICAL CENTER (VISN1)",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -2506,7 +2506,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR MENTAL HEALTH AND SUICIDE PREVENTION",
-   "valid_from": null,
+   "valid_from": "2022-12-04",
    "valid_to": null
   },
   {
@@ -2518,7 +2518,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR NATIONAL CENTER FOR PATIENT SAFETY",
-   "valid_from": null,
+   "valid_from": "2022-01-16",
    "valid_to": null
   },
   {
@@ -2530,7 +2530,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR NATIONAL CHAPLAIN SERVICE",
-   "valid_from": null,
+   "valid_from": "2022-09-11",
    "valid_to": null
   },
   {
@@ -2542,7 +2542,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR NUCLEAR MEDICINE AND RADIATION SAFETY SERVICE",
-   "valid_from": null,
+   "valid_from": "2016-10-16",
    "valid_to": null
   },
   {
@@ -2554,7 +2554,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR NURSING SERVICES, DEPUTY CHIEF NURSING OFFICER",
-   "valid_from": null,
+   "valid_from": "2022-06-19",
    "valid_to": null
   },
   {
@@ -2566,7 +2566,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR OF OPERATIONS, ONCOLOGY AND PRECISION MEDICINE",
-   "valid_from": null,
+   "valid_from": "2022-05-08",
    "valid_to": null
   },
   {
@@ -2578,7 +2578,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR PHARMACY BENEFITS MANAGEMENT SERVICES",
-   "valid_from": null,
+   "valid_from": "2022-10-23",
    "valid_to": null
   },
   {
@@ -2590,7 +2590,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR RADIATION ONCOLOGY PROGRAM",
-   "valid_from": null,
+   "valid_from": "2021-08-01",
    "valid_to": null
   },
   {
@@ -2602,7 +2602,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR VETERANS AFFAIRS / DEPARTMENT OF DEFENSE HEALTH AFFAIRS",
-   "valid_from": null,
+   "valid_from": "2021-03-28",
    "valid_to": null
   },
   {
@@ -2614,7 +2614,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR,  MEDICAL CENTER (VISN 22)",
-   "valid_from": null,
+   "valid_from": "2024-06-02",
    "valid_to": null
   },
   {
@@ -2626,7 +2626,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, ANALYTICS AND PERFORMANCE INTEGRATION",
-   "valid_from": null,
+   "valid_from": "2024-10-06",
    "valid_to": null
   },
   {
@@ -2638,7 +2638,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, BRAIN, BEHAVIORAL AND MENTAL HEALTH BROAD PORTFOLIO",
-   "valid_from": null,
+   "valid_from": "2025-01-26",
    "valid_to": null
   },
   {
@@ -2650,7 +2650,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, CAREGIVER SUPPORT PROGRAM",
-   "valid_from": null,
+   "valid_from": "2021-02-14",
    "valid_to": null
   },
   {
@@ -2662,7 +2662,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, COMMUNICATION",
-   "valid_from": null,
+   "valid_from": "2024-06-30",
    "valid_to": null
   },
   {
@@ -2674,7 +2674,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, EMERGENCY MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2022-10-23",
    "valid_to": null
   },
   {
@@ -2686,7 +2686,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, END USER ENGAGEMENT ADOPTION",
-   "valid_from": null,
+   "valid_from": "2023-08-27",
    "valid_to": null
   },
   {
@@ -2698,7 +2698,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, FIELD SUPPORT AND ANALYTICS",
-   "valid_from": null,
+   "valid_from": "2024-12-11",
    "valid_to": null
   },
   {
@@ -2710,7 +2710,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, GERIATRICS AND EXTENDED CARE",
-   "valid_from": null,
+   "valid_from": "2019-08-18",
    "valid_to": null
   },
   {
@@ -2722,7 +2722,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, HEALTH SOLUTIONS",
-   "valid_from": null,
+   "valid_from": "2021-05-23",
    "valid_to": null
   },
   {
@@ -2734,7 +2734,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, HEALTHCARE ENVIRONMENT AND FACILITIES AND PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2023-07-16",
    "valid_to": null
   },
   {
@@ -2746,7 +2746,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, HUMAN RESOURCES OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2022-10-09",
    "valid_to": null
   },
   {
@@ -2758,7 +2758,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, HUMAN RESOURCES STRATEGY AND PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2021-11-21",
    "valid_to": null
   },
   {
@@ -2770,7 +2770,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, INTEGRATED EXTERNAL NETWORK",
-   "valid_from": null,
+   "valid_from": "2024-06-02",
    "valid_to": null
   },
   {
@@ -2782,7 +2782,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, INTEGRATED OPTIMIZATION",
-   "valid_from": null,
+   "valid_from": "2025-01-12",
    "valid_to": null
   },
   {
@@ -2794,7 +2794,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, LEGISLATIVE SYSTEMS DESIGN, PLANNING AND IMPLEMENTATION",
-   "valid_from": null,
+   "valid_from": "2026-01-02",
    "valid_to": null
   },
   {
@@ -2806,7 +2806,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, LOGISTICS",
-   "valid_from": null,
+   "valid_from": "2023-02-26",
    "valid_to": null
   },
   {
@@ -2818,7 +2818,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2025-12-28",
    "valid_to": null
   },
   {
@@ -2830,7 +2830,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2020-06-07",
    "valid_to": null
   },
   {
@@ -2842,7 +2842,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2020-06-21",
    "valid_to": null
   },
   {
@@ -2854,7 +2854,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2019-04-14",
    "valid_to": null
   },
   {
@@ -2866,19 +2866,19 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2023-10-08",
    "valid_to": null
   },
   {
    "appt_type": "CA",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2024-11-14",
    "person": "Jonathan Kerr",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2024-07-18",
    "valid_to": null
   },
   {
@@ -2890,7 +2890,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2019-04-28",
    "valid_to": null
   },
   {
@@ -2902,7 +2902,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2018-02-25",
    "valid_to": null
   },
   {
@@ -2914,7 +2914,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2020-09-13",
    "valid_to": null
   },
   {
@@ -2926,7 +2926,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2023-03-26",
    "valid_to": null
   },
   {
@@ -2938,7 +2938,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -2950,7 +2950,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2019-09-29",
    "valid_to": null
   },
   {
@@ -2962,7 +2962,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2024-01-14",
    "valid_to": null
   },
   {
@@ -2974,7 +2974,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2022-09-11",
    "valid_to": null
   },
   {
@@ -2986,7 +2986,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2024-06-16",
    "valid_to": null
   },
   {
@@ -2998,7 +2998,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2024-06-16",
    "valid_to": null
   },
   {
@@ -3010,7 +3010,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 10)",
-   "valid_from": null,
+   "valid_from": "2022-07-05",
    "valid_to": null
   },
   {
@@ -3022,7 +3022,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2025-11-16",
    "valid_to": null
   },
   {
@@ -3034,7 +3034,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2020-03-29",
    "valid_to": null
   },
   {
@@ -3046,7 +3046,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2023-02-27",
    "valid_to": null
   },
   {
@@ -3058,7 +3058,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2021-12-19",
    "valid_to": null
   },
   {
@@ -3070,7 +3070,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2021-02-14",
    "valid_to": null
   },
   {
@@ -3082,7 +3082,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2023-04-23",
    "valid_to": null
   },
   {
@@ -3094,7 +3094,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2018-10-14",
    "valid_to": null
   },
   {
@@ -3106,7 +3106,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2023-10-08",
    "valid_to": null
   },
   {
@@ -3118,7 +3118,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 15)",
-   "valid_from": null,
+   "valid_from": "2026-01-11",
    "valid_to": null
   },
   {
@@ -3130,7 +3130,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 15)",
-   "valid_from": null,
+   "valid_from": "2025-10-20",
    "valid_to": null
   },
   {
@@ -3142,7 +3142,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 15)",
-   "valid_from": null,
+   "valid_from": "2023-01-29",
    "valid_to": null
   },
   {
@@ -3154,7 +3154,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 15)",
-   "valid_from": null,
+   "valid_from": "2012-10-07",
    "valid_to": null
   },
   {
@@ -3166,7 +3166,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 15)",
-   "valid_from": null,
+   "valid_from": "2023-07-16",
    "valid_to": null
   },
   {
@@ -3178,7 +3178,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2016-01-24",
    "valid_to": null
   },
   {
@@ -3190,7 +3190,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2023-07-02",
    "valid_to": null
   },
   {
@@ -3202,7 +3202,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -3214,7 +3214,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   },
   {
@@ -3226,7 +3226,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2025-02-23",
    "valid_to": null
   },
   {
@@ -3238,7 +3238,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2024-10-20",
    "valid_to": null
   },
   {
@@ -3250,7 +3250,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2015-01-11",
    "valid_to": null
   },
   {
@@ -3262,7 +3262,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 16)",
-   "valid_from": null,
+   "valid_from": "2009-01-04",
    "valid_to": null
   },
   {
@@ -3274,7 +3274,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2023-02-12",
    "valid_to": null
   },
   {
@@ -3286,7 +3286,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -3298,7 +3298,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2025-09-07",
    "valid_to": null
   },
   {
@@ -3310,7 +3310,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2020-06-07",
    "valid_to": null
   },
   {
@@ -3322,7 +3322,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2023-01-01",
    "valid_to": null
   },
   {
@@ -3334,7 +3334,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2019-01-20",
    "valid_to": null
   },
   {
@@ -3346,7 +3346,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 19)",
-   "valid_from": null,
+   "valid_from": "2016-06-26",
    "valid_to": null
   },
   {
@@ -3358,7 +3358,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 19)",
-   "valid_from": null,
+   "valid_from": "2023-01-29",
    "valid_to": null
   },
   {
@@ -3370,7 +3370,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 19)",
-   "valid_from": null,
+   "valid_from": "2022-03-13",
    "valid_to": null
   },
   {
@@ -3382,7 +3382,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 19)",
-   "valid_from": null,
+   "valid_from": "2016-06-12",
    "valid_to": null
   },
   {
@@ -3394,7 +3394,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 19)",
-   "valid_from": null,
+   "valid_from": "2026-01-11",
    "valid_to": null
   },
   {
@@ -3406,7 +3406,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 2)",
-   "valid_from": null,
+   "valid_from": "2018-04-01",
    "valid_to": null
   },
   {
@@ -3418,7 +3418,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 2)",
-   "valid_from": null,
+   "valid_from": "2023-01-15",
    "valid_to": null
   },
   {
@@ -3430,7 +3430,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 2)",
-   "valid_from": null,
+   "valid_from": "2019-05-12",
    "valid_to": null
   },
   {
@@ -3442,7 +3442,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 2)",
-   "valid_from": null,
+   "valid_from": "2020-05-24",
    "valid_to": null
   },
   {
@@ -3454,7 +3454,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 2)",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -3466,7 +3466,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2012-04-22",
    "valid_to": null
   },
   {
@@ -3478,7 +3478,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2025-10-05",
    "valid_to": null
   },
   {
@@ -3490,7 +3490,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2022-10-23",
    "valid_to": null
   },
   {
@@ -3502,7 +3502,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2021-03-14",
    "valid_to": null
   },
   {
@@ -3514,7 +3514,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2017-11-26",
    "valid_to": null
   },
   {
@@ -3526,7 +3526,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2023-07-02",
    "valid_to": null
   },
   {
@@ -3538,7 +3538,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 21)",
-   "valid_from": null,
+   "valid_from": "2025-11-16",
    "valid_to": null
   },
   {
@@ -3550,7 +3550,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 21)",
-   "valid_from": null,
+   "valid_from": "2025-08-24",
    "valid_to": null
   },
   {
@@ -3562,7 +3562,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 21)",
-   "valid_from": null,
+   "valid_from": "2023-07-16",
    "valid_to": null
   },
   {
@@ -3574,7 +3574,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 21)",
-   "valid_from": null,
+   "valid_from": "2024-07-28",
    "valid_to": null
   },
   {
@@ -3586,7 +3586,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 21)",
-   "valid_from": null,
+   "valid_from": "2013-10-20",
    "valid_to": null
   },
   {
@@ -3598,7 +3598,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 22)",
-   "valid_from": null,
+   "valid_from": "2017-02-05",
    "valid_to": null
   },
   {
@@ -3610,7 +3610,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 22)",
-   "valid_from": null,
+   "valid_from": "2022-08-14",
    "valid_to": null
   },
   {
@@ -3622,7 +3622,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 22)",
-   "valid_from": null,
+   "valid_from": "2024-07-28",
    "valid_to": null
   },
   {
@@ -3634,7 +3634,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 22)",
-   "valid_from": null,
+   "valid_from": "2026-04-05",
    "valid_to": null
   },
   {
@@ -3646,7 +3646,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 22)",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -3658,7 +3658,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 22)",
-   "valid_from": null,
+   "valid_from": "2023-01-01",
    "valid_to": null
   },
   {
@@ -3670,7 +3670,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2023-10-08",
    "valid_to": null
   },
   {
@@ -3682,7 +3682,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2025-11-02",
    "valid_to": null
   },
   {
@@ -3694,7 +3694,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2024-06-16",
    "valid_to": null
   },
   {
@@ -3706,7 +3706,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2015-02-08",
    "valid_to": null
   },
   {
@@ -3718,7 +3718,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2021-12-19",
    "valid_to": null
   },
   {
@@ -3730,7 +3730,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2023-03-12",
    "valid_to": null
   },
   {
@@ -3742,7 +3742,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2013-06-16",
    "valid_to": null
   },
   {
@@ -3754,7 +3754,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 23)",
-   "valid_from": null,
+   "valid_from": "2024-06-16",
    "valid_to": null
   },
   {
@@ -3766,7 +3766,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
-   "valid_from": null,
+   "valid_from": "2023-01-01",
    "valid_to": null
   },
   {
@@ -3778,7 +3778,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
-   "valid_from": null,
+   "valid_from": "2022-03-13",
    "valid_to": null
   },
   {
@@ -3790,7 +3790,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
-   "valid_from": null,
+   "valid_from": "2016-06-12",
    "valid_to": null
   },
   {
@@ -3802,7 +3802,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
-   "valid_from": null,
+   "valid_from": "2023-07-16",
    "valid_to": null
   },
   {
@@ -3814,7 +3814,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
-   "valid_from": null,
+   "valid_from": "2019-06-09",
    "valid_to": null
   },
   {
@@ -3826,7 +3826,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
-   "valid_from": null,
+   "valid_from": "2016-10-02",
    "valid_to": null
   },
   {
@@ -3838,7 +3838,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
-   "valid_from": null,
+   "valid_from": "2023-08-27",
    "valid_to": null
   },
   {
@@ -3850,7 +3850,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 5)",
-   "valid_from": null,
+   "valid_from": "2024-06-16",
    "valid_to": null
   },
   {
@@ -3862,7 +3862,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 5)",
-   "valid_from": null,
+   "valid_from": "2021-10-24",
    "valid_to": null
   },
   {
@@ -3874,7 +3874,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 5)",
-   "valid_from": null,
+   "valid_from": "2014-02-23",
    "valid_to": null
   },
   {
@@ -3886,7 +3886,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 5)",
-   "valid_from": null,
+   "valid_from": "2020-07-19",
    "valid_to": null
   },
   {
@@ -3898,7 +3898,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 5)",
-   "valid_from": null,
+   "valid_from": "2025-09-07",
    "valid_to": null
   },
   {
@@ -3910,7 +3910,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 5)",
-   "valid_from": null,
+   "valid_from": "2020-12-20",
    "valid_to": null
   },
   {
@@ -3922,7 +3922,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 6)",
-   "valid_from": null,
+   "valid_from": "2018-02-18",
    "valid_to": null
   },
   {
@@ -3934,7 +3934,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 6)",
-   "valid_from": null,
+   "valid_from": "2022-05-22",
    "valid_to": null
   },
   {
@@ -3946,7 +3946,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 6)",
-   "valid_from": null,
+   "valid_from": "2023-03-12",
    "valid_to": null
   },
   {
@@ -3958,7 +3958,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 6)",
-   "valid_from": null,
+   "valid_from": "2019-03-03",
    "valid_to": null
   },
   {
@@ -3970,7 +3970,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 6)",
-   "valid_from": null,
+   "valid_from": "2023-12-17",
    "valid_to": null
   },
   {
@@ -3982,7 +3982,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 7)",
-   "valid_from": null,
+   "valid_from": "2024-06-02",
    "valid_to": null
   },
   {
@@ -3994,7 +3994,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 7)",
-   "valid_from": null,
+   "valid_from": "2014-11-02",
    "valid_to": null
   },
   {
@@ -4006,7 +4006,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 7)",
-   "valid_from": null,
+   "valid_from": "2025-11-02",
    "valid_to": null
   },
   {
@@ -4018,7 +4018,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 7)",
-   "valid_from": null,
+   "valid_from": "2021-09-26",
    "valid_to": null
   },
   {
@@ -4030,7 +4030,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 8)",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -4042,7 +4042,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 8)",
-   "valid_from": null,
+   "valid_from": "2023-04-23",
    "valid_to": null
   },
   {
@@ -4054,7 +4054,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 8)",
-   "valid_from": null,
+   "valid_from": "2021-11-07",
    "valid_to": null
   },
   {
@@ -4066,7 +4066,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 8)",
-   "valid_from": null,
+   "valid_from": "2021-01-03",
    "valid_to": null
   },
   {
@@ -4078,7 +4078,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 8)",
-   "valid_from": null,
+   "valid_from": "2025-11-02",
    "valid_to": null
   },
   {
@@ -4090,7 +4090,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 8)",
-   "valid_from": null,
+   "valid_from": "2020-01-19",
    "valid_to": null
   },
   {
@@ -4102,7 +4102,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 9)",
-   "valid_from": null,
+   "valid_from": "2023-02-12",
    "valid_to": null
   },
   {
@@ -4114,7 +4114,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 9)",
-   "valid_from": null,
+   "valid_from": "2021-10-24",
    "valid_to": null
   },
   {
@@ -4126,7 +4126,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 9)",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -4138,7 +4138,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 9)",
-   "valid_from": null,
+   "valid_from": "2025-10-19",
    "valid_to": null
   },
   {
@@ -4150,7 +4150,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 9)",
-   "valid_from": null,
+   "valid_from": "2022-04-10",
    "valid_to": null
   },
   {
@@ -4162,7 +4162,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEMBER SERVICES",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   },
   {
@@ -4174,7 +4174,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, NATIONAL CENTER FOR ETHICS IN HEALTHCARE",
-   "valid_from": null,
+   "valid_from": "2021-12-05",
    "valid_to": null
   },
   {
@@ -4186,7 +4186,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, NATIONAL RADIOLOGY PROGRAM",
-   "valid_from": null,
+   "valid_from": "2022-03-13",
    "valid_to": null
   },
   {
@@ -4198,7 +4198,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, PAYMENT OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2023-09-11",
    "valid_to": null
   },
   {
@@ -4210,7 +4210,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, POST DEPLOYMENT HEALTH SERVICES",
-   "valid_from": null,
+   "valid_from": "2020-04-12",
    "valid_to": null
   },
   {
@@ -4222,7 +4222,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, PREVENTIVE MEDICINE",
-   "valid_from": null,
+   "valid_from": "2016-08-21",
    "valid_to": null
   },
   {
@@ -4234,7 +4234,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, PRIMARY CARE",
-   "valid_from": null,
+   "valid_from": "2019-05-12",
    "valid_to": null
   },
   {
@@ -4246,7 +4246,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, QUALITY MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2021-01-03",
    "valid_to": null
   },
   {
@@ -4258,19 +4258,19 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, RESEARCH OVERSIGHT",
-   "valid_from": null,
+   "valid_from": "2017-02-19",
    "valid_to": null
   },
   {
    "appt_type": "XS",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2028-01-13",
    "person": "Peter Kaboli",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, RURAL HEALTH",
-   "valid_from": null,
+   "valid_from": "2024-01-14",
    "valid_to": null
   },
   {
@@ -4282,7 +4282,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, SPINAL CORD INJURIES AND DISORDERS SERVICES",
-   "valid_from": null,
+   "valid_from": "2017-04-02",
    "valid_to": null
   },
   {
@@ -4294,7 +4294,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, STRATEGIC INVESTMENT MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2021-07-04",
    "valid_to": null
   },
   {
@@ -4306,7 +4306,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, TELEHEALTH SERVICES",
-   "valid_from": null,
+   "valid_from": "2016-10-16",
    "valid_to": null
   },
   {
@@ -4318,7 +4318,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, VETERANS CRISIS LINE",
-   "valid_from": null,
+   "valid_from": "2024-04-21",
    "valid_to": null
   },
   {
@@ -4330,7 +4330,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, VETERANS INTEGRATED SERVICE NETWORK (VISN 12)",
-   "valid_from": null,
+   "valid_from": "2022-09-25",
    "valid_to": null
   },
   {
@@ -4342,7 +4342,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, VETERANS INTEGRATED SERVICE NETWORK (VISN 17)",
-   "valid_from": null,
+   "valid_from": "2021-06-20",
    "valid_to": null
   },
   {
@@ -4354,7 +4354,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, VETERANS INTEGRATED SERVICE NETWORK (VISN 19)",
-   "valid_from": null,
+   "valid_from": "2023-06-04",
    "valid_to": null
   },
   {
@@ -4366,7 +4366,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, VETERANS INTEGRATED SERVICE NETWORK (VISN 20)",
-   "valid_from": null,
+   "valid_from": "2020-08-30",
    "valid_to": null
   },
   {
@@ -4378,7 +4378,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, VETERANS INTEGRATED SERVICE NETWORK (VISN 21)",
-   "valid_from": null,
+   "valid_from": "2023-08-27",
    "valid_to": null
   },
   {
@@ -4390,7 +4390,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, VETERANS INTEGRATED SERVICE NETWORK (VISN 9)",
-   "valid_from": null,
+   "valid_from": "2022-05-22",
    "valid_to": null
   },
   {
@@ -4402,7 +4402,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, VETERANS INTEGRATED SYSTEMS NETWORK (VISN 1)",
-   "valid_from": null,
+   "valid_from": "2018-09-02",
    "valid_to": null
   },
   {
@@ -4414,7 +4414,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE OFFICER FOR STRATEGY AND INNOVATION",
-   "valid_from": null,
+   "valid_from": "2026-03-06",
    "valid_to": null
   },
   {
@@ -4426,7 +4426,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MEDICAL INSPECTOR",
-   "valid_from": null,
+   "valid_from": "2022-03-13",
    "valid_to": null
   },
   {
@@ -4438,7 +4438,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "NATIONAL DIRECTOR FOR SURGERY",
-   "valid_from": null,
+   "valid_from": "2019-08-18",
    "valid_to": null
   },
   {
@@ -4450,7 +4450,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "NATIONAL DIRECTOR, NUTRITION AND FOOD SERVICES",
-   "valid_from": null,
+   "valid_from": "2019-01-20",
    "valid_to": null
   },
   {
@@ -4462,7 +4462,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "NATIONAL DIRECTOR, PHYSICAL MEDICINE AND REHABILITATION SERVICES",
-   "valid_from": null,
+   "valid_from": "2015-09-20",
    "valid_to": null
   },
   {
@@ -4474,7 +4474,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2011-08-16",
    "valid_to": null
   },
   {
@@ -4486,7 +4486,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   },
   {
@@ -4498,7 +4498,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-04-24",
    "valid_to": null
   },
   {
@@ -4510,7 +4510,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-04-24",
    "valid_to": null
   },
   {
@@ -4522,7 +4522,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR TO THE DEPUTY UNDER SECRETARY FOR HEALTH",
-   "valid_from": null,
+   "valid_from": "2023-11-20",
    "valid_to": null
   },
   {
@@ -4534,7 +4534,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR TO THE UNDER SECRETARY FOR HEALTH INNOVATION",
-   "valid_from": null,
+   "valid_from": "2024-04-07",
    "valid_to": null
   },
   {
@@ -4546,7 +4546,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR NURSING ADVISOR",
-   "valid_from": null,
+   "valid_from": "2024-02-11",
    "valid_to": null
   }
  ],

@@ -66,7 +66,8 @@ class OccupancyRecord:
     position_anchor_key: str
     first_name: str | None
     last_name: str | None
-    status: str                      # current | ended
+    person_key: str | None = None    # the source's own person identifier
+    status: str = "current"          # current | ended
     is_acting: bool = False
     valid_from: str | None = None    # THIS person's tenure
     valid_to: str | None = None

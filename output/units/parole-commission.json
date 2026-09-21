@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/401"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The United States Parole Commission (USPC) makes parole release decisions for eligible Federal and District of Columbia prisoners; authorizes methods of release and conditions under which release occurs; prescribes, modifies, and monitors compliance with the terms and conditions governing offenders' behavior while on parole or mandatory or supervised release; issues warrants for violation of supervision; determines probable cause for the revocation process; revokes parole, mandatory, or supervised release; releases from supervision those offenders who are no longer a risk to public safety; and promulgates the rules, regulations, and guidelines for the exercise of USPC's authority and the implementation of a national parole policy.\r  \rUSPC has sole jurisdiction over the following: Federal offenders who committed offenses before November 1, 1987; D.C. Code offenders who committed offenses before August 5, 2000; D.C. Code offenders sentenced to a term of supervised release; Uniform Code of Military Justice offenders who are in Bureau of Prison's custody; transfer treaty cases; and State probationers and parolees in the Federal Witness Protection Program.",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/401"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/401"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Parole Commission",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/401"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "USPC",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/401"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "parole-commission",
    "value_num": null
@@ -116,18 +116,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/401"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/parole-commission",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 363,
+ "id": 364,
  "merged_from": [],
  "multi_facts": {},
  "name": "Parole Commission",

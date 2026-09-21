@@ -39,11 +39,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#labor-department"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "Department of Labor",
     "value_num": null
@@ -65,11 +65,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/271"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.dol.gov/",
    "value_num": null
@@ -83,11 +83,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/271"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Department of Labor (DOL) was created by act of March 4, 1913 (29 U.S.C. 551). A Bureau of Labor was first created by Congress by act of June 24, 1884, in the Interior Department. The Bureau of Labor later became independent as a Department of Labor without executive rank by act of June 13, 1888. It again returned to bureau status in the Department of Commerce and Labor, which was created by act of February 14, 1903 (15 U.S.C. 1501; 29 U.S.C. 1 note).\r\n\r\nThe Department of Labor fosters and promotes the welfare of the job seekers, wage earners, and retirees of the United States, by improving their working conditions, advancing their opportunities for profitable employment, protecting their retirement and health care benefits, helping employers find workers, strengthening free collective bargaining, and tracking changes in employment, prices, and other national economic measurements. In carrying out this mission, the Department administers a variety of Federal labor laws including those that guarantee workers' rights to safe and healthful working conditions; a minimum hourly wage and overtime pay; freedom from employment discrimination; unemployment insurance; and other income support.",
    "value_num": null
@@ -101,11 +101,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/271"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -119,11 +119,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/271"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/271/medium.png?1279149085",
    "value_num": null
@@ -137,11 +137,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/271"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Labor Department",
    "value_num": null
@@ -155,11 +155,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/271"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "DOL",
    "value_num": null
@@ -173,11 +173,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/271"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "labor-department",
    "value_num": null
@@ -191,11 +191,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/271"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/labor-department",
    "value_num": null
@@ -226,11 +226,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=labor-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-2/chapter-XXIX"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "2 CFR chapter XXIX",
     "value_num": null
@@ -244,11 +244,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=labor-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-41/chapter-50"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "41 CFR chapter 50",
     "value_num": null
@@ -262,11 +262,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=labor-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-48/chapter-29"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "48 CFR chapter 29",
     "value_num": null
@@ -280,11 +280,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=labor-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-XLII"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "5 CFR chapter XLII",
     "value_num": null

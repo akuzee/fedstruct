@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/258"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The International Development Cooperation Agency (IDCA) was established by Executive Order in September, 1979.\r\n\r\nAs an attempt to reorganize the foreign assistance management structure, the IDCA was envisioned by Senator Hubert Humphrey in 1978,  to coordinate foreign assistance activities as they related to bilateral programs administered by USAID, multilateral programs of international lending institutions then under the purview of the Department of the Treasury, voluntary contributions to United Nations agencies then administered by the Department of State, food programs then administered by USAID, and the activities of OPIC. An International Development Institute would be established within IDCA to address, among other things, private and voluntary organizations and with one of the Institute's constituent parts being the Peace Corps. \r\n\r\nAs established under Reorganization Plan No. 2 of 1979, the only entity it actually coordinated was USAID and, since it was staffed with fewer than 75 people, could make only a marginal impact on overall bilateral and multilateral assistance policy. In the Reagan Administration, no staff were provided to IDCA and, functionally, it faded quickly from the scene. The Executive Order creating IDCA remained intact, however, defining some of the lines of authority in the administration of foreign assistance. Some of the other coordinating functions that had been expected to be exercised by IDCA (but not contained in the Executive Order) were initially exercised instead by USAID, but over time the functions fell into disuse. \r\n\r\nThe IDCA was abolished by act of Oct. 2, 1998 (112 Stat. 2681-790) and its functions transferred to the Department of State, U.S. Agency for International Development, and overseas Private Investment Corporation.\r\n\r\n__________\r\nSources:\r\nU.S. Government Manual, (2009/2010 ed.), p. 612.\r\nhttp://www.usaid.gov/about_usaid/usaidhist.html",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/258"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/258"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "International Development Cooperation Agency",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/258"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "IDCA",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/258"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "international-development-cooperation-agency",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/258"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/international-development-cooperation-agency",
    "value_num": null

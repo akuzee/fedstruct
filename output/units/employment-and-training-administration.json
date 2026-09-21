@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/133"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.doleta.gov/",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/133"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Employment and Training Administration (ETA) was originally established as the Manpower Administration, a subagency of the Department of Labor by General Order No. 63 on August 25, 1954. Renamed Employment and Training Administration  by Secretarial Order 14-75 of November12, 1975\r\n\r\nETA fulfills responsibilities assigned to the Secretary of Labor that relate to employment services, job training, and unemployment insurance. Component offices and services administer a Federal/State employment security system; fund and oversee programs to provide work experience and training for groups having difficulty entering or returning to the work force; formulate and promote apprenticeship standards and programs; and conduct continuing programs of research development, and evaluation.\r\n",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/133"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/133"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Employment and Training Administration",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "32",
    "value_num": 32.0
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -152,11 +152,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/133"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "ETA",
    "value_num": null
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/133"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "employment-and-training-administration",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/133"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/employment-and-training-administration",
    "value_num": null
@@ -512,11 +512,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=employment-and-training-administration].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-20/chapter-V"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "20 CFR chapter V",
     "value_num": null
@@ -534,7 +534,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT SECRETARY FOR EMPLOYMENT AND TRAINING",
-   "valid_from": null,
+   "valid_from": "2026-01-11",
    "valid_to": null
   },
   {
@@ -546,7 +546,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADMINISTRATOR, OFFICE OF FOREIGN LABOR CERTIFICATION",
-   "valid_from": null,
+   "valid_from": "2020-01-05",
    "valid_to": null
   },
   {
@@ -558,7 +558,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADMINISTRATOR, OFFICE OF JOB CORPS",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -570,7 +570,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADMINISTRATOR, OFFICE OF WORKFORCE INVESTMENT",
-   "valid_from": null,
+   "valid_from": "2020-06-21",
    "valid_to": null
   },
   {
@@ -582,7 +582,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF INNOVATION OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -594,7 +594,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMUNICATIONS ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-04-06",
    "valid_to": null
   },
   {
@@ -606,7 +606,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMUNICATIONS ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-04-20",
    "valid_to": null
   },
   {
@@ -618,7 +618,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY",
-   "valid_from": null,
+   "valid_from": "2025-05-23",
    "valid_to": null
   },
   {
@@ -630,7 +630,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY FOR UNEMPLOYMENT INSURANCE",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -642,7 +642,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF IMMIGRATION POLICY",
-   "valid_from": null,
+   "valid_from": "2026-01-26",
    "valid_to": null
   },
   {
@@ -654,7 +654,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF WORKFORCE INITIATIVES, NORTH CAROLINA",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -666,7 +666,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MANAGER OF OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2026-03-23",
    "valid_to": null
   },
   {
@@ -678,7 +678,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MIDWEST REGIONAL REPRESENTATIVE, CHICAGO",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -690,7 +690,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -702,7 +702,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   },
   {
@@ -714,7 +714,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -726,7 +726,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -738,7 +738,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -750,7 +750,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "REGIONAL REPRESENTATIVE (DALLAS)",
-   "valid_from": null,
+   "valid_from": "2026-05-04",
    "valid_to": null
   },
   {
@@ -762,7 +762,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "REGIONAL REPRESENTATIVE (KANSAS)",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -774,7 +774,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "REGIONAL REPRESENTATIVE, PHILADELPHIA",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -786,7 +786,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-05-13",
    "valid_to": null
   },
   {
@@ -798,7 +798,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR TO THE ASSISTANT SECRETARY",
-   "valid_from": null,
+   "valid_from": "2026-03-23",
    "valid_to": null
   },
   {
@@ -810,7 +810,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -822,7 +822,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -834,7 +834,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR POLICY DIRECTOR FOR EDUCATION",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -846,7 +846,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR SPECIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-04-19",
    "valid_to": null
   },
   {
@@ -858,7 +858,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "WEST COAST REGIONAL REPRESENTATIVE, CALIFORNIA",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   }
  ],

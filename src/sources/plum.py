@@ -40,8 +40,43 @@ from .base import OccupancyRecord, Parsed, PositionRecord, Source, StatementReco
 API = "https://escs.opm.gov/escs-net/api/pbpub/download-data"
 PORTAL = "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
 
-# "5/26/2022 12:00:00 AM" — US month/day/year with a zero time component.
+# OPM renamed every column between Sept 2026 and Sept 2026 without notice
+# (`AgencyName` -> `Agency`, `PositionTitle` -> `Position Title`, ...). Read
+# through an alias map rather than a fixed header: the content-addressed
+# archive in state/raw/ holds files in BOTH spellings, and `parse --reparse`
+# has to keep working over all of them.
+#
+# The rename also brought two genuine improvements: `Position Status` now
+# labels historical rows explicitly instead of calling them "Filled", and
+# `Individual Unique ID` is the first person identifier PLUM has ever
+# published.
+FIELDS = {
+    "agency":      ("Agency", "AgencyName"),
+    "org":         ("Organization", "OrganizationName"),
+    "title":       ("Position Title", "PositionTitle"),
+    "status":      ("Position Status", "PositionStatus"),
+    "appt":        ("Appointment Type", "AppointmentTypeDescription"),
+    "expires":     ("Expiration Date", "ExpirationDate"),
+    "grade":       ("Level, Grade, or Pay", "LevelGradePay"),
+    "location":    ("Duty Location", "Location"),
+    "first":       ("First Name", "IncumbentFirstName"),
+    "last":        ("Last Name", "IncumbentLastName"),
+    "person_id":   ("Individual Unique ID",),          # new in the 2026 rename
+    "pay_plan":    ("Pay Plan", "PaymentPlanDescription"),
+    "tenure":      ("Tenure",),
+    "begin":       ("Begin Date", "IncumbentBeginDate"),
+    "vacate":      ("Vacate Date", "IncumbentVacateDate"),
+}
+
+# Old files carried a zero time component; new ones are bare dates.
 _DATE_FORMATS = ("%m/%d/%Y %I:%M:%S %p", "%m/%d/%Y", "%Y-%m-%d")
+
+
+def _get(row: dict, field: str) -> str:
+    for name in FIELDS[field]:
+        if name in row:
+            return (row.get(name) or "").strip()
+    return ""
 
 
 def parse_date(s: str | None) -> str | None:
@@ -83,12 +118,14 @@ class PlumPositions(Source):
     )
 
     def sniff(self, body: bytes) -> str | None:
-        # Akamai in front of escs.opm.gov serves its block page as HTTP 200
-        # from datacenter IPs (verified on GitHub runners, Sept 2026). The
-        # header row is the only reliable tell.
+        # A CDN can serve a block page as HTTP 200, so verify the body is
+        # actually a PLUM CSV. Accept EITHER header spelling — see FIELDS.
         head = body[:512].decode("utf-8-sig", errors="replace")
-        if "AgencyName" not in head:
+        if not (head.startswith("Agency,") or head.startswith("AgencyName,")):
             return f"expected the PLUM CSV header, got {head[:80]!r}"
+        for field in ("title", "status", "first", "last"):
+            if not any(name in head for name in FIELDS[field]):
+                return f"PLUM CSV is missing a {field!r} column: {head[:120]!r}"
         return None
 
     def parse(self, body: bytes) -> Parsed:
@@ -103,9 +140,9 @@ class PlumPositions(Source):
         counts: dict[str, dict[str, int]] = {}
 
         for i, r in enumerate(rows, start=2):   # 2 = first data row, 1 = header
-            agency = (r.get("AgencyName") or "").strip()
-            org = (r.get("OrganizationName") or "").strip()
-            title = (r.get("PositionTitle") or "").strip()
+            agency = _get(r, "agency")
+            org = _get(r, "org")
+            title = _get(r, "title")
             if not agency or not title:
                 continue
 
@@ -128,39 +165,45 @@ class PlumPositions(Source):
             else:
                 unit_key = agency_key
 
-            appt = (r.get("AppointmentTypeDescription") or "").strip() or None
+            appt = _get(r, "appt") or None
             is_pas = appt == "PAS"
             pos_key = _key(agency, org, title)
 
             if pos_key not in positions:
                 positions[pos_key] = PositionRecord(
                     anchor_key=pos_key, unit_anchor_key=unit_key, title=title,
-                    appt_type=appt, pay_plan=(r.get("PaymentPlanDescription") or "").strip() or None,
-                    level_grade=(r.get("LevelGradePay") or "").strip() or None,
-                    location=(r.get("Location") or "").strip() or None,
+                    appt_type=appt, pay_plan=_get(r, "pay_plan") or None,
+                    level_grade=_get(r, "grade") or None,
+                    location=_get(r, "location") or None,
                     is_pas=is_pas, source_url=PORTAL)
                 c = counts.setdefault(unit_key, {"total": 0, "pas": 0})
                 c["total"] += 1
                 c["pas"] += int(is_pas)
 
-            first = (r.get("IncumbentFirstName") or "").strip() or None
-            last = (r.get("IncumbentLastName") or "").strip() or None
+            first = _get(r, "first") or None
+            last = _get(r, "last") or None
             if not (first or last):
                 continue    # a genuinely vacant position: no occupancy to assert
 
-            begin = parse_date(r.get("IncumbentBeginDate"))
-            vacate = parse_date(r.get("IncumbentVacateDate"))
-            filled = (r.get("PositionStatus") or "").strip() == "Filled"
+            begin = parse_date(_get(r, "begin"))
+            vacate = parse_date(_get(r, "vacate"))
+            # 'Filled' now means CURRENTLY filled: the rename split historical
+            # rows out into their own status instead of labelling them Filled.
+            filled = _get(r, "status") == "Filled"
 
             occupancies.append(OccupancyRecord(
                 position_anchor_key=pos_key, first_name=first, last_name=last,
+                # OPM's own person identifier, when published. Without it,
+                # people are matched by name — which silently conflates the 80
+                # distinct officials who share a name with another official.
+                person_key=_get(r, "person_id") or None,
                 # A vacate date closes the tenure regardless of the row's
                 # status flag; historical rows are how this source backfills.
                 status="current" if (filled and not vacate) else "ended",
                 valid_from=begin, valid_to=vacate,
                 # The OFFICE's term, identical for every holder under this
                 # authority — not this person's service.
-                period_end=parse_date(r.get("ExpirationDate")),
+                period_end=parse_date(_get(r, "expires")),
                 source_url=PORTAL,
             ))
 

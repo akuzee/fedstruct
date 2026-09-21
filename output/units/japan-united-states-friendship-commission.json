@@ -35,11 +35,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/264"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.jusfc.gov/index.asp",
    "value_num": null
@@ -53,11 +53,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/264"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Japan-U.S. Friendship Commission (JUSFC) was established as an independent agency by the United States Congress (P.L. 94-118) in 1975 to strengthen the U.S.-Japan relationship through educational, cultural, and intellectual exchange. JUSFC makes grants that support research, education, public affairs, and exchange with Japan, and generally does not operate its own programs. The agency receives no funds from general revenues from the United States budget. It operates entirely from the Japan-United States Friendship Trust Fund. The fund originated from payments by the Government of Japan for post-war assistance provided by the United States.  A board of 18 Commissioners makes decisions on the expenditure of JUSFC’s earnings. The Commissioners are a group of nine private citizens and nine U.S. government officials who meet annually to consider all institutional grant proposals submitted to JUSFC. Among the government officials are four bi-partisan Members of the U.S. Senate and the U.S. House of Representatives who serve in a non-voting capacity.",
    "value_num": null
@@ -71,11 +71,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/264"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -89,11 +89,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/264"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/264/medium.png?1712931346",
    "value_num": null
@@ -107,11 +107,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/264"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Japan-United States Friendship Commission",
    "value_num": null
@@ -125,11 +125,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/264"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "JUSFC",
    "value_num": null
@@ -143,11 +143,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/264"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "japan-united-states-friendship-commission",
    "value_num": null
@@ -161,11 +161,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/264"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/japan-united-states-friendship-commission",
    "value_num": null
@@ -191,11 +191,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=japan-united-states-friendship-commission].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-22/chapter-XVI"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "22 CFR chapter XVI",
     "value_num": null

@@ -39,11 +39,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#economic-analysis-bureau"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "Bureau of Economic Analysis",
     "value_num": null
@@ -65,11 +65,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/118"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.bea.gov/",
    "value_num": null
@@ -83,11 +83,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/118"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Bureau of Economic Analysis (BEA) promotes a better understanding of the U.S. economy by providing the most timely, relevant, and accurate economic accounts data in an objective and cost-effective manner. BEA's economic statistics are closely watched and provide a comprehensive picture of the U.S. economy. BEA prepares national, regional, industry, and international accounts that present essential information on such issues in the world economy.\r\n\r\nBEA's national economic statistics provide a comprehensive look at U.S. production, consumption, investment, exports and imports, and income and saving. The international transactions accounts provide information on trade in goods and services (including the balance of payments and trade), investment income, and government and private finances. In addition, the accounts measure the value of U.S. international assets and liabilities and direct investment by multinational companies.\r\n\r\nThe regional accounts provide data on total and per capita personal income by region, State, metropolitan area, and county, and on gross State product. The industry economic account provides a detailed view of the interrelationships between U.S. producers and users and the contribution to production across industries.",
    "value_num": null
@@ -101,11 +101,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/118"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -119,11 +119,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/118"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/118/medium.png?1321564848",
    "value_num": null
@@ -137,11 +137,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/118"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Economic Analysis Bureau",
    "value_num": null
@@ -155,11 +155,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "12",
    "value_num": 12.0
@@ -173,11 +173,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -191,11 +191,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/118"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "EAB",
    "value_num": null
@@ -209,11 +209,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/118"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "economic-analysis-bureau",
    "value_num": null
@@ -227,11 +227,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/118"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/economic-analysis-bureau",
    "value_num": null
@@ -299,11 +299,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=economic-analysis-bureau].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-15/chapter-VIII"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "15 CFR chapter VIII",
     "value_num": null
@@ -321,7 +321,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE DIRECTOR FOR INTERNATIONAL ECONOMICS",
-   "valid_from": null,
+   "valid_from": "2011-09-25",
    "valid_to": null
   },
   {
@@ -333,7 +333,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE DIRECTOR FOR NATIONAL ECONOMIC ACCOUNTS",
-   "valid_from": null,
+   "valid_from": "2023-03-26",
    "valid_to": null
   },
   {
@@ -345,7 +345,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE DIRECTOR FOR REGIONAL ECONOMICS",
-   "valid_from": null,
+   "valid_from": "2022-02-13",
    "valid_to": null
   },
   {
@@ -357,7 +357,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF ECONOMIST",
-   "valid_from": null,
+   "valid_from": "2016-03-20",
    "valid_to": null
   },
   {
@@ -369,7 +369,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF COMMUNICATIONS",
-   "valid_from": null,
+   "valid_from": "2021-09-12",
    "valid_to": null
   },
   {
@@ -381,7 +381,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, BALANCE OF PAYMENTS DIVISION",
-   "valid_from": null,
+   "valid_from": "2023-10-05",
    "valid_to": null
   },
   {
@@ -393,7 +393,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, EXPENDITURE AND INCOME DIVISION",
-   "valid_from": null,
+   "valid_from": "2023-11-05",
    "valid_to": null
   },
   {
@@ -405,7 +405,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, REGIONAL EXPENDITURES AND PRICES DIVISION",
-   "valid_from": null,
+   "valid_from": "2024-02-25",
    "valid_to": null
   },
   {
@@ -417,7 +417,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, BUREAU OF ECONOMIC ANALYSIS",
-   "valid_from": null,
+   "valid_from": "2024-01-14",
    "valid_to": null
   }
  ],

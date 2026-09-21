@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "10",
    "value_num": 10.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -130,7 +130,7 @@
   {
    "appt_type": "CA",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2026-07-07",
    "person": "Erick Page-Littleford",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -188,7 +188,7 @@
    "valid_to": "2026-01-24"
   }
  ],
- "id": 2163,
+ "id": 2164,
  "merged_from": [],
  "multi_facts": {},
  "name": "Office of Investment and Innovation",
@@ -202,19 +202,19 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR",
-   "valid_from": null,
+   "valid_from": "2025-12-03",
    "valid_to": null
   },
   {
    "appt_type": "CA",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2026-07-07",
    "person": "Jennifer Shieh",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF SMALL BUSINESS INNOVATION RESEARCH AND TECHNOLOGY TRANSFER",
-   "valid_from": null,
+   "valid_from": "2026-03-09",
    "valid_to": null
   },
   {
@@ -226,7 +226,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-11-16",
    "valid_to": null
   },
   {
@@ -238,7 +238,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -250,7 +250,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -262,7 +262,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-04-13",
    "valid_to": null
   }
  ],

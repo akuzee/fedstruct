@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/232"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Immigration and Naturalization Service (INS) was established under the Department of Labor in 1933 through the merger of the Bureau of Immigration and Bureau of Naturalization. The role of the INS was to administer matters related to establishing immigration and naturalization policy.\r\n\r\nAfter being transferred to the Department of Justice in 1940, the INS was subsequently dismantled by the Homeland Security Act of 2002 (Pub. L. No. 107-296, 116 Stat. 2135) at which time its various duties were split up and transferred to three new agencies established under the Department of Homeland Security: \r\n\r\nThe administration of immigration services, including permanent residence, naturalization, asylum and similar functions became the responsibility of the Bureau of Citizenship and Immigration Services (later renamed U.S. Immigration and Customs Enforcement); \r\nThe INS investigative and enforcement functions were combined with related activities of U.S. Customs investigators, the Federal Protective Service, and the Federal Air Marshal Service to create the U.S. Immigration and Customs Enforcement; and\r\nThe  border functions were combined with U.S. Customs Inspectors to create the U.S.Customs and Border Protection. \r\n",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/232"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/232"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/232/medium.png?1322517460",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/232"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Immigration and Naturalization Service",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/232"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "INS",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/232"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "immigration-and-naturalization-service",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/232"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/immigration-and-naturalization-service",
    "value_num": null

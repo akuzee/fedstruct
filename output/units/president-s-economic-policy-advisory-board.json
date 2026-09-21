@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/431"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The President's Economic Recovery Advisory Board (PERAB) was established by President Obama to ensure the availability of independent, nonpartisan information, analysis, and advice as he formulates and implements his plans for economic recovery and enhancing the strength and competitiveness of the Nation's economy. The members of the PERAB were appointed by the President from among distinguished citizens outside the Government who are qualified on the basis of achievement, experience, and independence. The overall membership of the PERAB reflects a diverse set of perspectives from across the country and various sectors of the economy. \r \rThe PERAB meets periodically and solicits information and ideas from all sectors to promote the growth of the economy, establish a stable and sound financial and banking system, and create jobs. The PERAB provides analysis and information directly to the President on the design, implementation, and evaluation of policies. With respect to matters deemed appropriate by the President, the PERAB may provide information and recommendations to the National Economic Council or any other agency with responsibilities related to the economy or financial markets.\r[http://www.whitehouse.gov/administration/eop/perab/about]",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/431"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/431"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "President's Economic Policy Advisory Board",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/431"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "PERAB",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/431"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "president-s-economic-policy-advisory-board",
    "value_num": null
@@ -116,18 +116,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/431"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/president-s-economic-policy-advisory-board",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 378,
+ "id": 379,
  "merged_from": [],
  "multi_facts": {},
  "name": "President's Economic Policy Advisory Board",

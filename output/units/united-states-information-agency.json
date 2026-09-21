@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/510"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The United States Information Agency (USIA) was established August 1953. In April 1978, the agency name was temporarily changed to the International Communication Agency (USICA), when its functions were consolidated with those of the Bureau of Educational and Cultural Affairs of the Department of State. The name was restored to USIA however in August of 1982.\r\n\r\nUSIA’s basic legislative mandates are the Smith-Mundt Act of 1948 and the Fulbright-Hays Act of 1961. The International Broadcasting Act of 1994 reorganized and consolidated all non-military U.S. government international broadcasting into USIA, supervised by the Broadcasting Board of Governors. \r\nUntil 1999, the USIA functioned as an independent foreign affairs agency within the executive branch of the U.S. government. USIA explained and supported American foreign policy and promoted U.S. national interests through a wide range of overseas information programs. The agency also promoted mutual understanding between the United States and other nations by conducting educational and cultural activities.\r\n\r\nPursuant to the Foreign Affairs Reform and Restructuring Act of 1998, USIA was integrated into the Department of State on October 1, 1999. \r\n",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/510"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/510"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "United States Information Agency",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/510"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "USIA",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/510"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "united-states-information-agency",
    "value_num": null
@@ -116,18 +116,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/510"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/united-states-information-agency",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 456,
+ "id": 457,
  "merged_from": [],
  "multi_facts": {},
  "name": "United States Information Agency",

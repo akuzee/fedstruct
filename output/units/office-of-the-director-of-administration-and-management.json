@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "12",
    "value_num": 12.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -164,7 +164,7 @@
    "valid_to": "2026-06-01"
   }
  ],
- "id": 2091,
+ "id": 2092,
  "merged_from": [],
  "multi_facts": {},
  "name": "Office of the Director of Administration and Management",
@@ -178,7 +178,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MILITARY COMMISSION APPELLATE JUDGE",
-   "valid_from": null,
+   "valid_from": "2019-08-05",
    "valid_to": null
   },
   {
@@ -190,7 +190,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "MILITARY COMMISSION APPELLATE JUDGE",
-   "valid_from": null,
+   "valid_from": "2012-08-30",
    "valid_to": null
   },
   {
@@ -202,7 +202,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE DIRECTOR FOR NET ASSESSMENT",
-   "valid_from": null,
+   "valid_from": "2010-01-02",
    "valid_to": null
   },
   {
@@ -214,7 +214,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, ADMINISTRATION AND MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2025-10-05",
    "valid_to": null
   },
   {
@@ -226,7 +226,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DOD TRANSITION DIRECTOR AND DIRECTOR, BUSINESS OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2024-04-07",
    "valid_to": null
   },
   {
@@ -238,7 +238,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF ADMINISTRATION AND MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2025-07-20",
    "valid_to": null
   },
   {
@@ -250,7 +250,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, ORGANIZATIONAL AND MANAGEMENT POLICY",
-   "valid_from": null,
+   "valid_from": "2023-03-26",
    "valid_to": null
   },
   {
@@ -262,7 +262,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-10-21",
    "valid_to": null
   },
   {
@@ -274,7 +274,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-03-08",
    "valid_to": null
   }
  ],

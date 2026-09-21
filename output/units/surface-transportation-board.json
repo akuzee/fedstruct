@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/481"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.stb.gov",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/481"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Surface Transportation Board was established in 1996 as the successor to the Interstate Commerce Commission. The Board was administratively aligned with the Department of Transportation until enactment of the Surface Transportation Board Reauthorization Act of 2015 established the Board as a fully independent agency. The Board consists of five members, appointed by the President with the advice and consent of the Senate for 5-year terms.\r\n\r\nThe Board is charged with the economic regulation of various modes of surface transportation, primarily freight rail. The Board has regulatory jurisdiction over railroad rate reasonableness, mergers, line acquisitions, new rail line construction, and abandonments of existing rail lines.  While most of the Board’s work involves freight railroads, the Board also has certain responsibilities with respect to passenger rail matters; the intercity bus industry; pipelines other than water, gas, or oil; household goods carriers’ tariffs; and rate regulation of non-contiguous domestic water transportation (i.e., freight shipping between mainland United States and Hawaii, Alaska, Puerto Rico, and other U.S. territories and possessions).",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/481"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/481"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/481/medium.png?1279151487",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/481"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Surface Transportation Board",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "10",
    "value_num": 10.0
@@ -152,11 +152,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "3",
    "value_num": 3.0
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/481"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "STB",
    "value_num": null
@@ -188,11 +188,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/481"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "surface-transportation-board",
    "value_num": null
@@ -206,11 +206,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/481"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/surface-transportation-board",
    "value_num": null
@@ -302,7 +302,7 @@
    "valid_to": "2025-11-29"
   }
  ],
- "id": 425,
+ "id": 426,
  "merged_from": [
   {
    "key": "surface-transportation-board",
@@ -326,11 +326,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=surface-transportation-board].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-49/chapter-X"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "49 CFR chapter X",
     "value_num": null
@@ -342,13 +342,13 @@
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2025-12-31",
    "person": "Karen Hedlund",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2022-01-03",
    "valid_to": null
   },
   {
@@ -360,31 +360,31 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BOARD MEMBER",
-   "valid_from": null,
+   "valid_from": "2026-06-05",
    "valid_to": null
   },
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2029-01-14",
    "person": "Patrick Fuchs",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHAIRMAN",
-   "valid_from": null,
+   "valid_from": "2025-01-20",
    "valid_to": null
   },
   {
    "appt_type": "PAS",
    "is_pas": 1,
-   "period_end": null,
+   "period_end": "2026-01-10",
    "person": "Michelle Schultz",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "VICE CHAIRMAN",
-   "valid_from": null,
+   "valid_from": "2025-01-20",
    "valid_to": null
   },
   {
@@ -396,7 +396,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-10-01",
    "valid_to": null
   },
   {
@@ -408,7 +408,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF PUBLIC ASST GOVERNMENT AFFAIRS AND COMPLIANCE",
-   "valid_from": null,
+   "valid_from": "2022-07-31",
    "valid_to": null
   },
   {
@@ -420,7 +420,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OFFICE OF ENVIRONMENTAL ANALYSIS",
-   "valid_from": null,
+   "valid_from": "2022-02-27",
    "valid_to": null
   },
   {
@@ -432,7 +432,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-01-05",
    "valid_to": null
   },
   {
@@ -444,7 +444,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-01-05",
    "valid_to": null
   },
   {
@@ -456,7 +456,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-11-21",
    "valid_to": null
   },
   {
@@ -468,7 +468,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-11-30",
    "valid_to": null
   },
   {
@@ -480,7 +480,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-11-30",
    "valid_to": null
   },
   {
@@ -492,7 +492,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "WHITE HOUSE LIASION",
-   "valid_from": null,
+   "valid_from": "2026-01-05",
    "valid_to": null
   }
  ],

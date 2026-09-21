@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/46"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.cia.gov/",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/46"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Central Intelligence Agency was established by the National Security Act of 1947, as amended (50 U.S.C. 401 et seq.). It now functions under that statute, Executive Order 12333 of December 4, 1981, the Intelligence Reform and Terrorism Prevention Act of 2004 (50 U.S.C. 401 note), and other laws, Executive orders, regulations, and directives.\r\n\r\nThe Central Intelligence Agency (CIA) collects intelligence from human sources and other appropriate means, but, it does not carry out internal security functions nor exercise police, subpoena, or law enforcement powers. The Agency also correlates, evaluates, and disseminates intelligence related to national security; provides overall direction for and coordination of intelligence collecting outside the United States by U.S. Intelligence Community elements authorized to engage in human source collection. In coordination with other departments, agencies, or authorized elements of the United States Government, the CIA ensures that resources are used effectively and that adequate consideration is given to the risks to those involved in such collection and to the United States; it also carries out other intelligence-related functions and duties necessary for safeguarding national security as the President or the Director of National Intelligence (DNI) may direct; and it coordinates, under the direction of the DNI and consistent with section 207 of the Foreign Service Act of 1980, relationships between elements of the U.S. Intelligence Community and the intelligence or security services of foreign governments or international organizations in matters of national security or intelligence that is acquired clandestinely.",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/46"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/46"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/46/medium.png?1279143943",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/46"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Central Intelligence Agency",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/46"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "CIA",
    "value_num": null
@@ -152,11 +152,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/46"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "central-intelligence-agency",
    "value_num": null
@@ -170,11 +170,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/46"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/central-intelligence-agency",
    "value_num": null
@@ -205,11 +205,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=central-intelligence-agency].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-32/chapter-XIX"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "32 CFR chapter XIX",
     "value_num": null

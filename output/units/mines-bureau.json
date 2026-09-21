@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/290"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The United States Bureau of Mines (USBM) was established July 1, 1910, in the Department of the Interior by the organic Act of May 16, 1910, as amended (30 U.S.C. 1, 3, 5-7).\r\n\r\nThe USBM was primarily a research and fact-finding agency. Its goal was to help ensure that the Nation had adequate supplies of nonfuel minerals for security and other needs. Research was conducted to provide the technology for the extraction, processing, use, and recycling of the Nation’s nonfuel mineral resources at a reasonable cost without harm to the environment or the workers involved. \r\n\r\nThe Bureau also collected, compiled, analyzed, and published statistical and economic information on all phases of nonfuel mineral resource development, including exploration, production, shipments, demand, stocks, prices, imports and exports.\r\n\r\nThe United States Bureau of Mines was terminated pursuant to act of Jan. 26, 1996 (110 Stat. 32). Certain functions were transferred to the Secretary of Energy by act of April 26, 1996 (110 Stat. 1321-167).\r\n\r\n__________\r\nSource:\r\nU.S. Government Manual (1992/1993 Edition), p. 359\r\nU.S. Government Manual (2009/2010 Edition), p. 616.\r\n",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/290"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/290"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Mines Bureau",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/290"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "USBM",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/290"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "mines-bureau",
    "value_num": null
@@ -116,18 +116,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/290"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/mines-bureau",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 267,
+ "id": 268,
  "merged_from": [],
  "multi_facts": {},
  "name": "Mines Bureau",

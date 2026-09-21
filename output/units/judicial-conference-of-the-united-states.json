@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/266"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.uscourts.gov/FederalCourts/JudicialConference.aspx",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/266"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Conference of Senior Circuit Judges was created by Congress in 1922, to serve as the principal policy making body concerned with the administration of the U.S. Courts. In 1948, Congress enacted section 331 of title 28, United States Code, changing the name to the Judicial Conference of the United States. District judges were formally added to the Conference in 1957. \r\n\r\nAs in 1922, the fundamental purpose of the Judicial Conference today is to make policy with regard to the administration of the U.S. courts. Section 331 of title 28 specifically provides that the Judicial Conference shall: \r\n\r\n(1) Make a comprehensive survey of the conditions of business in the courts of the United States; \r\n(2) Prepare plans for the assignment of judges to or from courts of appeals or district courts, where necessary; \r\n(3) Submit suggestions to the various courts in the interest of promoting uniformity of management procedures and the expeditious conduct of court business; \r\n(4) Exercise authority provided in chapter 16 of title 28 United States Codes for the review of circuit council conduct and disability orders filed under that chapter; and \r\n(5) Carry on a continuous study of the operation and effect of the general rules of practice and procedure in use within the federal courts, as prescribed by the Supreme Court pursuant to law. \r\n\r\nThe Judicial Conference also supervises the Director of the Administrative Office of the U.S. Courts in the performance of his duties as the administrative officer of the courts of the United States under 28 U.S.C. ",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/266"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/266"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Judicial Conference of the United States",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/266"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "USJC",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/266"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "judicial-conference-of-the-united-states",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/266"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/judicial-conference-of-the-united-states",
    "value_num": null

@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "8",
    "value_num": 8.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -104,7 +104,7 @@
    "valid_to": "2026-01-25"
   }
  ],
- "id": 2275,
+ "id": 2276,
  "merged_from": [],
  "multi_facts": {},
  "name": "Commissioners",
@@ -112,85 +112,85 @@
   {
    "appt_type": "XS",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2028-12-15",
    "person": "Mondaire Jones",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMISSIONER",
-   "valid_from": null,
+   "valid_from": "2023-01-18",
    "valid_to": null
   },
   {
    "appt_type": "XS",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2028-12-12",
    "person": "Glenn Magpantay",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMISSIONER",
-   "valid_from": null,
+   "valid_from": "2023-02-15",
    "valid_to": null
   },
   {
    "appt_type": "XS",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2031-12-15",
    "person": "Peter Kirsanow",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMISSIONER",
-   "valid_from": null,
+   "valid_from": "2013-12-16",
    "valid_to": null
   },
   {
    "appt_type": "XS",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2031-11-29",
    "person": "Stephen Gilchrist",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMISSIONER",
-   "valid_from": null,
+   "valid_from": "2020-05-07",
    "valid_to": null
   },
   {
    "appt_type": "XS",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2031-12-05",
    "person": "J Christian Adams",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMISSIONER",
-   "valid_from": null,
+   "valid_from": "2020-08-06",
    "valid_to": null
   },
   {
    "appt_type": "PA",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2028-12-05",
    "person": "Rochelle Garza",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMISSIONER (CHAIR)",
-   "valid_from": null,
+   "valid_from": "2023-03-17",
    "valid_to": null
   },
   {
    "appt_type": "PA",
    "is_pas": 0,
-   "period_end": null,
+   "period_end": "2028-12-05",
    "person": "Victoria Nourse",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COMMISSIONER (VICE CHAIR)",
-   "valid_from": null,
+   "valid_from": "2023-03-16",
    "valid_to": null
   },
   {
@@ -202,7 +202,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2024-12-01",
    "valid_to": null
   },
   {
@@ -214,7 +214,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT TO THE COMMISSIONER",
-   "valid_from": null,
+   "valid_from": "2025-10-20",
    "valid_to": null
   },
   {
@@ -226,7 +226,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT TO THE COMMISSIONER",
-   "valid_from": null,
+   "valid_from": "2023-04-10",
    "valid_to": null
   }
  ],

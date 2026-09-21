@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "2",
    "value_num": 2.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -68,7 +68,7 @@
    "valid_to": "2025-08-18"
   }
  ],
- "id": 1698,
+ "id": 1699,
  "merged_from": [],
  "multi_facts": {},
  "name": "General Counsel",
@@ -82,7 +82,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ATTORNEY-ADVISOR (GENERAL COUNSEL)",
-   "valid_from": null,
+   "valid_from": "2025-03-07",
    "valid_to": null
   },
   {
@@ -94,7 +94,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "TRADE POLICY RESEARCH COORDINATOR",
-   "valid_from": null,
+   "valid_from": "2026-02-09",
    "valid_to": null
   }
  ],

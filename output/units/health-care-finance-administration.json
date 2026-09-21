@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/559"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Health Care Financing Administration (HCFA) was created in 1977 to combine under one administration the oversight of the Medicare program, the Federal portion of the Medicaid program, and related quality assurance activities.\r\n\r\nMedicare provides health insurance coverage for people age 65 and over, younger people who are receiving social security disability benefits, and persons who need dialysis or kidney transplants for treatment of end-stage renal disease.\r\n\r\nMedicaid is a medical assistance program jointly financed by State and Federal governments for eligible low-income individuals. It covers health care expenses for all recipients of Aid to Families With Dependent Children, and most States also cover the needy elderly, blind, and disabled receiving cash assistance under the Supplemental Security Income Program. Coverage also is extended to certain infants and low-income pregnant women and, at the option of the State, other low-income individuals with medical bills that qualify them as categorically or medically needy.\r\n\r\nThe Medicare/Medicaid programs include a quality assurance focal point to carry out the quality assurance provisions of the Medicare and Medicaid programs; the development and implementation of health and safety standards of care providers in Federal health programs; and the implementation of the end-stage renal disease and the peer review provisions.\r\n\r\nHCFA was renamed the Centers for Medicare and Medicaid Services in July, 2001.",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/559"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/559"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/559/medium.jpg?1322510279",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/559"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Health Care Finance Administration",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/559"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "HCFA",
    "value_num": null
@@ -116,11 +116,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/559"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "health-care-finance-administration",
    "value_num": null
@@ -134,11 +134,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/559"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/health-care-finance-administration",
    "value_num": null

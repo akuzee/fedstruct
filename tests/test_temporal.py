@@ -238,6 +238,66 @@ def test_block_is_a_failure_not_an_empty_result(env):
         "SELECT outcome FROM fetches WHERE source='fr_agencies'") == "failed"
 
 
+def test_same_name_different_person_id_stays_two_people(ingested):
+    """80 federal officials share a name with another official.
+
+    Keying people on the name merges them into one human and invents a career
+    — the unit crosswalk's false-merge failure, applied to people. OPM's
+    Individual Unique ID is the identity key whenever it is published.
+    """
+    rows = ingested.q(
+        "SELECT source_key, display_name FROM persons WHERE name_norm IN "
+        "(SELECT name_norm FROM persons GROUP BY name_norm HAVING COUNT(*) > 1) "
+        "ORDER BY source_key")
+    assert len(rows) >= 2, "fixture lost its same-name pair"
+    assert len({r["source_key"] for r in rows}) == len(rows), \
+        "two distinct officials were merged into one person"
+
+
+def test_plum_reads_both_header_spellings(env):
+    """OPM renamed every column without notice in 2026.
+
+    state/raw/ holds files in both spellings and `parse --reparse` must keep
+    working over all of them, so the parser reads through an alias map.
+    """
+    import csv
+    import io
+
+    from src import sources
+
+    src = sources.get("plum")
+    new = env.sess.bodies["escs.opm.gov"].decode("utf-8-sig")
+    rows = list(csv.DictReader(io.StringIO(new)))
+
+    legacy_names = {"Agency": "AgencyName", "Organization": "OrganizationName",
+                    "Position Title": "PositionTitle",
+                    "Position Status": "PositionStatus",
+                    "Appointment Type": "AppointmentTypeDescription",
+                    "Expiration Date": "ExpirationDate",
+                    "Level, Grade, or Pay": "LevelGradePay",
+                    "Duty Location": "Location", "First Name": "IncumbentFirstName",
+                    "Last Name": "IncumbentLastName", "Pay Plan": "PaymentPlanDescription",
+                    "Begin Date": "IncumbentBeginDate", "Vacate Date": "IncumbentVacateDate"}
+    buf = io.StringIO()
+    old_fields = [legacy_names.get(k, k) for k in rows[0] if k != "Individual Unique ID"]
+    w = csv.DictWriter(buf, fieldnames=old_fields)
+    w.writeheader()
+    for r in rows:
+        w.writerow({legacy_names.get(k, k): v for k, v in r.items()
+                    if k != "Individual Unique ID"})
+    old_body = buf.getvalue().encode()
+
+    assert src.sniff(old_body) is None, "legacy header rejected"
+    assert src.sniff(new.encode()) is None, "current header rejected"
+
+    old_parsed, new_parsed = src.parse(old_body), src.parse(new.encode())
+    assert len(old_parsed.positions) == len(new_parsed.positions)
+    assert len(old_parsed.units) == len(new_parsed.units)
+    # Only the new spelling carries person ids.
+    assert all(o.person_key for o in new_parsed.occupancies)
+    assert not any(o.person_key for o in old_parsed.occupancies)
+
+
 def test_block_page_served_as_http_200_never_becomes_data(env):
     """Akamai serves its block page as HTTP 200 (verified on GitHub runners).
 

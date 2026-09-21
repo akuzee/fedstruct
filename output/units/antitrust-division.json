@@ -35,11 +35,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.justice.gov/atr/",
    "value_num": null
@@ -53,11 +53,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Assistant Attorney General in charge of the Antitrust Division is responsible for promoting and maintaining competitive markets by enforcing the Federal antitrust laws. This involves investigating possible antitrust violations, conducting grand jury proceedings, reviewing proposed mergers and acquisitions, preparing and trying antitrust cases, prosecuting appeals, and negotiating and enforcing final judgments. The Division prosecutes serious and willful violations of antitrust laws by filing criminal suits that can lead to large fines and jail sentences. \r\n\r\nWhere criminal prosecution is not appropriate, the Division seeks a court order forbidding future violations of the law and requiring steps by the defendant to remedy the anticompetitive effects of past violations.\r\n\r\nThe Division also is responsible for acting as an advocate of competition within the Federal Government as well as internationally. This involves formal appearances in Federal administrative agency proceedings, development of legislative initiatives to promote deregulation and eliminate unjustifiable exemptions from the antitrust laws, and participation on executive branch policy task forces and in multilateral international organizations. The Division provides formal advice to other agencies on the competitive implications of proposed transactions requiring Federal approval, such as mergers of financial institutions.",
    "value_num": null
@@ -71,11 +71,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -89,11 +89,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Antitrust Division",
    "value_num": null
@@ -107,11 +107,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "26",
    "value_num": 26.0
@@ -125,11 +125,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -143,11 +143,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "ANTITRUST",
    "value_num": null
@@ -161,11 +161,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "antitrust-division",
    "value_num": null
@@ -179,11 +179,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/antitrust-division",
    "value_num": null
@@ -451,7 +451,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ATTORNEY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2022-08-29",
    "valid_to": null
   },
   {
@@ -463,7 +463,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, APPELLATE SECTION",
-   "valid_from": null,
+   "valid_from": "2020-05-24",
    "valid_to": null
   },
   {
@@ -475,7 +475,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, ECONOMIC REGULATORY SECTION",
-   "valid_from": null,
+   "valid_from": "2012-12-30",
    "valid_to": null
   },
   {
@@ -487,7 +487,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, FOREIGN COMMERCE SECTION",
-   "valid_from": null,
+   "valid_from": "2016-12-25",
    "valid_to": null
   },
   {
@@ -499,7 +499,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, SAN FRANCISCO FIELD OFFICE",
-   "valid_from": null,
+   "valid_from": "2023-11-05",
    "valid_to": null
   },
   {
@@ -511,7 +511,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-05-05",
    "valid_to": null
   },
   {
@@ -523,7 +523,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-05-17",
    "valid_to": null
   },
   {
@@ -535,7 +535,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-06-01",
    "valid_to": null
   },
   {
@@ -547,7 +547,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2026-04-13",
    "valid_to": null
   },
   {
@@ -559,7 +559,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2026-04-13",
    "valid_to": null
   },
   {
@@ -571,7 +571,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2026-05-26",
    "valid_to": null
   },
   {
@@ -583,7 +583,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2025-04-30",
    "valid_to": null
   },
   {
@@ -595,7 +595,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL (ECONOMICS)",
-   "valid_from": null,
+   "valid_from": "2025-04-14",
    "valid_to": null
   },
   {
@@ -607,7 +607,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, PROCUREMENT COLLUSION STRIKE FORECE",
-   "valid_from": null,
+   "valid_from": "2021-02-16",
    "valid_to": null
   },
   {
@@ -619,7 +619,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR COUNSEL AND DIRECTOR OF RISK MANAGEMENT",
-   "valid_from": null,
+   "valid_from": "2023-01-29",
    "valid_to": null
   }
  ],

@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "6",
    "value_num": 6.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -104,7 +104,7 @@
    "valid_to": "2026-04-04"
   }
  ],
- "id": 1664,
+ "id": 1665,
  "merged_from": [],
  "multi_facts": {},
  "name": "Health Programs",
@@ -118,7 +118,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSOCIATE DIRECTOR FOR HEALTH PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2025-01-27",
    "valid_to": null
   },
   {
@@ -130,7 +130,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CONFIDENTIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-02-23",
    "valid_to": null
   },
   {
@@ -142,7 +142,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY TO THE ASSOCIATE DIRECTOR FOR HEALTH PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -154,7 +154,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY TO THE ASSOCIATE DIRECTOR FOR HEALTH PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   }
  ],

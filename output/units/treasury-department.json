@@ -30,11 +30,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#treasury-department"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "Department of Treasury",
     "value_num": null
@@ -56,11 +56,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/497"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://home.treasury.gov/",
    "value_num": null
@@ -74,11 +74,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/497"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The U.S. Department of the Treasury was established by act of 1789.\r\n\r\nThe Treasury Department is responsible for promoting economic prosperity and ensuring the soundness and security of the U.S. and international financial systems.\r\n\r\nThe Department operates and maintains systems that are critical to the nation's financial infrastructure, such as the production of coin and currency, the disbursement of payments to the American public, the collection of taxes, and the borrowing of funds necessary to run the federal government. \r\n\r\nThe Department works with other federal agencies, foreign governments, and international financial institutions to encourage global economic growth, raise standards of living, and, to the extent possible, predict and prevent economic and financial crises. \r\n\r\nThe Treasury Department also performs a critical and far-reaching role in enhancing national security by improving the safeguards of our financial systems, implementing economic sanctions against foreign threats to the U.S., and identifying and targeting the financial support networks of national security threats.  ",
    "value_num": null
@@ -92,11 +92,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/497"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -110,11 +110,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/497"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/497/medium.png?1279151525",
    "value_num": null
@@ -128,11 +128,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/497"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Treasury Department",
    "value_num": null
@@ -146,11 +146,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/497"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "TREAS",
    "value_num": null
@@ -164,11 +164,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/497"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "treasury-department",
    "value_num": null
@@ -182,18 +182,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/497"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/treasury-department",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 439,
+ "id": 440,
  "merged_from": [
   {
    "key": "treasury-department",
@@ -212,11 +212,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=treasury-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-12/chapter-XV"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "12 CFR chapter XV",
     "value_num": null
@@ -230,11 +230,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=treasury-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-17/chapter-IV"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "17 CFR chapter IV",
     "value_num": null
@@ -248,11 +248,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=treasury-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-2/chapter-X"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "2 CFR chapter X",
     "value_num": null
@@ -266,11 +266,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=treasury-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-31/chapter-IX"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "31 CFR chapter IX",
     "value_num": null
@@ -284,11 +284,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=treasury-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-48/chapter-10"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "48 CFR chapter 10",
     "value_num": null
@@ -302,11 +302,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=treasury-department].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-XXI"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "5 CFR chapter XXI",
     "value_num": null

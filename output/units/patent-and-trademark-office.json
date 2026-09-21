@@ -39,11 +39,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#patent-and-trademark-office"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "United States Patent and Trademark Office",
     "value_num": null
@@ -59,11 +59,11 @@
      "link_method": "name_exact",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "plum",
      "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": "count",
     "value": "3",
     "value_num": 3.0
@@ -85,11 +85,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/402"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The United States Patent and Trademark Office (USPTO) was established by the act of July 19, 1952 (35 U.S.C. 1) \"to promote the progress of science and the useful arts by securing for limited times to inventors the exclusive right to their respective discoveries for a certain period of time'' (Article I, Section 8 of the United States Constitution). The registration of trademarks is based on the commerce clause of the U.S. Constitution.\r\rUSPTO examines and issues patents. There are three major patent categories: utility patents, design patents, and plant patents. USPTO also issues statutory invention registrations and processes international patent applications.\r\rThrough the registration of trademarks, USPTO assists businesses in protecting their investments, promoting goods and services, and safeguarding consumers against confusion and deception in the marketplace. A trademark includes any distinctive word, name, symbol, device, or any combination thereof adopted and used or intended to be used by a manufacturer or merchant to identify his goods or services and distinguish them from those manufactured or sold by others. Trademarks are examined by the Office for compliance with various statutory requirements to prevent unfair competition and consumer deception.\r\rIn addition to the examination of patent and trademark applications, issuance of patents, and registration of trademarks, USPTO advises and assists government agencies and officials in matters involving all domestic and global aspects of intellectual property. USPTO also promotes an understanding of intellectual property protection.",
    "value_num": null
@@ -103,11 +103,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/402"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -121,11 +121,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/402"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/402/medium.png?1279151273",
    "value_num": null
@@ -139,11 +139,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/402"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Patent and Trademark Office",
    "value_num": null
@@ -157,11 +157,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "40",
    "value_num": 40.0
@@ -175,11 +175,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -193,11 +193,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/402"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "PTO",
    "value_num": null
@@ -211,11 +211,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/402"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "patent-and-trademark-office",
    "value_num": null
@@ -229,11 +229,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/402"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/patent-and-trademark-office",
    "value_num": null
@@ -721,7 +721,7 @@
    "valid_to": "2025-09-21"
   }
  ],
- "id": 365,
+ "id": 366,
  "merged_from": [
   {
    "key": "patent-and-trademark-office",
@@ -750,11 +750,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=patent-and-trademark-office].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-37/chapter-I"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "37 CFR chapter I",
     "value_num": null
@@ -772,7 +772,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF ADMINISTRATIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -784,7 +784,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF ADMINISTRATIVE PATENT JUDGE",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -796,7 +796,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF FINANCIAL OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-05-11",
    "valid_to": null
   },
   {
@@ -808,7 +808,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF INFORMATION OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-06-01",
    "valid_to": null
   },
   {
@@ -820,7 +820,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF STAFF",
-   "valid_from": null,
+   "valid_from": "2025-02-11",
    "valid_to": null
   },
   {
@@ -832,7 +832,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF POLICY OFFICER AND DIRECTOR FOR INTERNATIONAL AFFAIRS",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -844,7 +844,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF PUBLIC ENGAGEMENT OFFICER",
-   "valid_from": null,
+   "valid_from": "2024-10-20",
    "valid_to": null
   },
   {
@@ -856,7 +856,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF TRADEMARK TRIAL AND APPEAL BOARD",
-   "valid_from": null,
+   "valid_from": "2025-06-16",
    "valid_to": null
   },
   {
@@ -868,7 +868,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF ADMINISTRATIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {
@@ -880,7 +880,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF ADMINISTRATIVE TRADEMARK JUDGE",
-   "valid_from": null,
+   "valid_from": "2026-01-01",
    "valid_to": null
   },
   {
@@ -892,7 +892,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF INFORMATION OFFICER",
-   "valid_from": null,
+   "valid_from": "2026-05-31",
    "valid_to": null
   },
   {
@@ -904,7 +904,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY CHIEF POLICY OFFICER FOR EDUCATION AND INTERNATIONAL ENGAGEMENT",
-   "valid_from": null,
+   "valid_from": "2024-12-15",
    "valid_to": null
   },
   {
@@ -916,7 +916,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER FOR PATENT",
-   "valid_from": null,
+   "valid_from": "2020-11-08",
    "valid_to": null
   },
   {
@@ -928,7 +928,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER FOR PATENTS",
-   "valid_from": null,
+   "valid_from": "2023-12-17",
    "valid_to": null
   },
   {
@@ -940,7 +940,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER FOR PATENTS",
-   "valid_from": null,
+   "valid_from": "2026-04-08",
    "valid_to": null
   },
   {
@@ -952,7 +952,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER FOR PATENTS",
-   "valid_from": null,
+   "valid_from": "2026-05-01",
    "valid_to": null
   },
   {
@@ -964,7 +964,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER FOR PATENTS",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -976,7 +976,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER FOR TRADEMARK ADMINISTRATION",
-   "valid_from": null,
+   "valid_from": "2016-06-05",
    "valid_to": null
   },
   {
@@ -988,7 +988,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER FOR TRADEMARK EXAMINATION POLICY",
-   "valid_from": null,
+   "valid_from": "2021-03-14",
    "valid_to": null
   },
   {
@@ -1000,7 +1000,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY COMMISSIONER FOR TRADEMARK OPERATIONS",
-   "valid_from": null,
+   "valid_from": "2021-01-03",
    "valid_to": null
   },
   {
@@ -1012,7 +1012,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY GENERAL COUNSEL FOR GENERAL LAW",
-   "valid_from": null,
+   "valid_from": "2016-07-05",
    "valid_to": null
   },
   {
@@ -1024,7 +1024,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY GENERAL COUNSEL FOR INTELLECTUAL PROPERTY AND SOLICITOR",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -1036,7 +1036,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY SOLICITOR &amp; ASSISTANT GENERAL COUNSEL FOR IP LAW",
-   "valid_from": null,
+   "valid_from": "2026-04-05",
    "valid_to": null
   },
   {
@@ -1048,7 +1048,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF STRATEGIC INITIATIVES",
-   "valid_from": null,
+   "valid_from": "2025-04-14",
    "valid_to": null
   },
   {
@@ -1060,7 +1060,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR OF THE OFFICE OF ENROLLMENT AND DISCIPLINE AND DEPUTY GENERAL COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-03-22",
    "valid_to": null
   },
   {
@@ -1072,7 +1072,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, GOVERNMENTAL AFFAIRS",
-   "valid_from": null,
+   "valid_from": "2025-01-20",
    "valid_to": null
   },
   {
@@ -1084,7 +1084,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, OFFICE OF EQUAL EMPLOYMENT OPPORTUNITY",
-   "valid_from": null,
+   "valid_from": "2012-03-25",
    "valid_to": null
   },
   {
@@ -1096,7 +1096,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "Deputy Under Secretary for Intellectual Property and Deputy Director of U.S. Patent and Trademark Office",
-   "valid_from": null,
+   "valid_from": "2025-01-20",
    "valid_to": null
   },
   {
@@ -1108,7 +1108,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "GENERAL COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-05-29",
    "valid_to": null
   },
   {
@@ -1120,7 +1120,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "REGIONAL DIRECTOR",
-   "valid_from": null,
+   "valid_from": "2016-01-04",
    "valid_to": null
   },
   {
@@ -1132,7 +1132,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-08-04",
    "valid_to": null
   },
   {
@@ -1144,7 +1144,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": null,
+   "valid_from": "2025-06-30",
    "valid_to": null
   },
   {
@@ -1156,7 +1156,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR TO THE CHIEF ADMINISTRATIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2025-08-10",
    "valid_to": null
   },
   {
@@ -1168,7 +1168,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR LEGAL ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-02-17",
    "valid_to": null
   },
   {
@@ -1180,7 +1180,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ADVISOR FOR COMMUNICATIONS",
-   "valid_from": null,
+   "valid_from": "2025-09-15",
    "valid_to": null
   },
   {
@@ -1192,7 +1192,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "UNDER SECRETARY OF COMMERCE FOR INTELLECTUAL PROPERTY AND DIRECTOR OF U.S. PATENT AND TRADEMARK OFFICE",
-   "valid_from": null,
+   "valid_from": "2025-09-22",
    "valid_to": null
   }
  ],

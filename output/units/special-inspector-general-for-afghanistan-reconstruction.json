@@ -35,11 +35,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/579"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "http://www.sigar.mil/",
    "value_num": null
@@ -53,11 +53,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/579"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Office of the Special Inspector General for Afghanistan Reconstruction (SIGAR) was created by The United States Congress by way of the National Defense Authorization Act (NDAA) for Fiscal Year 2008.\r\n\r\nSIGAR was created to provide for:\r\n\r\n-- the independent and ojective conduct and supervision of audits and investigations relating to the programs and operations funded with amounts appropriated or otherwise made available for the reconstruction of Afghanistan.\r\n--the independent and objective leadership and coordination of, and recommendations on, policies designed to promote economy efficiency, and effectiveness in the administration of the programs and operations; and prevent and detect waste, fraud, and abuse in such programs and operations.\r\n--a means of keeping the Secretary of State and Secretary of Defense fully and currently informed about problems and deficiencies relating to the administration of such programs and operations and the necessity for and progress on corrective action.",
    "value_num": null
@@ -71,11 +71,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/579"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -89,11 +89,11 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/579"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://agency-logos.federalregister.gov/579/medium.gif?1323195069",
    "value_num": null
@@ -107,11 +107,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/579"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Special Inspector General for Afghanistan Reconstruction",
    "value_num": null
@@ -125,11 +125,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/579"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "SIGAR",
    "value_num": null
@@ -143,11 +143,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/579"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "special-inspector-general-for-afghanistan-reconstruction",
    "value_num": null
@@ -161,18 +161,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/579"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/special-inspector-general-for-afghanistan-reconstruction",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 417,
+ "id": 418,
  "merged_from": [
   {
    "key": "special-inspector-general-for-afghanistan-reconstruction",
@@ -191,11 +191,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=special-inspector-general-for-afghanistan-reconstruction].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-LXXXIII"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "5 CFR chapter LXXXIII",
     "value_num": null

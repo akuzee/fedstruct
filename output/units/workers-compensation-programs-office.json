@@ -39,11 +39,11 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#workers-compensation-programs-office"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "Office of Workers' Compensation Programs",
     "value_num": null
@@ -65,11 +65,11 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/530"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.dol.gov/agencies/owcp",
    "value_num": null
@@ -83,11 +83,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/530"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Office of Workers' Compensation Programs administers four major disability compensation programs which provide wage replacement benefits, medical treatment, vocational rehabilitation and other benefits to certain workers or their dependents who experience work-related injury or occupational disease. The program areas are:\r\n\r\nDivision of Federal Employees' Compensation. The Federal Employees' Compensation Act provides workers' compensation coverage to federal and postal workers around the world for employment-related injuries and occupational diseases. \r\nDivision of Energy Employees Occupational Illness Compensation. The Energy Employees Occupational Illness Compensation Program Act (EEOICPA) provides compensation and medical benefits to employees of the Department of Energy (DOE), its predecessor agencies, and its contractors and subcontractors, and employees of DOE designated Atomic Weapons Employers (AWE) and Beryllium Vendors who became ill as a result of work performed in the production and testing of nuclear weapons. Uranium miners, millers and ore transporters (or their eligible survivors) under Section 5 of the Radiation Exposure Compensation Act (RECA) administered by the Department of Justice may also be eligible for benefits under the EEOICPA under both Part B and Part E.\r\nDivision of Longshore and Harbor Workers' Compensation. Under the provisions of the Longshore and Harbor Workers' Compensation Act and its extensions (including the Defense Base Act) the Office provide information, technical and compliance assistance, support, and informal dispute resolution services to workers, employers, and insurers, and ensures that benefits are promptly and properly paid to minimize the impact of employment injuries and deaths on employees and their families.\r\nDivision of Coal Mine Workers' Compensation. The Black Lung Benefits Act provides benefits to coal miners who are totally disabled by black lung disease, and to their eligible survivors. Benefits include monthly compensation for disabled miners and survivors of miners whose deaths are attributable to black lung, and medical coverage for disabled miners' lung disease.",
    "value_num": null
@@ -101,11 +101,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/530"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -119,11 +119,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/530"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Workers' Compensation Programs Office",
    "value_num": null
@@ -137,11 +137,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "12",
    "value_num": 12.0
@@ -155,11 +155,11 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "0",
    "value_num": 0.0
@@ -173,11 +173,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/530"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "OWCP",
    "value_num": null
@@ -191,11 +191,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/530"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "workers-compensation-programs-office",
    "value_num": null
@@ -209,11 +209,11 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/530"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/workers-compensation-programs-office",
    "value_num": null
@@ -269,7 +269,7 @@
    "valid_to": "2025-12-31"
   }
  ],
- "id": 472,
+ "id": 473,
  "merged_from": [
   {
    "key": "workers-compensation-programs-office",
@@ -293,11 +293,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=workers-compensation-programs-office].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-20/chapter-I"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "20 CFR chapter I",
     "value_num": null
@@ -311,11 +311,11 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=workers-compensation-programs-office].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 1,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-20/chapter-VI"
     },
-    "since": "2026-09-01",
+    "since": "2026-09-21",
     "unit": null,
     "value": "20 CFR chapter VI",
     "value_num": null
@@ -333,7 +333,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ADMINISTRATIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2015-11-02",
    "valid_to": null
   },
   {
@@ -345,7 +345,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF STAFF",
-   "valid_from": null,
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {
@@ -357,7 +357,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, DIVISION OF COAL MINE WORKERS COMPENSATION",
-   "valid_from": null,
+   "valid_from": "2022-04-11",
    "valid_to": null
   },
   {
@@ -369,7 +369,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, ENERGY EMPLOYEES&#039; OCCUPATIONAL ILLNESS COMPENATION",
-   "valid_from": null,
+   "valid_from": "2008-10-01",
    "valid_to": null
   },
   {
@@ -381,7 +381,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, OFFICE OF WORKERS COMPENSATION PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2026-02-01",
    "valid_to": null
   },
   {
@@ -393,7 +393,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR POLICY ADVISOR",
-   "valid_from": null,
+   "valid_from": "2026-06-01",
    "valid_to": null
   },
   {
@@ -405,7 +405,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT",
-   "valid_from": null,
+   "valid_from": "2026-04-29",
    "valid_to": null
   }
  ],

@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "42",
    "value_num": 42.0
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "1",
    "value_num": 1.0
@@ -368,7 +368,7 @@
    "valid_to": "2026-01-24"
   }
  ],
- "id": 1184,
+ "id": 1185,
  "merged_from": [],
  "multi_facts": {},
  "name": "Civil Division",
@@ -382,7 +382,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT ATTORNEY GENERAL CIVIL DIVISION",
-   "valid_from": null,
+   "valid_from": "2025-06-11",
    "valid_to": null
   },
   {
@@ -394,7 +394,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "APPELLATE LITIGATION COUNSEL",
-   "valid_from": null,
+   "valid_from": "2013-05-19",
    "valid_to": null
   },
   {
@@ -406,7 +406,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BRANCH DIRECTOR, FEDERAL PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2024-08-25",
    "valid_to": null
   },
   {
@@ -418,7 +418,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "BRANCH DIRECTOR, FEDERAL PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2019-08-04",
    "valid_to": null
   },
   {
@@ -430,7 +430,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF OF STAFF AND COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-02-22",
    "valid_to": null
   },
   {
@@ -442,7 +442,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, CAMP LEJUNE UNIT, ENVIRONMENTAL TORT LITIGATION (ETL) SECTION, TORTS BRANCH",
-   "valid_from": null,
+   "valid_from": "2025-01-12",
    "valid_to": null
   },
   {
@@ -454,7 +454,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "CHIEF, ENFORCEMENT UNIT, OIL-DCS",
-   "valid_from": null,
+   "valid_from": "2024-12-15",
    "valid_to": null
   },
   {
@@ -466,7 +466,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-04-16",
    "valid_to": null
   },
   {
@@ -478,7 +478,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-02-14",
    "valid_to": null
   },
   {
@@ -490,7 +490,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-05-28",
    "valid_to": null
   },
   {
@@ -502,7 +502,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-05-28",
    "valid_to": null
   },
   {
@@ -514,7 +514,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-05-18",
    "valid_to": null
   },
   {
@@ -526,7 +526,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-11-17",
    "valid_to": null
   },
   {
@@ -538,7 +538,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-03-09",
    "valid_to": null
   },
   {
@@ -550,7 +550,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {
@@ -562,7 +562,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2025-05-21",
    "valid_to": null
   },
   {
@@ -574,7 +574,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2025-01-28",
    "valid_to": null
   },
   {
@@ -586,7 +586,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2026-01-25",
    "valid_to": null
   },
   {
@@ -598,7 +598,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2025-01-28",
    "valid_to": null
   },
   {
@@ -610,7 +610,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2025-11-17",
    "valid_to": null
   },
   {
@@ -622,7 +622,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2025-01-28",
    "valid_to": null
   },
   {
@@ -634,7 +634,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2025-06-23",
    "valid_to": null
   },
   {
@@ -646,7 +646,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": null,
+   "valid_from": "2025-04-07",
    "valid_to": null
   },
   {
@@ -658,7 +658,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY BRANCH DIRECTOR",
-   "valid_from": null,
+   "valid_from": "2024-10-06",
    "valid_to": null
   },
   {
@@ -670,7 +670,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY BRANCH DIRECTOR",
-   "valid_from": null,
+   "valid_from": "2017-01-08",
    "valid_to": null
   },
   {
@@ -682,7 +682,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY BRANCH DIRECTOR, FEDERAL PROGRAMS",
-   "valid_from": null,
+   "valid_from": "2008-09-28",
    "valid_to": null
   },
   {
@@ -694,7 +694,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR",
-   "valid_from": null,
+   "valid_from": "2023-04-25",
    "valid_to": null
   },
   {
@@ -706,7 +706,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR (SENIOR), CIVIL LITIGATION",
-   "valid_from": null,
+   "valid_from": "2024-02-01",
    "valid_to": null
   },
   {
@@ -718,7 +718,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, APPELLATE STAFF",
-   "valid_from": null,
+   "valid_from": "2019-09-01",
    "valid_to": null
   },
   {
@@ -730,7 +730,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, APPELLATE STAFF",
-   "valid_from": null,
+   "valid_from": "2018-07-22",
    "valid_to": null
   },
   {
@@ -742,7 +742,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, BUDGET STAFF",
-   "valid_from": null,
+   "valid_from": "2022-06-30",
    "valid_to": null
   },
   {
@@ -754,7 +754,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, COMMERCIAL LITIGATION BRANCH, CIVIL FRAUD SECTION",
-   "valid_from": null,
+   "valid_from": "2020-05-24",
    "valid_to": null
   },
   {
@@ -766,7 +766,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, COMMERCIAL LITIGATION BRANCH, INTELLECTUAL PROPERTY SECTION",
-   "valid_from": null,
+   "valid_from": "2024-02-25",
    "valid_to": null
   },
   {
@@ -778,7 +778,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, COMMERCIAL LITIGATION BRANCH, NATIONAL COURTS SECTION",
-   "valid_from": null,
+   "valid_from": "2021-11-07",
    "valid_to": null
   },
   {
@@ -790,7 +790,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, ENVIRONMENTAL TORT LITIGATION SECTION",
-   "valid_from": null,
+   "valid_from": "2000-03-12",
    "valid_to": null
   },
   {
@@ -802,7 +802,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, TORTS AVIATION, SPACE AND ADMIRALTY LITIGATION",
-   "valid_from": null,
+   "valid_from": "2023-09-24",
    "valid_to": null
   },
   {
@@ -814,7 +814,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE OFFICER",
-   "valid_from": null,
+   "valid_from": "2024-05-19",
    "valid_to": null
   },
   {
@@ -826,7 +826,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "PARALEGAL SPECIALIST",
-   "valid_from": null,
+   "valid_from": "2026-03-23",
    "valid_to": null
   },
   {
@@ -838,7 +838,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-05-21",
    "valid_to": null
   },
   {
@@ -850,7 +850,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR COUNSEL",
-   "valid_from": null,
+   "valid_from": "2025-04-14",
    "valid_to": null
   },
   {
@@ -862,7 +862,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR COUNSEL",
-   "valid_from": null,
+   "valid_from": "2026-05-17",
    "valid_to": null
   },
   {
@@ -874,7 +874,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR LEVEL TRIAL ATTORNEY",
-   "valid_from": null,
+   "valid_from": "2020-06-21",
    "valid_to": null
   },
   {
@@ -886,7 +886,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR LEVEL TRIAL ATTORNEY (SPECIAL LITIGATION)",
-   "valid_from": null,
+   "valid_from": "2023-01-29",
    "valid_to": null
   },
   {
@@ -898,7 +898,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL LITIGATION COUNSEL",
-   "valid_from": null,
+   "valid_from": "2020-01-05",
    "valid_to": null
   },
   {
@@ -910,7 +910,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL MASTER",
-   "valid_from": null,
+   "valid_from": "2023-03-12",
    "valid_to": null
   }
  ],

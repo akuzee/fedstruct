@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/397"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "The Overseas Private Investment Corporation is a self-sustaining Federal agency whose purpose is to promote economic growth in developing countries and emerging markets by encouraging U.S. private investment in those nations.\r\rThe Overseas Private Investment Corporation (OPIC) was established in 1971 as an independent agency by the Foreign Affairs Reform and Restructuring Act (112 Stat. 2681-790). OPIC helps U.S. businesses invest overseas, fosters economic development in new and emerging markets, complements the private sector in managing risks associated with foreign direct investment, and supports U.S. foreign policy. OPIC charges market-based fees for its products, and it operates on a self-sustaining basis at no net cost to taxpayers.\r\rOPIC helps U.S. businesses compete in emerging markets when private sector support is not available. OPIC offers up to $250 million in long-term financing and/or political risk insurance to U.S. companies investing in over 150 emerging markets and developing countries. Backed by the full faith and credit of the U.S. Government, OPIC advocates for U.S. investment, offers experience in risk management, and draws on an outstanding record of success.\r\rOPIC mobilizes America's private sector to advance U.S. foreign policy and development initiatives. Projects supported by OPIC expand economic development, which encourages political stability and free market reforms. Over the agency's 35 year history, OPIC has supported $177 billion worth of investments that have helped developing countries to generate over $13 billion in host government revenues and create over 800,000 host country jobs. OPIC projects have also generated $71 billion in U.S. exports and supported more than 271,000 American jobs. OPIC promotes U.S. best practices by requiring projects to adhere to international standards on the environment, worker rights, and human rights.",
    "value_num": null
@@ -44,11 +44,11 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/397"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "true",
    "value_num": null
@@ -62,11 +62,11 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/397"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "Overseas Private Investment Corporation",
    "value_num": null
@@ -80,11 +80,11 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/397"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "OPIC",
    "value_num": null
@@ -98,11 +98,11 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/397"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "overseas-private-investment-corporation",
    "value_num": null
@@ -116,18 +116,18 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/397"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": null,
    "value": "https://www.federalregister.gov/agencies/overseas-private-investment-corporation",
    "value_num": null
   }
  },
  "former_officials": [],
- "id": 360,
+ "id": 361,
  "merged_from": [],
  "multi_facts": {},
  "name": "Overseas Private Investment Corporation",

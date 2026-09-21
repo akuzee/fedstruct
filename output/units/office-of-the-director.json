@@ -26,11 +26,11 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "4",
    "value_num": 4.0
@@ -44,18 +44,18 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-01",
+   "since": "2026-09-21",
    "unit": "count",
    "value": "4",
    "value_num": 4.0
   }
  },
  "former_officials": [],
- "id": 801,
+ "id": 802,
  "merged_from": [],
  "multi_facts": {},
  "name": "Office of the Director",
@@ -69,7 +69,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY DIRECTOR, CENTRAL INTELLIGENCE AGENCY",
-   "valid_from": null,
+   "valid_from": "2021-01-20",
    "valid_to": null
   },
   {
@@ -81,7 +81,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DIRECTOR, CENTRAL INTELLIGENCE AGENCY",
-   "valid_from": null,
+   "valid_from": "2021-03-19",
    "valid_to": null
   },
   {
@@ -93,7 +93,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "GENERAL COUNSEL",
-   "valid_from": null,
+   "valid_from": "2022-07-17",
    "valid_to": null
   },
   {
@@ -105,7 +105,7 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "STATUTORY INSPECTOR GENERAL",
-   "valid_from": null,
+   "valid_from": "2021-06-27",
    "valid_to": null
   }
  ],
