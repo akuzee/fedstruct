@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-01T18:49:07+00:00",
+ "as_of": "2026-09-21T20:17:15+00:00",
  "caveats": [
   {
    "citation": "verified by inspection, Sept 2026",
@@ -32,10 +32,10 @@
  "counts": {
   "current_officials": 6832,
   "cycles": 0,
-  "edges": 2004,
+  "edges": 2005,
   "positions": 9545,
   "roots": 377,
-  "units": 1863
+  "units": 1864
  },
  "history_note": "Structural history begins at this project's first run. Anything earlier is attestation, not history — the sources publish only current state. Officeholder history is the exception: OPM PLUM retains vacated incumbencies, so tenure data predates run #1.",
  "reconciliation": {
@@ -48,8 +48,8 @@
  "sources": [
   {
    "fail_streak": 0,
-   "last_changed": "2026-09-01T18:49:07+00:00",
-   "last_checked": "2026-09-01T18:49:07+00:00",
+   "last_changed": "2026-09-21T20:17:15+00:00",
+   "last_checked": "2026-09-21T20:17:15+00:00",
    "name": "ecfr_agencies",
    "scope_claim": "eCFR lists every agency with a chapter in the Code of Federal Regulations. Absence means the agency has no CFR chapter, which for a non-regulatory or non-executive body is correct rather than opaque.",
    "unchanged_streak": 0,
@@ -57,17 +57,17 @@
   },
   {
    "fail_streak": 0,
-   "last_changed": "2026-09-01T18:49:07+00:00",
-   "last_checked": "2026-09-01T18:49:07+00:00",
+   "last_changed": "2026-09-21T20:17:15+00:00",
+   "last_checked": "2026-09-21T20:17:15+00:00",
    "name": "fr_agencies",
    "scope_claim": "The Office of the Federal Register publishes this list as the set of agencies that submit documents for publication in the Federal Register. It includes defunct agencies and carries no active flag.",
    "unchanged_streak": 0,
    "url": "https://www.federalregister.gov/api/v1/agencies.json"
   },
   {
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_changed": "2026-09-01T18:49:07+00:00",
-   "last_checked": "2026-09-01T18:49:07+00:00",
+   "last_checked": "2026-09-21T20:17:15+00:00",
    "name": "plum",
    "scope_claim": "OPM PLUM is the statutory public directory of federal policy and supporting positions under 5 U.S.C. § 3330f. Agencies certify their data at least annually. GAO-26-108164 (Feb 2026) documented material gaps: at least 7 entities and 130 PAS positions missing.",
    "unchanged_streak": 0,
