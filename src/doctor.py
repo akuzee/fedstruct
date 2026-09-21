@@ -77,19 +77,18 @@ def run_checks(cfg: Config, *, network: bool = True, session: Session | None = N
         checks.append(Check("database", INFO, f"not created yet ({cfg.db_path})"))
 
     # ── the hostility assertions (plan §10) ────────────────────────────────
+    # Each source validates its OWN payload via Source.sniff, and doctor calls
+    # that rather than keeping a second copy of the expected shape. The second
+    # copy is how doctor came to warn about a 'missing AgencyName column' for a
+    # week after the fetch path had already been taught OPM's new header.
     if network:
+        from . import sources as source_registry
+
         sess = session or Session(user_agent=cfg.user_agent, contact=cfg.contact)
-        probes = [
-            *_probe(sess, "federalregister.gov not blocking us",
-                    "https://www.federalregister.gov/api/v1/agencies.json",
-                    expect_json_array=True),
-            *_probe(sess, "ecfr.gov accepts our Accept-Encoding",
-                    "https://www.ecfr.gov/api/admin/v1/agencies.json",
-                    expect_json_key="agencies"),
-            *_probe(sess, "escs.opm.gov serving PLUM CSV",
-                    "https://escs.opm.gov/escs-net/api/pbpub/download-data",
-                    expect_csv_header="AgencyName"),
-        ]
+        probes: list[Check] = []
+        for name in cfg.enabled_sources:
+            src = source_registry.get(name)
+            probes.extend(_probe(sess, f"{name} serving its data", src.url, src))
         if warn_sources:
             for c in probes:
                 if c.status == FAIL:
@@ -107,9 +106,7 @@ def run_checks(cfg: Config, *, network: bool = True, session: Session | None = N
     return checks
 
 
-def _probe(sess: Session, name: str, url: str, *, expect_json_array: bool = False,
-           expect_json_key: str | None = None,
-           expect_csv_header: str | None = None) -> list[Check]:
+def _probe(sess: Session, name: str, url: str, src) -> list[Check]:
     try:
         r = sess.get(url)
     except SourceBlocked as exc:
@@ -120,30 +117,22 @@ def _probe(sess: Session, name: str, url: str, *, expect_json_array: bool = Fals
     if r.status != 200:
         return [Check(name, FAIL, f"HTTP {r.status}")]
 
-    # Status 200 is not enough. Assert the payload is the shape we expect,
-    # because every one of these blocks returns 200 with the wrong body.
-    try:
-        if expect_json_array:
-            d = r.json()
-            if not isinstance(d, list) or not d:
-                return [Check(name, FAIL, "200 but not a non-empty JSON array")]
-            return [Check(name, OK, f"{len(d)} agencies")]
-        if expect_json_key:
-            d = r.json()
-            if expect_json_key not in d:
-                return [Check(name, FAIL, f"200 but no {expect_json_key!r} key")]
-            return [Check(name, OK, f"{len(d[expect_json_key])} top-level agencies")]
-        if expect_csv_header:
-            head = r.text[:200]
-            if expect_csv_header not in head:
-                return [Check(name, FAIL,
-                              f"200 but no {expect_csv_header!r} header; "
-                              f"body starts {head[:80]!r}")]
-            return [Check(name, OK, f"{len(r.content):,} bytes")]
-    except Exception as exc:
-        return [Check(name, FAIL, f"200 but unparseable: {exc}")]
+    # HTTP 200 is not enough: every documented failure here returns 200 with
+    # the wrong body. Ask the source itself whether this is its data.
+    err = src.sniff(r.content)
+    if err:
+        return [Check(name, FAIL, f"200 but {err}")]
 
-    return [Check(name, OK)]
+    # Parsing is the strongest check available, and it is free.
+    try:
+        parsed = src.parse(r.content)
+    except Exception as exc:
+        return [Check(name, FAIL, f"200, right shape, but unparseable: {exc}")]
+
+    detail = f"{len(parsed.units)} units"
+    if parsed.positions:
+        detail += f", {len(parsed.positions)} positions"
+    return [Check(name, OK, detail)]
 
 
 def report(checks: list[Check]) -> tuple[str, int]:
