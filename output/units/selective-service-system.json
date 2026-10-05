@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/467"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/467"
    },
@@ -80,7 +80,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/467"
    },
@@ -98,7 +98,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/467"
    },
@@ -116,7 +116,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/467"
    },
@@ -134,7 +134,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/467"
    },
@@ -169,7 +169,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=selective-service-system].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 3,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-32/chapter-XVI"
     },

@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": "$.agencies[?slug=office-of-independent-counsel]",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-independent-counsel"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "ecfr_agencies",
     "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#office-of-independent-counsel"
    },
@@ -68,7 +68,7 @@
      "link_method": "published",
      "locator": "$.agencies[?slug=office-of-independent-counsel].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 3,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-28/chapter-VII"
     },

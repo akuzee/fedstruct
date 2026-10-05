@@ -39,7 +39,7 @@
      "link_method": "crosswalk",
      "locator": null,
      "method": "published",
-     "observations": 2,
+     "observations": 3,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/api/admin/v1/agencies.json#fish-and-wildlife-service"
     },
@@ -65,7 +65,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/197"
    },
@@ -83,7 +83,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/197"
    },
@@ -101,7 +101,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/197"
    },
@@ -119,7 +119,7 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/197"
    },
@@ -137,7 +137,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/197"
    },
@@ -155,7 +155,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -173,7 +173,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -191,7 +191,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/197"
    },
@@ -209,7 +209,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/197"
    },
@@ -227,7 +227,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 2,
+    "observations": 3,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/197"
    },
@@ -299,7 +299,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=fish-and-wildlife-service].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 3,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-50/chapter-I"
     },
@@ -317,7 +317,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=fish-and-wildlife-service].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 3,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-50/chapter-IV"
     },
@@ -335,7 +335,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=fish-and-wildlife-service].cfr_references",
      "method": "published",
-     "observations": 2,
+     "observations": 3,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-50/chapter-VI"
     },
