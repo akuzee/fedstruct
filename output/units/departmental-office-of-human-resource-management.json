@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 1,
+  "current_officials": 2,
   "positions": 2
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -71,18 +71,6 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Laura Sepulveda",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DEPUTY DIRECTOR, DEPARTMENTAL OFFICE OF HUMAN RESOURCE MANAGEMENT",
-   "valid_from": "2025-12-22",
-   "valid_to": "2026-08-18"
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Anne Audet",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -97,6 +85,18 @@
  "multi_facts": {},
  "name": "Departmental Office of Human Resource Management",
  "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Laura Sepulveda",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR, DEPARTMENTAL OFFICE OF HUMAN RESOURCE MANAGEMENT",
+   "valid_from": "2025-12-22",
+   "valid_to": null
+  },
   {
    "appt_type": "CA",
    "is_pas": 0,

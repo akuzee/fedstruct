@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 0,
+  "current_officials": 1,
   "positions": 1
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -72,7 +72,20 @@
  "merged_from": [],
  "multi_facts": {},
  "name": "Office of Equal Employment Opportunity and Civil Rights Compliance",
- "officials": [],
+ "officials": [
+  {
+   "appt_type": "CG",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Gaye Walker",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT ADMINISTRATOR",
+   "valid_from": "2026-05-15",
+   "valid_to": null
+  }
+ ],
  "slug": "office-of-equal-employment-opportunity-and-civil-rights-compliance",
  "sources": [
   "plum"

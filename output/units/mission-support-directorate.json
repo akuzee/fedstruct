@@ -14,7 +14,7 @@
  "counts": {
   "children": 0,
   "current_officials": 4,
-  "positions": 6
+  "positions": 7
  },
  "facts": {
   "position_count": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -64,6 +64,18 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "ended",
    "title": "ASSISTANT ADMINISTRATOR FOR STRATEGIC INFRASTRUCTURE",
+   "valid_from": "2021-11-07",
+   "valid_to": "2026-01-09"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joel Carney",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT ADMINISTRATOR, STRATEGIC INFRASTRUCTURE",
    "valid_from": "2021-11-07",
    "valid_to": "2026-01-09"
   },

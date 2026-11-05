@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 15,
-  "positions": 40
+  "current_officials": 21,
+  "positions": 43
  },
  "facts": {
   "position_count": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -138,6 +138,30 @@
    "title": "CHIEF, OFFICE OF LEGISLATIVE AFFAIRS",
    "valid_from": "2025-12-02",
    "valid_to": "2026-04-18"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Nancy Ayers",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "COMPLIANCE AND OVERSIGHT OFFICER, SDAD FOR EXTERNAL AUDITS AND STRATEGIC INTEGRATION",
+   "valid_from": "2020-06-27",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Louis Milusnic",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "COMPLIANCE AND OVERSOGHT OFFICER",
+   "valid_from": "2019-12-08",
+   "valid_to": "2025-09-30"
   },
   {
    "appt_type": "CA",
@@ -359,6 +383,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Richard Stover",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR DEPUTY ASSISTANT DIRECTOR, CORRECTIONAL PROGRAMS DIVISION",
+   "valid_from": "2024-08-26",
+   "valid_to": "2026-01-24"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Stephanie Roberts",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -371,6 +407,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Corinne Nastro",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR DEPUTY ASSISTANT DIRECTOR, PROGRAM REVIEW DIVISION",
+   "valid_from": "2024-01-28",
+   "valid_to": "2025-12-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Darrin Howard",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -378,6 +426,30 @@
    "title": "SENIOR DEPUTY GENERAL COUNSEL, OFFICE OF THE GENERAL COUNSEL",
    "valid_from": "2023-10-22",
    "valid_to": "2025-03-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Zachary Kelton",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR DEPUTY REGIONAL DIRECTOR, MID-ATLANTIC REGION",
+   "valid_from": "2022-01-02",
+   "valid_to": "2026-02-07"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Danon Colbert",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR DEPUTY REGIONAL DIRECTOR, SOUTH CENTRAL REGION",
+   "valid_from": "2024-07-28",
+   "valid_to": "2025-07-26"
   },
   {
    "appt_type": "CA",
@@ -461,6 +533,30 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Elisa Mason",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT DIRECTOR, OFFICE OF GENERAL COUNSEL",
+   "valid_from": "2025-12-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Corinne Nastro",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COMPLIANCE AND OVERSOGHT OFFICER",
+   "valid_from": "2025-12-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Samantha Serrano",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -521,6 +617,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Mistelle Starr",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "REGIONAL DIRECTOR MIDDLE ATLANTIC REGION",
+   "valid_from": "2026-02-22",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Andre Matevousian",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -533,12 +641,24 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Richard Stover",
+   "person": "Danon Colbert",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "SENIOR DEPUTY ASSISTANT DIRECTOR, CORRECTIONAL PROGRAMS DIVISION",
-   "valid_from": "2024-08-26",
+   "title": "REGIONAL DIRECTOR, SOUTH CENTRAL REGION",
+   "valid_from": "2025-07-27",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Eric Rios",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR DEPUTY ASSISTANT DIRECTOR ADMINISTRATION DIVISION",
+   "valid_from": "2026-05-31",
    "valid_to": null
   },
   {
@@ -569,12 +689,24 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Corinne Nastro",
+   "person": "Zachary Kelton",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR DEPUTY ASSISTANT DIRECTOR, PROGRAM REVIEW DIVISION",
-   "valid_from": "2024-01-28",
+   "valid_from": "2026-02-08",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Seth Bogin",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR DEPUTY GENERAL COUNSEL, OFFICE OF THE GENERAL COUNSEL",
+   "valid_from": "2023-05-21",
    "valid_to": null
   },
   {
@@ -593,12 +725,24 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Danon Colbert",
+   "person": "Richard Stover",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "SENIOR DEPUTY REGIONAL DIRECTOR, SOUTH CENTRAL REGION",
-   "valid_from": "2024-07-28",
+   "title": "Supervisory Industrial Specialist",
+   "valid_from": "2026-01-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Todd Plimpton",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "Supervisory Industrial Specialist",
+   "valid_from": "2025-11-16",
    "valid_to": null
   }
  ],

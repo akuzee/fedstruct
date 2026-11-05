@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "14",
-   "value_num": 14.0
+   "value": "13",
+   "value_num": 13.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -90,6 +90,18 @@
    "title": "SENIOR ADVISOR",
    "valid_from": "2025-09-18",
    "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Asel Roberts",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR ADVISOR",
+   "valid_from": "2026-05-31",
+   "valid_to": "2026-06-01"
   },
   {
    "appt_type": "SC",

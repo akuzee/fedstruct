@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 1,
-  "positions": 1
+  "current_officials": 4,
+  "positions": 19
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "1",
-   "value_num": 1.0
+   "value": "19",
+   "value_num": 19.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -54,7 +54,224 @@
    "value_num": 1.0
   }
  },
- "former_officials": [],
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jose Delgado",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSET RECOVERY SECTION CHIEF",
+   "valid_from": "2023-07-30",
+   "valid_to": "2025-10-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Daniel Weiss",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF SCIENTIST OF STRATEGIC ANALYSIS",
+   "valid_from": "2025-02-05",
+   "valid_to": "2025-08-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Nathan Goldstein",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CORPORATE ENFORCEMENT SECTION CHIEF",
+   "valid_from": "2023-04-23",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Yvette Tarlov",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT ATTORNEY GENERAL, HEALTH CARE, PUBLIC TRUST &amp; FINANCIAL INTEGRITY",
+   "valid_from": "2022-05-08",
+   "valid_to": "2025-05-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Aaron Hoag",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT ATTORNEY GENERAL, OPERATIONS",
+   "valid_from": "2016-12-25",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Sean Farrell",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT ATTORNEY GENERAL, STRATEGIC ENFORCEMENT",
+   "valid_from": "2023-04-09",
+   "valid_to": "2026-03-20"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Ryan Tansey",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT ATTORNEY GENERAL, TAX &amp; TRADE",
+   "valid_from": "2023-09-24",
+   "valid_to": "2026-05-22"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Elizabeth Young",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DISTRICT FRAUD COUNSEL PROGRAM SECTION CHIEF",
+   "valid_from": "2024-05-05",
+   "valid_to": "2025-02-04"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Elizabeth Young",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DISTRICT FRAUD COUNSEL PROGRAM SECTION CHIEF",
+   "valid_from": "2025-02-05",
+   "valid_to": "2025-06-21"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stephanie Hinds",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "GLOBAL TRADE &amp; COMMERCE ENFORCEMENT SECTION CHIEF",
+   "valid_from": "2025-02-05",
+   "valid_to": "2025-03-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jennifer Neumann",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "HEALTH CARE FRAUD SECTION CHIEF",
+   "valid_from": "2023-02-12",
+   "valid_to": "2025-02-07"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jennifer Neumann",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "HEALTH CARE FRAUD SECTION CHIEF",
+   "valid_from": "2025-02-08",
+   "valid_to": "2025-04-11"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Deborah Harris",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "NATIONAL ENFORCEMENT SECTION CHIEF",
+   "valid_from": "2014-06-15",
+   "valid_to": "2025-02-07"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Deborah Harris",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "NATIONAL ENFORCEMENT SECTION CHIEF",
+   "valid_from": "2025-02-08",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jay Owen",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "PRINCIPAL DEPUTY ASSISTANT ATTORNEY GENERAL",
+   "valid_from": "2024-01-28",
+   "valid_to": "2025-05-16"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alberto Ruisanchez",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "PUBLIC TRUST AND FINANCIAL INTEGRITY SECTION CHIEF",
+   "valid_from": "2014-06-29",
+   "valid_to": "2025-02-17"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alberto Ruisanchez",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "PUBLIC TRUST AND FINANCIAL INTEGRITY SECTION CHIEF",
+   "valid_from": "2025-02-18",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Andrew Collier",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL MATTERS SECTION CHIEF",
+   "valid_from": "2011-03-27",
+   "valid_to": "2025-08-31"
+  }
+ ],
  "id": 1199,
  "merged_from": [],
  "multi_facts": {},
@@ -70,6 +287,42 @@
    "status": "current",
    "title": "ASSISTANT ATTORNEY GENERAL NATIONAL FRAUD ENFORCEMENT DIVISION",
    "valid_from": "2026-03-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Samuel Lyons",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "APPELLATE SECTION CHIEF",
+   "valid_from": "2016-09-04",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Larry Wszalek",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY CHIEF, WEST",
+   "valid_from": "2014-09-07",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "John Kane",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "TAX SECTION CHIEF",
+   "valid_from": "2024-06-30",
    "valid_to": null
   }
  ],

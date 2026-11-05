@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 4,
+  "current_officials": 3,
   "positions": 7
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -66,6 +66,18 @@
    "title": "DEPUTY ASSISTANT SECRETARY",
    "valid_from": "2019-11-24",
    "valid_to": "2026-05-31"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Marco Sylvester",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT SECRETARY (TRANSPORTATION)",
+   "valid_from": "2025-07-13",
+   "valid_to": "2026-06-12"
   },
   {
    "appt_type": "SC",
@@ -107,18 +119,6 @@
    "status": "current",
    "title": "ASSISTANT SECRETARY OF STATE (ECONOMIC AND BUSINESS AFFAIRS)",
    "valid_from": "2025-11-14",
-   "valid_to": null
-  },
-  {
-   "appt_type": "NA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Marco Sylvester",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "DEPUTY ASSISTANT SECRETARY (TRANSPORTATION)",
-   "valid_from": "2025-07-13",
    "valid_to": null
   },
   {

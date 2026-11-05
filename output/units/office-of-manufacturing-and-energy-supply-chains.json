@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 2,
+  "current_officials": 3,
   "positions": 9
  },
  "facts": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "9",
-   "value_num": 9.0
+   "value": "7",
+   "value_num": 7.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -131,18 +131,6 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
-   "person": "Marlene Page",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SENIOR ADVISOR",
-   "valid_from": "2026-01-11",
-   "valid_to": "2026-06-26"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Kyle Haustveit",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -215,6 +203,18 @@
    "status": "current",
    "title": "PRINCIPAL DEPUTY DIRECTOR, OFFICE OF MANUFACTURING AND ENERGY SUPPLY CHAINS",
    "valid_from": "2024-11-17",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Marlene Page",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ADVISOR",
+   "valid_from": "2026-01-11",
    "valid_to": null
   }
  ],

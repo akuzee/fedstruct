@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 45,
-  "positions": 39
+  "current_officials": 47,
+  "positions": 40
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "39",
-   "value_num": 39.0
+   "value": "40",
+   "value_num": 40.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -102,6 +102,18 @@
    "title": "ASSISTANT SECRETARY FOR TRADE AND ECONOMIC SECURITY",
    "valid_from": "2025-01-29",
    "valid_to": "2025-04-24"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Nicholas Kikis",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT SECRETARY, COUNTERTERRORISM AND HOMELAND THREATS",
+   "valid_from": "2025-07-23",
+   "valid_to": "2025-09-21"
   },
   {
    "appt_type": "NA",
@@ -431,30 +443,6 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
-   "person": "Patrick Flynn",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SENIOR ADVISOR",
-   "valid_from": "2025-12-01",
-   "valid_to": "2026-06-27"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Dimitri Spina",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SPECIAL ADVISOR TO THE UNDER SECRETARY FOR STRATEGY, POLICY, AND PLANS",
-   "valid_from": "2025-03-10",
-   "valid_to": "2026-07-11"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Shawn-Christian Jackson",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -605,6 +593,18 @@
    "appt_type": "NA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Nicholas Kikis",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT SECRETARY FOR COUNTERTERRORISM AND HOMELAND THREATS",
+   "valid_from": "2025-09-21",
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Joseph Alm",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -635,18 +635,6 @@
    "status": "current",
    "title": "ASSISTANT SECRETARY FOR TRADE AND ECONOMIC SECURITY",
    "valid_from": "2025-08-07",
-   "valid_to": null
-  },
-  {
-   "appt_type": "NA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Nicholas Kikis",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "ASSISTANT SECRETARY, COUNTERTERRORISM AND HOMELAND THREATS",
-   "valid_from": "2025-07-23",
    "valid_to": null
   },
   {
@@ -977,6 +965,18 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
+   "person": "Patrick Flynn",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ADVISOR",
+   "valid_from": "2025-12-01",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Karen Disalvo",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -995,6 +995,18 @@
    "status": "current",
    "title": "SPECIAL ADVISOR",
    "valid_from": "2026-05-17",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Dimitri Spina",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ADVISOR TO THE UNDER SECRETARY FOR STRATEGY, POLICY, AND PLANS",
+   "valid_from": "2025-03-10",
    "valid_to": null
   },
   {

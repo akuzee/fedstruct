@@ -14,7 +14,7 @@
  "counts": {
   "children": 0,
   "current_officials": 23,
-  "positions": 29
+  "positions": 30
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "29",
-   "value_num": 29.0
+   "value": "30",
+   "value_num": 30.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -330,6 +330,18 @@
    "title": "SENIOR ADVISOR AND CHIEF TECHNOLOGY OFFICER",
    "valid_from": "2026-01-25",
    "valid_to": "2026-05-02"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Benjamin Elleson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR ADVISOR FOR POLICY",
+   "valid_from": "2025-05-01",
+   "valid_to": "2025-06-14"
   },
   {
    "appt_type": "NA",

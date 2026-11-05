@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 20,
-  "positions": 28
+  "current_officials": 23,
+  "positions": 31
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "28",
-   "value_num": 28.0
+   "value": "31",
+   "value_num": 31.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -401,6 +401,30 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Jacob Ward",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR FOR ANALYSIS AND STRATEGIC INVESTMENT",
+   "valid_from": "2024-06-30",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Li",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR FOR COMMUNITY ENERGY PROGRAMS",
+   "valid_from": "2023-06-04",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Austin Brown",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -479,6 +503,18 @@
    "status": "current",
    "title": "PRINCIPAL DEPUTY ASSISTANT SECRETARY FOR CRITICAL MINERALS AND ENERGY INNOVATION",
    "valid_from": "2026-03-08",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kelly Visconti",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "PRINCIPAL DEPUTY DIRECTOR, OFFICE OF MANUFACTURING AND ENERGY SUPPLY CHAINS",
+   "valid_from": "2024-11-17",
    "valid_to": null
   },
   {

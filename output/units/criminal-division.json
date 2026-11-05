@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 23,
-  "positions": 30
+  "current_officials": 25,
+  "positions": 31
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "30",
-   "value_num": 30.0
+   "value": "31",
+   "value_num": 31.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -78,6 +78,30 @@
    "title": "CHIEF FRAUD SECTION",
    "valid_from": "2022-09-11",
    "valid_to": "2025-11-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Marlon Cobar",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF NARCOTIC AND DANGEROUS DRUG SECTION",
+   "valid_from": "2023-11-19",
+   "valid_to": "2025-08-25"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Hope Olds",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF, HUMAN RIGHTS AND SPECIAL PROSECUTIONS SECTION",
+   "valid_from": "2022-12-18",
+   "valid_to": "2026-04-09"
   },
   {
    "appt_type": "CA",
@@ -128,6 +152,30 @@
    "valid_to": "2025-02-13"
   },
   {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "James Silver",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY CHIEF, COMPUTER CRIME AND INTELLECTUAL PROPERTY SECTION",
+   "valid_from": "2025-06-01",
+   "valid_to": "2026-01-11"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lorinda Laryea",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY, CHIEF FRAUD SECTION",
+   "valid_from": "2023-04-09",
+   "valid_to": "2026-01-11"
+  },
+  {
    "appt_type": "NA",
    "is_pas": 0,
    "period_end": null,
@@ -138,6 +186,30 @@
    "title": "PRINCIPAL DEPUTY ASSISTANT ATTORNEY GENERAL",
    "valid_from": "2025-07-10",
    "valid_to": "2026-02-06"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stanley Okula",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR TRIAL ATTORNEY",
+   "valid_from": "2022-04-04",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Mitchell Ballweg",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR TRIAL ATTORNEY",
+   "valid_from": "2020-03-15",
+   "valid_to": "2026-05-31"
   },
   {
    "appt_type": "CA",
@@ -173,12 +245,12 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Marlon Cobar",
+   "person": "Lorinda Laryea",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "CHIEF NARCOTIC AND DANGEROUS DRUG SECTION",
-   "valid_from": "2023-11-19",
+   "title": "CHIEF FRAUD SECTION",
+   "valid_from": "2026-01-12",
    "valid_to": null
   },
   {
@@ -197,24 +269,24 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Richard Burns",
+   "person": "Margaret Moeser",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "CHIEF, CAPITAL CASE SECTION",
-   "valid_from": "2019-12-08",
+   "title": "CHIEF, ASSET FORFEITURE AND MONEY LAUNDERING SECTION",
+   "valid_from": "2024-06-05",
    "valid_to": null
   },
   {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Hope Olds",
+   "person": "Richard Burns",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "CHIEF, HUMAN RIGHTS AND SPECIAL PROSECUTIONS SECTION",
-   "valid_from": "2022-12-18",
+   "title": "CHIEF, CAPITAL CASE SECTION",
+   "valid_from": "2019-12-08",
    "valid_to": null
   },
   {
@@ -266,6 +338,18 @@
    "valid_to": null
   },
   {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Hope Olds",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
+   "valid_from": "2026-04-10",
+   "valid_to": null
+  },
+  {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
@@ -287,18 +371,6 @@
    "status": "current",
    "title": "DEPUTY CHIEF, CHILD EXPLOITATION AND OBSCENITY SECTION",
    "valid_from": "2016-05-01",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "James Silver",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "DEPUTY CHIEF, COMPUTER CRIME AND INTELLECTUAL PROPERTY SECTION",
-   "valid_from": "2025-06-01",
    "valid_to": null
   },
   {
@@ -365,12 +437,12 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Lorinda Laryea",
+   "person": "Marlon Cobar",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "DEPUTY, CHIEF FRAUD SECTION",
-   "valid_from": "2023-04-09",
+   "title": "DEPUTY DIRECTOR, OPDAT",
+   "valid_from": "2025-08-26",
    "valid_to": null
   },
   {
@@ -431,6 +503,30 @@
    "status": "current",
    "title": "SENIOR LEGAL COUNSEL",
    "valid_from": "2024-11-17",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Richard Rolwing",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR TRIAL ATTORNEY",
+   "valid_from": "2024-12-29",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Boteler",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR TRIAL ATTORNEY",
+   "valid_from": "2024-12-29",
    "valid_to": null
   }
  ],

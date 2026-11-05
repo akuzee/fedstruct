@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 10,
+  "current_officials": 11,
   "positions": 13
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -179,6 +179,18 @@
    "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR FOR SMALL BUSINESS DEVELOPMENT CENTERS",
    "valid_from": "2022-05-08",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Patrick Suprunowicz",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR OF RURAL AFFAIRS",
+   "valid_from": "2026-06-15",
    "valid_to": null
   },
   {

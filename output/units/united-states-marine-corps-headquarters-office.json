@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 0,
+  "current_officials": 1,
   "positions": 4
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -78,7 +78,13 @@
    "title": "SENIOR ADVISOR TO THE COMMANDANT OF THE MARINE CORPS",
    "valid_from": "2025-06-27",
    "valid_to": "2026-04-04"
-  },
+  }
+ ],
+ "id": 1439,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "United States Marine Corps Headquarters Office",
+ "officials": [
   {
    "appt_type": "SC",
    "is_pas": 0,
@@ -86,17 +92,12 @@
    "person": "Catharine Turello",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
+   "status": "current",
    "title": "SPECIAL ASSISTANT TO THE SENIOR ADVISOR TO THE COMMANDANT OF THE MARINE CORPS",
    "valid_from": "2025-07-14",
-   "valid_to": "2026-07-12"
+   "valid_to": null
   }
  ],
- "id": 1439,
- "merged_from": [],
- "multi_facts": {},
- "name": "United States Marine Corps Headquarters Office",
- "officials": [],
  "slug": "united-states-marine-corps-headquarters-office",
  "sources": [
   "plum"

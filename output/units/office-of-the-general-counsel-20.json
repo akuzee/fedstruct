@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 4,
-  "positions": 7
+  "current_officials": 5,
+  "positions": 8
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "7",
-   "value_num": 7.0
+   "value": "6",
+   "value_num": 6.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -126,6 +126,18 @@
    "title": "SPECIAL ADVISOR TO THE ACTING GENERAL COUNSEL",
    "valid_from": "2023-03-15",
    "valid_to": "2025-02-01"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jessica Rutter",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ADVISOR TO THE GENERAL COUNSEL",
+   "valid_from": "2023-03-15",
+   "valid_to": "2025-02-01"
   }
  ],
  "id": 1932,
@@ -178,6 +190,18 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ADVISOR TO THE ACTING GENERAL COUNSEL",
+   "valid_from": "2025-09-09",
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Laural Wagner",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ADVISOR TO THE GENERAL COUNSEL",
    "valid_from": "2025-09-09",
    "valid_to": null
   }

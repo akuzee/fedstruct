@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 9,
+  "current_officials": 10,
   "positions": 16
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -227,18 +227,6 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
-   "person": "Zachary Herman",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SPECIAL ASSISTANT TO THE CHIEF OF STAFF",
-   "valid_from": "2025-12-28",
-   "valid_to": "2026-06-27"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Coby Kranz",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -382,6 +370,18 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT TO THE ADMINISTRATOR",
+   "valid_from": "2025-12-28",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Zachary Herman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT TO THE CHIEF OF STAFF",
    "valid_from": "2025-12-28",
    "valid_to": null
   }

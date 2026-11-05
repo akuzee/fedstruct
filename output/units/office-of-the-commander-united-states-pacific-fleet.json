@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 2,
+  "current_officials": 1,
   "positions": 2
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -54,7 +54,20 @@
    "value_num": 0.0
   }
  },
- "former_officials": [],
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Meganne Atkins",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "EXECUTIVE DIRECTOR, DEVELOPMENT &amp; NEW CONSTRUCTION SUBMARINES PEO ATTACK SUBMARINES",
+   "valid_from": "2025-07-27",
+   "valid_to": "2026-06-13"
+  }
+ ],
  "id": 1434,
  "merged_from": [],
  "multi_facts": {},
@@ -70,18 +83,6 @@
    "status": "current",
    "title": "EXECUTIVE DIRECTOR FOR INFORMATION WARFARE AND CIO",
    "valid_from": "2025-10-05",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Meganne Atkins",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "EXECUTIVE DIRECTOR, DEVELOPMENT &amp; NEW CONSTRUCTION SUBMARINES PEO ATTACK SUBMARINES",
-   "valid_from": "2025-07-27",
    "valid_to": null
   }
  ],

@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 45,
-  "positions": 42
+  "current_officials": 54,
+  "positions": 47
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "42",
-   "value_num": 42.0
+   "value": "46",
+   "value_num": 46.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -83,6 +83,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Richard Ward",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF CIVIL TRIAL SECTION, WESTERN REGION",
+   "valid_from": "2007-02-04",
+   "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Todd Miller",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -104,16 +116,28 @@
    "valid_to": "2026-01-23"
   },
   {
-   "appt_type": "SC",
+   "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Charles Roberts",
+   "person": "Francesca Ugolini",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "ended",
-   "title": "COUNSEL",
-   "valid_from": "2025-04-16",
-   "valid_to": "2026-06-27"
+   "title": "CHIEF, APPELLATE SECTION",
+   "valid_from": "2020-03-15",
+   "valid_to": "2025-09-05"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Russell Clarke",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF, CIVIL TRIAL SECTION, CENTRAL REGION",
+   "valid_from": "2014-03-09",
+   "valid_to": "2025-10-20"
   },
   {
    "appt_type": "SC",
@@ -150,18 +174,6 @@
    "title": "COUNSEL",
    "valid_from": "2025-03-25",
    "valid_to": "2026-05-16"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Elizabeth Hedges",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "COUNSEL",
-   "valid_from": "2025-05-12",
-   "valid_to": "2026-06-27"
   },
   {
    "appt_type": "SC",
@@ -246,6 +258,30 @@
    "title": "DEPUTY DIRECTOR, CONSTITUTIONAL AND SPECIALIZED TORTS LITIGATION-RECA",
    "valid_from": "2023-06-14",
    "valid_to": "2025-12-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Anthony Nardozzi",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY DIRECTOR, ENFORCEMENT &amp; AFFIRMATIVE LITIGATION BRANCH",
+   "valid_from": "2024-01-14",
+   "valid_to": "2025-07-18"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Haungs",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR",
+   "valid_from": "2021-08-01",
+   "valid_to": "2026-05-31"
   },
   {
    "appt_type": "CA",
@@ -461,6 +497,18 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
+   "person": "Charles Roberts",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COUNSEL",
+   "valid_from": "2025-04-16",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Tiberius Davis",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -479,6 +527,18 @@
    "status": "current",
    "title": "COUNSEL",
    "valid_from": "2025-02-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Elizabeth Hedges",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COUNSEL",
+   "valid_from": "2025-05-12",
    "valid_to": null
   },
   {
@@ -701,6 +761,42 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "David Pincus",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR",
+   "valid_from": "2011-11-20",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "James Wilkinson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR",
+   "valid_from": "2022-07-13",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Cynthia Messersmith",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR",
+   "valid_from": "2019-06-18",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Lisa Hsiao",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -719,6 +815,18 @@
    "status": "current",
    "title": "DEPUTY DIRECTOR, APPELLATE STAFF",
    "valid_from": "2019-09-01",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Angelo Frattarelli",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR",
+   "valid_from": "2019-06-18",
    "valid_to": null
   },
   {
@@ -875,6 +983,42 @@
    "status": "current",
    "title": "SENIOR LEVEL TRIAL ATTORNEY",
    "valid_from": "2020-06-21",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Harris Phillips",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR LEVEL TRIAL ATTORNEY",
+   "valid_from": "2024-12-29",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jonathan Blacker",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR LEVEL TRIAL ATTORNEY",
+   "valid_from": "2024-12-29",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Margaret Sheer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR LEVEL TRIAL ATTORNEY",
+   "valid_from": "2024-12-29",
    "valid_to": null
   },
   {

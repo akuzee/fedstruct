@@ -14,7 +14,7 @@
  "counts": {
   "children": 0,
   "current_officials": 13,
-  "positions": 8
+  "positions": 10
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "8",
-   "value_num": 8.0
+   "value": "10",
+   "value_num": 10.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -138,6 +138,18 @@
    "title": "SENIOR ADVISOR",
    "valid_from": "2025-06-16",
    "valid_to": "2026-05-02"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Christina Smith",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR ADVISOR AND SPECIAL COUNSEL",
+   "valid_from": "2024-03-10",
+   "valid_to": "2025-11-15"
   },
   {
    "appt_type": "SC",

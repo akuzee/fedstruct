@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 3,
+  "current_officials": 2,
   "positions": 4
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -66,6 +66,18 @@
    "title": "ASSOCIATE ADMINISTRATOR FOR NATIONAL SECURITY",
    "valid_from": "2024-03-24",
    "valid_to": "2025-07-26"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Nathaniel Zimmer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ATTORNEY-ADVISOR (GENERAL)",
+   "valid_from": "2025-11-10",
+   "valid_to": "2026-06-13"
   }
  ],
  "id": 1607,
@@ -83,18 +95,6 @@
    "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR FOR NATIONAL SECURITY AND OPERATIONS COORDINATION",
    "valid_from": "2025-10-24",
-   "valid_to": null
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Nathaniel Zimmer",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "ATTORNEY-ADVISOR (GENERAL)",
-   "valid_from": "2025-11-10",
    "valid_to": null
   },
   {

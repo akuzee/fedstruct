@@ -14,7 +14,7 @@
  "counts": {
   "children": 0,
   "current_officials": 25,
-  "positions": 30
+  "positions": 32
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "30",
-   "value_num": 30.0
+   "value": "31",
+   "value_num": 31.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -248,6 +248,30 @@
    "valid_to": "2025-09-06"
   },
   {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Bonnie Robin-Vergeer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, APPELLATE SECTION",
+   "valid_from": "2025-02-08",
+   "valid_to": "2025-03-27"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Regan Rush",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, SPECIAL LITIGATION SECTION",
+   "valid_from": "2024-11-17",
+   "valid_to": "2025-09-30"
+  },
+  {
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
@@ -294,6 +318,18 @@
    "title": "PRINCIPAL DEPUTY CHIEF, CRIMINAL SECTION",
    "valid_from": "2016-09-16",
    "valid_to": "2026-03-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Anne Raish",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "PRINCIPAL DEPUTY CHIEF, DISABILITY RIGHTS SECTION",
+   "valid_from": "2016-01-24",
+   "valid_to": "2025-05-04"
   },
   {
    "appt_type": "CA",
@@ -542,6 +578,18 @@
    "valid_to": null
   },
   {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Richard Geissler",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT ATTORNEY GENERAL",
+   "valid_from": "2026-03-22",
+   "valid_to": null
+  },
+  {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
@@ -563,18 +611,6 @@
    "status": "current",
    "title": "PRINCIPAL DEPUTY ASSISTANT ATTORNEY GENERAL",
    "valid_from": "2025-07-27",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Anne Raish",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "PRINCIPAL DEPUTY CHIEF, DISABILITY RIGHTS SECTION",
-   "valid_from": "2016-01-24",
    "valid_to": null
   },
   {

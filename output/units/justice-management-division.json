@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 18,
-  "positions": 24
+  "current_officials": 19,
+  "positions": 25
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "24",
-   "value_num": 24.0
+   "value": "23",
+   "value_num": 23.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -148,6 +148,18 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "ended",
    "title": "DIRECTOR, HUMAN RESOURCES",
+   "valid_from": "2025-01-26",
+   "valid_to": "2026-01-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Francis Sena",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, OFFICE OF HUMAN CAPITAL",
    "valid_from": "2025-01-26",
    "valid_to": "2026-01-31"
   },
@@ -359,6 +371,18 @@
    "status": "current",
    "title": "DIRECTOR, OFFICE OF ACQUISITION MANAGEMENT (OAM)",
    "valid_from": "2022-02-27",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Noah Fortinsky",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR, OFFICE OF HUMAN CAPITAL",
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {

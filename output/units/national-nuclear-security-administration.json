@@ -22,7 +22,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 15,
+  "current_officials": 14,
   "positions": 16
  },
  "facts": {
@@ -35,7 +35,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/359"
    },
@@ -53,7 +53,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/359"
    },
@@ -71,7 +71,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/359"
    },
@@ -89,7 +89,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -107,7 +107,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -125,7 +125,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/359"
    },
@@ -143,7 +143,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/359"
    },
@@ -161,7 +161,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/359"
    },
@@ -207,6 +207,18 @@
    "title": "DEPUTY COMMUNICATIONS DIRECTOR",
    "valid_from": "2025-08-18",
    "valid_to": "2026-04-18"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Cynthia Lersten",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, OFFICE OF ENTERPRISE PLANNING AND ANALYSIS",
+   "valid_from": "2021-08-29",
+   "valid_to": "2026-05-30"
   },
   {
    "appt_type": "SC",
@@ -446,18 +458,6 @@
    "status": "current",
    "title": "DIRECTOR OF PUBLIC AFFAIRS",
    "valid_from": "2026-01-11",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Cynthia Lersten",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "DIRECTOR, OFFICE OF ENTERPRISE PLANNING AND ANALYSIS",
-   "valid_from": "2021-08-29",
    "valid_to": null
   },
   {

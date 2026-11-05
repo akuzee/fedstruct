@@ -32,7 +32,7 @@
  "counts": {
   "children": 0,
   "current_officials": 43,
-  "positions": 84
+  "positions": 86
  },
  "facts": {
   "agency_url": {
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/166"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/166"
    },
@@ -80,7 +80,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/166"
    },
@@ -98,7 +98,7 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/166"
    },
@@ -116,7 +116,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/166"
    },
@@ -134,14 +134,14 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "84",
-   "value_num": 84.0
+   "value": "81",
+   "value_num": 81.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -152,7 +152,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -170,7 +170,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/166"
    },
@@ -188,7 +188,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/166"
    },
@@ -206,7 +206,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/166"
    },
@@ -312,6 +312,18 @@
    "title": "ASSISTANT ADMINISTRATOR, LOGISTICS",
    "valid_from": "2014-06-01",
    "valid_to": "2026-04-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Cynthia Spishak",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE ADMINISTRATOR FOR POLICY AND PROGRAM ANALYSIS",
+   "valid_from": "2020-06-21",
+   "valid_to": "2025-07-12"
   },
   {
    "appt_type": "CA",
@@ -563,6 +575,18 @@
    "status": "ended",
    "title": "DEPUTY ASSOCIATE ADMINISTRATOR FOR MISSION SUPPORT",
    "valid_from": "2023-01-15",
+   "valid_to": "2026-01-10"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stephanie Dobitsch",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSOCIATE ADMINISTRATOR FOR POLICY AND PROGRAMS ANALYSIS",
+   "valid_from": "2025-01-12",
    "valid_to": "2026-01-10"
   },
   {
@@ -830,7 +854,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=federal-emergency-management-agency].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-44/chapter-I"
     },

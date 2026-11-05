@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 14,
-  "positions": 27
+  "current_officials": 15,
+  "positions": 29
  },
  "facts": {
   "position_count": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -123,6 +123,30 @@
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "ended",
+   "title": "CHIEF OF STAFF AND COUNSELOR",
+   "valid_from": "2025-01-24",
+   "valid_to": "2025-10-03"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stuart Mccommas",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF OF STAFF AND COUNSELOR",
+   "valid_from": "2025-12-29",
+   "valid_to": "2026-04-09"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Chad Mizelle",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
    "title": "CHIEF OF STAFF AND SENIOR COUNSELOR TO THE ATTORNEY GENERAL",
    "valid_from": "2025-01-24",
    "valid_to": "2025-10-03"
@@ -186,6 +210,18 @@
    "title": "DEPUTY CHIEF OF STAFF AND WHITE HOUSE LIAISON",
    "valid_from": "2025-02-16",
    "valid_to": "2026-03-21"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Andrew Whitaker",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY DIRECTOR OF ADVANCE",
+   "valid_from": "2025-05-02",
+   "valid_to": "2025-05-03"
   },
   {
    "appt_type": "SC",
@@ -347,6 +383,18 @@
    "status": "current",
    "title": "ADVISOR FOR SPECIAL PROJECTS",
    "valid_from": "2026-05-17",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Edward Miyagishima",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF OF PROTOCOL AND DIRECTOR OF ADVANCE",
+   "valid_from": "2025-04-10",
    "valid_to": null
   },
   {

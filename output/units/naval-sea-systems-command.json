@@ -14,7 +14,7 @@
  "counts": {
   "children": 0,
   "current_officials": 3,
-  "positions": 5
+  "positions": 6
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "5",
-   "value_num": 5.0
+   "value": "6",
+   "value_num": 6.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -78,6 +78,18 @@
    "title": "EXECUTIVE DIRECTOR, AUKUS I&amp;A",
    "valid_from": "2024-04-07",
    "valid_to": "2025-07-26"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Stephen Bell",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "HEAD, ADVANCED REACTORS AND PHYSICS",
+   "valid_from": "2008-11-09",
+   "valid_to": "2026-06-13"
   }
  ],
  "id": 1425,
@@ -101,24 +113,24 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Manuel Hermosilla",
+   "person": "Meganne Atkins",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "EXECUTIVE DIRECTOR/CHIEF TECHNOLOGY OFFICER",
-   "valid_from": "2024-05-19",
+   "title": "EXECUTIVE DIRECTOR, PAE UNDERSEA",
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Stephen Bell",
+   "person": "Manuel Hermosilla",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "HEAD, ADVANCED REACTORS AND PHYSICS",
-   "valid_from": "2008-11-09",
+   "title": "EXECUTIVE DIRECTOR/CHIEF TECHNOLOGY OFFICER",
+   "valid_from": "2024-05-19",
    "valid_to": null
   }
  ],

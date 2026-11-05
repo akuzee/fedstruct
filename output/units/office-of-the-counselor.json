@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -55,6 +55,18 @@
   }
  },
  "former_officials": [
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Matthew Rhodes",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF OF STAFF",
+   "valid_from": "2025-03-12",
+   "valid_to": "2026-06-10"
+  },
   {
    "appt_type": "NA",
    "is_pas": 0,
@@ -89,12 +101,12 @@
    "appt_type": "NA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Matthew Rhodes",
+   "person": "Daniel Holler",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "CHIEF OF STAFF",
-   "valid_from": "2025-03-12",
+   "title": "COUNSELOR",
+   "valid_from": "2026-05-29",
    "valid_to": null
   },
   {

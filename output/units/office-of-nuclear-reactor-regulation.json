@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 7,
+  "current_officials": 1,
   "positions": 11
  },
  "facts": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "11",
-   "value_num": 11.0
+   "value": "10",
+   "value_num": 10.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -107,6 +107,42 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
+   "person": "Kamal Manoly",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR LEVEL ADVISOR FOR STRUCTURAL MECHANICS",
+   "valid_from": "2008-10-13",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brian Green",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR TECHNICAL ADVISOR FOR HUMAN FACTORS ANALYSIS AND PERFORMANCE EVALUATION",
+   "valid_from": "2024-01-15",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "John Wise",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR TECHNICAL ADVISOR FOR LICENSE RENEWAL AGING MANAGEMENT",
+   "valid_from": "2022-07-31",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Clifford Munson",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -114,6 +150,30 @@
    "title": "SENIOR TECHNICAL ADVISOR FOR NUCLEAR POWER PLANT SITING",
    "valid_from": "2009-11-08",
    "valid_to": "2025-08-30"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Martin Stutzke",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR TECHNICAL ADVISOR FOR PROBABILISTIC RISK ASSESSMENT TECHNOLOGY",
+   "valid_from": "2007-08-05",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Christopher Van Wert",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR TECHNICAL ADVISOR FOR REACTOR FUEL",
+   "valid_from": "2022-11-20",
+   "valid_to": "2026-06-13"
   },
   {
    "appt_type": "XS",
@@ -138,6 +198,18 @@
    "title": "SLA FOR NUCLEAR MATERIAL POWER PLANTS",
    "valid_from": "2017-09-03",
    "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Sunil Weerakkody",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SLA FOR PROBABILISTIC ASSESSMENT",
+   "valid_from": "2018-03-18",
+   "valid_to": "2026-06-13"
   }
  ],
  "id": 2008,
@@ -155,78 +227,6 @@
    "status": "current",
    "title": "DIRECTOR, OFFICE OF NUCLEAR REACTOR REGULATION",
    "valid_from": "2026-05-18",
-   "valid_to": null
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Kamal Manoly",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "SENIOR LEVEL ADVISOR FOR STRUCTURAL MECHANICS",
-   "valid_from": "2008-10-13",
-   "valid_to": null
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Brian Green",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "SENIOR TECHNICAL ADVISOR FOR HUMAN FACTORS ANALYSIS AND PERFORMANCE EVALUATION",
-   "valid_from": "2024-01-15",
-   "valid_to": null
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "John Wise",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "SENIOR TECHNICAL ADVISOR FOR LICENSE RENEWAL AGING MANAGEMENT",
-   "valid_from": "2022-07-31",
-   "valid_to": null
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Martin Stutzke",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "SENIOR TECHNICAL ADVISOR FOR PROBABILISTIC RISK ASSESSMENT TECHNOLOGY",
-   "valid_from": "2007-08-05",
-   "valid_to": null
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Christopher Van Wert",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "SENIOR TECHNICAL ADVISOR FOR REACTOR FUEL",
-   "valid_from": "2022-11-20",
-   "valid_to": null
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Sunil Weerakkody",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "SLA FOR PROBABILISTIC ASSESSMENT",
-   "valid_from": "2018-03-18",
    "valid_to": null
   }
  ],

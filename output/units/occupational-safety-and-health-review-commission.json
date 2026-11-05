@@ -31,8 +31,8 @@
  "contested": {},
  "counts": {
   "children": 2,
-  "current_officials": 1,
-  "positions": 2
+  "current_officials": 2,
+  "positions": 3
  },
  "facts": {
   "description": {
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/387"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/387"
    },
@@ -80,7 +80,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/387"
    },
@@ -98,14 +98,14 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "2",
-   "value_num": 2.0
+   "value": "3",
+   "value_num": 3.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -116,7 +116,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -134,7 +134,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/387"
    },
@@ -152,7 +152,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/387"
    },
@@ -170,7 +170,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/387"
    },
@@ -218,7 +218,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=occupational-safety-and-health-review-commission].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-29/chapter-XX"
     },
@@ -241,6 +241,18 @@
    "status": "current",
    "title": "CHIEF COUNSEL TO THE CHAIRMAN",
    "valid_from": "2025-11-30",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Emma Brown",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CONFIDENTIAL ASSISTANT TO THE CHAIRMAN",
+   "valid_from": "2026-06-15",
    "valid_to": null
   }
  ],

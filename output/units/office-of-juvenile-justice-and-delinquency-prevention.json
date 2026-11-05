@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -66,6 +66,18 @@
    "title": "DEPUTY ADMINISTRATOR",
    "valid_from": "2014-03-09",
    "valid_to": "2025-11-29"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Eileen Garry",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR FOR SPECIAL PROJECTS",
+   "valid_from": "2016-10-01",
+   "valid_to": "2026-04-04"
   }
  ],
  "id": 1206,
@@ -81,8 +93,8 @@
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "DIRECTOR FOR SPECIAL PROJECTS",
-   "valid_from": "2016-10-01",
+   "title": "DEPUTY ADMINISTRATOR",
+   "valid_from": "2026-04-05",
    "valid_to": null
   }
  ],

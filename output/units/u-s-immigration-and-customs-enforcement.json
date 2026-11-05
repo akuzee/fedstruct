@@ -23,7 +23,7 @@
  "counts": {
   "children": 0,
   "current_officials": 38,
-  "positions": 50
+  "positions": 51
  },
  "facts": {
   "agency_url": {
@@ -35,7 +35,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/503"
    },
@@ -53,7 +53,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/503"
    },
@@ -71,7 +71,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/503"
    },
@@ -89,7 +89,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/503"
    },
@@ -107,14 +107,14 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "50",
-   "value_num": 50.0
+   "value": "51",
+   "value_num": 51.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -125,7 +125,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -143,7 +143,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/503"
    },
@@ -161,7 +161,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/503"
    },
@@ -179,7 +179,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/503"
    },
@@ -429,6 +429,18 @@
    "title": "DEPUTY DIRECTOR, IMMIGRATION AND CUSTOMS ENFORCEMENT",
    "valid_from": "2025-03-09",
    "valid_to": "2026-01-15"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Robert Hammer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY EXECUTIVE ASSOCIATE DIRECTOR, HOMELAND SECURITY INVESTIGATIONS",
+   "valid_from": "2025-01-20",
+   "valid_to": "2026-05-09"
   },
   {
    "appt_type": "CA",

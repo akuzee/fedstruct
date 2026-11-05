@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 4,
-  "positions": 9
+  "current_officials": 9,
+  "positions": 16
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "9",
-   "value_num": 9.0
+   "value": "15",
+   "value_num": 15.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -78,6 +78,18 @@
    "title": "CHIEF DATA OFFICER",
    "valid_from": "2025-06-17",
    "valid_to": "2025-08-29"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Russo",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF INFORMATION OFFICER",
+   "valid_from": "2025-02-02",
+   "valid_to": "2025-04-04"
   },
   {
    "appt_type": "NA",
@@ -119,6 +131,90 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Wayne Lemon",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY CHIEF INFORMATION OFFICER (INFRASTRUCTURE)",
+   "valid_from": "2024-12-01",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brian Peltier",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY CHIEF INFORMATION OFFICER (STRATEGY)",
+   "valid_from": "2024-05-20",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Djimy Chapron",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "HEAD OF BENEFIT INFORMATION SYSTEMS",
+   "valid_from": "2023-01-15",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Djimy Chapron",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "HEAD OF BENEFIT INFORMATION SYSTEMS",
+   "valid_from": "2026-06-13",
+   "valid_to": "2026-06-14"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Andrea Velez",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "HEAD OF DIGITAL CUSTOMER SOLUTIONS",
+   "valid_from": "2023-01-15",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "William Pearre",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "HEAD OF SHARED IT AND ENTERPRISE SERVICES",
+   "valid_from": "2022-03-13",
+   "valid_to": "2025-04-09"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Julie Fink",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "HEAD OF SHARED IT AND ENTERPRISE SERVICES",
+   "valid_from": "2026-06-14",
+   "valid_to": "2026-06-15"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Rachel Dumser",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -146,6 +242,18 @@
  "name": "Chief Information Officer",
  "officials": [
   {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Russo",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF INFORMATION OFFICER",
+   "valid_from": "2025-04-05",
+   "valid_to": null
+  },
+  {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
@@ -158,6 +266,54 @@
    "valid_to": null
   },
   {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Michael Russo",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY COMMISSIONER FOR SYSTEMS/CHIEF INFORMATION OFFICER",
+   "valid_from": "2025-02-02",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Djimy Chapron",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "HEAD OF BENEFIT INFORMATION SYSTEMS",
+   "valid_from": "2026-06-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Andrea Velez",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "HEAD OF DIGITAL CUSTOMER SOLUTIONS",
+   "valid_from": "2026-06-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Melanie Burns",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "HEAD OF DISABILITY INFORMATION SYSTEMS",
+   "valid_from": "2024-12-01",
+   "valid_to": null
+  },
+  {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
@@ -165,8 +321,20 @@
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "DEPUTY CHIEF INFORMATION OFFICER (INFRASTRUCTURE)",
-   "valid_from": "2024-12-01",
+   "title": "HEAD OF INTERNAL SYSTEMS AND DATA CENTER STRATEGY",
+   "valid_from": "2026-06-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Julie Fink",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "HEAD OF SHARED IT AND ENTERPRISE SERVICES",
+   "valid_from": "2026-06-15",
    "valid_to": null
   },
   {
@@ -177,20 +345,8 @@
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "DEPUTY CHIEF INFORMATION OFFICER (STRATEGY)",
-   "valid_from": "2024-05-20",
-   "valid_to": null
-  },
-  {
-   "appt_type": "NA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Michael Russo",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "DEPUTY COMMISSIONER FOR SYSTEMS/CHIEF INFORMATION OFFICER",
-   "valid_from": "2025-02-02",
+   "title": "HEAD OF TECHNOLOGY, CUSTOMER DATA, AND ARTIFICIAL INTELLIGENCE",
+   "valid_from": "2026-06-14",
    "valid_to": null
   }
  ],

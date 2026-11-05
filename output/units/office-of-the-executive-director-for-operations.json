@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 5,
+  "current_officials": 2,
   "positions": 7
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -83,6 +83,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "David Curtis",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT FOR OPERATIONS",
+   "valid_from": "2026-05-03",
+   "valid_to": "2026-06-14"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Robert Lewis",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -95,6 +107,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Caroline Carusone",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY EXECUTIVE DIRECTOR FOR MATERIALS, WASTE, RESEARCH, STATE, TRIBAL, COMPLIANCE, ADMINISTRATION, AND HUMAN CAPITAL",
+   "valid_from": "2026-01-18",
+   "valid_to": "2026-06-14"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Scott Morris",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -102,6 +126,30 @@
    "title": "DEPUTY EXECUTIVE DIRECTOR FOR REACTOR AND PREPAREDNESS PROGRAMS",
    "valid_from": "2023-02-12",
    "valid_to": "2025-06-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Sabrina Atack",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY EXECUTIVE DIRECTOR FOR REACTOR AND PREPAREDNESS PROGRAMS",
+   "valid_from": "2025-07-16",
+   "valid_to": "2026-01-03"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Sabrina Atack",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY EXECUTIVE DIRECTOR FOR REACTOR AND PREPAREDNESS PROGRAMS",
+   "valid_from": "2026-01-04",
+   "valid_to": "2026-06-14"
   },
   {
    "appt_type": "CA",
@@ -143,13 +191,13 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
-   "person": "Scott Milliren",
+   "person": "Raymond Skates",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "ended",
    "title": "SENIOR ADVISOR",
-   "valid_from": "2026-01-13",
-   "valid_to": "2026-06-27"
+   "valid_from": "2025-08-11",
+   "valid_to": "2026-06-13"
   },
   {
    "appt_type": "CA",
@@ -197,42 +245,6 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "David Curtis",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "ASSISTANT FOR OPERATIONS",
-   "valid_from": "2026-05-03",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Caroline Carusone",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "DEPUTY EXECUTIVE DIRECTOR FOR MATERIALS, WASTE, RESEARCH, STATE, TRIBAL, COMPLIANCE, ADMINISTRATION, AND HUMAN CAPITAL",
-   "valid_from": "2026-01-18",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Sabrina Atack",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "DEPUTY EXECUTIVE DIRECTOR FOR REACTOR AND PREPAREDNESS PROGRAMS",
-   "valid_from": "2025-07-16",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Michael King",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -245,12 +257,12 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
-   "person": "Raymond Skates",
+   "person": "Scott Milliren",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SENIOR ADVISOR",
-   "valid_from": "2025-08-11",
+   "valid_from": "2026-01-13",
    "valid_to": null
   }
  ],

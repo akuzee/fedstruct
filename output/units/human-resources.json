@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 1,
-  "positions": 2
+  "current_officials": 2,
+  "positions": 3
  },
  "facts": {
   "position_count": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -66,6 +66,18 @@
    "title": "ASSISTANT DEPUTY COMMISSIONER FOR HUMAN RESOURCES",
    "valid_from": "2024-08-25",
    "valid_to": "2025-03-07"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Florence Felix-Lawson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF HUMAN CAPITAL OFFICER",
+   "valid_from": "2024-11-17",
+   "valid_to": "2026-01-06"
   }
  ],
  "id": 2178,
@@ -73,6 +85,18 @@
  "multi_facts": {},
  "name": "Human Resources",
  "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Florence Felix-Lawson",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF HUMAN CAPITAL OFFICER",
+   "valid_from": "2026-01-07",
+   "valid_to": null
+  },
   {
    "appt_type": "CA",
    "is_pas": 0,

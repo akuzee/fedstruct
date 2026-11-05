@@ -14,7 +14,7 @@
  "counts": {
   "children": 0,
   "current_officials": 21,
-  "positions": 23
+  "positions": 24
  },
  "facts": {
   "position_count": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -66,6 +66,18 @@
    "title": "DEPUTY DIRECTOR, CAPABILITY ENABLERS",
    "valid_from": "2023-05-07",
    "valid_to": "2025-05-03"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Thomas Kramer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY DIRECTOR, CAPABILITY ENABLERS",
+   "valid_from": "2025-05-04",
+   "valid_to": "2026-05-30"
   },
   {
    "appt_type": "CA",
@@ -155,6 +167,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Jarrod Fenstermacher",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR, TACTICAL AIR FORCES DIVISION",
+   "valid_from": "2024-01-28",
+   "valid_to": "2026-05-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Michael Payne",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -209,18 +233,6 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Thomas Kramer",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "DEPUTY DIRECTOR, CAPABILITY ENABLERS",
-   "valid_from": "2025-05-04",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Frederick Janicki",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -263,6 +275,18 @@
    "status": "current",
    "title": "DIRECTOR, COMMAND, CONTROL, COMMUNICATIONS, COMPUTERS (C4) AND INFORMATION PROGRAMS DIVISION",
    "valid_from": "2010-12-18",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lauren Murphy",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR, CROSS PORTFOLIO ANALYSIS DIVISION",
+   "valid_from": "2019-01-20",
    "valid_to": null
   },
   {
@@ -413,12 +437,12 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Jarrod Fenstermacher",
+   "person": "Thomas Kramer",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "DIRECTOR, TACTICAL AIR FORCES DIVISION",
-   "valid_from": "2024-01-28",
+   "title": "PRINCIPAL DEPUTY DIRECTOR",
+   "valid_from": "2026-05-31",
    "valid_to": null
   }
  ],

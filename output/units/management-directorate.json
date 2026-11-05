@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 31,
-  "positions": 54
+  "current_officials": 37,
+  "positions": 57
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "54",
-   "value_num": 54.0
+   "value": "55",
+   "value_num": 55.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -104,18 +104,6 @@
    "valid_to": "2026-03-21"
   },
   {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "John Guy",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "ADVISOR",
-   "valid_from": "2025-09-08",
-   "valid_to": "2026-06-20"
-  },
-  {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
@@ -167,6 +155,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Thomas Oconnor",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "CHIEF OF STAFF",
+   "valid_from": "2025-08-25",
+   "valid_to": "2026-04-01"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Richard Mccomb",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -174,18 +174,6 @@
    "title": "CHIEF SECURITY OFFICER",
    "valid_from": "2016-04-03",
    "valid_to": "2025-03-11"
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Justin Napolitano",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "CHIEF SECURITY OFFICER",
-   "valid_from": "2026-04-27",
-   "valid_to": "2026-05-01"
   },
   {
    "appt_type": "TA",
@@ -500,18 +488,6 @@
    "valid_to": "2026-05-02"
   },
   {
-   "appt_type": "NA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Matthew Kessler",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SENIOR ADVISOR",
-   "valid_from": "2026-04-19",
-   "valid_to": "2026-06-20"
-  },
-  {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
@@ -558,18 +534,6 @@
    "title": "SENIOR COUNSELOR",
    "valid_from": "2025-12-22",
    "valid_to": "2026-04-14"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Paul Mclaughlin",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SPECIAL ASSISTANT",
-   "valid_from": "2025-08-10",
-   "valid_to": "2026-07-05"
   },
   {
    "appt_type": "SC",
@@ -623,6 +587,18 @@
    "status": "current",
    "title": "UNDER SECRETARY FOR MANAGEMENT",
    "valid_from": "2025-03-28",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "John Guy",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ADVISOR",
+   "valid_from": "2025-09-08",
    "valid_to": null
   },
   {
@@ -701,18 +677,6 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Thomas Oconnor",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "CHIEF OF STAFF",
-   "valid_from": "2025-08-25",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Jonathan Moynahan",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -731,6 +695,18 @@
    "status": "current",
    "title": "CHIEF READINESS SUPPORT OFFICER",
    "valid_from": "2024-06-02",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Justin Napolitano",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF SECURITY OFFICER",
+   "valid_from": "2026-04-27",
    "valid_to": null
   },
   {
@@ -893,12 +869,48 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Andrew Campen",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "EXECUTIVE DIRECTOR, ENTERPRISE FINANCIAL SYSTEMS",
+   "valid_from": "2024-09-22",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Dina Thompson",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, OFFICE OF SMALL AND DISADVANTAGED BUSINESS UTILIZATION",
    "valid_from": "2025-12-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Gregory Try",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "EXECUTIVE DIRECTOR, PROGRAMMING AND STRATEGIC INSIGHTS",
+   "valid_from": "2024-08-11",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "William Bush",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "EXECUTIVE DIRECTOR, SAINT ELIZABETHS TRANSITION",
+   "valid_from": "2026-05-17",
    "valid_to": null
   },
   {
@@ -962,6 +974,18 @@
    "valid_to": null
   },
   {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Matthew Kessler",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ADVISOR",
+   "valid_from": "2026-04-19",
+   "valid_to": null
+  },
+  {
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
@@ -971,6 +995,18 @@
    "status": "current",
    "title": "SPECIAL ADVISOR",
    "valid_from": "2025-09-21",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Paul Mclaughlin",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": "2025-08-10",
    "valid_to": null
   }
  ],

@@ -32,7 +32,7 @@
  "counts": {
   "children": 0,
   "current_officials": 2,
-  "positions": 6
+  "positions": 7
  },
  "facts": {
   "agency_url": {
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/159"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/159"
    },
@@ -80,7 +80,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/159"
    },
@@ -98,7 +98,7 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/159"
    },
@@ -116,7 +116,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/159"
    },
@@ -134,7 +134,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -152,7 +152,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -170,7 +170,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/159"
    },
@@ -188,7 +188,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/159"
    },
@@ -206,7 +206,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/159"
    },
@@ -245,6 +245,18 @@
    "appt_type": "NA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Christopher Senn",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DIRECTOR OF INDUSTRY AFFAIRS",
+   "valid_from": "2025-03-09",
+   "valid_to": "2026-05-20"
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Chris Rocheleau",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -278,7 +290,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=federal-aviation-administration].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-14/chapter-I"
     },

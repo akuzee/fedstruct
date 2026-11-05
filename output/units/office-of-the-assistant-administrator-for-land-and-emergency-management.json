@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 9,
+  "current_officials": 11,
   "positions": 22
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -162,18 +162,6 @@
    "title": "DEPUTY DIRECTOR FOR FEDERAL FACILITIES AND OPERATIONS",
    "valid_from": "2026-02-08",
    "valid_to": "2026-06-08"
-  },
-  {
-   "appt_type": "CG",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Silvina Fonseca",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DEPUTY DIRECTOR FOR POLICY",
-   "valid_from": "2026-02-08",
-   "valid_to": "2026-06-27"
   },
   {
    "appt_type": "CG",
@@ -419,6 +407,30 @@
    "status": "current",
    "title": "DEPUTY ASSISTANT ADMINISTRATOR FOR MANAGMENT",
    "valid_from": "2025-11-02",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Nathaniel Zimmer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT ADMINISTRATOR FOR POLICY",
+   "valid_from": "2026-06-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CG",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Silvina Fonseca",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR FOR POLICY",
+   "valid_from": "2026-02-08",
    "valid_to": null
   },
   {

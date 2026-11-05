@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 23,
+  "current_officials": 25,
   "positions": 30
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -347,18 +347,6 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
-   "person": "Sabin Sidney",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "PRESS SECRETARY",
-   "valid_from": "2026-05-03",
-   "valid_to": "2026-06-28"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Chacon Paloma",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -498,18 +486,6 @@
    "title": "SPEECHWRITER",
    "valid_from": "2025-11-30",
    "valid_to": "2026-06-13"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Brandon Aquino",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "VIDEOGRAPHER",
-   "valid_from": "2025-05-05",
-   "valid_to": "2026-06-27"
   }
  ],
  "id": 1137,
@@ -722,6 +698,18 @@
    "valid_to": null
   },
   {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Sabin Sidney",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "PRESS SECRETARY",
+   "valid_from": "2026-05-03",
+   "valid_to": null
+  },
+  {
    "appt_type": "NA",
    "is_pas": 0,
    "period_end": null,
@@ -791,6 +779,18 @@
    "status": "current",
    "title": "SPECIAL ASSISTANT",
    "valid_from": "2026-01-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brandon Aquino",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "VIDEOGRAPHER",
+   "valid_from": "2025-05-05",
    "valid_to": null
   }
  ],

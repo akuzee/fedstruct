@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 8,
+  "current_officials": 9,
   "positions": 15
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -114,18 +114,6 @@
    "title": "DEPUTY ASSISTANT SECRETARY, OFFICE OF PUBLIC AFFAIRS",
    "valid_from": "2025-02-25",
    "valid_to": "2025-05-31"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Joshua Armendariz",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DIGITAL CONTENT COORDINATOR",
-   "valid_from": "2026-05-03",
-   "valid_to": "2026-06-27"
   },
   {
    "appt_type": "SC",
@@ -239,6 +227,18 @@
    "status": "current",
    "title": "DEPUTY ASSISTANT SECRETARY FOR PUBLIC AFFAIRS",
    "valid_from": "2019-10-27",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joshua Armendariz",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIGITAL CONTENT COORDINATOR",
+   "valid_from": "2026-05-03",
    "valid_to": null
   },
   {

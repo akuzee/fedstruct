@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 4,
+  "current_officials": 5,
   "positions": 5
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -78,18 +78,6 @@
    "title": "SPECIAL ASSISTANT FOR LEGISLATIVE AFFAIRS",
    "valid_from": "2025-03-11",
    "valid_to": "2025-05-31"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Brendan Davis",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SPECIAL ASSISTANT TO THE OFFICE OF LEGISLATIVE AND INTERGOVERNMENTAL AFFAIRS",
-   "valid_from": "2025-09-02",
-   "valid_to": "2026-06-27"
   }
  ],
  "id": 1897,
@@ -143,6 +131,18 @@
    "status": "current",
    "title": "SPECIAL ASSISTANT FOR LEGISLATIVE AFFAIRS",
    "valid_from": "2025-06-01",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brendan Davis",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT TO THE OFFICE OF LEGISLATIVE AND INTERGOVERNMENTAL AFFAIRS",
+   "valid_from": "2025-09-02",
    "valid_to": null
   }
  ],

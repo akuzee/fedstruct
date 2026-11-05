@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 231,
+  "current_officials": 230,
   "positions": 247
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -791,6 +791,18 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
+   "person": "Breton Weintraub",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "EXECUTIVE DIRECTOR,  MEDICAL CENTER (VISN 22)",
+   "valid_from": "2024-06-02",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Mark Hausman",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -870,6 +882,18 @@
    "title": "EXECUTIVE DIRECTOR, DIVERSITY EQUITY INCLUSION ASSAULT AND HARASSMENT PREVENTION",
    "valid_from": "2022-06-05",
    "valid_to": "2025-01-31"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Scotte Hartronft",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "EXECUTIVE DIRECTOR, GERIATRICS AND EXTENDED CARE",
+   "valid_from": "2019-08-18",
+   "valid_to": "2026-05-30"
   },
   {
    "appt_type": "CA",
@@ -2609,18 +2633,6 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
-   "person": "Breton Weintraub",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "EXECUTIVE DIRECTOR,  MEDICAL CENTER (VISN 22)",
-   "valid_from": "2024-06-02",
-   "valid_to": null
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
    "person": "Tamara Box",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -2699,18 +2711,6 @@
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, FIELD SUPPORT AND ANALYTICS",
    "valid_from": "2024-12-11",
-   "valid_to": null
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Scotte Hartronft",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "EXECUTIVE DIRECTOR, GERIATRICS AND EXTENDED CARE",
-   "valid_from": "2019-08-18",
    "valid_to": null
   },
   {
@@ -3839,6 +3839,18 @@
    "status": "current",
    "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
    "valid_from": "2023-08-27",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Thandiwe Nelson-Brooks",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "EXECUTIVE DIRECTOR, MEDICAL CENTER (VISN 4)",
+   "valid_from": "2026-03-08",
    "valid_to": null
   },
   {

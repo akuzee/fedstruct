@@ -31,7 +31,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 7,
+  "current_officials": 8,
   "positions": 22
  },
  "facts": {
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/361"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/361"
    },
@@ -80,7 +80,7 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/361"
    },
@@ -98,7 +98,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/361"
    },
@@ -116,7 +116,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -134,7 +134,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -152,7 +152,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/361"
    },
@@ -170,7 +170,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/361"
    },
@@ -188,7 +188,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/361"
    },
@@ -234,18 +234,6 @@
    "title": "COUNSEL",
    "valid_from": "2025-04-30",
    "valid_to": "2026-03-21"
-  },
-  {
-   "appt_type": "NA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Juan Caro Rivera",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DEPUTY ASSISTANT SECRETARY FOR INTERNATIONAL AFFAIRS",
-   "valid_from": "2025-02-03",
-   "valid_to": "2026-06-18"
   },
   {
    "appt_type": "NA",
@@ -317,7 +305,7 @@
    "status": "ended",
    "title": "SENIOR ADVISOR",
    "valid_from": "2026-01-12",
-   "valid_to": "2026-04-21"
+   "valid_to": "2026-04-03"
   },
   {
    "appt_type": "SC",
@@ -392,7 +380,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-oceanic-and-atmospheric-administration].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-15/chapter-IX"
     },
@@ -410,7 +398,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-oceanic-and-atmospheric-administration].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-50/chapter-III"
     },
@@ -428,7 +416,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=national-oceanic-and-atmospheric-administration].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-50/chapter-IV"
     },
@@ -463,6 +451,18 @@
    "status": "current",
    "title": "CHIEF OF STRATEGY",
    "valid_from": "2025-08-24",
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Juan Caro Rivera",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT SECRETARY FOR INTERNATIONAL AFFAIRS",
+   "valid_from": "2025-02-03",
    "valid_to": null
   },
   {

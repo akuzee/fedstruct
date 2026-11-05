@@ -22,7 +22,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 15,
+  "current_officials": 16,
   "positions": 26
  },
  "facts": {
@@ -35,7 +35,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
@@ -53,7 +53,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
@@ -71,7 +71,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
@@ -89,7 +89,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
@@ -107,14 +107,14 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "26",
-   "value_num": 26.0
+   "value": "18",
+   "value_num": 18.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -125,7 +125,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -143,7 +143,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
@@ -161,7 +161,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
@@ -179,7 +179,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/23"
    },
@@ -417,18 +417,6 @@
    "title": "PRINCIPAL DEPUTY ASSISTANT ATTORNEY GENERAL",
    "valid_from": "2025-03-19",
    "valid_to": "2025-07-28"
-  },
-  {
-   "appt_type": "NA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Omeed Assefi",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "PRINCIPAL DEPUTY ASSISTANT ATTORNEY GENERAL",
-   "valid_from": "2026-02-13",
-   "valid_to": "2026-06-27"
   }
  ],
  "id": 23,
@@ -608,6 +596,18 @@
    "status": "current",
    "title": "DIRECTOR, PROCUREMENT COLLUSION STRIKE FORECE",
    "valid_from": "2021-02-16",
+   "valid_to": null
+  },
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Omeed Assefi",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "PRINCIPAL DEPUTY ASSISTANT ATTORNEY GENERAL",
+   "valid_from": "2026-02-13",
    "valid_to": null
   },
   {

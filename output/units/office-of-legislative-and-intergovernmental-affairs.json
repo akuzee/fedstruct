@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 5,
+  "current_officials": 6,
   "positions": 9
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -55,18 +55,6 @@
   }
  },
  "former_officials": [
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Robert Mcleod",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DIRECTOR OF INTERGOVERNMENTAL AFFAIRS",
-   "valid_from": "2025-02-24",
-   "valid_to": "2026-06-30"
-  },
   {
    "appt_type": "NA",
    "is_pas": 0,
@@ -143,6 +131,18 @@
    "status": "current",
    "title": "ASSISTANT SECRETARY FOR LEGISLATIVE AND INTERGOVERNMENTAL AFFAIRS",
    "valid_from": "2025-12-21",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Robert Mcleod",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR OF INTERGOVERNMENTAL AFFAIRS",
+   "valid_from": "2025-02-24",
    "valid_to": null
   },
   {

@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 1,
+  "current_officials": 0,
   "positions": 1
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -66,13 +66,7 @@
    "title": "DIRECTOR, OFFICE OF ADMINISTRATION",
    "valid_from": "2024-01-03",
    "valid_to": "2025-02-28"
-  }
- ],
- "id": 1998,
- "merged_from": [],
- "multi_facts": {},
- "name": "Office of Administration",
- "officials": [
+  },
   {
    "appt_type": "CA",
    "is_pas": 0,
@@ -80,12 +74,17 @@
    "person": "Eleni Jernell",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
+   "status": "ended",
    "title": "DIRECTOR, OFFICE OF ADMINISTRATION",
    "valid_from": "2025-03-01",
-   "valid_to": null
+   "valid_to": "2026-05-30"
   }
  ],
+ "id": 1998,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Office of Administration",
+ "officials": [],
  "slug": "office-of-administration-3",
  "sources": [
   "plum"

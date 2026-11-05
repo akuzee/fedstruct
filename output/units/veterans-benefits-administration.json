@@ -14,7 +14,7 @@
  "counts": {
   "children": 0,
   "current_officials": 13,
-  "positions": 39
+  "positions": 40
  },
  "facts": {
   "position_count": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -342,6 +342,18 @@
    "title": "EXECUTIVE DIRECTOR, EQUITY ASSURANCE",
    "valid_from": "2023-12-03",
    "valid_to": "2025-12-31"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Cohen Melissa",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "EXECUTIVE DIRECTOR, MILITARY TO CIVILIAN READINESS (M2CR)",
+   "valid_from": "2024-01-28",
+   "valid_to": "2025-09-30"
   },
   {
    "appt_type": "CA",

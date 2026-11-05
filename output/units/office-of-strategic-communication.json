@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 1,
+  "current_officials": 2,
   "positions": 3
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -55,18 +55,6 @@
   }
  },
  "former_officials": [
-  {
-   "appt_type": "NA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Marianne Copenhaver",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "ASSOCIATE ADMINISTRATOR FOR STRATEGIC COMMUNICATION",
-   "valid_from": "2025-03-30",
-   "valid_to": "2026-06-27"
-  },
   {
    "appt_type": "SC",
    "is_pas": 0,
@@ -85,6 +73,18 @@
  "multi_facts": {},
  "name": "Office of Strategic Communication",
  "officials": [
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Marianne Copenhaver",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE ADMINISTRATOR FOR STRATEGIC COMMUNICATION",
+   "valid_from": "2025-03-30",
+   "valid_to": null
+  },
   {
    "appt_type": "SC",
    "is_pas": 0,

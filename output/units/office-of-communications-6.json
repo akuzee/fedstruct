@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 5,
+  "current_officials": 7,
   "positions": 9
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -55,18 +55,6 @@
   }
  },
  "former_officials": [
-  {
-   "appt_type": "NA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "William Boyington",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "ASSOCIATE ADMINISTRATOR FOR COMMUNICATIONS",
-   "valid_from": "2025-06-23",
-   "valid_to": "2026-06-28"
-  },
   {
    "appt_type": "SC",
    "is_pas": 0,
@@ -126,18 +114,6 @@
    "title": "SPECIAL ASSISTANT FOR COMMUNICATIONS",
    "valid_from": "2025-04-28",
    "valid_to": "2025-11-29"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Joshua Herman",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SPECIAL ASSISTANT FOR COMMUNICATIONS",
-   "valid_from": "2026-01-25",
-   "valid_to": "2026-06-27"
   }
  ],
  "id": 1895,
@@ -145,6 +121,18 @@
  "multi_facts": {},
  "name": "Office of Communications",
  "officials": [
+  {
+   "appt_type": "NA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "William Boyington",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE ADMINISTRATOR FOR COMMUNICATIONS",
+   "valid_from": "2025-06-23",
+   "valid_to": null
+  },
   {
    "appt_type": "SC",
    "is_pas": 0,
@@ -203,6 +191,18 @@
    "status": "current",
    "title": "SENIOR ADVISOR AND PRESS SECRETARY",
    "valid_from": "2026-02-08",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Joshua Herman",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT FOR COMMUNICATIONS",
+   "valid_from": "2026-01-25",
    "valid_to": null
   }
  ],

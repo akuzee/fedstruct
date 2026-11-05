@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 14,
+  "current_officials": 15,
   "positions": 16
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -114,18 +114,6 @@
    "title": "DIRECTOR",
    "valid_from": "2026-04-19",
    "valid_to": "2026-06-13"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Brett Scott",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DIRECTOR FOR MARITIME AND EMERGENCY MANAGEMENT",
-   "valid_from": "2025-07-14",
-   "valid_to": "2026-06-27"
   },
   {
    "appt_type": "SC",
@@ -210,6 +198,18 @@
    "title": "SPECIAL ASSISTANT",
    "valid_from": "2025-05-05",
    "valid_to": "2025-08-08"
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Robert Portegello",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": "2025-10-20",
+   "valid_to": "2026-06-14"
   },
   {
    "appt_type": "SC",
@@ -329,6 +329,18 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
+   "person": "Brett Scott",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR FOR MARITIME AND EMERGENCY MANAGEMENT",
+   "valid_from": "2025-07-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Sharan Kumar",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -365,24 +377,24 @@
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
-   "person": "John Wynne",
+   "person": "Robert Portegello",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "SENIOR ADVISOR TO THE ASSISTANT SECRETARY",
-   "valid_from": "2025-03-10",
+   "title": "POLICY ADVISOR",
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {
    "appt_type": "SC",
    "is_pas": 0,
    "period_end": null,
-   "person": "Robert Portegello",
+   "person": "John Wynne",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "SPECIAL ASSISTANT",
-   "valid_from": "2025-10-20",
+   "title": "SENIOR ADVISOR TO THE ASSISTANT SECRETARY",
+   "valid_from": "2025-03-10",
    "valid_to": null
   },
   {

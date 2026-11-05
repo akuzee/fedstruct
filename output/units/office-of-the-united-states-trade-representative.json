@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 16,
+  "current_officials": 17,
   "positions": 20
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -138,18 +138,6 @@
    "title": "SENIOR ADVISOR",
    "valid_from": "2025-02-09",
    "valid_to": "2025-08-15"
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Aidan Doud",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SPECIAL ASSISTANT TO THE USTR",
-   "valid_from": "2025-02-03",
-   "valid_to": "2026-06-25"
   },
   {
    "appt_type": "XS",
@@ -335,6 +323,18 @@
    "status": "current",
    "title": "SPECIAL ASSISTANT TO THE DEPUTY USTR",
    "valid_from": "2026-01-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Aidan Doud",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT TO THE USTR",
+   "valid_from": "2025-02-03",
    "valid_to": null
   },
   {

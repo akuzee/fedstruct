@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 60,
-  "positions": 62
+  "current_officials": 68,
+  "positions": 69
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "62",
-   "value_num": 62.0
+   "value": "61",
+   "value_num": 61.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -77,6 +77,18 @@
    "status": "ended",
    "title": "ASSISTANT TO THE PRESIDENT AND BORDER CZAR",
    "valid_from": "2025-07-13",
+   "valid_to": "2026-04-24"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Meghan Bauer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT TO THE PRESIDENT AND CABINET SECRETARY",
+   "valid_from": "2025-11-16",
    "valid_to": "2026-04-24"
   },
   {
@@ -124,6 +136,18 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "ended",
    "title": "ASSISTANT TO THE PRESIDENT AND DEPUTY CHIEF OF STAFF AND DIRECTOR OF PRESIDENTIAL PERSONNEL",
+   "valid_from": "2026-02-08",
+   "valid_to": "2026-04-24"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Daniel Scavino",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSISTANT TO THE PRESIDENT AND DEPUTY CHIEF OF STAFF AND DIRECTOR OF THE OFFICE OF PRESIDENTIAL PERSONNEL",
    "valid_from": "2026-02-08",
    "valid_to": "2026-04-24"
   },
@@ -255,6 +279,18 @@
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "ended",
+   "title": "ASSISTANT TO THE PRESIDENT AND SENIOR COUNSELOR FOR TRADE AND MANUFACTURING",
+   "valid_from": "2025-06-15",
+   "valid_to": "2026-04-24"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Peter Navarro",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
    "title": "ASSISTANT TO THE PRESIDENT AND SR COUNSELOR FOR TRADE AND MANUFACTURING",
    "valid_from": "2025-06-15",
    "valid_to": "2026-04-24"
@@ -335,6 +371,18 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
+   "person": "Christopher Ambrosini",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY  ASSISTANT TO THE PRESIDENT FOR STRATEGIC IMPLEMENTATION AND TRIP DIRECTOR",
+   "valid_from": "2026-02-08",
+   "valid_to": "2026-04-24"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Gineen Bresso",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -378,6 +426,18 @@
    "title": "DEPUTY ASSISTANT TO THE PRESIDENT AND DEPUTY COMMUNICATIONS DIRECTOR",
    "valid_from": "2025-01-20",
    "valid_to": "2025-04-19"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Daniel Jorjani",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT TO THE PRESIDENT AND DEPUTY COUNSEL TO THE  PRESIDENT",
+   "valid_from": "2025-09-07",
+   "valid_to": "2026-04-24"
   },
   {
    "appt_type": "XS",
@@ -743,6 +803,18 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
+   "person": "Gineen Bresso",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT TO THE PRESIDENT AND PRINCIPAL DEPUTY COUNSEL TO THE PRESIDENT",
+   "valid_from": "2026-01-11",
+   "valid_to": "2026-04-24"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Sylvia Mailman",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -773,6 +845,18 @@
    "status": "ended",
    "title": "DEPUTY ASSISTANT TO THE PRESIDENT AND TECHNICAL ADVISOR",
    "valid_from": "2025-01-21",
+   "valid_to": "2026-04-24"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lynne Patton",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY ASSISTANT TO THE PRESIDENT FOR COALITION POLICY AND ENGAGEMENT",
+   "valid_from": "2025-06-15",
    "valid_to": "2026-04-24"
   },
   {
@@ -923,6 +1007,18 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
+   "person": "Chamberlain Harris",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SPECIAL ASSISTANT TO THE PRESIDENT AND DEPUTY DIRECTOR OF OVAL OFFICE OPERATIONS AND EXECUTIVE ASSISTANT TO THE PRESIDENT",
+   "valid_from": "2025-01-20",
+   "valid_to": "2025-06-14"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Natalie Harp",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -977,6 +1073,18 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
+   "person": "Meghan Bauer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT TO THE PRESIDENT AND CABINET SECRETARY",
+   "valid_from": "2026-04-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Susan Wiles",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -1018,6 +1126,18 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "ASSISTANT TO THE PRESIDENT AND DEPUTY CHIEF OF STAFF AND DIRECTOR OF PRESIDENTIAL PERSONNEL",
+   "valid_from": "2026-04-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Daniel Scavino",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSISTANT TO THE PRESIDENT AND DEPUTY CHIEF OF STAFF AND DIRECTOR OF THE OFFICE OF PRESIDENTIAL PERSONNEL",
    "valid_from": "2026-04-25",
    "valid_to": null
   },
@@ -1137,6 +1257,18 @@
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
+   "title": "ASSISTANT TO THE PRESIDENT AND SENIOR COUNSELOR FOR TRADE AND MANUFACTURING",
+   "valid_from": "2026-04-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Peter Navarro",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
    "title": "ASSISTANT TO THE PRESIDENT AND SR COUNSELOR FOR TRADE AND MANUFACTURING",
    "valid_from": "2026-04-25",
    "valid_to": null
@@ -1217,6 +1349,18 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
+   "person": "Christopher Ambrosini",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY  ASSISTANT TO THE PRESIDENT FOR STRATEGIC IMPLEMENTATION AND TRIP DIRECTOR",
+   "valid_from": "2026-04-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Gineen Bresso",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -1247,6 +1391,18 @@
    "status": "current",
    "title": "DEPUTY ASSISTANT TO THE PRESIDENT AND DEPUTY CHIEF OF STAFF",
    "valid_from": "2026-05-04",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Daniel Jorjani",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT TO THE PRESIDENT AND DEPUTY COUNSEL TO THE  PRESIDENT",
+   "valid_from": "2026-04-25",
    "valid_to": null
   },
   {
@@ -1481,6 +1637,18 @@
    "appt_type": "XS",
    "is_pas": 0,
    "period_end": null,
+   "person": "Gineen Bresso",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT TO THE PRESIDENT AND PRINCIPAL DEPUTY COUNSEL TO THE PRESIDENT",
+   "valid_from": "2026-04-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Emily Underwood",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -1498,6 +1666,18 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSISTANT TO THE PRESIDENT AND TECHNICAL ADVISOR",
+   "valid_from": "2026-04-25",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Lynne Patton",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSISTANT TO THE PRESIDENT FOR COALITION POLICY AND ENGAGEMENT",
    "valid_from": "2026-04-25",
    "valid_to": null
   },
@@ -1642,6 +1822,18 @@
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "SPECIAL ASSISTANT TO THE PRESIDENT AND DEPUTY DIRECTOR OF OVAL OFFICE OPERATIONS AND EXECUTIVE ASSISTANT TO PRESIDENT",
+   "valid_from": "2025-06-15",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Chamberlain Harris",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT TO THE PRESIDENT AND DEPUTY DIRECTOR OF OVAL OFFICE OPERATIONS AND EXECUTIVE ASSISTANT TO THE PRESIDENT",
    "valid_from": "2025-06-15",
    "valid_to": null
   },

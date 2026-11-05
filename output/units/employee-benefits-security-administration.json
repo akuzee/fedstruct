@@ -31,8 +31,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 14,
-  "positions": 18
+  "current_officials": 15,
+  "positions": 19
  },
  "facts": {
   "agency_url": {
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/131"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/131"
    },
@@ -80,7 +80,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/131"
    },
@@ -98,7 +98,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/131"
    },
@@ -116,14 +116,14 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "18",
-   "value_num": 18.0
+   "value": "19",
+   "value_num": 19.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -134,7 +134,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -152,7 +152,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/131"
    },
@@ -170,7 +170,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/131"
    },
@@ -188,7 +188,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/131"
    },
@@ -356,7 +356,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=employee-benefits-security-administration].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-29/chapter-XXV"
     },
@@ -487,6 +487,18 @@
    "status": "current",
    "title": "DIRECTOR, OFFICE OF OUTREACH EDUCATION AND ASSISTANCE",
    "valid_from": "2024-01-14",
+   "valid_to": null
+  },
+  {
+   "appt_type": "TA",
+   "is_pas": 0,
+   "period_end": "2029-06-14",
+   "person": "Elizabeth Schumacher",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ERISA REGULATIONS DIRECTOR",
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {

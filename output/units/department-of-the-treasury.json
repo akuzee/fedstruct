@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 29,
-  "current_officials": 1,
+  "current_officials": 2,
   "positions": 3
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -66,18 +66,6 @@
    "title": "COUNSELOR TO THE SECRETARY",
    "valid_from": "2025-10-10",
    "valid_to": "2025-12-30"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "James O&#039;Brien",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SENIOR ADVISOR",
-   "valid_from": "2025-10-27",
-   "valid_to": "2026-06-27"
   },
   {
    "appt_type": "SC",
@@ -107,6 +95,18 @@
    "status": "current",
    "title": "COUNSELOR TO THE SECRETARY",
    "valid_from": "2026-03-31",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "James O&#039;Brien",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR ADVISOR",
+   "valid_from": "2025-10-27",
    "valid_to": null
   }
  ],

@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 9,
-  "positions": 10
+  "current_officials": 8,
+  "positions": 11
  },
  "facts": {
   "position_count": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "10",
-   "value_num": 10.0
+   "value": "11",
+   "value_num": 11.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -78,6 +78,30 @@
    "title": "DEPUTY GENERAL COUNSEL (ETHICS AND FISCAL)",
    "valid_from": "2018-04-29",
    "valid_to": "2025-09-30"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Craig Schmauder",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "DEPUTY GENERAL COUNSEL (INSTALLATIONS, ENVIRONMENT AND CIVIL WORKS)",
+   "valid_from": "2004-10-03",
+   "valid_to": "2026-06-13"
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Charles Harris",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR INTELLECTUAL PROPERTY LAW ATTORNEY",
+   "valid_from": "2015-06-28",
+   "valid_to": "2026-02-19"
   }
  ],
  "id": 1362,
@@ -107,18 +131,6 @@
    "status": "current",
    "title": "DEPUTY GENERAL COUNSEL (ACQUISITION)",
    "valid_from": "2026-04-05",
-   "valid_to": null
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Craig Schmauder",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "DEPUTY GENERAL COUNSEL (INSTALLATIONS, ENVIRONMENT AND CIVIL WORKS)",
-   "valid_from": "2004-10-03",
    "valid_to": null
   },
   {
@@ -170,15 +182,15 @@
    "valid_to": null
   },
   {
-   "appt_type": "XS",
+   "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
-   "person": "Charles Harris",
+   "person": "Craig Schmauder",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
-   "title": "SENIOR INTELLECTUAL PROPERTY LAW ATTORNEY",
-   "valid_from": "2015-06-28",
+   "title": "SENIOR DEPUTY GENERAL COUNSEL FOR INSTALLATIONS, ENVIRONMENT, AND CIVIL WORKS",
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {

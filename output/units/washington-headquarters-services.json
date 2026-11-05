@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 14,
+  "current_officials": 15,
   "positions": 15
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -210,18 +210,6 @@
    "title": "SPECIAL ADVISOR",
    "valid_from": "2025-05-09",
    "valid_to": "2025-06-14"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Matthew Keating",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "SPECIAL ASSISTANT TO THE ASSISTANT SECRETARY OF DEFENSE (INTERNATIONAL SECURITY AFFAIRS)",
-   "valid_from": "2023-11-05",
-   "valid_to": "3024-11-02"
   }
  ],
  "id": 2105,
@@ -383,6 +371,18 @@
    "status": "current",
    "title": "SPECIAL ADVISOR",
    "valid_from": "2025-04-07",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Matthew Keating",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT TO THE ASSISTANT SECRETARY OF DEFENSE (INTERNATIONAL SECURITY AFFAIRS)",
+   "valid_from": "2023-11-05",
    "valid_to": null
   },
   {

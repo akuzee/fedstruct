@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 3,
+  "current_officials": 1,
   "positions": 1
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -54,12 +54,7 @@
    "value_num": 0.0
   }
  },
- "former_officials": [],
- "id": 2196,
- "merged_from": [],
- "multi_facts": {},
- "name": "Office of Facilities and Security Management",
- "officials": [
+ "former_officials": [
   {
    "appt_type": "CA",
    "is_pas": 0,
@@ -67,10 +62,10 @@
    "person": "Marc Mason",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
+   "status": "ended",
    "title": "DEPUTY ASSOCIATE COMMISSIONER FOR FACILITIES AND SECURITY MANAGEMENT",
    "valid_from": "2025-03-09",
-   "valid_to": null
+   "valid_to": "2026-06-13"
   },
   {
    "appt_type": "CA",
@@ -79,11 +74,17 @@
    "person": "Timothy Beavers",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
+   "status": "ended",
    "title": "DEPUTY ASSOCIATE COMMISSIONER FOR FACILITIES AND SECURITY MANAGEMENT",
    "valid_from": "2025-03-09",
-   "valid_to": null
-  },
+   "valid_to": "2026-06-13"
+  }
+ ],
+ "id": 2196,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Office of Facilities and Security Management",
+ "officials": [
   {
    "appt_type": "CA",
    "is_pas": 0,

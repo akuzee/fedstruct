@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 2,
+  "current_officials": 1,
   "positions": 4
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -59,6 +59,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Richard Revzan",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE DIRECTOR FOR HUMAN RESOURCES OPERATIONS AND POLICY",
+   "valid_from": "2023-12-03",
+   "valid_to": "2026-06-14"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Susan Abraham",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -66,6 +78,18 @@
    "title": "ASSOCIATE DIRECTOR FOR HUMAN RESOURCES TRAINING AND DEVELOPMENT/CHIEF LEARNING OFFICER",
    "valid_from": "2017-06-12",
    "valid_to": "2026-03-07"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Susan Abraham",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE DIRECTOR FOR HUMAN RESOURCES TRAINING AND DEVELOPMENT/CHIEF LEARNING OFFICER",
+   "valid_from": "2026-05-30",
+   "valid_to": "2026-06-13"
   },
   {
    "appt_type": "CA",
@@ -85,18 +109,6 @@
  "multi_facts": {},
  "name": "Office of the Chief Human Capital Officer",
  "officials": [
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Richard Revzan",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
-   "title": "ASSOCIATE DIRECTOR FOR HUMAN RESOURCES OPERATIONS AND POLICY",
-   "valid_from": "2023-12-03",
-   "valid_to": null
-  },
   {
    "appt_type": "CA",
    "is_pas": 0,

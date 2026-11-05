@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 6,
+  "current_officials": 9,
   "positions": 5
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -59,18 +59,6 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": "2026-07-25",
-   "person": "Rafaela Monchek",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DEPUTY ASSOCIATE ADMINISTRATOR",
-   "valid_from": "2022-07-31",
-   "valid_to": "2026-06-17"
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": "2026-07-25",
    "person": "Randle Logan",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -78,18 +66,6 @@
    "title": "DEPUTY ASSOCIATE ADMINISTRATOR",
    "valid_from": "2025-11-13",
    "valid_to": "2026-03-12"
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Kem Fleming",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DIRECTOR",
-   "valid_from": "2024-06-02",
-   "valid_to": "2026-06-03"
   }
  ],
  "id": 2156,
@@ -113,12 +89,48 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": "2026-07-25",
+   "person": "Rafaela Monchek",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY ASSOCIATE ADMINISTRATOR",
+   "valid_from": "2022-07-31",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": "2026-07-25",
    "person": "Randle Logan",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
    "status": "current",
    "title": "DEPUTY ASSOCIATE ADMINISTRATOR",
    "valid_from": "2026-03-27",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Kem Fleming",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR",
+   "valid_from": "2024-06-02",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": "2026-10-01",
+   "person": "Nicole Larosa",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DIRECTOR",
+   "valid_from": "2026-06-03",
    "valid_to": null
   },
   {

@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 1,
+  "current_officials": 0,
   "positions": 1
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -54,12 +54,7 @@
    "value_num": 0.0
   }
  },
- "former_officials": [],
- "id": 2006,
- "merged_from": [],
- "multi_facts": {},
- "name": "Office of Investigations",
- "officials": [
+ "former_officials": [
   {
    "appt_type": "CA",
    "is_pas": 0,
@@ -67,12 +62,17 @@
    "person": "Thomas Ashley",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
+   "status": "ended",
    "title": "DIRECTOR, OFFICE OF INVESTIGATIONS",
    "valid_from": "2023-08-06",
-   "valid_to": null
+   "valid_to": "2026-06-14"
   }
  ],
+ "id": 2006,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Office of Investigations",
+ "officials": [],
  "slug": "office-of-investigations",
  "sources": [
   "plum"

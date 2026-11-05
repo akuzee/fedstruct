@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 4,
+  "current_officials": 5,
   "positions": 12
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -203,6 +203,18 @@
    "status": "current",
    "title": "DEPUTY CHIEF INFORMATION OFFICER FOR ARCHITECTURE, ENGINEERING, TECHNOLOGY AND INNOVATION",
    "valid_from": "2023-05-07",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Robert Knisely",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY CHIEF INFORMATION OFFICER FOR CYBERSECURITY AND CISO",
+   "valid_from": "2026-06-14",
    "valid_to": null
   },
   {

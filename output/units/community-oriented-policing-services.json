@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 0,
-  "positions": 2
+  "current_officials": 1,
+  "positions": 3
  },
  "facts": {
   "position_count": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -54,12 +54,38 @@
    "value_num": 0.0
   }
  },
- "former_officials": [],
+ "former_officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Telly Renfroe",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "SENIOR COUNSEL TO THE DIRECTOR",
+   "valid_from": "2023-10-22",
+   "valid_to": "2025-04-05"
+  }
+ ],
  "id": 1187,
  "merged_from": [],
  "multi_facts": {},
  "name": "Community Oriented Policing Services",
- "officials": [],
+ "officials": [
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Shanetta Brown-Cutlar",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SENIOR COUNSEL TO THE DIRECTOR",
+   "valid_from": "2026-03-20",
+   "valid_to": null
+  }
+ ],
  "slug": "community-oriented-policing-services",
  "sources": [
   "plum"

@@ -13,8 +13,8 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 16,
-  "positions": 16
+  "current_officials": 19,
+  "positions": 17
  },
  "facts": {
   "position_count": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -114,6 +114,30 @@
    "title": "ASSOCIATE DEPUTY ATTORNEY GENERAL",
    "valid_from": "2026-01-05",
    "valid_to": "2026-04-09"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Brian Nieves",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE DEPUTY ATTORNEY GENERAL",
+   "valid_from": "2025-03-31",
+   "valid_to": "2025-09-06"
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Derek Maltz",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "ended",
+   "title": "ASSOCIATE DEPUTY ATTORNEY GENERAL",
+   "valid_from": "2025-02-06",
+   "valid_to": "2025-05-02"
   },
   {
    "appt_type": "NA",
@@ -362,6 +386,18 @@
    "valid_to": null
   },
   {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Jordan Fox",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "ASSOCIATE DEPUTY ATTORNEY GENERAL",
+   "valid_from": "2025-09-07",
+   "valid_to": null
+  },
+  {
    "appt_type": "NA",
    "is_pas": 0,
    "period_end": null,
@@ -503,6 +539,30 @@
    "status": "current",
    "title": "SENIOR COUNSEL",
    "valid_from": "2026-05-03",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Isabelle Helfant",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": "2026-06-15",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alexia Papatsa",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "SPECIAL ASSISTANT",
+   "valid_from": "2026-06-15",
    "valid_to": null
   }
  ],

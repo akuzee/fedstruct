@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 13,
+  "current_officials": 14,
   "positions": 24
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -138,18 +138,6 @@
    "title": "ATTORNEY-ADVISOR (GENERAL)",
    "valid_from": "2025-02-10",
    "valid_to": "2025-05-31"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Seth Cohen",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "CHIEF COUNSEL FOR NUCLEAR POLICY",
-   "valid_from": "2025-11-16",
-   "valid_to": "2026-06-16"
   },
   {
    "appt_type": "SC",
@@ -347,6 +335,18 @@
    "status": "current",
    "title": "ATTORNEY-ADVISOR (GENERAL)",
    "valid_from": "2026-01-11",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Seth Cohen",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF COUNSEL FOR NUCLEAR POLICY",
+   "valid_from": "2025-11-16",
    "valid_to": null
   },
   {

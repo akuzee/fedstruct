@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 1,
+  "current_officials": 0,
   "positions": 2
  },
  "facts": {
@@ -26,14 +26,14 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 1,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
-   "since": "2026-09-21",
+   "since": "2026-11-05",
    "unit": "count",
-   "value": "2",
-   "value_num": 2.0
+   "value": "1",
+   "value_num": 1.0
   },
   "position_count_pas": {
    "effective_from": null,
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -66,13 +66,7 @@
    "title": "ASSOCIATE COMMISSIONER FOR SYSTEMS ARCHITECTURE",
    "valid_from": "2022-03-13",
    "valid_to": "2025-04-09"
-  }
- ],
- "id": 2218,
- "merged_from": [],
- "multi_facts": {},
- "name": "Office of Systems Architecture",
- "officials": [
+  },
   {
    "appt_type": "CA",
    "is_pas": 0,
@@ -80,12 +74,17 @@
    "person": "Julie Fink",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "current",
+   "status": "ended",
    "title": "DEPUTY ASSOCIATE COMMISSIONER FOR SYSTEMS ARCHITECTURE",
    "valid_from": "2022-09-25",
-   "valid_to": null
+   "valid_to": "2026-06-13"
   }
  ],
+ "id": 2218,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Office of Systems Architecture",
+ "officials": [],
  "slug": "office-of-systems-architecture",
  "sources": [
   "plum"

@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 10,
+  "current_officials": 11,
   "positions": 16
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -101,7 +101,7 @@
    "status": "ended",
    "title": "COMMISSIONER",
    "valid_from": "2021-06-15",
-   "valid_to": "2025-03-19"
+   "valid_to": "2025-03-18"
   },
   {
    "appt_type": "SC",
@@ -263,6 +263,18 @@
    "status": "current",
    "title": "CONFIDENTIAL ASSISTANT",
    "valid_from": "2025-05-19",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Giancarlo Donahue",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CONFIDENTIAL ASSISTANT TO THE CHAIRMAN",
+   "valid_from": "2026-06-15",
    "valid_to": null
   },
   {

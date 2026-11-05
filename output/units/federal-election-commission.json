@@ -31,7 +31,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 16,
+  "current_officials": 18,
   "positions": 17
  },
  "facts": {
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": "$.agency_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/165"
    },
@@ -62,7 +62,7 @@
     "link_method": "published",
     "locator": "$.description",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/165"
    },
@@ -80,7 +80,7 @@
     "link_method": "published",
     "locator": "$.exists",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/165"
    },
@@ -98,7 +98,7 @@
     "link_method": "published",
     "locator": "$.logo_url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/165"
    },
@@ -116,7 +116,7 @@
     "link_method": "published",
     "locator": "$.name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/165"
    },
@@ -134,7 +134,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -152,7 +152,7 @@
     "link_method": "name_exact",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -170,7 +170,7 @@
     "link_method": "published",
     "locator": "$.short_name",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/165"
    },
@@ -188,7 +188,7 @@
     "link_method": "published",
     "locator": "$.slug",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/165"
    },
@@ -206,7 +206,7 @@
     "link_method": "published",
     "locator": "$.url",
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "fr_agencies",
     "source_url": "http://www.federalregister.gov/api/v1/agencies/165"
    },
@@ -252,18 +252,6 @@
    "title": "COMMISSIONER MEMBER",
    "valid_from": "2020-12-16",
    "valid_to": "2025-04-30"
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "David Palmer",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "CHIEF INFORMATION OFFICER",
-   "valid_from": "2011-08-02",
-   "valid_to": "2026-06-30"
   },
   {
    "appt_type": "XS",
@@ -396,18 +384,6 @@
    "title": "GENERAL COUNSEL",
    "valid_from": "2012-06-17",
    "valid_to": "2026-03-21"
-  },
-  {
-   "appt_type": "XS",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "David Palmer",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "STAFF DIRECTOR",
-   "valid_from": "2011-08-02",
-   "valid_to": "2026-06-30"
   }
  ],
  "id": 149,
@@ -434,7 +410,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=federal-election-commission].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-11/chapter-I"
     },
@@ -452,7 +428,7 @@
      "link_method": "crosswalk",
      "locator": "$.agencies[?slug=federal-election-commission].cfr_references",
      "method": "published",
-     "observations": 3,
+     "observations": 4,
      "source": "ecfr_agencies",
      "source_url": "https://www.ecfr.gov/current/title-5/chapter-XXXVII"
     },
@@ -535,6 +511,18 @@
    "status": "current",
    "title": "CHIEF FINANCIAL OFFICER",
    "valid_from": "2019-02-17",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Palmer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "CHIEF INFORMATION OFFICER",
+   "valid_from": "2011-08-02",
    "valid_to": null
   },
   {
@@ -655,6 +643,18 @@
    "status": "current",
    "title": "EXECUTIVE ASSISTANT (PTDO)",
    "valid_from": "2024-01-01",
+   "valid_to": null
+  },
+  {
+   "appt_type": "XS",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "David Palmer",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "STAFF DIRECTOR",
+   "valid_from": "2011-08-02",
    "valid_to": null
   }
  ],

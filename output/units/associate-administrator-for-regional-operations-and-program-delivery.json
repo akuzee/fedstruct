@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 1,
+  "current_officials": 2,
   "positions": 1
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -54,7 +54,12 @@
    "value_num": 0.0
   }
  },
- "former_officials": [
+ "former_officials": [],
+ "id": 1503,
+ "merged_from": [],
+ "multi_facts": {},
+ "name": "Associate Administrator for Regional Operations and Program Delivery",
+ "officials": [
   {
    "appt_type": "CA",
    "is_pas": 0,
@@ -62,17 +67,11 @@
    "person": "Gail Lyssy",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
+   "status": "current",
    "title": "ASSOCIATE ADMINISTRATOR FOR REGIONAL SERVICES",
    "valid_from": "2026-04-01",
-   "valid_to": "2026-06-29"
-  }
- ],
- "id": 1503,
- "merged_from": [],
- "multi_facts": {},
- "name": "Associate Administrator for Regional Operations and Program Delivery",
- "officials": [
+   "valid_to": null
+  },
   {
    "appt_type": "CA",
    "is_pas": 0,

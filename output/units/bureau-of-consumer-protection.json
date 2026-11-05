@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 10,
+  "current_officials": 12,
   "positions": 15
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -102,30 +102,6 @@
    "title": "DEPUTY DIRECTOR FOR CONSUMER PRIVACY",
    "valid_from": "2022-02-27",
    "valid_to": "2025-06-30"
-  },
-  {
-   "appt_type": "CA",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Rebecca Unruh",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "DEPUTY DIRECTOR, BUREAU OF CONSUMER PROTECTION",
-   "valid_from": "2023-12-03",
-   "valid_to": "2026-06-26"
-  },
-  {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Trinity Klomparens",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "LEGAL SUPPORT SPECIALIST",
-   "valid_from": "2025-06-30",
-   "valid_to": "2026-07-24"
   }
  ],
  "id": 1796,
@@ -221,6 +197,18 @@
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
+   "person": "Rebecca Unruh",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "DEPUTY DIRECTOR, BUREAU OF CONSUMER PROTECTION",
+   "valid_from": "2023-12-03",
+   "valid_to": null
+  },
+  {
+   "appt_type": "CA",
+   "is_pas": 0,
+   "period_end": null,
    "person": "Douglas Geho",
    "source": "plum",
    "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
@@ -239,6 +227,18 @@
    "status": "current",
    "title": "DIRECTOR, BUREAU OF CONSUMER PROTECTION",
    "valid_from": "2025-02-10",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Trinity Klomparens",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "LEGAL SUPPORT SPECIALIST",
+   "valid_from": "2025-06-30",
    "valid_to": null
   },
   {

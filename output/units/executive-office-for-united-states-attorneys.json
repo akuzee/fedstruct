@@ -13,7 +13,7 @@
  "contested": {},
  "counts": {
   "children": 0,
-  "current_officials": 66,
+  "current_officials": 68,
   "positions": 84
  },
  "facts": {
@@ -26,7 +26,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -44,7 +44,7 @@
     "link_method": "published",
     "locator": null,
     "method": "published",
-    "observations": 3,
+    "observations": 4,
     "source": "plum",
     "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/"
    },
@@ -126,18 +126,6 @@
    "title": "UNITED STATES ATTORNEY, IOWA, NORTHERN DISTRICT",
    "valid_from": "2022-08-31",
    "valid_to": "2025-10-20"
-  },
-  {
-   "appt_type": "PAS",
-   "is_pas": 1,
-   "period_end": null,
-   "person": "Richard Westphal",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "UNITED STATES ATTORNEY, IOWA, SOUTHERN DISTRICT",
-   "valid_from": "2022-03-17",
-   "valid_to": "2025-10-15"
   },
   {
    "appt_type": "PAS",
@@ -560,18 +548,6 @@
    "valid_to": "2026-04-18"
   },
   {
-   "appt_type": "SC",
-   "is_pas": 0,
-   "period_end": null,
-   "person": "Alexis Dorner",
-   "source": "plum",
-   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
-   "status": "ended",
-   "title": "COUNSEL",
-   "valid_from": "2026-04-20",
-   "valid_to": "2026-07-11"
-  },
-  {
    "appt_type": "CA",
    "is_pas": 0,
    "period_end": null,
@@ -791,6 +767,18 @@
    "status": "current",
    "title": "UNITED STATES ATTORNEY, IOWA, NORTHERN DISTRICT",
    "valid_from": "2025-10-20",
+   "valid_to": null
+  },
+  {
+   "appt_type": "PAS",
+   "is_pas": 1,
+   "period_end": null,
+   "person": "Richard Westphal",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "UNITED STATES ATTORNEY, IOWA, SOUTHERN DISTRICT",
+   "valid_from": "2022-03-17",
    "valid_to": null
   },
   {
@@ -1259,6 +1247,18 @@
    "status": "current",
    "title": "CHIEF OF LEGAL EDUCATION",
    "valid_from": "2024-10-20",
+   "valid_to": null
+  },
+  {
+   "appt_type": "SC",
+   "is_pas": 0,
+   "period_end": null,
+   "person": "Alexis Dorner",
+   "source": "plum",
+   "source_url": "https://www.opm.gov/about-us/open-government/plum-reporting/plum-data/",
+   "status": "current",
+   "title": "COUNSEL",
+   "valid_from": "2026-04-20",
    "valid_to": null
   },
   {
